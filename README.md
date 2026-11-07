@@ -85,3 +85,14 @@ Pela web: Actions → extract → Run workflow → informe `build` e `symbol`. O
 ## Baseline
 
 O diff é contra `iPhone18,2_26.6.1_23G83_Restore.ipsw`. Sem a baseline o `extract.sh` ainda roda, mas o passo de diff é pulado e registrado nas Limitações.
+
+## Critérios de aceite
+
+- [x] Repositório público com a árvore da seção 3 na `main`
+- [x] `INDEX.json` válido cobrindo 100% dos arquivos publicados (44 itens, `gen-index.sh` rc=0)
+- [x] Nenhum arquivo acima de 120 KB; nenhum binário versionado
+- [x] Workflow conclui com sucesso — run 42389703176
+- [x] Artifact `binaries-24B119` presente, retenção 14 dias (expira 2026-11-21)
+- [x] README com todas as seções preenchidas
+- [x] `docs/00-cve.md` com o advisory (sem identificador atribuído)
+- [x] Artefatos legíveis em URL crua

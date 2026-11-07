@@ -50,6 +50,8 @@ proposito_de() {
     08-kernel/*)                   echo "artefatos de kernelcache" ;;
     09-diff/*)                     echo "diff entre builds" ;;
     checksums.txt.sha1)            echo "checksum sha1 do IPSW" ;;
+    .github/workflows/*)           echo "workflow do GitHub Actions" ;;
+    ghidra_scripts/*)              echo "post-script Ghidra de decompilacao" ;;
     *)                             echo "outro" ;;
   esac
 }

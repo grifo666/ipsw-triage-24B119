@@ -1,5 +1,5 @@
 [
-  {"path":".github/workflows/extract.yml","kind":"info","symbol":"","purpose":"outro","bytes":2386,"sha256":"ef41eb101e46e9b4f673467395c0d27e22d93e4b051eb88d4b48e7c203b230e7"},
+  {"path":".github/workflows/extract.yml","kind":"info","symbol":"","purpose":"workflow do GitHub Actions","bytes":2386,"sha256":"ef41eb101e46e9b4f673467395c0d27e22d93e4b051eb88d4b48e7c203b230e7"},
   {"path":"01-info/dsc-info.txt","kind":"info","symbol":"","purpose":"metadados de firmware e da ferramenta","bytes":45808,"sha256":"153faed95d7e7474170f5ab20eca546bf95709eaad07b1f922c02d8e6977f1b5"},
   {"path":"01-info/ipsw-help-dyld.txt","kind":"info","symbol":"","purpose":"metadados de firmware e da ferramenta","bytes":1688,"sha256":"a900e3990d79e5442990e3923d069c5c3553526d476e3d1eab4662c5b9920372"},
   {"path":"01-info/ipsw-help-kernel.txt","kind":"info","symbol":"","purpose":"metadados de firmware e da ferramenta","bytes":1018,"sha256":"219b573651ce9da36767f34fe0c39141d378725c991c10037b0c073e7c0212b6"},
@@ -42,5 +42,5 @@
   {"path":"09-diff/machos-partial.paaf.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":60541,"sha256":"7f0e28e224ee941db37544fcb14dddbe2f49f482223b819ce0a6c4557881ad86"},
   {"path":"09-diff/summary.md","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":3472,"sha256":"3cef17b0969c0620aca5e1d4f63dd5fe53c4c9a76a591cd3c26596e840e9d6e0"},
   {"path":"checksums.txt.sha1","kind":"info","symbol":"","purpose":"checksum sha1 do IPSW","bytes":108,"sha256":"e1e51ae4470838b097253bb591214d2fa8cf10ad6d0d3693a087b6d428e54d9b"},
-  {"path":"ghidra_scripts/DecompileSymbol.java","kind":"info","symbol":"","purpose":"outro","bytes":1601,"sha256":"b43f9e3d29b885fbcfc0007f15af86a8a6ddc023de7c783dbbb08b6a329e7cb5"}
+  {"path":"ghidra_scripts/DecompileSymbol.java","kind":"info","symbol":"","purpose":"post-script Ghidra de decompilacao","bytes":1601,"sha256":"b43f9e3d29b885fbcfc0007f15af86a8a6ddc023de7c783dbbb08b6a329e7cb5"}
 ]
