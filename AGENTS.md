@@ -69,3 +69,17 @@ Defeitos já corrigidos, todos verificados por run verde:
 ## Harness
 
 `crush` v0.100.0 em `~/.local/bin/crush` (**x86_64 — a máquina é Intel**). Config em `~/.config/crush/crushrc` com provider `venice-local` (`--type completions`, base `http://127.0.0.1:3456/v1`), modelo `venice-local/deepseek-v4-1-flash-uncensored`. Modo não interativo: `crush -y run "..."`.
+
+## Current state (2026-11-07)
+
+- HEAD 6cc71aa; este arquivo entrou em bed2d8e; o patch DSML do proxy e e7943ca.
+- O run 42422644608 falhou no simbolo 12. Commit por simbolo e if: always() significa que 1..11 devem ter sobrevivido: verificar, nao assumir.
+- Fila restante, queue.txt linhas 12 a 15, disparar so estas:
+
+__ZN15DyldSharedCache13DynamicRegion15setRootsBitmapsEjNSt3__14spanIKhLm18446744073709551615EEES4_h
+__ZN5dyld46Loader11mapSegmentsER11DiagnosticsRNS_12RuntimeStateEPKciyRKNS0_19CodeSignatureInFileEbNSt3__14spanIKNS0_6RegionELm18446744073709551615EEEbbRKNS0_18FileValidationInfoE
+__ZN5dyld4L21lockdownDyldDataConstEPKN6mach_o12UnsafeHeaderE
+__ZN5dyld422restartWithDyldInCacheEPKNS_10KernelArgsEPKN6mach_o12UnsafeHeaderEPK15DyldSharedCacheyPv
+
+- Primeira acao: gh run view 42422644608 --json status,conclusion; git log --oneline -20; git log --diff-filter=A --name-only -20 -- *.c
+- Harness no ar: proxy em 127.0.0.1:3456, crush com provider venice-local, modelo deepseek-v4-1-flash-uncensored.
