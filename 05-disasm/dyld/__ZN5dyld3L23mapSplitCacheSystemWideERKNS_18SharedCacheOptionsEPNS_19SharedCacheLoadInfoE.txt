@@ -1,0 +1,388 @@
+
+__ZN5dyld3L23mapSplitCacheSystemWideERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoE:
+0x18050971c:  7f 23 03 d5   pacibsp
+0x180509720:  fc 6f ba a9   stp	x28, x27, [sp, #-0x60]!
+0x180509724:  fa 67 01 a9   stp	x26, x25, [sp, #0x10]
+0x180509728:  f8 5f 02 a9   stp	x24, x23, [sp, #0x20]
+0x18050972c:  f6 57 03 a9   stp	x22, x21, [sp, #0x30]
+0x180509730:  f4 4f 04 a9   stp	x20, x19, [sp, #0x40]
+0x180509734:  fd 7b 05 a9   stp	fp, lr, [sp, #0x50]
+0x180509738:  fd 43 01 91   add	fp, sp, #0x50
+0x18050973c:  09 26 9f 52   mov	w9, #0xf930
+0x180509740:  71 d4 30 f0   adrp	x17, 0x1e1f98000
+0x180509744:  31 42 0b 91   add	x17, x17, #0x2d0 ; __got_18090d33c
+0x180509748:  30 02 40 f9   ldr	x16, [x17]
+0x18050974c:  11 0a 3f d7   blraa	x16, x17
+0x180509750:  ff 3f 40 d1   sub	sp, sp, #0xf, lsl #0xc
+0x180509754:  ff c3 24 d1   sub	sp, sp, #0x930
+0x180509758:  f3 03 00 91   mov	x19, sp
+0x18050975c:  f4 03 01 aa   mov	x20, x1
+0x180509760:  f5 03 00 aa   mov	x21, x0
+0x180509764:  88 aa 36 f0   adrp	x8, 0x1eda5c000
+0x180509768:  08 01 03 91   add	x8, x8, #0xc0 ; ___stack_chk_guard
+0x18050976c:  08 01 40 f9   ldr	x8, [x8]
+0x180509770:  a8 83 19 f8   stur	x8, [fp, #-0x68]
+0x180509774:  7f a2 11 b9   str	wzr, [x19, #0x11a0]
+0x180509778:  68 3e 40 91   add	x8, x19, #0xf, lsl #0xc
+0x18050977c:  08 41 20 91   add	x8, x8, #0x810
+0x180509780:  00 e4 00 6f   movi	v0.2d, #0
+0x180509784:  00 01 07 ad   stp	q0, q0, [x8, #0xe0]
+0x180509788:  00 01 06 ad   stp	q0, q0, [x8, #0xc0]
+0x18050978c:  00 01 05 ad   stp	q0, q0, [x8, #0xa0]
+0x180509790:  00 01 04 ad   stp	q0, q0, [x8, #0x80]
+0x180509794:  00 01 03 ad   stp	q0, q0, [x8, #0x60]
+0x180509798:  00 01 02 ad   stp	q0, q0, [x8, #0x40]
+0x18050979c:  00 01 01 ad   stp	q0, q0, [x8, #0x20]
+0x1805097a0:  00 01 00 ad   stp	q0, q0, [x8]
+0x1805097a4:  62 06 40 91   add	x2, x19, #0x1, lsl #0xc
+0x1805097a8:  42 60 00 91   add	x2, x2, #0x18
+0x1805097ac:  63 3e 40 91   add	x3, x19, #0xf, lsl #0xc
+0x1805097b0:  63 40 20 91   add	x3, x3, #0x810
+0x1805097b4:  64 62 00 91   add	x4, x19, #0x18
+0x1805097b8:  3e 01 00 94   bl	__ZN5dyld3L22preflightMainCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEPcPNSt3__15arrayIA32_cLm128EEE
+0x1805097bc:  e8 03 00 aa   mov	x8, x0
+0x1805097c0:  00 00 80 52   mov	w0, #0
+0x1805097c4:  e8 24 00 34   cbz	w8, loc_180509c60 ; ⤵ 0x49c
+0x1805097c8:  08 00 80 d2   mov	x8, #0
+0x1805097cc:  7c c2 51 b9   ldr	w28, [x19, #0x11c0]
+0x1805097d0:  69 06 40 91   add	x9, x19, #0x1, lsl #0xc
+0x1805097d4:  29 41 20 91   add	x9, x9, #0x810
+0x1805097d8:  29 21 06 91   add	x9, x9, #0x188
+0x1805097dc:  0a 00 9c 52   mov	w10, #0xe000
+0x1805097e0:  ; loc_1805097e0
+0x1805097e0:  3f 69 28 b8   str	wzr, [x9, x8]
+0x1805097e4:  08 01 07 91   add	x8, x8, #0x1c0
+0x1805097e8:  4a 01 07 f1   subs	x10, x10, #0x1c0
+0x1805097ec:  a1 ff ff 54   b.ne	loc_1805097e0 ; ⤴ -0xc
+0x1805097f0:  9f 0b 00 71   cmp	w28, #0x2
+0x1805097f4:  03 04 00 54   b.lo	loc_180509874 ; ⤵ 0x80
+0x1805097f8:  76 06 40 91   add	x22, x19, #0x1, lsl #0xc
+0x1805097fc:  d6 42 10 91   add	x22, x22, #0x410
+0x180509800:  97 07 00 d1   sub	x23, x28, #0x1
+0x180509804:  38 00 80 52   mov	w24, #0x1
+0x180509808:  79 62 00 91   add	x25, x19, #0x18
+0x18050980c:  7a 06 40 91   add	x26, x19, #0x1, lsl #0xc
+0x180509810:  5a 43 20 91   add	x26, x26, #0x810
+0x180509814:  ; loc_180509814
+0x180509814:  df 42 02 f8   stur	xzr, [x22, #0x24]
+0x180509818:  df c2 01 f8   stur	xzr, [x22, #0x1c]
+0x18050981c:  7f 12 0a f9   str	xzr, [x19, #0x1420]
+0x180509820:  7f 0a 0a f9   str	xzr, [x19, #0x1410]
+0x180509824:  7f 0e 0a f9   str	xzr, [x19, #0x1418]
+0x180509828:  7f 52 28 79   strh	wzr, [x19, #0x1428]
+0x18050982c:  08 eb 7b d3   lsl	x8, x24, #0x5
+0x180509830:  08 81 00 d1   sub	x8, x8, #0x20
+0x180509834:  df 7e 03 a9   stp	xzr, xzr, [x22, #0x30]
+0x180509838:  24 03 08 8b   add	x4, x25, x8
+0x18050983c:  08 db 77 d3   lsl	x8, x24, #0x9
+0x180509840:  08 19 18 cb   sub	x8, x8, x24, lsl #0x6
+0x180509844:  42 03 08 8b   add	x2, x26, x8
+0x180509848:  61 06 40 91   add	x1, x19, #0x1, lsl #0xc
+0x18050984c:  21 40 10 91   add	x1, x1, #0x410
+0x180509850:  63 3e 40 91   add	x3, x19, #0xf, lsl #0xc
+0x180509854:  63 40 20 91   add	x3, x3, #0x810
+0x180509858:  e0 03 15 aa   mov	x0, x21
+0x18050985c:  e5 03 14 aa   mov	x5, x20
+0x180509860:  98 01 00 94   bl	__ZN5dyld3L21preflightSubCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEPcPKcPKS3_
+0x180509864:  20 0d 00 36   tbz	w0, #0, loc_180509a08 ; ⤵ 0x1a4
+0x180509868:  18 07 00 91   add	x24, x24, #0x1
+0x18050986c:  f7 06 00 f1   subs	x23, x23, #0x1
+0x180509870:  21 fd ff 54   b.ne	loc_180509814 ; ⤴ -0x5c
+0x180509874:  ; loc_180509874
+0x180509874:  00 00 80 d2   mov	x0, #0
+0x180509878:  32 50 ff 97   bl	__ZN15DyldSharedCache13DynamicRegion4makeEm
+0x18050987c:  e0 0b 00 b4   cbz	x0, loc_1805099f8 ; ⤵ 0x17c
+0x180509880:  f6 03 00 aa   mov	x22, x0
+0x180509884:  60 06 40 91   add	x0, x19, #0x1, lsl #0xc
+0x180509888:  00 40 10 91   add	x0, x0, #0x410
+0x18050988c:  01 80 80 52   mov	w1, #0x400
+0x180509890:  a0 0a fe 97   bl	_bzero
+0x180509894:  80 72 00 91   add	x0, x20, #0x1c
+0x180509898:  61 06 40 91   add	x1, x19, #0x1, lsl #0xc
+0x18050989c:  21 40 10 91   add	x1, x1, #0x410
+0x1805098a0:  a7 0b fe 97   bl	__ZNK11FileIdTuple7getPathEPc
+0x1805098a4:  81 c2 41 f8   ldur	x1, [x20, #0x1c]
+0x1805098a8:  82 42 42 f8   ldur	x2, [x20, #0x24]
+0x1805098ac:  e0 03 16 aa   mov	x0, x22
+0x1805098b0:  4d 50 ff 97   bl	__ZN15DyldSharedCache13DynamicRegion18setDyldCacheFileIDE11FileIdTuple
+0x1805098b4:  a0 12 40 f9   ldr	x0, [x21, #0x20]
+0x1805098b8:  cd 33 ff 97   bl	__ZN5dyld413ProcessConfig45evaluateProcessorSpecificFunctionVariantFlagsERKS0_
+0x1805098bc:  e2 03 00 aa   mov	x2, x0
+0x1805098c0:  e3 03 01 aa   mov	x3, x1
+0x1805098c4:  e0 03 16 aa   mov	x0, x22
+0x1805098c8:  e1 03 02 aa   mov	x1, x2
+0x1805098cc:  e2 03 03 aa   mov	x2, x3
+0x1805098d0:  88 50 ff 97   bl	__ZN15DyldSharedCache13DynamicRegion17setProcessorFlagsEo
+0x1805098d4:  a0 12 40 f9   ldr	x0, [x21, #0x20]
+0x1805098d8:  bc 81 ff 97   bl	__ZN5dyld413ProcessConfig38evaluateSystemWideFunctionVariantFlagsERKS0_
+0x1805098dc:  e2 03 00 aa   mov	x2, x0
+0x1805098e0:  e3 03 01 aa   mov	x3, x1
+0x1805098e4:  e0 03 16 aa   mov	x0, x22
+0x1805098e8:  e1 03 02 aa   mov	x1, x2
+0x1805098ec:  e2 03 03 aa   mov	x2, x3
+0x1805098f0:  7e 50 ff 97   bl	__ZN15DyldSharedCache13DynamicRegion18setSystemWideFlagsEo
+0x1805098f4:  61 06 40 91   add	x1, x19, #0x1, lsl #0xc
+0x1805098f8:  21 40 10 91   add	x1, x1, #0x410
+0x1805098fc:  e0 03 16 aa   mov	x0, x22
+0x180509900:  4e 50 ff 97   bl	__ZN15DyldSharedCache13DynamicRegion12setCachePathEPKc
+0x180509904:  60 06 40 91   add	x0, x19, #0x1, lsl #0xc
+0x180509908:  00 40 20 91   add	x0, x0, #0x810
+0x18050990c:  61 06 40 91   add	x1, x19, #0x1, lsl #0xc
+0x180509910:  21 60 00 91   add	x1, x1, #0x18
+0x180509914:  02 38 80 52   mov	w2, #0x1c0
+0x180509918:  92 02 fe 97   bl	_memmove
+0x18050991c:  77 9a 59 b9   ldr	w23, [x19, #0x1998]
+0x180509920:  61 06 40 91   add	x1, x19, #0x1, lsl #0xc
+0x180509924:  21 60 07 91   add	x1, x1, #0x1d8
+0x180509928:  e0 03 17 aa   mov	x0, x23
+0x18050992c:  02 47 80 52   mov	w2, #0x238
+0x180509930:  03 00 80 d2   mov	x3, #0
+0x180509934:  d2 9f fe 97   bl	_pread
+0x180509938:  1f e0 08 f1   cmp	x0, #0x238
+0x18050993c:  21 01 00 54   b.ne	loc_180509960 ; ⤵ 0x24
+0x180509940:  a0 12 40 f9   ldr	x0, [x21, #0x20]
+0x180509944:  84 66 40 39   ldrb	w4, [x20, #0x19]
+0x180509948:  05 44 45 39   ldrb	w5, [x0, #0x151]
+0x18050994c:  63 06 40 91   add	x3, x19, #0x1, lsl #0xc
+0x180509950:  63 60 07 91   add	x3, x3, #0x1d8
+0x180509954:  e1 03 16 aa   mov	x1, x22
+0x180509958:  e2 03 17 aa   mov	x2, x23
+0x18050995c:  b1 03 00 94   bl	__ZN5dyld3L17buildRootsBitmapsERKN5dyld413ProcessConfigEPN15DyldSharedCache13DynamicRegionEiRK17dyld_cache_headerbb
+0x180509960:  ; loc_180509960
+0x180509960:  e8 03 00 91   mov	x8, sp
+0x180509964:  68 0a 00 f9   str	x8, [x19, #0x10]
+0x180509968:  89 07 00 11   add	w9, w28, #0x1
+0x18050996c:  88 01 80 52   mov	w8, #0xc
+0x180509970:  69 0e 00 b9   str	w9, [x19, #0xc]
+0x180509974:  29 7d a8 9b   umull	x9, w9, w8
+0x180509978:  28 3d 00 91   add	x8, x9, #0xf
+0x18050997c:  08 81 7c 92   and	x8, x8, #0x1ffffffff0
+0x180509980:  71 d4 30 f0   adrp	x17, 0x1e1f98000
+0x180509984:  31 42 0b 91   add	x17, x17, #0x2d0 ; __got_18090d33c
+0x180509988:  30 02 40 f9   ldr	x16, [x17]
+0x18050998c:  11 0a 3f d7   blraa	x16, x17
+0x180509990:  e9 03 00 91   mov	x9, sp
+0x180509994:  38 01 08 cb   sub	x24, x9, x8
+0x180509998:  1f 03 00 91   mov	sp, x24
+0x18050999c:  bc 03 00 34   cbz	w28, loc_180509a10 ; ⤵ 0x74
+0x1805099a0:  08 00 80 d2   mov	x8, #0
+0x1805099a4:  17 00 80 52   mov	w23, #0
+0x1805099a8:  69 b2 59 b9   ldr	w9, [x19, #0x19b0]
+0x1805099ac:  6a 06 40 91   add	x10, x19, #0x1, lsl #0xc
+0x1805099b0:  4a 41 20 91   add	x10, x10, #0x810
+0x1805099b4:  ; loc_1805099b4
+0x1805099b4:  0b d9 77 d3   lsl	x11, x8, #0x9
+0x1805099b8:  6b 19 08 cb   sub	x11, x11, x8, lsl #0x6
+0x1805099bc:  4c 01 0b 8b   add	x12, x10, x11
+0x1805099c0:  8b 89 41 b9   ldr	w11, [x12, #0x188]
+0x1805099c4:  0d 05 08 8b   add	x13, x8, x8, lsl #0x1
+0x1805099c8:  0e 0b 0d 8b   add	x14, x24, x13, lsl #0x2
+0x1805099cc:  8c 81 41 b9   ldr	w12, [x12, #0x180]
+0x1805099d0:  cb 31 00 29   stp	w11, w12, [x14]
+0x1805099d4:  97 01 17 0b   add	w23, w12, w23
+0x1805099d8:  1f 01 00 f1   cmp	x8, #0
+0x1805099dc:  2b 01 9f 1a   csel	w11, w9, wzr, eq
+0x1805099e0:  cb 09 00 b9   str	w11, [x14, #0x8]
+0x1805099e4:  08 05 00 91   add	x8, x8, #0x1
+0x1805099e8:  9f 03 08 eb   cmp	x28, x8
+0x1805099ec:  41 fe ff 54   b.ne	loc_1805099b4 ; ⤴ -0x38
+0x1805099f0:  fb 03 1c aa   mov	x27, x28
+0x1805099f4:  09 00 00 14   b	loc_180509a18 ; ⤵ 0x24
+0x1805099f8:  ; loc_1805099f8
+0x1805099f8:  28 01 00 d0   adrp	x8, 0x18052f000
+0x1805099fc:  08 0d 22 91   add	x8, x8, #0x883 ; "Could not vm_allocate dynamic config memory"
+0x180509a00:  88 0a 00 f9   str	x8, [x20, #0x10]
+0x180509a04:  97 00 00 14   b	loc_180509c60 ; ⤵ 0x25c
+0x180509a08:  ; loc_180509a08
+0x180509a08:  00 00 80 52   mov	w0, #0
+0x180509a0c:  95 00 00 14   b	loc_180509c60 ; ⤵ 0x254
+0x180509a10:  ; loc_180509a10
+0x180509a10:  1b 00 80 d2   mov	x27, #0
+0x180509a14:  17 00 80 52   mov	w23, #0
+0x180509a18:  ; loc_180509a18
+0x180509a18:  68 07 1b 8b   add	x8, x27, x27, lsl #0x1
+0x180509a1c:  09 0b 08 8b   add	x9, x24, x8, lsl #0x2
+0x180509a20:  c8 00 00 d0   adrp	x8, 0x180523000
+0x180509a24:  00 59 47 fd   ldr	d0, [x8, #0xeb0]
+0x180509a28:  20 01 00 fd   str	d0, [x9]
+0x180509a2c:  3f 09 00 b9   str	wzr, [x9, #0x8]
+0x180509a30:  e8 06 00 11   add	w8, w23, #0x1
+0x180509a34:  68 02 00 f9   str	x8, [x19]
+0x180509a38:  08 45 28 8b   add	x8, x8, w8, uxtw #0x1
+0x180509a3c:  09 ed 7c d3   lsl	x9, x8, #0x4
+0x180509a40:  71 d4 30 f0   adrp	x17, 0x1e1f98000
+0x180509a44:  31 42 0b 91   add	x17, x17, #0x2d0 ; __got_18090d33c
+0x180509a48:  30 02 40 f9   ldr	x16, [x17]
+0x180509a4c:  11 0a 3f d7   blraa	x16, x17
+0x180509a50:  fa 73 28 cb   sub	x26, sp, x8, lsl #0x4
+0x180509a54:  5f 03 00 91   mov	sp, x26
+0x180509a58:  a8 16 40 39   ldrb	w8, [x21, #0x5]
+0x180509a5c:  88 00 00 36   tbz	w8, #0, loc_180509a6c ; ⤵ 0x10
+0x180509a60:  20 01 00 d0   adrp	x0, 0x18052f000
+0x180509a64:  00 bc 22 91   add	x0, x0, #0x8af ; "Mapping the shared cache system wide\n"
+0x180509a68:  62 81 ff 97   bl	__ZN5dyld47consoleEPKcz
+0x180509a6c:  ; loc_180509a6c
+0x180509a6c:  fc 03 00 34   cbz	w28, loc_180509ae8 ; ⤵ 0x7c
+0x180509a70:  08 00 80 d2   mov	x8, #0
+0x180509a74:  0b 00 80 52   mov	w11, #0
+0x180509a78:  69 06 40 91   add	x9, x19, #0x1, lsl #0xc
+0x180509a7c:  29 41 20 91   add	x9, x9, #0x810
+0x180509a80:  0a 06 80 52   mov	w10, #0x30
+0x180509a84:  ; loc_180509a84
+0x180509a84:  0c d9 77 d3   lsl	x12, x8, #0x9
+0x180509a88:  8d 19 08 cb   sub	x13, x12, x8, lsl #0x6
+0x180509a8c:  2c 01 0d 8b   add	x12, x9, x13
+0x180509a90:  8d 81 41 b9   ldr	w13, [x12, #0x180]
+0x180509a94:  0d 02 00 34   cbz	w13, loc_180509ad4 ; ⤵ 0x40
+0x180509a98:  0e 00 80 d2   mov	x14, #0
+0x180509a9c:  ; loc_180509a9c
+0x180509a9c:  cf 05 0e 8b   add	x15, x14, x14, lsl #0x1
+0x180509aa0:  91 11 0f 8b   add	x17, x12, x15, lsl #0x4
+0x180509aa4:  6f 05 00 11   add	w15, w11, #0x1
+0x180509aa8:  6b 7d aa 9b   umull	x11, w11, w10
+0x180509aac:  40 03 0b 8b   add	x0, x26, x11
+0x180509ab0:  20 06 40 ad   ldp	q0, q1, [x17]
+0x180509ab4:  00 04 00 ad   stp	q0, q1, [x0]
+0x180509ab8:  20 0a c0 3d   ldr	q0, [x17, #0x20]
+0x180509abc:  00 08 80 3d   str	q0, [x0, #0x20]
+0x180509ac0:  ce 05 00 91   add	x14, x14, #0x1
+0x180509ac4:  eb 03 0f aa   mov	x11, x15
+0x180509ac8:  ad 05 00 f1   subs	x13, x13, #0x1
+0x180509acc:  81 fe ff 54   b.ne	loc_180509a9c ; ⤴ -0x30
+0x180509ad0:  02 00 00 14   b	loc_180509ad8 ; ⤵ 0x8
+0x180509ad4:  ; loc_180509ad4
+0x180509ad4:  ef 03 0b aa   mov	x15, x11
+0x180509ad8:  ; loc_180509ad8
+0x180509ad8:  08 05 00 91   add	x8, x8, #0x1
+0x180509adc:  eb 03 0f aa   mov	x11, x15
+0x180509ae0:  1f 01 1b eb   cmp	x8, x27
+0x180509ae4:  01 fd ff 54   b.ne	loc_180509a84 ; ⤴ -0x60
+0x180509ae8:  ; loc_180509ae8
+0x180509ae8:  79 e6 48 f9   ldr	x25, [x19, #0x11c8]
+0x180509aec:  b6 4f ff 97   bl	__ZN15DyldSharedCache13DynamicRegion4sizeEv
+0x180509af0:  08 06 80 52   mov	w8, #0x30
+0x180509af4:  e8 7e a8 9b   umull	x8, w23, w8
+0x180509af8:  49 03 08 8b   add	x9, x26, x8
+0x180509afc:  39 01 00 a9   stp	x25, x0, [x9]
+0x180509b00:  3f fd 01 a9   stp	xzr, xzr, [x9, #0x18]
+0x180509b04:  36 09 00 f9   str	x22, [x9, #0x10]
+0x180509b08:  20 04 00 0f   movi	v0.2s, #0x1
+0x180509b0c:  20 15 00 fd   str	d0, [x9, #0x28]
+0x180509b10:  88 1a 40 f9   ldr	x8, [x20, #0x30]
+0x180509b14:  49 03 40 f9   ldr	x9, [x26]
+0x180509b18:  08 01 09 eb   subs	x8, x8, x9
+0x180509b1c:  62 02 40 f9   ldr	x2, [x19]
+0x180509b20:  29 02 00 54   b.ls	loc_180509b64 ; ⤵ 0x44
+0x180509b24:  02 02 00 34   cbz	w2, loc_180509b64 ; ⤵ 0x40
+0x180509b28:  09 00 80 d2   mov	x9, #0
+0x180509b2c:  ea 03 02 aa   mov	x10, x2
+0x180509b30:  ; loc_180509b30
+0x180509b30:  2c 05 09 8b   add	x12, x9, x9, lsl #0x1
+0x180509b34:  4b 13 0c 8b   add	x11, x26, x12, lsl #0x4
+0x180509b38:  6c 01 40 f9   ldr	x12, [x11]
+0x180509b3c:  8c 01 08 8b   add	x12, x12, x8
+0x180509b40:  6c 01 00 f9   str	x12, [x11]
+0x180509b44:  6c 0d 40 f9   ldr	x12, [x11, #0x18]
+0x180509b48:  8c 00 00 b4   cbz	x12, loc_180509b58 ; ⤵ 0x10
+0x180509b4c:  6c 11 40 f9   ldr	x12, [x11, #0x20]
+0x180509b50:  8c 01 08 8b   add	x12, x12, x8
+0x180509b54:  6c 11 00 f9   str	x12, [x11, #0x20]
+0x180509b58:  ; loc_180509b58
+0x180509b58:  29 05 00 91   add	x9, x9, #0x1
+0x180509b5c:  4a 05 00 f1   subs	x10, x10, #0x1
+0x180509b60:  81 fe ff 54   b.ne	loc_180509b30 ; ⤴ -0x30
+0x180509b64:  ; loc_180509b64
+0x180509b64:  60 0e 40 b9   ldr	w0, [x19, #0xc]
+0x180509b68:  e1 03 18 aa   mov	x1, x24
+0x180509b6c:  e3 03 1a aa   mov	x3, x26
+0x180509b70:  3d 41 ff 97   bl	___shared_region_map_and_slide_2_np
+0x180509b74:  f7 03 00 aa   mov	x23, x0
+0x180509b78:  e0 03 16 aa   mov	x0, x22
+0x180509b7c:  94 4f ff 97   bl	__ZN15DyldSharedCache13DynamicRegion4freeEv
+0x180509b80:  dc 01 00 34   cbz	w28, loc_180509bb8 ; ⤵ 0x38
+0x180509b84:  16 00 80 d2   mov	x22, #0
+0x180509b88:  78 06 40 91   add	x24, x19, #0x1, lsl #0xc
+0x180509b8c:  18 43 20 91   add	x24, x24, #0x810
+0x180509b90:  ; loc_180509b90
+0x180509b90:  c8 da 77 d3   lsl	x8, x22, #0x9
+0x180509b94:  08 19 16 cb   sub	x8, x8, x22, lsl #0x6
+0x180509b98:  09 03 08 8b   add	x9, x24, x8
+0x180509b9c:  20 89 41 b9   ldr	w0, [x9, #0x188]
+0x180509ba0:  1f 04 00 31   cmn	w0, #0x1
+0x180509ba4:  40 00 00 54   b.eq	loc_180509bac ; ⤵ 0x8
+0x180509ba8:  31 11 fe 97   bl	_close
+0x180509bac:  ; loc_180509bac
+0x180509bac:  d6 06 00 91   add	x22, x22, #0x1
+0x180509bb0:  7b 07 00 f1   subs	x27, x27, #0x1
+0x180509bb4:  e1 fe ff 54   b.ne	loc_180509b90 ; ⤴ -0x24
+0x180509bb8:  ; loc_180509bb8
+0x180509bb8:  e0 03 15 aa   mov	x0, x21
+0x180509bbc:  e1 03 14 aa   mov	x1, x20
+0x180509bc0:  f2 4c fe 97   bl	__ZN5dyld3L18reuseExistingCacheERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoE
+0x180509bc4:  d7 00 00 34   cbz	w23, loc_180509bdc ; ⤵ 0x18
+0x180509bc8:  60 04 00 37   tbnz	w0, #0, loc_180509c54 ; ⤵ 0x8c
+0x180509bcc:  88 0a 40 f9   ldr	x8, [x20, #0x10]
+0x180509bd0:  48 06 00 b4   cbz	x8, loc_180509c98 ; ⤵ 0xc8
+0x180509bd4:  00 00 80 52   mov	w0, #0
+0x180509bd8:  20 00 00 14   b	loc_180509c58 ; ⤵ 0x80
+0x180509bdc:  ; loc_180509bdc
+0x180509bdc:  00 03 00 34   cbz	w0, loc_180509c3c ; ⤵ 0x60
+0x180509be0:  a8 12 40 f9   ldr	x8, [x21, #0x20]
+0x180509be4:  88 03 00 b4   cbz	x8, loc_180509c54 ; ⤵ 0x70
+0x180509be8:  08 09 41 b9   ldr	w8, [x8, #0x108]
+0x180509bec:  1f 05 00 71   cmp	w8, #0x1
+0x180509bf0:  21 03 00 54   b.ne	loc_180509c54 ; ⤵ 0x64
+0x180509bf4:  88 66 40 39   ldrb	w8, [x20, #0x19]
+0x180509bf8:  29 01 00 d0   adrp	x9, 0x18052f000
+0x180509bfc:  29 1d 24 91   add	x9, x9, #0x907 ; "customer"
+0x180509c00:  ca 00 00 f0   adrp	x10, 0x180524000
+0x180509c04:  4a 55 32 91   add	x10, x10, #0xc95 ; "development"
+0x180509c08:  1f 01 00 71   cmp	w8, #0
+0x180509c0c:  48 11 89 9a   csel	x8, x10, x9, ne
+0x180509c10:  29 01 00 d0   adrp	x9, 0x18052f000
+0x180509c14:  29 5d 24 91   add	x9, x9, #0x917 ; "unmapped"
+0x180509c18:  2a 01 00 d0   adrp	x10, 0x18052f000
+0x180509c1c:  4a 41 24 91   add	x10, x10, #0x910 ; "mapped"
+0x180509c20:  49 11 89 9a   csel	x9, x10, x9, ne
+0x180509c24:  e8 27 bf a9   stp	x8, x9, [sp, #-0x10]!
+0x180509c28:  20 01 00 d0   adrp	x0, 0x18052f000
+0x180509c2c:  00 54 23 91   add	x0, x0, #0x8d5 ; "dyld cache mapped system-wide: %s, auth GOTs: %s\n"
+0x180509c30:  f0 80 ff 97   bl	__ZN5dyld47consoleEPKcz
+0x180509c34:  ff 43 00 91   add	sp, sp, #0x10
+0x180509c38:  07 00 00 14   b	loc_180509c54 ; ⤵ 0x1c
+0x180509c3c:  ; loc_180509c3c
+0x180509c3c:  a8 16 40 39   ldrb	w8, [x21, #0x5]
+0x180509c40:  1f 05 00 71   cmp	w8, #0x1
+0x180509c44:  81 00 00 54   b.ne	loc_180509c54 ; ⤵ 0x10
+0x180509c48:  20 01 00 d0   adrp	x0, 0x18052f000
+0x180509c4c:  00 3c 25 91   add	x0, x0, #0x94f ; "mapped dyld cache file system wide\n"
+0x180509c50:  e8 80 ff 97   bl	__ZN5dyld47consoleEPKcz
+0x180509c54:  ; loc_180509c54
+0x180509c54:  20 00 80 52   mov	w0, #0x1
+0x180509c58:  ; loc_180509c58
+0x180509c58:  68 0a 40 f9   ldr	x8, [x19, #0x10]
+0x180509c5c:  1f 01 00 91   mov	sp, x8
+0x180509c60:  ; loc_180509c60
+0x180509c60:  a8 83 59 f8   ldur	x8, [fp, #-0x68]
+0x180509c64:  89 aa 36 f0   adrp	x9, 0x1eda5c000
+0x180509c68:  29 01 03 91   add	x9, x9, #0xc0 ; ___stack_chk_guard
+0x180509c6c:  29 01 40 f9   ldr	x9, [x9]
+0x180509c70:  3f 01 08 eb   cmp	x9, x8
+0x180509c74:  c1 01 00 54   b.ne	loc_180509cac ; ⤵ 0x38
+0x180509c78:  bf 43 01 d1   sub	sp, fp, #0x50
+0x180509c7c:  fd 7b 45 a9   ldp	fp, lr, [sp, #0x50]
+0x180509c80:  f4 4f 44 a9   ldp	x20, x19, [sp, #0x40]
+0x180509c84:  f6 57 43 a9   ldp	x22, x21, [sp, #0x30]
+0x180509c88:  f8 5f 42 a9   ldp	x24, x23, [sp, #0x20]
+0x180509c8c:  fa 67 41 a9   ldp	x26, x25, [sp, #0x10]
+0x180509c90:  fc 6f c6 a8   ldp	x28, x27, [sp], #0x60
+0x180509c94:  ff 0f 5f d6   retab
+0x180509c98:  ; loc_180509c98
+0x180509c98:  00 00 80 52   mov	w0, #0
+0x180509c9c:  28 01 00 d0   adrp	x8, 0x18052f000
+0x180509ca0:  08 81 24 91   add	x8, x8, #0x920 ; "syscall to map cache into shared region failed"
+0x180509ca4:  88 0a 00 f9   str	x8, [x20, #0x10]
+0x180509ca8:  ec ff ff 17   b	loc_180509c58 ; ⤴ -0x50
+0x180509cac:  ; loc_180509cac
+0x180509cac:  75 2a ff 97   bl	___stack_chk_fail
+
