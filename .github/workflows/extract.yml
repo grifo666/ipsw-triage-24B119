@@ -26,7 +26,7 @@ on:
       dyld_path:
         description: caminho da dylib dentro do cache
         required: false
-        default: /System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64e
+        default: /usr/lib/dyld
       kext_bundle_id:
         description: bundle id do kext (so componente kernel)
         required: false
