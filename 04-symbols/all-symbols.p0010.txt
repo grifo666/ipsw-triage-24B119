@@ -1,0 +1,616 @@
+ext) non-external (was a private external)	___chkstk_darwin_probe	
+0x1804d9b58:  (__TEXT,__text) non-external (was a private external)	___chmod	
+0x1edde39a0:  (__DATA_DIRTY,__bss) private	___config	
+0x1804d9b84:  (__TEXT,__text) non-external (was a private external)	___connect	
+0x1804e32bc:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_32c19_ZTSN6mach_o5ImageE	
+0x1804fb730:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_32c34_ZTSN6mach_o19PlatformAndVersionsE	
+0x1805174f0:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_40c22_ZTSN6mach_o8PlatformE	
+0x1804fa80c:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_48c20_ZTSKN6mach_o5ImageE	
+0x1804e8ea4:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_48c22_ZTSN6mach_o8PlatformE	
+0x1804e6580:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_56c19_ZTSN6mach_o5ImageE	
+0x1804e6570:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_64c19_ZTSN6mach_o5ImageE	
+0x180507afc:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_64c20_ZTSN6mach_o6PolicyE152c20_ZTSKN6mach_o5ImageE	
+0x1804ea7d4:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_64c22_ZTSN6mach_o8PlatformE	
+0x1804eeb78:  (__TEXT,__text) non-external (was a private external)	___copy_helper_block_8_72c20_ZTSKN6mach_o5ImageE	
+0x1eaf94bb8:  (__DATA,__data) non-external (was a private external)	___darwin_build_inc_version	
+0x180523ec8:  (__TEXT,__const) non-external (was a private external)	___darwin_builder_build	
+0x180523ec0:  (__TEXT,__const) non-external (was a private external)	___darwin_builder_version	
+0x1eaf94bb0:  (__DATA,__data) non-external (was a private external)	___darwin_debug_binary	
+0x180536e35:  (__TEXT,__info_plist) private	___darwin_info_plist	
+0x1eaf94ba8:  (__DATA,__data) non-external (was a private external)	___darwin_variant	
+0x1eaf94ba0:  (__DATA,__data) non-external (was a private external)	___darwin_version_string	
+0x1eaf94b98:  (__DATA,__data) non-external (was a private external)	___darwin_version_string_heywhat	
+0x1804e32c8:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_32	
+0x180517504:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_40	
+0x1804e8eb8:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_48	
+0x1804e658c:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_56	
+0x1804e657c:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_64	
+0x180507b40:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_64152	
+0x1804eeb84:  (__TEXT,__text) non-external (was a private external)	___destroy_helper_block_8_72	
+0x1804d9bb0:  (__TEXT,__text) non-external (was a private external)	___disable_threadsignal	
+0x18049c320:  (__TEXT,__text) non-external (was a private external)	___error	
+0x1804d9bdc:  (__TEXT,__text) non-external (was a private external)	___execve	
+0x1804d9c08:  (__TEXT,__text) non-external (was a private external)	___exit	
+0x1804d9c34:  (__TEXT,__text) non-external (was a private external)	___fchmod	
+0x18048e62c:  (__TEXT,__text) non-external (was a private external)	___fcntl	
+0x1edde27b0:  (__DATA_DIRTY,__data) private	___g	
+0x1804abadc:  (__TEXT,__text) non-external (was a private external)	___getattrlist	
+0x18048fc58:  (__TEXT,__text) non-external (was a private external)	___getpid	
+0x1804d9c8c:  (__TEXT,__text) non-external (was a private external)	___gettimeofday	
+0x1804d9c60:  (__TEXT,__text) non-external (was a private external)	___gettimeofday_with_mach	
+0x18048d5b0:  (__TEXT,__text) non-external (was a private external)	___guard_setup	
+0x18051ff08:  (__TEXT,__text) private	___guard_setup.cold.1	
+0x1804d9cbc:  (__TEXT,__text) non-external (was a private external)	___ioctl	
+0x180488ce8:  (__TEXT,__text) non-external (was a private external)	___kdebug_trace64	
+0x18048e9a4:  (__TEXT,__text) non-external (was a private external)	___kdebug_trace_string	
+0x180488c3c:  (__TEXT,__text) non-external (was a private external)	___kdebug_typefilter	
+0x1804d9ce8:  (__TEXT,__text) non-external (was a private external)	___kqueue_workloop_ctl	
+0x18048e77c:  (__TEXT,__text) non-external (was a private external)	___mac_syscall	
+0x1804988dc:  (__TEXT,__text) non-external (was a private external)	___map_with_linking_np	
+0x18049771c:  (__TEXT,__text) non-external (was a private external)	___mmap	
+0x1804a79a0:  (__TEXT,__text) non-external (was a private external)	___mprotect	
+0x18048e6c4:  (__TEXT,__text) non-external (was a private external)	___munmap	
+0x18048e040:  (__TEXT,__text) non-external (was a private external)	___open	
+0x1804d9d14:  (__TEXT,__text) non-external (was a private external)	___open_dprotected_np	
+0x18049c9dc:  (__TEXT,__text) non-external (was a private external)	___openat	
+0x1804d9d40:  (__TEXT,__text) non-external (was a private external)	___openat_dprotected_np	
+0x18050d5f4:  (__TEXT,__text) non-external (was a private external)	___os_log_simple_offset	
+0x1804d9d6c:  (__TEXT,__text) non-external (was a private external)	___pipe	
+0x1804d9da4:  (__TEXT,__text) non-external (was a private external)	___posix_spawn	
+0x1804a2250:  (__TEXT,__text) non-external (was a private external)	___proc_info	
+0x1804d9dd0:  (__TEXT,__text) non-external (was a private external)	___proc_info_extended_id	
+0x1804d9dfc:  (__TEXT,__text) non-external (was a private external)	___process_policy	
+0x1804d9e28:  (__TEXT,__text) non-external (was a private external)	___psynch_cvbroad	
+0x1804d9e54:  (__TEXT,__text) non-external (was a private external)	___psynch_cvclrprepost	
+0x1804d9e80:  (__TEXT,__text) non-external (was a private external)	___psynch_cvsignal	
+0x1804d9eac:  (__TEXT,__text) non-external (was a private external)	___psynch_cvwait	
+0x1804d9ed8:  (__TEXT,__text) non-external (was a private external)	___psynch_mutexdrop	
+0x1804d9f04:  (__TEXT,__text) non-external (was a private external)	___psynch_mutexwait	
+0x1804d9f30:  (__TEXT,__text) non-external (was a private external)	___pthread_canceled	
+0x1eaf94b88:  (__DATA,__data) non-external (was a private external)	___pthread_head	
+0x1804d9f5c:  (__TEXT,__text) non-external (was a private external)	___pthread_kill	
+0x1804d9f88:  (__TEXT,__text) non-external (was a private external)	___pthread_markcancel	
+0x1804d9fb4:  (__TEXT,__text) non-external (was a private external)	___pthread_sigmask	
+0x1edde3960:  (__DATA_DIRTY,__bss) private	___remove_counter	
+0x1804d9fe0:  (__TEXT,__text) non-external (was a private external)	___rename	
+0x1e0187930:  (__DATA_CONST,__const) private	___roots	
+0x18048e77c:  (__TEXT,__text) non-external (was a private external)	___sandbox_ms	
+0x1804da00c:  (__TEXT,__text) non-external (was a private external)	___semwait_signal_nocancel	
+0x1804da038:  (__TEXT,__text) non-external (was a private external)	___sendto	
+0x18048ca74:  (__TEXT,__text) non-external (was a private external)	___shared_region_check_np	
+0x1804da064:  (__TEXT,__text) non-external (was a private external)	___shared_region_map_and_slide_2_np	
+0x1804da090:  (__TEXT,__text) non-external (was a private external)	___sigwait	
+0x1804b8478:  (__TEXT,__text) private	___simple_bprintf	
+0x1804cf01c:  (__TEXT,__text) private	___simple_bprintf.cold.1	
+0x1e0187918:  (__DATA_CONST,__const) private	___specs	
+0x1804d4680:  (__TEXT,__text) non-external (was a private external)	___stack_chk_fail	
+0x1eda5c0c0:  (__TPRO_CONST,__data) non-external (was a private external)	___stack_chk_guard	
+0x1eaf94ec8:  (__DATA,__common) non-external (was a private external)	___stderrp	
+0x1eaf94ed0:  (__DATA,__common) non-external (was a private external)	___stdoutp	
+0x1804da0bc:  (__TEXT,__text) non-external (was a private external)	___syscall	
+0x1eaf95ca8:  (__DATA,__bss) private	___syscall_logger	
+0x1804a44e0:  (__TEXT,__text) non-external (was a private external)	___sysctl	
+0x1eaf95c70:  (__DATA,__bss) private	___tbi	
+0x1804da0f8:  (__TEXT,__text) non-external (was a private external)	___terminate_with_payload	
+0x180489d5c:  (__TEXT,__text) non-external (was a private external)	___thread_selfid	
+0x1804da124:  (__TEXT,__text) non-external (was a private external)	___ulock_wait	
+0x1804da150:  (__TEXT,__text) non-external (was a private external)	___ulock_wait2	
+0x1804da17c:  (__TEXT,__text) non-external (was a private external)	___ulock_wake	
+0x1804da1a8:  (__TEXT,__text) non-external (was a private external)	___unlink	
+0x1804da1d4:  (__TEXT,__text) non-external (was a private external)	___workq_kernreturn	
+0x1804da200:  (__TEXT,__text) non-external (was a private external)	___workq_open	
+0x1edde3978:  (__DATA_DIRTY,__bss) private	__args	
+0x1e01878f8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_canonical_app	
+0x1e01878d8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_canonical_os	
+0x1e01878b8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_canonical_supplemental	
+0x1e0187898:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_cryptex_app	
+0x1e0187878:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_cryptex_os	
+0x1e0187858:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_cryptex_supplemental	
+0x1e0187838:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_dylib_cache	
+0x1e0187818:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_fs	
+0x1e01877f8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_preboot	
+0x1e01877d8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_preboot_groupdir	
+0x1e01877b8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_root_xart	
+0x1e0187758:  (__DATA_CONST,__const) non-external (was a private external)	__boot_spec_local	
+0x1e01876f8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_spec_null	
+0x1e0187698:  (__DATA_CONST,__const) non-external (was a private external)	__boot_spec_post_initproc	
+0x1e0187638:  (__DATA_CONST,__const) non-external (was a private external)	__boot_spec_remote_dmg	
+0x1e01875d8:  (__DATA_CONST,__const) non-external (was a private external)	__boot_spec_remote_nerd	
+0x1e0187578:  (__DATA_CONST,__const) non-external (was a private external)	__boot_spec_remote_ramdisk	
+0x1edde3970:  (__DATA_DIRTY,__bss) private	__config	
+0x18048d930:  (__TEXT,__text) non-external (was a private external)	__crossarch_trap	
+0x18050c79c:  (__TEXT,__text) private	__cryptex1_sniff_fire	
+0x18050c794:  (__TEXT,__text) non-external (was a private external)	__cryptex1_sniff_payload_check	
+0x18050d32c:  (__TEXT,__text) private	__cryptex_graft_failure_app_livefs	
+0x1e1f96230:  (__AUTH_CONST,__const) non-external (was a private external)	__cryptex_spec_app	
+0x1e1f96190:  (__AUTH_CONST,__const) non-external (was a private external)	__cryptex_spec_app_livefs	
+0x18050b314:  (__TEXT,__text) private	__cryptex_spec_iterate_select_app	
+0x1e1f960f0:  (__AUTH_CONST,__const) non-external (was a private external)	__cryptex_spec_os	
+0x1e1f96050:  (__AUTH_CONST,__const) non-external (was a private external)	__cryptex_spec_supplemental	
+0x1edde27d0:  (__DATA_DIRTY,__data) non-external (was a private external)	__current_pid	
+0x1804a700c:  (__TEXT,__text) non-external (was a private external)	__derive_proc_name	
+0x18050c894:  (__TEXT,__text) private	__derive_ticket_name	
+0x18049cb34:  (__TEXT,__text) private	__dylib_cache_fire	
+0x18049cdf0:  (__TEXT,__text) non-external (was a private external)	__dylib_cache_payload_check	
+0x18050da58:  (__TEXT,__text) private	__enlarge	
+0x1805213a8:  (__TEXT,__text) private	__enlarge.cold.1	
+0x18048d538:  (__TEXT,__text) non-external (was a private external)	__exclaves_ctl_trap	
+0x1804d9c08:  (__TEXT,__text) non-external (was a private external)	__exit	
+0x18050d9a8:  (__TEXT,__text) private	__flush	
+0x18050d978:  (__TEXT,__text) private	__flush_reset	
+0x1eda5c1a0:  (__TPRO_CONST,__data) non-external (was a private external)	__gUseInstrumentedStringRoutines	
+0x18049ce30:  (__TEXT,__text) private	__goodbye_fire	
+0x18050b30c:  (__TEXT,__text) non-external (was a private external)	__goodbye_payload_check	
+0x18049c840:  (__TEXT,__text) private	__graft_fetch_fire	
+0x18050c414:  (__TEXT,__text) non-external (was a private external)	__graft_fetch_payload_check	
+0x18050b070:  (__TEXT,__text) private	__graft_fire	
+0x18050b068:  (__TEXT,__text) non-external (was a private external)	__graft_payload_check	
+0x18049c33c:  (__TEXT,__text) private	__graft_select_fire	
+0x18050c40c:  (__TEXT,__text) non-external (was a private external)	__graft_select_payload_check	
+0x1805321a5:  (__TEXT,__cstring) private	__h	
+0x18049c7d8:  (__TEXT,__text) private	__hello_fire	
+0x18050b304:  (__TEXT,__text) non-external (was a private external)	__hello_payload_check	
+0x18048d31c:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_allocate_trap	
+0x18048d370:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_construct_trap	
+0x18048d328:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_deallocate_trap	
+0x18048d37c:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_destruct_trap	
+0x18048d364:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_extract_member_trap	
+0x18048d424:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_get_attributes_trap	
+0x18048d430:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_guard_trap	
+0x18048d358:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_insert_member_trap	
+0x18048d34c:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_insert_right_trap	
+0x18048d334:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_mod_refs_trap	
+0x18048d340:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_move_member_trap	
+0x18048d52c:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_request_notification_trap	
+0x18048d520:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_type_trap	
+0x18048d43c:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_port_unguard_trap	
+0x18048d2d4:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_vm_allocate_trap	
+0x18048d2ec:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_vm_deallocate_trap	
+0x18048d310:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_vm_map_trap	
+0x18048d304:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_vm_protect_trap	
+0x18048d2e0:  (__TEXT,__text) non-external (was a private external)	__kernelrpc_mach_vm_purgable_control_trap	
+0x1edde2880:  (__DATA_DIRTY,__common) non-external (was a private external)	__main_thread	
+0x1e1f96020:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_app_dmg	
+0x1e1f95ff0:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_app_seal	
+0x1e1f95fc0:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_app_trst	
+0x1e1f95f90:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_im4m	
+0x1e1f95f60:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_os_dmg	
+0x1e1f95f30:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_os_seal	
+0x1e1f95f00:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_os_trst	
+0x1e1f95ed0:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_supplemental_dmg	
+0x1e1f95ea0:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_supplemental_seal	
+0x1e1f95e70:  (__AUTH_CONST,__const) non-external (was a private external)	__object_spec_supplemental_trst	
+0x18050d144:  (__TEXT,__text) private	__open_as	
+0x1804a5844:  (__TEXT,__text) private	__open_console	
+0x18050e570:  (__TEXT,__text) private	__os_alloc	
+0x18052156c:  (__TEXT,__text) private	__os_alloc.cold.1	
+0x1eaf950d8:  (__DATA,__common) non-external (was a private external)	__os_alloc_heap	
+0x18050e524:  (__TEXT,__text) non-external (was a private external)	__os_alloc_once	
+0x1eaf95170:  (__DATA,__common) non-external (was a private external)	__os_alloc_once_table	
+0x18050e62c:  (__TEXT,__text) private	__os_alloc_slow	
+0x180523f00:  (__TEXT,__const) private	__os_lock_type_base	
+0x18050d704:  (__TEXT,__text) non-external (was a private external)	__os_log_simple_send	
+0x1805211c8:  (__TEXT,__text) non-external (was a private external)	__os_log_simple_shim	
+0x18050e2c8:  (__TEXT,__text) non-external (was a private external)	__os_once	
+0x18050e328:  (__TEXT,__text) private	__os_once_callout	
+0x18050e21c:  (__TEXT,__text) private	__os_once_gate_broadcast	
+0x1805214f4:  (__TEXT,__text) non-external (was a private external)	__os_once_gate_corruption_abort	
+0x1805214a4:  (__TEXT,__text) non-external (was a private external)	__os_once_gate_recursive_abort	
+0x1805214cc:  (__TEXT,__text) non-external (was a private external)	__os_once_gate_unowned_abort	
+0x18050e398:  (__TEXT,__text) private	__os_once_gate_wait	
+0x180521594:  (__TEXT,__text) non-external (was a private external)	__os_semaphore_dispose	
+0x180521448:  (__TEXT,__text) non-external (was a private external)	__os_unfair_lock_corruption_abort	
+0x18050dfcc:  (__TEXT,__text) private	__os_unfair_lock_lock_slow	
+0x1805213f8:  (__TEXT,__text) non-external (was a private external)	__os_unfair_lock_recursive_abort	
+0x18050e170:  (__TEXT,__text) private	__os_unfair_lock_unlock_slow	
+0x180521420:  (__TEXT,__text) non-external (was a private external)	__os_unfair_lock_unowned_abort	
+0x18048c310:  (__TEXT,__text) non-external (was a private external)	__platform_bzero	
+0x1804c1480:  (__TEXT,__text) non-external (was a private external)	__platform_memchr	
+0x18048bd90:  (__TEXT,__text) non-external (was a private external)	__platform_memcmp	
+0x18048a360:  (__TEXT,__text) non-external (was a private external)	__platform_memmove	
+0x18048c370:  (__TEXT,__text) non-external (was a private external)	__platform_memset	
+0x1804a3ce0:  (__TEXT,__text) non-external (was a private external)	__platform_strchr	
+0x180484d30:  (__TEXT,__text) non-external (was a private external)	__platform_strcmp	
+0x1804d8d70:  (__TEXT,__text) non-external (was a private external)	__platform_strcmp$VARIANT$MTE	
+0x180484d44:  (__TEXT,__text) private	__platform_strcmp_noMTE	
+0x1804c1570:  (__TEXT,__text) non-external (was a private external)	__platform_strlcat	
+0x1804909b8:  (__TEXT,__text) non-external (was a private external)	__platform_strlcpy	
+0x1805215e8:  (__TEXT,__text) private	__platform_strlcpy.cold.1	
+0x18052162c:  (__TEXT,__text) private	__platform_strlcpy.cold.2	
+0x180484f00:  (__TEXT,__text) non-external (was a private external)	__platform_strlen	
+0x180484c10:  (__TEXT,__text) non-external (was a private external)	__platform_strncmp	
+0x180484e60:  (__TEXT,__text) non-external (was a private external)	__platform_strnlen	
+0x18050c42c:  (__TEXT,__text) private	__preboot_fire	
+0x18050c41c:  (__TEXT,__text) non-external (was a private external)	__preboot_payload_check	
+0x1eaf94d38:  (__DATA,__data) private	__pthread_count	
+0x18050ed6c:  (__TEXT,__text) private	__pthread_current_stack_address	
+0x18050e994:  (__TEXT,__text) private	__pthread_exit	
+0x1804b83f0:  (__TEXT,__text) non-external (was a private external)	__pthread_exit_if_canceled	
+0x180521700:  (__TEXT,__text) private	__pthread_exit_if_canceled.cold.1	
+0x1eaf95c98:  (__DATA,__bss) private	__pthread_introspection_hook	
+0x18050ee1c:  (__TEXT,__text) private	__pthread_introspection_hook_callout_thread_destroy	
+0x18050ed7c:  (__TEXT,__text) private	__pthread_introspection_hook_callout_thread_terminate	
+0x18050ee84:  (__TEXT,__text) non-external (was a private external)	__pthread_joiner_prepost_wake	
+0x180521710:  (__TEXT,__text) private	__pthread_joiner_prepost_wake.cold.1	
+0x18050ea0c:  (__TEXT,__text) private	__pthread_joiner_wake	
+0x1805216a8:  (__TEXT,__text) private	__pthread_joiner_wake.cold.1	
+0x1eaf95104:  (__DATA,__common) non-external (was a private external)	__pthread_list_lock	
+0x1eaf95168:  (__DATA,__common) non-external (was a private external)	__pthread_ptr_munge_token	
+0x18048d878:  (__TEXT,__text) non-external (was a private external)	__pthread_set_self	
+0x180489cf0:  (__TEXT,__text) private	__pthread_set_self_dyld	
+0x1805216d4:  (__TEXT,__text) non-external (was a private external)	__pthread_setcancelstate_exit	
+0x18050eb44:  (__TEXT,__text) private	__pthread_terminate	
+0x18050eae8:  (__TEXT,__text) private	__pthread_terminate_invoke	
+0x1804a7008:  (__TEXT,__text) non-external (was a private external)	__pthread_tsd_cleanup	
+0x1805211f0:  (__TEXT,__text) private	__simple_asl_connect	
+0x1805212a0:  (__TEXT,__text) private	__simple_asl_connect_once	
+0x18050d87c:  (__TEXT,__text) non-external (was a private external)	__simple_asl_get_fd	
+0x180521344:  (__TEXT,__text) private	__simple_asl_get_fd.cold.1	
+0x18050d904:  (__TEXT,__text) private	__simple_asl_init_context	
+0x1805212e8:  (__TEXT,__text) non-external (was a private external)	__simple_asl_log	
+0x18050da2c:  (__TEXT,__text) non-external (was a private external)	__simple_dprintf	
+0x180489dd8:  (__TEXT,__text) non-external (was a private external)	__simple_getenv	
+0x1804ba334:  (__TEXT,__text) non-external (was a private external)	__simple_salloc	
+0x1804b8b50:  (__TEXT,__text) non-external (was a private external)	__simple_sfree	
+0x180521370:  (__TEXT,__text) non-external (was a private external)	__simple_sprintf	
+0x1804b85e8:  (__TEXT,__text) non-external (was a private external)	__simple_string	
+0x18050d91c:  (__TEXT,__text) non-external (was a private external)	__simple_vdprintf	
+0x1804bfb60:  (__TEXT,__text) non-external (was a private external)	__simple_vsnprintf	
+0x1805213d0:  (__TEXT,__text) private	__simple_vsnprintf.cold.1	
+0x1804ba3ec:  (__TEXT,__text) non-external (was a private external)	__simple_vsprintf	
+0x1804bfd6c:  (__TEXT,__text) private	__snprintf_out_of_space	
+0x1e1f95e30:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_cryptex1_sniff	
+0x1e1f95df0:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_dylib_cache	
+0x1e1f95db0:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_goodbye	
+0x1e1f95d70:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_graft	
+0x1e1f95d30:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_graft_fetch	
+0x1e1f95cf0:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_graft_select	
+0x1e1f95cb0:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_hello	
+0x1e1f95c70:  (__AUTH_CONST,__const) non-external (was a private external)	__stage_preboot	
+0x18048c534:  (__TEXT,__text) non-external (was a private external)	__subsystem_init	
+0x1e1f95c40:  (__AUTH_CONST,__const) non-external (was a private external)	__supplemental_spec_im4m	
+0x1edde3990:  (__DATA_DIRTY,__bss) private	__task_reply_port	
+0x1eaf95c90:  (__DATA,__bss) private	__tbi	
+0x180489d88:  (__TEXT,__text) non-external (was a private external)	__thread_set_tsd_base	
+0x18051feec:  (__TEXT,__text) non-external (was a private external)	_abort	
+0x1804d5460:  (__TEXT,__text) non-external (was a private external)	_abort_report_np	
+0x1805217e8:  (__TEXT,__text) non-external (was a private external)	_abort_with_payload	
+0x18052175c:  (__TEXT,__text) private	_abort_with_payload_wrapper_internal	
+0x18052173c:  (__TEXT,__text) non-external (was a private external)	_abort_with_reason	
+0x1804da22c:  (__TEXT,__text) non-external (was a private external)	_access	
+0x1804a6218:  (__TEXT,__text) non-external (was a private external)	_amfi_check_dyld_policy_self	
+0x18050ab88:  (__TEXT,__text) non-external (was a private external)	_amfi_load_trust_cache	
+0x1eaf95bcc:  (__DATA,__bss) private	_arc4_count	
+0x18050ad48:  (__TEXT,__text) private	_arc4_fetch	
+0x1eaf95bc0:  (__DATA,__bss) private	_arc4_lock	
+0x18050ae20:  (__TEXT,__text) private	_arc4_stir	
+0x18050abe4:  (__TEXT,__text) non-external (was a private external)	_arc4random	
+0x1804a59b8:  (__TEXT,__text) non-external (was a private external)	_arguments	
+0x1804a58dc:  (__TEXT,__text) non-external (was a private external)	_arguments_dump	
+0x1804a6504:  (__TEXT,__text) non-external (was a private external)	_arguments_init	
+0x18048bd90:  (__TEXT,__text) non-external (was a private external)	_bcmp	
+0x1804a5e50:  (__TEXT,__text) non-external (was a private external)	_boot_boot	
+0x18049cee4:  (__TEXT,__text) non-external (was a private external)	_boot_destroy	
+0x1804a5d9c:  (__TEXT,__text) non-external (was a private external)	_boot_dump_spec	
+0x18050d304:  (__TEXT,__text) non-external (was a private external)	_boot_get	
+0x18049c5b0:  (__TEXT,__text) non-external (was a private external)	_boot_get_dylib_root	
+0x18050d304:  (__TEXT,__text) non-external (was a private external)	_boot_get_unsafe	
+0x1804a7184:  (__TEXT,__text) non-external (was a private external)	_boot_init	
+0x1804a7094:  (__TEXT,__text) non-external (was a private external)	_boot_select_spec	
+0x18050d310:  (__TEXT,__text) non-external (was a private external)	_boot_set_dylib_root	
+0x18049ce38:  (__TEXT,__text) non-external (was a private external)	_boot_set_payload	
+0x1804a72ac:  (__TEXT,__text) non-external (was a private external)	_boot_set_root	
+0x18050d4ac:  (__TEXT,__text) non-external (was a private external)	_buff_get_length_uint32	
+0x18050d4dc:  (__TEXT,__text) non-external (was a private external)	_buff_map_fd_anon	
+0x18048c310:  (__TEXT,__text) non-external (was a private external)	_bzero	
+0x1804b7bc0:  (__TEXT,__text) non-external (was a private external)	_callWithProtectedStack	
+0x1804b7c80:  (__TEXT,__text) non-external (was a private external)	_callWithRegularStack	
+0x1804c7064:  (__TEXT,__text) non-external (was a private external)	_cc_clear	
+0x1804c5ef4:  (__TEXT,__text) non-external (was a private external)	_cc_disable_dit_with_sb	
+0x1804c6cf0:  (__TEXT,__text) non-external (was a private external)	_ccdigest_final_64be	
+0x1804c5d7c:  (__TEXT,__text) non-external (was a private external)	_ccdigest_init	
+0x1804c5efc:  (__TEXT,__text) non-external (was a private external)	_ccdigest_update	
+0x1804c6670:  (__TEXT,__text) non-external (was a private external)	_ccdigest_update_internal	
+0x180510edc:  (__TEXT,__text) non-external (was a private external)	_ccsha1_di	
+0x1805241e0:  (__TEXT,__const) non-external (was a private external)	_ccsha1_initial_state	
+0x180510ee8:  (__TEXT,__text) private	_ccsha1_vng_arm_compress	
+0x1e1f95bf0:  (__AUTH_CONST,__const) non-external (was a private external)	_ccsha1_vng_arm_di	
+0x1804c5e38:  (__TEXT,__text) non-external (was a private external)	_ccsha256_di	
+0x1805241f4:  (__TEXT,__const) non-external (was a private external)	_ccsha256_initial_state	
+0x1804c67c0:  (__TEXT,__text) private	_ccsha256_vng_arm_compress	
+0x1e1f95ba0:  (__AUTH_CONST,__const) non-external (was a private external)	_ccsha256_vng_arm_di	
+0x180511524:  (__TEXT,__text) non-external (was a private external)	_ccsha384_di	
+0x180524218:  (__TEXT,__const) non-external (was a private external)	_ccsha384_initial_state	
+0x18050f960:  (__TEXT,__text) private	_ccsha384_vng_arm_compress	
+0x1e1f95b50:  (__AUTH_CONST,__const) non-external (was a private external)	_ccsha384_vng_arm_di	
+0x18050f964:  (__TEXT,__text) private	_ccsha384_vng_arm_hw_compress	
+0x1e1f95b00:  (__AUTH_CONST,__const) non-external (was a private external)	_ccsha384_vng_arm_hw_di	
+0x180523f60:  (__TEXT,__const) non-external (was a private external)	_ccsha512_K	
+0x180511334:  (__TEXT,__text) non-external (was a private external)	_ccsha512_final	
+0x1804b83bc:  (__TEXT,__text) non-external (was a private external)	_cerror	
+0x1804a93a0:  (__TEXT,__text) non-external (was a private external)	_cerror_nocancel	
+0x18050f224:  (__TEXT,__text) non-external (was a private external)	_chmod	
+0x18048d4f0:  (__TEXT,__text) non-external (was a private external)	_clock_sleep_trap	
+0x18048e06c:  (__TEXT,__text) non-external (was a private external)	_close	
+0x1804be350:  (__TEXT,__text) non-external (was a private external)	_closefd	
+0x1804a730c:  (__TEXT,__text) non-external (was a private external)	_closefd_optional	
+0x1804a5d74:  (__TEXT,__text) non-external (was a private external)	_configuration	
+0x1804a59e0:  (__TEXT,__text) non-external (was a private external)	_configuration_dump	
+0x1804a6880:  (__TEXT,__text) non-external (was a private external)	_configuration_init	
+0x18050d320:  (__TEXT,__text) non-external (was a private external)	_configuration_unsafe	
+0x1804d9b84:  (__TEXT,__text) non-external (was a private external)	_connect	
+0x1804d08ac:  (__TEXT,__text) non-external (was a private external)	_crc32c	
+0x18050c3a8:  (__TEXT,__text) non-external (was a private external)	_cryptex_destroy	
+0x18050bc50:  (__TEXT,__text) non-external (was a private external)	_cryptex_graft	
+0x18050afa8:  (__TEXT,__text) non-external (was a private external)	_cryptex_graft_failure_exists	
+0x18050b3a8:  (__TEXT,__text) non-external (was a private external)	_cryptex_init	
+0x18050c0d8:  (__TEXT,__text) non-external (was a private external)	_cryptex_load_trust_cache	
+0x18050b3dc:  (__TEXT,__text) non-external (was a private external)	_cryptex_open	
+0x1804f8044:  (__TEXT,__text) non-external (was a private external)	_cryptex_spec_get_reduced_im4m_spec	
+0x18050afa4:  (__TEXT,__text) non-external (was a private external)	_cryptex_spec_iterate_select_default	
+0x18050aff4:  (__TEXT,__text) non-external (was a private external)	_cryptex_spec_next	
+0x1804da258:  (__TEXT,__text) non-external (was a private external)	_csops	
+0x18048d598:  (__TEXT,__text) non-external (was a private external)	_debug_control_port_for_pid	
+0x18050db94:  (__TEXT,__text) private	_dec	
+0x1804a6394:  (__TEXT,__text) non-external (was a private external)	_dlog	
+0x18049ca88:  (__TEXT,__text) non-external (was a private external)	_dup	
+0x1804da284:  (__TEXT,__text) non-external (was a private external)	_dup2	
+0x18049ca08:  (__TEXT,__text) non-external (was a private external)	_dupfd	
+0x18050cb14:  (__TEXT,__text) non-external (was a private external)	_dupfd2	
+0x18049ced4:  (__TEXT,__text) non-external (was a private external)	_dupfd_optional	
+0x180522e88:  (__TEXT,__const) non-external (was a private external)	_dyldVersionNumber	
+0x180522e60:  (__TEXT,__const) non-external (was a private external)	_dyldVersionString	
+0x18050d42c:  (__TEXT,__text) non-external (was a private external)	_dyld_halt	
+0x1804a63c0:  (__TEXT,__text) non-external (was a private external)	_dyld_parse_boot_arg_cstr	
+0x1804a66c8:  (__TEXT,__text) non-external (was a private external)	_dyld_parse_boot_arg_int	
+0x18050d378:  (__TEXT,__text) non-external (was a private external)	_dyld_tolower_cstr	
+0x18050af8c:  (__TEXT,__text) non-external (was a private external)	_eligible_for_supplemental_cryptex	
+0x1edde398c:  (__DATA_DIRTY,__bss) private	_errno	
+0x18050af08:  (__TEXT,__text) private	_extract_next_subsystem_root_path	
+0x18050f320:  (__TEXT,__text) non-external (was a private external)	_fchmod	
+0x18048e47c:  (__TEXT,__text) non-external (was a private external)	_fcntl	
+0x1804da2b0:  (__TEXT,__text) non-external (was a private external)	_fgetattrlist	
+0x1804da2dc:  (__TEXT,__text) non-external (was a private external)	_fgetxattr	
+0x1804da308:  (__TEXT,__text) non-external (was a private external)	_fmount	
+0x18050cc84:  (__TEXT,__text) non-external (was a private external)	_fmount_90140467	
+0x1804f67e0:  (__TEXT,__text) non-external (was a private external)	_fprintf	
+0x1804da334:  (__TEXT,__text) non-external (was a private external)	_fsctl	
+0x1804da360:  (__TEXT,__text) non-external (was a private external)	_fsetxattr	
+0x18048c9ec:  (__TEXT,__text) non-external (was a private external)	_fsgetpath	
+0x1804b1704:  (__TEXT,__text) non-external (was a private external)	_fstat	
+0x1804b1704:  (__TEXT,__text) non-external (was a private external)	_fstat64	
+0x18049cb08:  (__TEXT,__text) non-external (was a private external)	_fstatat	
+0x18049cb08:  (__TEXT,__text) non-external (was a private external)	_fstatat64	
+0x1804da38c:  (__TEXT,__text) non-external (was a private external)	_fstatfs	
+0x1804da38c:  (__TEXT,__text) non-external (was a private external)	_fstatfs64	
+0x1804da3b8:  (__TEXT,__text) non-external (was a private external)	_fsync	
+0x1804da3e4:  (__TEXT,__text) non-external (was a private external)	_ftruncate	
+0x1804f6814:  (__TEXT,__text) non-external (was a private external)	_fwrite	
+0x1eaf94d40:  (__DATA,__crash_info) non-external (was a private external)	_gCRAnnotations	
+0x18052330c:  (__TEXT,__const) non-external (was a private external)	_gHeaderAddImplicitPlatform	
+0x18052330d:  (__TEXT,__const) non-external (was a private external)	_gHeaderAllowEmptyPlatform	
+0x1eaf94b80:  (__DATA,__data) non-external (was a private external)	_gVectorIteratorCheckMode	
+0x1804abadc:  (__TEXT,__text) non-external (was a private external)	_getattrlist	
+0x1804da410:  (__TEXT,__text) non-external (was a private external)	_getattrlistbulk	
+0x1804da43c:  (__TEXT,__text) non-external (was a private external)	_getentropy	
+0x1804abab0:  (__TEXT,__text) non-external (was a private external)	_getfsstat	
+0x1804abab0:  (__TEXT,__text) non-external (was a private external)	_getfsstat64	
+0x1804da468:  (__TEXT,__text) non-external (was a private external)	_getgid	
+0x18048fc58:  (__TEXT,__text) non-external (was a private external)	_getpid	
+0x1804da494:  (__TEXT,__text) non-external (was a private external)	_getuid	
+0x1804c3970:  (__TEXT,__text) non-external (was a private external)	_getxattr	
+0x1804da4c0:  (__TEXT,__text) non-external (was a private external)	_graftdmg	
+0x1804b84b4:  (__TEXT,__text) private	_hex	
+0x1804d42a8:  (__TEXT,__text) private	_hex.cold.1	
+0x1804d42a8:  (__TEXT,__text) private	_hex.cold.2	
+0x18048d508:  (__TEXT,__text) non-external (was a private external)	_host_create_mach_voucher_trap	
+0x18048d3ac:  (__TEXT,__text) non-external (was a private external)	_host_self_trap	
+0x1804a53bc:  (__TEXT,__text) non-external (was a private external)	_ignite	
+0x18050ce28:  (__TEXT,__text) non-external (was a private external)	_ignition_get_devnode_by_role	
+0x18050cf5c:  (__TEXT,__text) non-external (was a private external)	_ignition_get_mount_point_by_role	
+0x18049cab4:  (__TEXT,__text) non-external (was a private external)	_ignition_get_shared_cache_directory	
+0x18050ca44:  (__TEXT,__text) non-external (was a private external)	_ignition_halt	
+0x1804a7008:  (__TEXT,__text) non-external (was a private external)	_ignition_test_BRA	
+0x18050cd48:  (__TEXT,__text) non-external (was a private external)	_ignition_write_BRA_blob	
+0x18050f420:  (__TEXT,__text) non-external (was a private external)	_ioctl	
+0x1804be0a4:  (__TEXT,__text) non-external (was a private external)	_jettison	
+0x180488d14:  (__TEXT,__text) non-external (was a private external)	_kdebug_is_enabled	
+0x180488c68:  (__TEXT,__text) non-external (was a private external)	_kdebug_trace	
+0x18048e8fc:  (__TEXT,__text) non-external (was a private external)	_kdebug_trace_string	
+0x1edde3998:  (__DATA_DIRTY,__bss) private	_kdebug_typefilter.typefilter	
+0x18049cf74:  (__TEXT,__text) non-external (was a private external)	_log_destroy	
+0x1804a5898:  (__TEXT,__text) non-external (was a private external)	_log_init	
+0x1804910c4:  (__TEXT,__text) non-external (was a private external)	_mach_absolute_time	
+0x180491148:  (__TEXT,__text) non-external (was a private external)	_mach_absolute_time_kernel	
+0x180488a0c:  (__TEXT,__text) non-external (was a private external)	_mach_continuous_time	
+0x180491154:  (__TEXT,__text) non-external (was a private external)	_mach_continuous_time_kernel	
+0x18048d448:  (__TEXT,__text) non-external (was a private external)	_mach_generate_activity_id	
+0x18048d7cc:  (__TEXT,__text) non-external (was a private external)	_mach_init	
+0x1edde3984:  (__DATA_DIRTY,__bss) private	_mach_init.mach_init_inited	
+0x1804a25d4:  (__TEXT,__text) private	_mach_msg2_internal	
+0x18048d478:  (__TEXT,__text) non-external (was a private external)	_mach_msg2_trap	
+0x1804a26d4:  (__TEXT,__text) non-external (was a private external)	_mach_msg_destroy	
+0x1804a291c:  (__TEXT,__text) private	_mach_msg_destroy_port	
+0x18050f074:  (__TEXT,__text) non-external (was a private external)	_mach_msg_overwrite	
+0x18048d3c4:  (__TEXT,__text) non-external (was a private external)	_mach_msg_overwrite_trap	
+0x18048d3b8:  (__TEXT,__text) non-external (was a private external)	_mach_msg_trap	
+0x1804a2444:  (__TEXT,__text) non-external (was a private external)	_mach_port_construct	
+0x18050f560:  (__TEXT,__text) non-external (was a private external)	_mach_port_deallocate	
+0x18050f6f8:  (__TEXT,__text) non-external (was a private external)	_mach_port_destruct	
+0x1804cc210:  (__TEXT,__text) non-external (was a private external)	_mach_port_mod_refs	
+0x18048d388:  (__TEXT,__text) non-external (was a private external)	_mach_reply_port	
+0x1edde2818:  (__DATA_DIRTY,__common) non-external (was a private external)	_mach_task_self_	
+0x18050f450:  (__TEXT,__text) non-external (was a private external)	_mach_timebase_info	
+0x1eaf95ca0:  (__DATA,__bss) private	_mach_timebase_info.cached_info	
+0x18048d544:  (__TEXT,__text) non-external (was a private external)	_mach_timebase_info_trap	
+0x1804a1c54:  (__TEXT,__text) non-external (was a private external)	_mach_vm_deallocate	
+0x1804913a4:  (__TEXT,__text) non-external (was a private external)	_mach_vm_map	
+0x18048d4fc:  (__TEXT,__text) non-external (was a private external)	_mach_vm_reclaim_update_kernel_accounting_trap	
+0x18048d514:  (__TEXT,__text) non-external (was a private external)	_mach_voucher_extract_attr_recipe_trap	
+0x18048d550:  (__TEXT,__text) non-external (was a private external)	_mach_wait_until	
+0x18048d4c0:  (__TEXT,__text) non-external (was a private external)	_macx_backing_store_recovery	
+0x18048d4b4:  (__TEXT,__text) non-external (was a private external)	_macx_backing_store_suspend	
+0x18048d490:  (__TEXT,__text) non-external (was a private external)	_macx_swapoff	
+0x18048d484:  (__TEXT,__text) non-external (was a private external)	_macx_swapon	
+0x18048d4a8:  (__TEXT,__text) non-external (was a private external)	_macx_triggers	
+0x180523f30:  (__TEXT,__const) private	_masks	
+0x1804c1480:  (__TEXT,__text) non-external (was a private external)	_memchr	
+0x18048bd90:  (__TEXT,__text) non-external (was a private external)	_memcmp	
+0x18048a360:  (__TEXT,__text) non-external (was a private external)	_memcpy	
+0x18048a360:  (__TEXT,__text) non-external (was a private external)	_memmove	
+0x1804da4ec:  (__TEXT,__text) non-external (was a private external)	_memorystatus_control	
+0x18048c370:  (__TEXT,__text) non-external (was a private external)	_memset	
+0x1804c71b0:  (__TEXT,__text) non-external (was a private external)	_memset_s	
+0x18050f174:  (__TEXT,__text) non-external (was a private external)	_mig_dealloc_reply_port	
+0x1804a23b0:  (__TEXT,__text) private	_mig_get_reply_port	
+0x18048d574:  (__TEXT,__text) non-external (was a private external)	_mk_timer_arm	
+0x18048d58c:  (__TEXT,__text) non-external (was a private external)	_mk_timer_arm_leeway	
+0x18048d580:  (__TEXT,__text) non-external (was a private external)	_mk_timer_cancel	
+0x18048d55c:  (__TEXT,__text) non-external (was a private external)	_mk_timer_create	
+0x18048d568:  (__TEXT,__text) non-external (was a private external)	_mk_timer_destroy	
+0x1804da518:  (__TEXT,__text) non-external (was a private external)	_mkdir	
+0x180497674:  (__TEXT,__text) non-external (was a private external)	_mmap	
+0x1804da544:  (__TEXT,__text) non-external (was a private external)	_mount	
+0x1804a79a0:  (__TEXT,__text) non-external (was a private external)	_mprotect	
+0x1804da570:  (__TEXT,__text) non-external (was a private external)	_mremap_encrypted	
+0x18048e658:  (__TEXT,__text) non-external (was a private external)	_munmap	
+0x18050ef00:  (__TEXT,__text) private	_mutex_seq_atomic_cmpxchgv_acquire	
+0x18050eee0:  (__TEXT,__text) private	_mutex_seq_atomic_cmpxchgv_relaxed	
+0x18050ef20:  (__TEXT,__text) private	_mutex_seq_atomic_cmpxchgv_release	
+0x18050c970:  (__TEXT,__text) non-external (was a private external)	_object_absence_policy_default	
+0x18050c978:  (__TEXT,__text) non-external (was a private external)	_object_absence_policy_optional	
+0x18050c984:  (__TEXT,__text) non-external (was a private external)	_object_absence_policy_root_optional	
+0x18050c880:  (__TEXT,__text) non-external (was a private external)	_object_derive_im4m_name	
+0x18050c95c:  (__TEXT,__text) non-external (was a private external)	_object_derive_supplemental_im4m_name	
+0x18050c9f4:  (__TEXT,__text) non-external (was a private external)	_object_fd_close	
+0x18050ca34:  (__TEXT,__text) non-external (was a private external)	_object_getfd	
+0x18050c998:  (__TEXT,__text) non-external (was a private external)	_object_setfd	
+0x18050dce0:  (__TEXT,__text) private	_oct	
+0x18048e00c:  (__TEXT,__text) non-external (was a private external)	_open	
+0x18050f500:  (__TEXT,__text) non-external (was a private external)	_open_dprotected_np	
+0x18048df08:  (__TEXT,__text) non-external (was a private external)	_open_with_subsystem	
+0x18049c9a8:  (__TEXT,__text) non-external (was a private external)	_openat	
+0x1804da59c:  (__TEXT,__text) non-external (was a private external)	_os_fault_with_payload	
+0x18050d5d4:  (__TEXT,__text) non-external (was a private external)	_os_log_simple_type_from_asl	
+0x180523ee8:  (__TEXT,__const) private	_os_log_simple_type_from_asl._level2ostype	
+0x1804b27e0:  (__TEXT,__text) non-external (was a private external)	_os_unfair_lock_assert_not_owner	
+0x180521544:  (__TEXT,__text) private	_os_unfair_lock_assert_not_owner.cold.1	
+0x1804b2b8c:  (__TEXT,__text) non-external (was a private external)	_os_unfair_lock_assert_owner	
+0x18052151c:  (__TEXT,__text) private	_os_unfair_lock_assert_owner.cold.1	
+0x1804d50a8:  (__TEXT,__text) non-external (was a private external)	_os_unfair_lock_lock	
+0x18050e130:  (__TEXT,__text) non-external (was a private external)	_os_unfair_lock_lock_with_options	
+0x18050e154:  (__TEXT,__text) non-external (was a private external)	_os_unfair_lock_unlock	
+0x18048d46c:  (__TEXT,__text) non-external (was a private external)	_pid_for_task	
+0x1804d9d6c:  (__TEXT,__text) non-external (was a private external)	_pipe	
+0x1804b187c:  (__TEXT,__text) non-external (was a private external)	_pread	
+0x18050f1ec:  (__TEXT,__text) non-external (was a private external)	_proc_pidinfo	
+0x1804da5c8:  (__TEXT,__text) non-external (was a private external)	_proc_rlimit_control	
+0x1804a1fb8:  (__TEXT,__text) non-external (was a private external)	_proc_set_dyld_all_image_info	
+0x18050ea58:  (__TEXT,__text) non-external (was a private external)	_pthread_exit	
+0x1804cf6a8:  (__TEXT,__text) private	_put_c	
+0x1804da5f4:  (__TEXT,__text) non-external (was a private external)	_pwrite	
+0x1eaf95bd0:  (__DATA,__bss) private	_rdat	
+0x1804da620:  (__TEXT,__text) non-external (was a private external)	_read	
+0x18049cd5c:  (__TEXT,__text) non-external (was a private external)	_realpathfd	
+0x18050f4d4:  (__TEXT,__text) non-external (was a private external)	_rename	
+0x18050ef74:  (__TEXT,__text) non-external (was a private external)	_rosetta_dyld_get_aot_size	
+0x18050ef40:  (__TEXT,__text) non-external (was a private external)	_rosetta_dyld_get_runtime_info	
+0x18048d8fc:  (__TEXT,__text) non-external (was a private external)	_rosetta_dyld_is_translated	
+0x18050efb4:  (__TEXT,__text) non-external (was a private external)	_rosetta_dyld_map_aot	
+0x1eaf94bd0:  (__DATA,__data) private	_rs	
+0x1eaf95bc8:  (__DATA,__bss) private	_rs_data_available	
+0x1eaf95bc4:  (__DATA,__bss) private	_rs_stired	
+0x18049c624:  (__TEXT,__text) non-external (was a private external)	_sandbox_check	
+0x1804a146c:  (__TEXT,__text) private	_sandbox_check_common	
+0x18049c5b8:  (__TEXT,__text) private	_sandbox_operation_fixup	
+0x18050eff0:  (__TEXT,__text) private	_sandbox_warn	
+0x1804c5e80:  (__TEXT,__text) private	_sb	
+0x18050f844:  (__TEXT,__text) non-external (was a private external)	_semaphore_destroy	
+0x18048d3dc:  (__TEXT,__text) non-external (was a private external)	_semaphore_signal_all_trap	
+0x18048d3e8:  (__TEXT,__text) non-external (was a private external)	_semaphore_signal_thread_trap	
+0x18048d3d0:  (__TEXT,__text) non-external (was a private external)	_semaphore_signal_trap	
+0x18048d418:  (__TEXT,__text) non-external (was a private external)	_semaphore_timedwait_signal_trap	
+0x18048d40c:  (__TEXT,__text) non-external (was a private external)	_semaphore_timedwait_trap	
+0x18048d400:  (__TEXT,__text) non-external (was a private external)	_semaphore_wait_signal_trap	
+0x18048d3f4:  (__TEXT,__text) non-external (was a private external)	_semaphore_wait_trap	
+0x1804da038:  (__TEXT,__text) non-external (was a private external)	_sendto	
+0x1804da64c:  (__TEXT,__text) non-external (was a private external)	_setxattr	
+0x180524260:  (__TEXT,__const) non-external (was a private external)	_sha512_K	
+0x1804da678:  (__TEXT,__text) non-external (was a private external)	_sigprocmask	
+0x18050cb98:  (__TEXT,__text) non-external (was a private external)	_sleep_ns	
+0x1804f6828:  (__TEXT,__text) non-external (was a private external)	_snprintf	
+0x1804da6a4:  (__TEXT,__text) non-external (was a private external)	_socket	
+0x18049c698:  (__TEXT,__text) non-external (was a private external)	_stage_fire	
+0x1804a73b4:  (__TEXT,__text) non-external (was a private external)	_stage_next	
+0x1804983d4:  (__TEXT,__text) non-external (was a private external)	_stat	
+0x1804983d4:  (__TEXT,__text) non-external (was a private external)	_stat64	
+0x1804982e8:  (__TEXT,__text) non-external (was a private external)	_stat_with_subsystem	
+0x1804da6d0:  (__TEXT,__text) non-external (was a private external)	_statfs	
+0x1804da6d0:  (__TEXT,__text) non-external (was a private external)	_statfs64	
+0x1804a3ce0:  (__TEXT,__text) non-external (was a private external)	_strchr	
+0x180484d30:  (__TEXT,__text) non-external (was a private external)	_strcmp	
+0x18050e764:  (__TEXT,__text) non-external (was a private external)	_strcpy	
+0x1804c133c:  (__TEXT,__text) non-external (was a private external)	_strlcat	
+0x1804909b4:  (__TEXT,__text) non-external (was a private external)	_strlcpy	
+0x180484f00:  (__TEXT,__text) non-external (was a private external)	_strlen	
+0x180484c10:  (__TEXT,__text) non-external (was a private external)	_strncmp	
+0x180484e60:  (__TEXT,__text) non-external (was a private external)	_strnlen	
+0x1804a3c90:  (__TEXT,__text) non-external (was a private external)	_strrchr	
+0x1804c26f4:  (__TEXT,__text) non-external (was a private external)	_strstr	
+0x1eaf95c68:  (__DATA,__bss) private	_subsystem_root_path	
+0x18048d4d8:  (__TEXT,__text) non-external (was a private external)	_swtch	
+0x18048d4cc:  (__TEXT,__text) non-external (was a private external)	_swtch_pri	
+0x1804da0bc:  (__TEXT,__text) non-external (was a private external)	_syscall	
+0x18048d4e4:  (__TEXT,__text) non-external (was a private external)	_syscall_thread_switch	
+0x1804a3e84:  (__TEXT,__text) non-external (was a private external)	_sysctlbyname	
+0x18048d2f8:  (__TEXT,__text) non-external (was a private external)	_task_dyld_process_info_notify_get	
+0x18048d460:  (__TEXT,__text) non-external (was a private external)	_task_for_pid	
+0x18048d454:  (__TEXT,__text) non-external (was a private external)	_task_name_for_pid	
+0x18048d3a0:  (__TEXT,__text) non-external (was a private external)	_task_self_trap	
+0x18050f41c:  (__TEXT,__text) private	_terminate_with_payload	
+0x18050f69c:  (__TEXT,__text) non-external (was a private external)	_thread_destruct_special_reply_port	
+0x18048d49c:  (__TEXT,__text) non-external (was a private external)	_thread_get_special_reply_port	
+0x18048d394:  (__TEXT,__text) non-external (was a private external)	_thread_self_trap	
+0x18048d5a4:  (__TEXT,__text) non-external (was a private external)	_thread_set_x86_64_compat	
+0x1804c5de0:  (__TEXT,__text) non-external (was a private external)	_timingsafe_enable_if_supported	
+0x1804c6270:  (__TEXT,__text) non-external (was a private external)	_timingsafe_restore_if_supported	
+0x18050ddc0:  (__TEXT,__text) private	_udec	
+0x18050f4a8:  (__TEXT,__text) non-external (was a private external)	_unlink	
+0x1804a62fc:  (__TEXT,__text) non-external (was a private external)	_vdlog	
+0x18048a160:  (__TEXT,__text) non-external (was a private external)	_vm_allocate	
+0x1804a1dcc:  (__TEXT,__text) non-external (was a private external)	_vm_deallocate	
+0x1edde3980:  (__DATA_DIRTY,__bss) private	_vm_kernel_page_shift	
+0x1edde2810:  (__DATA_DIRTY,__common) non-external (was a private external)	_vm_page_mask	
+0x1edde2808:  (__DATA_DIRTY,__common) non-external (was a private external)	_vm_page_shift	
+0x1edde2800:  (__DATA_DIRTY,__common) non-external (was a private external)	_vm_page_size	
+0x1804d6420:  (__TEXT,__text) non-external (was a private external)	_vm_protect	
+0x1804bfb60:  (__TEXT,__text) non-external (was a private external)	_vsnprintf	
+0x1804da6fc:  (__TEXT,__text) non-external (was a private external)	_write	
+0x1804a73a0:  (__TEXT,__text) non-external (was a private external)	_xferfd	
+0x18050deb4:  (__TEXT,__text) private	_ydec	
+0x180524518:  (__TEXT,__const) non-external (was a private external)	a1	
+0x180524520:  (__TEXT,__const) non-external (was a private external)	a2	
+0x180524530:  (__TEXT,__const) non-external (was a private external)	a3	
+0x1805245b0:  (__TEXT,__const) non-external (was a private external)	a4	
+0x180524538:  (__TEXT,__const) non-external (was a private external)	a5	
+0x1805245d0:  (__TEXT,__const) non-external (was a private external)	a6	
+0x1805245d8:  (__TEXT,__const) non-external (was a private external)	a7	
+0x1e0187568:  (__DATA_CONST,__const) non-external (was a private external)	g1	
+0x1e0187558:  (__DATA_CONST,__const) non-external (was a private external)	g2	
+0x1e0187548:  (__DATA_CONST,__const) non-external (was a private external)	g3	
+0x1e0187538:  (__DATA_CONST,__const) non-external (was a private external)	g4	
+0x180486bcc:  (__TEXT,__text) non-external (was a private external)	start	
+0x1e0187520:  (__DATA_CONST,__const) private	v1	
+0x1e0187510:  (__DATA_CONST,__const) private	v2	
+0x1e0187500:  (__DATA_CONST,__const) private	v3	
+0x1e01874d8:  (__DATA_CONST,__const) private	v4	
+0x1804889f0:  (__TEXT,__text) external	__dyld_start	
+0x1edde2600:  (__DATA_DIRTY,__all_image_info) external	_dyld_all_image_infos	
+0x1804a05b4:  (__TEXT,__text) external	_lldb_image_notifier	
+
+Dyld Exports Trie
+-----------------
+0x1804889f0:  regular	__dyld_start
+0x1edde2600:  regular	_dyld_all_image_infos
+0x1804a05b4:  regular	_lldb_image_notifier
+

@@ -84,3 +84,6 @@ Pela web: Actions → triage → Run workflow → informe `build` e `symbol`. O 
 ## Baseline
 
 O diff é contra `iPhone18,2_26.6.1_23G83_Restore.ipsw`. Sem a baseline o `extract.sh` ainda roda, mas o passo de diff é pulado e registrado como `skipped`.
+- arquivo dividido por exceder 120 KB: 04-symbols/all-symbols.txt
+- decompilacao pulada: sem OPENAI_API_KEY e sem analyzeHeadless
+- diff pulado: BASE_IPSW nao fornecido
