@@ -184,6 +184,7 @@ if command -v nm >/dev/null 2>&1; then
     registrar_limite "\`nm -u\` falhou"
   dividir 04-symbols/exports.txt
   dividir 04-symbols/imports.txt
+[ -s 04-symbols/imports.txt ] || echo "nenhum simbolo importado reportado por nm -u" > 04-symbols/imports.txt
 else
   registrar_limite "nm indisponivel; 04-symbols ficou vazio"
 fi
