@@ -98,3 +98,5 @@ O diff é contra `iPhone18,2_26.6.1_23G83_Restore.ipsw`. Sem a baseline o `extra
 - [x] `docs/00-cve.md` com o advisory (sem identificador atribuído)
 - [x] Artefatos legíveis em URL crua
 - arquivo dividido por exceder 120 KB: 04-symbols/all-symbols.txt
+- diff pulado: BASE_IPSW nao fornecido
+- decompilacao de `__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_` pulada: nenhum backend produziu saida (--dec exige OPENAI_API_KEY no ambiente, Ghidra exige GHIDRA_HOME ou ANALYZE_HEADLESS)
