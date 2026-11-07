@@ -1,0 +1,76 @@
+
+__ZN5dyld3L21preflightSubCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEPcPKcPKS3_:
+0x180509ec0:  7f 23 03 d5   pacibsp
+0x180509ec4:  ff 83 05 d1   sub	sp, sp, #0x160
+0x180509ec8:  fc 6f 11 a9   stp	x28, x27, [sp, #0x110]
+0x180509ecc:  f8 5f 12 a9   stp	x24, x23, [sp, #0x120]
+0x180509ed0:  f6 57 13 a9   stp	x22, x21, [sp, #0x130]
+0x180509ed4:  f4 4f 14 a9   stp	x20, x19, [sp, #0x140]
+0x180509ed8:  fd 7b 15 a9   stp	fp, lr, [sp, #0x150]
+0x180509edc:  fd 43 05 91   add	fp, sp, #0x150
+0x180509ee0:  f4 03 05 aa   mov	x20, x5
+0x180509ee4:  f7 03 04 aa   mov	x23, x4
+0x180509ee8:  f5 03 02 aa   mov	x21, x2
+0x180509eec:  f3 03 01 aa   mov	x19, x1
+0x180509ef0:  f6 03 00 aa   mov	x22, x0
+0x180509ef4:  88 aa 36 f0   adrp	x8, 0x1eda5c000
+0x180509ef8:  08 01 03 91   add	x8, x8, #0xc0 ; ___stack_chk_guard
+0x180509efc:  08 01 40 f9   ldr	x8, [x8]
+0x180509f00:  a8 83 1b f8   stur	x8, [fp, #-0x48]
+0x180509f04:  18 00 40 b9   ldr	w24, [x0]
+0x180509f08:  e0 23 00 91   add	x0, sp, #0x8
+0x180509f0c:  e1 03 03 aa   mov	x1, x3
+0x180509f10:  02 20 80 52   mov	w2, #0x100
+0x180509f14:  a8 1a fe 97   bl	_strlcpy
+0x180509f18:  e0 23 00 91   add	x0, sp, #0x8
+0x180509f1c:  e1 03 17 aa   mov	x1, x23
+0x180509f20:  02 20 80 52   mov	w2, #0x100
+0x180509f24:  06 dd fe 97   bl	_strlcat
+0x180509f28:  e1 23 00 91   add	x1, sp, #0x8
+0x180509f2c:  e0 03 18 aa   mov	x0, x24
+0x180509f30:  ec 01 00 94   bl	__ZN5dyld3L6openatEiPKc
+0x180509f34:  1f 04 00 31   cmn	w0, #0x1
+0x180509f38:  60 01 00 54   b.eq	loc_180509f64 ; ⤵ 0x2c
+0x180509f3c:  e3 03 00 aa   mov	x3, x0
+0x180509f40:  28 00 80 52   mov	w8, #0x1
+0x180509f44:  68 62 00 39   strb	w8, [x19, #0x18]
+0x180509f48:  e0 03 16 aa   mov	x0, x22
+0x180509f4c:  e1 03 13 aa   mov	x1, x19
+0x180509f50:  e2 03 15 aa   mov	x2, x21
+0x180509f54:  04 00 80 d2   mov	x4, #0
+0x180509f58:  e5 03 14 aa   mov	x5, x20
+0x180509f5c:  66 00 00 94   bl	__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_
+0x180509f60:  0e 00 00 14   b	loc_180509f98 ; ⤵ 0x38
+0x180509f64:  ; loc_180509f64
+0x180509f64:  ef 48 fe 97   bl	___error
+0x180509f68:  08 00 40 b9   ldr	w8, [x0]
+0x180509f6c:  1f 09 00 71   cmp	w8, #0x2
+0x180509f70:  c1 00 00 54   b.ne	loc_180509f88 ; ⤵ 0x18
+0x180509f74:  00 00 80 52   mov	w0, #0
+0x180509f78:  7f 62 00 39   strb	wzr, [x19, #0x18]
+0x180509f7c:  28 01 00 d0   adrp	x8, 0x18052f000
+0x180509f80:  08 49 0d 91   add	x8, x8, #0x352 ; "no shared cache file"
+0x180509f84:  04 00 00 14   b	loc_180509f94 ; ⤵ 0x10
+0x180509f88:  ; loc_180509f88
+0x180509f88:  00 00 80 52   mov	w0, #0
+0x180509f8c:  28 01 00 d0   adrp	x8, 0x18052f000
+0x180509f90:  08 9d 0d 91   add	x8, x8, #0x367 ; "shared cache file open() failed"
+0x180509f94:  ; loc_180509f94
+0x180509f94:  68 0a 00 f9   str	x8, [x19, #0x10]
+0x180509f98:  ; loc_180509f98
+0x180509f98:  a8 83 5b f8   ldur	x8, [fp, #-0x48]
+0x180509f9c:  89 aa 36 f0   adrp	x9, 0x1eda5c000
+0x180509fa0:  29 01 03 91   add	x9, x9, #0xc0 ; ___stack_chk_guard
+0x180509fa4:  29 01 40 f9   ldr	x9, [x9]
+0x180509fa8:  3f 01 08 eb   cmp	x9, x8
+0x180509fac:  01 01 00 54   b.ne	loc_180509fcc ; ⤵ 0x20
+0x180509fb0:  fd 7b 55 a9   ldp	fp, lr, [sp, #0x150]
+0x180509fb4:  f4 4f 54 a9   ldp	x20, x19, [sp, #0x140]
+0x180509fb8:  f6 57 53 a9   ldp	x22, x21, [sp, #0x130]
+0x180509fbc:  f8 5f 52 a9   ldp	x24, x23, [sp, #0x120]
+0x180509fc0:  fc 6f 51 a9   ldp	x28, x27, [sp, #0x110]
+0x180509fc4:  ff 83 05 91   add	sp, sp, #0x160
+0x180509fc8:  ff 0f 5f d6   retab
+0x180509fcc:  ; loc_180509fcc
+0x180509fcc:  ad 29 ff 97   bl	___stack_chk_fail
+
