@@ -23,8 +23,8 @@ __ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadI
   int *piVar14;
   long lVar15;
   uint uVar16;
-  uint uVar17;
-  char *pcVar18;
+  char *pcVar17;
+  uint uVar18;
   ulong uVar19;
   long lVar20;
   long lVar21;
@@ -71,34 +71,34 @@ __ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadI
     *(ulong *)(lVar15 + 0x1c) = auStack_4070[0];
     lVar9 = func_0x0001804b187c(param_4,auStack_4070,0x4000,0);
     if (lVar9 != 0x4000) {
-      pcVar18 = "shared cache file pread() failed";
+      pcVar17 = "shared cache file pread() failed";
       goto LAB_18050a234;
     }
     uVar10 = func_0x00018049d25c(auStack_4070);
     if ((uVar10 & 1) == 0) {
-      pcVar18 = "shared cache file has wrong magic";
+      pcVar17 = "shared cache file has wrong magic";
       goto LAB_18050a234;
     }
     iVar7 = func_0x000180484230(lVar13 + 0x10);
     if (iStack_3f98 == iVar7) {
       if ((bStack_3f93 >> 1 & 1) != 0) {
 LAB_18050a22c:
-        pcVar18 = "shared cache file is for a different platform";
+        pcVar17 = "shared cache file is for a different platform";
         goto LAB_18050a234;
       }
     }
     else if ((iStack_3f00 == 0) || (iStack_3f00 != iVar7)) goto LAB_18050a22c;
     if (uStack_405c - 9 < 0xfffffff8) {
-      pcVar18 = "shared cache file mappings are invalid";
+      pcVar17 = "shared cache file mappings are invalid";
       goto LAB_18050a234;
     }
     uVar19 = (ulong)uStack_4060;
     lVar9 = uVar19 - 0x4070;
     plVar1 = (long *)((long)auStack_4070 + (ulong)(uStack_405c - 1) * 0x20 + lVar9 + 0x4070);
-    uVar10 = *(ulong *)((long)auStack_4070 + uVar19 + 0x10);
+    uVar10 = *(ulong *)((long)&uStack_4060 + uVar19);
     if (uVar10 == 0) {
       if (alStack_4050[2] + alStack_4050[1] != lStack_5cd8) {
-        pcVar18 = "shared cache code signature size is invalid";
+        pcVar17 = "shared cache code signature size is invalid";
         goto LAB_18050a2ec;
       }
       if (uStack_405c < 2) goto LAB_18050a308;
@@ -110,9 +110,9 @@ LAB_18050a2f8:
       uVar8 = *(uint *)((long)auStack_4058 + uVar19) | 4;
     }
     else {
-      pcVar18 = "shared cache text file offset is invalid";
+      pcVar17 = "shared cache text file offset is invalid";
 LAB_18050a2ec:
-      *(char **)(lVar15 + 0x10) = pcVar18;
+      *(char **)(lVar15 + 0x10) = pcVar17;
       if (1 < uStack_405c) goto LAB_18050a2f8;
 LAB_18050a308:
       bVar6 = false;
@@ -130,7 +130,7 @@ LAB_18050a308:
           puVar26 = (ulong *)((long)auStack_4070 + (ulong)uVar8 * 0x20 + lVar9 + 0x4070);
           if ((*puVar26 < (ulong)(lVar12 + *plVar2)) ||
              (uVar10 = uVar10 + lVar12, uVar10 != puVar26[2])) {
-            pcVar18 = "shared cache mappings overlap";
+            pcVar17 = "shared cache mappings overlap";
             goto LAB_18050a234;
           }
           uVar8 = uVar8 + 1;
@@ -142,15 +142,15 @@ LAB_18050a308:
       puVar26 = &uStack_40a8;
       iVar7 = func_0x00018048e47c(param_4,0x61);
       if (iVar7 == -1) {
-        pcVar18 = "code signature registration for shared cache failed";
+        pcVar17 = "code signature registration for shared cache failed";
       }
       else if (uStack_40a8 < (ulong)alStack_4050[1]) {
-        pcVar18 = "code signature does not cover entire shared cache file";
+        pcVar17 = "code signature does not cover entire shared cache file";
       }
       else {
         lVar12 = func_0x000180497674(0,0x4000,5,2,param_4,0,param_7,param_8,puVar26);
         if (lVar12 == -1) {
-          pcVar18 = "first page of shared cache not mmap()able";
+          pcVar17 = "first page of shared cache not mmap()able";
         }
         else {
           iVar7 = func_0x00018048bd90(lVar12,auStack_4070,0x4000);
@@ -177,7 +177,7 @@ LAB_18050a308:
               iVar7 = 0;
               do {
                 puVar4 = (undefined8 *)((long)auStack_4070 + uVar10 * 0x20 + lVar9 + 0x4070);
-                uVar17 = *(uint *)(puVar4 + 3);
+                uVar18 = *(uint *)(puVar4 + 3);
                 uVar16 = *(uint *)((long)puVar4 + 0x1c);
                 lVar12 = uVar10 * 0x38 + ((ulong)uStack_3f38 - 0x4070);
                 uVar19 = *(ulong *)((long)alStack_4050 + lVar12 + 0x4078);
@@ -190,14 +190,14 @@ LAB_18050a308:
                     uVar16 = uVar16 | 2;
                   }
                   else {
-                    uVar17 = uVar17 | 0x200;
+                    uVar18 = uVar18 | 0x200;
                   }
                 }
                 lVar5 = *(long *)((long)auStack_4058 + lVar12 + 0x4070);
                 lVar12 = *(long *)((long)alStack_4050 + lVar12 + 0x4070);
                 if ((uVar19 & 0x40) != 0) {
+                  uVar18 = 3;
                   uVar16 = 3;
-                  uVar17 = 3;
                 }
                 if (((uint)uVar19 >> 7 & 1) == 0) {
 LAB_18050a544:
@@ -210,7 +210,7 @@ LAB_18050a544:
                   puVar3[3] = 0;
                   puVar3[4] = 0;
                   puVar3[2] = uVar11;
-                  *(uint *)(puVar3 + 5) = uVar17;
+                  *(uint *)(puVar3 + 5) = uVar18;
                   *(uint *)((long)puVar3 + 0x2c) = uVar16;
                   if (lVar12 != 0) {
                     if (!bVar6) goto LAB_18050a6dc;
@@ -218,7 +218,7 @@ LAB_18050a544:
                     lVar21 = *plVar1;
                     puVar3[3] = lVar12;
                     puVar3[4] = (lVar5 - lVar20) + lVar21;
-                    *(uint *)(puVar3 + 5) = uVar17 | uVar8;
+                    *(uint *)(puVar3 + 5) = uVar18 | uVar8;
                     *(uint *)((long)puVar3 + 0x2c) = uVar16 | uVar8;
                   }
                   iVar7 = iVar7 + 1;
@@ -243,7 +243,7 @@ LAB_18050a544:
                 if (uStack_3ee4 != 0) {
                   lVar13 = func_0x0001804b187c(param_4,auStack_5ca8,0x1c00,uStack_3ee8);
                   if (lVar13 != 0x1c00) {
-                    pcVar18 = "shared cache file pread() failed, could not read subcache entries";
+                    pcVar17 = "shared cache file pread() failed, could not read subcache entries";
                     goto LAB_18050a234;
                   }
                   uVar10 = (ulong)uStack_3ee4;
@@ -266,14 +266,14 @@ LAB_18050a544:
                 uVar11 = 1;
                 goto LAB_18050a244;
               }
-              pcVar18 = "no shared cache subcache indices";
+              pcVar17 = "no shared cache subcache indices";
             }
             else {
-              pcVar18 = "shared cache file subcache count exceeds limit";
+              pcVar17 = "shared cache file subcache count exceeds limit";
             }
           }
           else {
-            pcVar18 = "first page of mmap()ed shared cache not valid";
+            pcVar17 = "first page of mmap()ed shared cache not valid";
           }
         }
       }
@@ -281,9 +281,9 @@ LAB_18050a544:
     }
   }
   else {
-    pcVar18 = "shared cache file stat() failed";
+    pcVar17 = "shared cache file stat() failed";
 LAB_18050a234:
-    *(char **)(lVar15 + 0x10) = pcVar18;
+    *(char **)(lVar15 + 0x10) = pcVar17;
   }
   func_0x00018048e06c(param_4);
   uVar11 = 0;

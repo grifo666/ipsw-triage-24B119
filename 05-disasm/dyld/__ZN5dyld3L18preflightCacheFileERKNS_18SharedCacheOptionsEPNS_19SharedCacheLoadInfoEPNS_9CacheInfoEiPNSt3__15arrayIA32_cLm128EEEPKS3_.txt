@@ -1,4 +1,3 @@
-   • Loaded 4213 symbols from cache file: /Users/operador/triage/_tmp/bin/dyld.a2s
 
 __ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_:
 0x18050a0f4:  7f 23 03 d5   pacibsp
