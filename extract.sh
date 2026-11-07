@@ -17,6 +17,7 @@ cd "$ROOT"
 : "${DEVICE:?defina DEVICE em params.env}"
 : "${BUILD:?defina BUILD em params.env}"
 
+echo "ALVO efetivo: ${TARGET_SYMBOL:-<vazio>} | BUILD: $BUILD | DEVICE: $DEVICE" >&2
 ETAPA="${ETAPA:-all}"
 case "$ETAPA" in all|disasm|decomp) ;; *) echo "ERRO: ETAPA invalida: $ETAPA" >&2; exit 1 ;; esac
 DEC_FALHOU=0
