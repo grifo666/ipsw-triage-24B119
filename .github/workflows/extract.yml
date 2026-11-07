@@ -23,6 +23,10 @@ on:
         description: simbolo alvo
         required: false
         default: indefinido
+      target_symbols:
+        description: simbolos alvo, um por linha (lote)
+        required: false
+        default: ""
       dyld_path:
         description: caminho da dylib dentro do cache
         required: false
@@ -97,7 +101,17 @@ jobs:
           mkdir -p "$HOME/.ghidra"
           echo "JAVA_HOME=${JAVA_HOME:-<vazio>}"
           "${JAVA_HOME:-/usr}/bin/java" -version 2>&1 || true
-          GHIDRA_HOME="$HOME/ghidra_12.0_PUBLIC" ETAPA=decomp ./extract.sh
+          export GHIDRA_HOME="$HOME/ghidra_12.0_PUBLIC"
+          LIST="${{ inputs.target_symbols }}"
+          [ -z "$LIST" ] && LIST="${{ inputs.target_symbol }}"
+          fail=0
+          while IFS= read -r sym; do
+            [ -z "$sym" ] && continue
+            echo "::group::decomp $sym"
+            TARGET_SYMBOL="$sym" ETAPA=decomp ./extract.sh || fail=1
+            echo "::endgroup::"
+          done <<< "$LIST"
+          exit $fail
 
       - name: commitar texto
         run: |
