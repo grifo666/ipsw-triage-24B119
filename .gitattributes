@@ -7,3 +7,7 @@
 *.yml text eol=lf
 *.plist -text
 *.macho binary
+*.dylib binary
+*.bin binary
+kernelcache* binary
+dyld binary

@@ -17,6 +17,9 @@ cd "$ROOT"
 : "${DEVICE:?defina DEVICE em params.env}"
 : "${BUILD:?defina BUILD em params.env}"
 
+ETAPA="${ETAPA:-all}"
+case "$ETAPA" in all|disasm|decomp) ;; *) echo "ERRO: ETAPA invalida: $ETAPA" >&2; exit 1 ;; esac
+
 RUN_TMP="${RUN_TMP:-$ROOT/_tmp}"
 mkdir -p "$RUN_TMP"
 mkdir -p 01-info 03-entitlements 04-symbols 07-strings 08-kernel 09-diff
@@ -64,6 +67,10 @@ for sub in macho dyld kernel; do
 done
 
 IPSW="${IPSW:-}"
+
+if [ -z "$IPSW" ]; then
+  IPSW="$(find "$RUN_TMP" -maxdepth 2 -name '*.ipsw' 2>/dev/null | head -1)"
+fi
 if [ -z "$IPSW" ]; then
   if [ -n "${IPSW_LOCAL:-}" ] && [ -f "$IPSW_LOCAL" ]; then
     IPSW="$IPSW_LOCAL"
@@ -89,6 +96,13 @@ BIN=""
 MACHO_DIR=""
 
 preparar_dyld() {
+  local prev="$RUN_TMP/bin/$(basename "$DYLD_PATH")"
+  if [ -f "$prev" ] && [ -s "$prev" ]; then
+    BIN="$prev"
+    echo "BIN reaproveitado: $BIN"
+    return 0
+  fi
+
   CACHE_DIR="${CACHE_DIR:-}"
   if [ -z "$CACHE_DIR" ] && [ -n "${DSC_LOCAL:-}" ] && [ -d "$DSC_LOCAL" ]; then
     CACHE_DIR="$DSC_LOCAL"
@@ -198,6 +212,7 @@ dividir 07-strings/strings-filtradas.txt
 
 SIMBOLO="${TARGET_SYMBOL:-}"
 if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
+  if [ "$ETAPA" != "decomp" ]; then
   ALVO_DIS="05-disasm/$(basename "$BIN")/$SIMBOLO.txt"
   if "$IPSW_BIN" macho disass --arch arm64e --symbol "$SIMBOLO" "$BIN" 2>&1 \
        | strip_ansi > "$ALVO_DIS"; then
@@ -207,40 +222,51 @@ if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
     registrar_limite "disassembly de \`$SIMBOLO\` falhou"
   fi
 
+  fi
+  if [ "$ETAPA" != "disasm" ]; then
   ALVO_DEC="06-decomp/$(basename "$BIN")/$SIMBOLO.c"
   DEC_OK=0
+  DEC_BACKEND=""
 
-  if [ -n "${OPENAI_API_KEY:-}" ]; then
-    if "$IPSW_BIN" macho disass --arch arm64e --symbol "$SIMBOLO" --dec \
-         --dec-lang C "$BIN" 2>&1 | strip_ansi > "$ALVO_DEC"; then
+  GHIDRA_HEADLESS="${ANALYZE_HEADLESS:-}"
+  if [ -z "$GHIDRA_HEADLESS" ] && [ -n "${GHIDRA_HOME:-}" ]; then
+    GHIDRA_HEADLESS="$GHIDRA_HOME/support/analyzeHeadless"
+  fi
+  [ -x "${GHIDRA_HEADLESS:-/nonexistent}" ] || \
+    GHIDRA_HEADLESS="$(command -v analyzeHeadless 2>/dev/null || true)"
+
+  # backend 1: ipsw --dec (LLM; sem OPENAI_API_KEY falha rapido e cai no proximo)
+  if "$IPSW_BIN" macho disass --arch arm64e --symbol "$SIMBOLO" --dec \
+       --dec-lang C "$BIN" 2>&1 | strip_ansi > "$ALVO_DEC" && [ -s "$ALVO_DEC" ]; then
+    DEC_OK=1
+    DEC_BACKEND="ipsw --dec"
+  else
+    rm -f "$ALVO_DEC"
+  fi
+
+  # backend 2: Ghidra headless
+  if [ "$DEC_OK" -eq 0 ] && [ -x "${GHIDRA_HEADLESS:-/nonexistent}" ]; then
+    mkdir -p "$RUN_TMP/ghidra"
+    if JAVA_HOME="${GHIDRA_JAVA_HOME:-${JAVA_HOME:-}}" "$GHIDRA_HEADLESS" \
+         "$RUN_TMP/ghidra" triage -import "$BIN" \
+         -scriptPath "$ROOT/ghidra_scripts" \
+         -postScript DecompileSymbol.java "$SIMBOLO" "$ALVO_DEC" \
+         -noanalysis -deleteProject \
+         2>&1 | strip_ansi > "$RUN_TMP/ghidra.log" && [ -s "$ALVO_DEC" ]; then
       DEC_OK=1
+      DEC_BACKEND="ghidra-headless"
     else
       rm -f "$ALVO_DEC"
-      registrar_limite "decompilacao LLM de \`$SIMBOLO\` falhou"
     fi
   fi
 
-  if [ "$DEC_OK" -eq 0 ] && command -v analyzeHeadless >/dev/null 2>&1; then
-    mkdir -p "$RUN_TMP/ghidra"
-    if analyzeHeadless "$RUN_TMP/ghidra" triage -import "$BIN" \
-         -postScript DecompileSymbol.java "$SIMBOLO" "$ALVO_DEC" \
-         -scriptPath "$ROOT/ghidra_scripts" -noanalysis -deleteProject \
-         2>&1 | strip_ansi > "$RUN_TMP/ghidra.log"; then
-      DEC_OK=1
-    else
-      registrar_limite "decompilacao via Ghidra headless falhou para \`$SIMBOLO\`"
-    fi
-  fi
-
-  if [ "$DEC_OK" -eq 1 ] && [ -s "$ALVO_DEC" ]; then
+  if [ "$DEC_OK" -eq 1 ]; then
+    printf 'backend: %s\n' "$DEC_BACKEND" > "${ALVO_DEC%.c}.backend.txt"
     dividir "$ALVO_DEC"
   else
     rm -f "$ALVO_DEC"
-    if [ -z "${OPENAI_API_KEY:-}" ] && ! command -v analyzeHeadless >/dev/null 2>&1; then
-      registrar_limite "decompilacao pulada: sem OPENAI_API_KEY e sem analyzeHeadless"
-    else
-      registrar_limite "decompilacao de \`$SIMBOLO\` nao produziu saida"
-    fi
+    registrar_limite "decompilacao de \`$SIMBOLO\` pulada: nenhum backend produziu saida (--dec exige OPENAI_API_KEY no ambiente, Ghidra exige GHIDRA_HOME ou ANALYZE_HEADLESS)"
+  fi
   fi
 else
   registrar_limite "TARGET_SYMBOL indefinido; 05-disasm e 06-decomp vazios"

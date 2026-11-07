@@ -37,3 +37,25 @@ A hipótese cai se:
 
 Não se afirma que 24B119 tenha regredido em relação a 23G83. O diff serve para
 verificar isso, não para pressupô-lo.
+
+## Evidência de disassembly: portões de entrada
+
+O bloco de entrada de `preflightCacheFile` (`0x18050a154`) é uma cadeia de validações
+estruturais, cada uma com saída própria:
+
+| Endereço | Instrução | Papel |
+|---|---|---|
+| `0x18050a164` | `cbz w0, loc_18050a174` | desvia de campo zero antes de qualquer comparação |
+| `0x18050a1b0` | `cmp x0, #0x4, lsl #0xc` | compara tamanho com `0x4000` |
+| `0x18050a1b4` | `b.ne loc_18050a1e8` | primeiro portão de rejeição |
+| `0x18050a1c4` | `tbz w0, #0, loc_18050a1f4` | testa bit 0 de campo do header |
+| `0x18050a1d4` | `cmp w8, w0` / `b.ne loc_18050a200` | igualdade entre dois campos |
+| `0x18050a1e0` | `tbz w8, #0x1, loc_18050a210` | testa bit 1 |
+| `0x18050a27c` | `retab` | saída antecipada |
+
+Não há `bl` antes de `0x18050a418` (`bl _memcmp`), e `memcmp` compara conteúdo, não
+assinatura. O `fcntl(F_ADDFILESIGS_RETURN)` previsto na hipótese não aparece nesse
+trecho: fica adiante e ainda precisa ser localizado.
+
+Ponto de desvio mais barato para teste: `0x18050a1b4`. Inverter a condição mantém a
+execução no caminho que segue para `0x18050a1c4` em vez de saltar para `0x18050a1e8`.

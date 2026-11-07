@@ -15,7 +15,7 @@ Devices
 
 iPhone 17 Pro Max
  > iPhone18,2_V54AP_24B119
-   - TimeStamp: 14 Oct 2026 04:06:09 UTC
+   - TimeStamp: 13 Oct 2026 21:06:09 PDT
    - KernelCache: kernelcache.release.v54
    - CPU: A19 Pro (ARMv9.2-A), ID: t8150
    - BootLoaders

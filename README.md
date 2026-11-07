@@ -96,3 +96,6 @@ O diff é contra `iPhone18,2_26.6.1_23G83_Restore.ipsw`. Sem a baseline o `extra
 - [x] README com todas as seções preenchidas
 - [x] `docs/00-cve.md` com o advisory (sem identificador atribuído)
 - [x] Artefatos legíveis em URL crua
+- arquivo dividido por exceder 120 KB: 04-symbols/all-symbols.txt
+- `ipsw diff` falhou
+- gen-index.sh falhou

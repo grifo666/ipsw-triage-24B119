@@ -35,9 +35,7 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: extract
-  cancel-in-progress: false
+concurrency: 1
 
 jobs:
   extract:
@@ -49,7 +47,7 @@ jobs:
       - name: instalar ipsw
         run: brew install blacktop/tap/ipsw
 
-      - name: extrair
+      - name: extracao
         env:
           COMPONENTE: ${{ inputs.componente }}
           DEVICE: ${{ inputs.device }}
@@ -60,6 +58,22 @@ jobs:
           KEXT_BUNDLE_ID: ${{ inputs.kext_bundle_id }}
           RUN_TMP: ${{ runner.temp }}/_tmp
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ETAPA: disasm
+        run: ./extract.sh
+
+      - name: decompilacao
+        continue-on-error: true
+        env:
+          COMPONENTE: ${{ inputs.componente }}
+          DEVICE: ${{ inputs.device }}
+          BUILD: ${{ inputs.build }}
+          BASELINE_BUILD: ${{ inputs.baseline_build }}
+          TARGET_SYMBOL: ${{ inputs.target_symbol }}
+          DYLD_PATH: ${{ inputs.dyld_path }}
+          KEXT_BUNDLE_ID: ${{ inputs.kext_bundle_id }}
+          RUN_TMP: ${{ runner.temp }}/_tmp
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ETAPA: decomp
         run: ./extract.sh
 
       - name: commitar texto

@@ -56,6 +56,20 @@ proposito_de() {
   esac
 }
 
+listar_ordenado() {
+  find . -type f \
+    -not -path './_tmp/*' \
+    -not -path './.git/*' -not -path './docs/*' \
+    -not -name 'INDEX.json' -not -name '*.sh' \
+    -not -name 'README.md' -not -name 'params.env' \
+    -not -name '.gitignore' -not -name '.gitattributes' \
+  | while IFS= read -r f; do
+      rel="${f#./}"
+      printf '%s\t%s\n' "$(tipo_de "$rel")" "$rel"
+    done \
+  | LC_ALL=C sort -t $'\t' -k1,1 -k2,2 | cut -f2-
+}
+
 echo "[" > "$TMP"
 first=1
 
@@ -75,13 +89,7 @@ while IFS= read -r f; do
   first=0
   printf '  {"path":"%s","kind":"%s","symbol":"%s","purpose":"%s","bytes":%s,"sha256":"%s"}' \
     "$rel" "$kind" "$sym" "$purpose" "$bytes" "$sha" >> "$TMP"
-done < <(find . -type f \
-  -not -path './_tmp/*' \
-  -not -path './.git/*' -not -path './docs/*' \
-  -not -name 'INDEX.json' -not -name '*.sh' \
-  -not -name 'README.md' -not -name 'params.env' \
-  -not -name '.gitignore' -not -name '.gitattributes' \
-  | sort -t/ -k2,2 -k1,1)
+done < <(listar_ordenado)
 
 echo "" >> "$TMP"
 echo "]" >> "$TMP"
