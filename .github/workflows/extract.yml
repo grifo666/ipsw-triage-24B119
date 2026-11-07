@@ -47,6 +47,26 @@ jobs:
       - name: instalar ipsw
         run: brew install blacktop/tap/ipsw
 
+      - name: cache ghidra
+        id: cache-ghidra
+        uses: actions/cache@v4
+        with:
+          path: ~/ghidra_12.0_PUBLIC
+          key: ghidra-macOS-ARM64-12.0-af43e8cf
+
+      - name: instalar ghidra
+        if: steps.cache-ghidra.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          url=https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.0_build/ghidra_12.0_PUBLIC_20251205.zip
+          curl -fsSL -o "$RUNNER_TEMP/ghidra.zip" "$url"
+          echo "af43e8cfb2fa4490cf6020c3a2bde25c159d83f45236a0542688a024e8fc1941  $RUNNER_TEMP/ghidra.zip" | shasum -a 256 -c -
+          xattr -d com.apple.quarantine "$RUNNER_TEMP/ghidra.zip" 2>/dev/null || true
+          unzip -q "$RUNNER_TEMP/ghidra.zip" -d "$HOME"
+          test -x "$HOME/ghidra_12.0_PUBLIC/support/analyzeHeadless"
+          test -x "$HOME/ghidra_12.0_PUBLIC/Ghidra/Features/Decompiler/os/mac_arm_64/decompile"
+
+
       - name: extracao
         env:
           COMPONENTE: ${{ inputs.componente }}
@@ -74,7 +94,7 @@ jobs:
           RUN_TMP: ${{ runner.temp }}/_tmp
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ETAPA: decomp
-        run: ./extract.sh
+        run: mkdir -p "$HOME/.ghidra"; GHIDRA_HOME="$HOME/ghidra_12.0_PUBLIC" GHIDRA_JAVA_HOME="${JAVA_HOME:-}" ETAPA=decomp ./extract.sh
 
       - name: commitar texto
         run: |

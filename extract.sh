@@ -233,6 +233,10 @@ if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
     GHIDRA_HEADLESS="$GHIDRA_HOME/support/analyzeHeadless"
   fi
   [ -x "${GHIDRA_HEADLESS:-/nonexistent}" ] || \
+  if [ -n "${GHIDRA_JAVA_HOME:-}" ] && [ ! -d "$GHIDRA_JAVA_HOME" ]; then
+    echo "AVISO: GHIDRA_JAVA_HOME inexistente, usando JAVA_HOME do ambiente: $GHIDRA_JAVA_HOME" >&2
+    GHIDRA_JAVA_HOME=""
+  fi
     GHIDRA_HEADLESS="$(command -v analyzeHeadless 2>/dev/null || true)"
 
   # backend 1: ipsw --dec (LLM; sem OPENAI_API_KEY falha rapido e cai no proximo)
