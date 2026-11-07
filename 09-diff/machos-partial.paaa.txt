@@ -1,0 +1,2647 @@
+## MachOs
+### SystemOS
+
+#### 🆕 NEW
+
+- `/System/Library/PrivateFrameworks/Nodes.framework/Nodes`
+
+- `/System/Library/PrivateFrameworks/NodesUI.framework/NodesUI`
+
+- `/System/Library/PrivateFrameworks/PeriodicSystemMetricsCore.framework/PeriodicSystemMetricsCore`
+
+- `/System/Library/PrivateFrameworks/_NutritionCore_AppIntents.framework/_NutritionCore_AppIntents`
+
+- `/usr/lib/libMetalMetricsInterpose.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend36.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend37.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend38.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend39.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend40.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend41.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend42.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend43.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend44.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend45.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend46.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend47.dylib`
+
+- `/usr/lib/objc/libobjcMsgSend48.dylib`
+
+- `/usr/libexec/Moments.framework/Moments`
+
+
+#### ⬆️ Updated
+<details>
+  <summary><i>View Updated</i></summary>
+
+
+##### `Bookmarks`
+> `/System/Library/Accounts/DataclassOwners/Bookmarks.bundle/Bookmarks`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x16c8
++7625.2.8.10.7
++  __TEXT.__text: 0x14a0
+   __TEXT.__auth_stubs: 0x2e0
+-  __TEXT.__objc_stubs: 0x640
++  __TEXT.__objc_stubs: 0x620
+   __TEXT.__objc_methlist: 0x264
+   __TEXT.__const: 0x38
+-  __TEXT.__gcc_except_tab: 0x74
+-  __TEXT.__objc_methname: 0x7df
+-  __TEXT.__cstring: 0xc9
+-  __TEXT.__oslogstring: 0x12d
+-  __TEXT.__objc_classname: 0x41
++  __TEXT.__gcc_except_tab: 0x40
++  __TEXT.__objc_methname: 0x7e8
++  __TEXT.__cstring: 0xcc
++  __TEXT.__oslogstring: 0xe3
++  __TEXT.__objc_classname: 0x3e
+   __TEXT.__objc_methtype: 0x25c
+   __TEXT.__dlopen_cstrs: 0x51
+-  __TEXT.__unwind_info: 0xf8
+-  __DATA_CONST.__auth_got: 0x180
+-  __DATA_CONST.__got: 0xa0
+-  __DATA_CONST.__const: 0x150
++  __TEXT.__unwind_info: 0xe0
++  __DATA_CONST.__const: 0x198
+   __DATA_CONST.__cfstring: 0xc0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_superrefs: 0x8
++  __DATA_CONST.__auth_got: 0x180
++  __DATA_CONST.__got: 0x98
+   __DATA.__objc_const: 0x2b0
+-  __DATA.__objc_selrefs: 0x288
++  __DATA.__objc_selrefs: 0x280
+   __DATA.__objc_ivar: 0xc
+   __DATA.__objc_data: 0x50
+   __DATA.__data: 0xc0
+
+   - /System/Library/PrivateFrameworks/WebBookmarks.framework/WebBookmarks
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 34
+-  Symbols:   74
++  Functions: 32
++  Symbols:   73
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x8
+- _OBJC_CLASS_$_NSFileManager
+- _WBSafariContainerPath
+- _WBSafariDirectoryPath
+- _objc_autorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x22
+```
+
+
+##### `com.apple.WebKit.GPU`
+> `/System/Library/ExtensionKit/Extensions/GPUExtension.appex/com.apple.WebKit.GPU`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__const`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
++7625.2.8.10.7
+   __TEXT.__text: 0x54c
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__objc_stubs: 0x40
+
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x88
+-  __DATA_CONST.__auth_got: 0x90
+-  __DATA_CONST.__got: 0x20
+-  __DATA_CONST.__auth_ptr: 0x70
++  __TEXT.__unwind_info: 0x90
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x90
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__auth_ptr: 0x70
+   __DATA.__objc_const: 0x48
+   __DATA.__objc_selrefs: 0x20
+   __DATA.__objc_data: 0xb0
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+```
+
+
+##### `com.apple.WebKit.Networking`
+> `/System/Library/ExtensionKit/Extensions/NetworkingExtension.appex/com.apple.WebKit.Networking`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__const`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
++7625.2.8.10.7
+   __TEXT.__text: 0x4f4
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__objc_stubs: 0x40
+
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+   __TEXT.__unwind_info: 0x88
+-  __DATA_CONST.__auth_got: 0x90
+-  __DATA_CONST.__got: 0x18
+-  __DATA_CONST.__auth_ptr: 0x70
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x90
++  __DATA_CONST.__got: 0x18
++  __DATA_CONST.__auth_ptr: 0x70
+   __DATA.__objc_const: 0x48
+   __DATA.__objc_selrefs: 0x20
+   __DATA.__objc_data: 0xb0
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+```
+
+
+##### `com.apple.WebKit.WebContent.CaptivePortal`
+> `/System/Library/ExtensionKit/Extensions/WebContentCaptivePortalExtension.appex/com.apple.WebKit.WebContent.CaptivePortal`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__const`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
++7625.2.8.10.7
+   __TEXT.__text: 0x5a8
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__objc_stubs: 0x40
+
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+   __TEXT.__unwind_info: 0x98
+-  __DATA_CONST.__auth_got: 0x90
+-  __DATA_CONST.__got: 0x20
+-  __DATA_CONST.__auth_ptr: 0x70
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x90
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__auth_ptr: 0x70
+   __DATA.__objc_const: 0x48
+   __DATA.__objc_selrefs: 0x20
+   __DATA.__objc_data: 0xb0
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+```
+
+
+##### `com.apple.WebKit.WebContent.EnhancedSecurity`
+> `/System/Library/ExtensionKit/Extensions/WebContentEnhancedSecurityExtension.appex/com.apple.WebKit.WebContent.EnhancedSecurity`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__const`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
++7625.2.8.10.7
+   __TEXT.__text: 0x5a8
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__objc_stubs: 0x40
+
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+   __TEXT.__unwind_info: 0x98
+-  __DATA_CONST.__auth_got: 0x90
+-  __DATA_CONST.__got: 0x20
+-  __DATA_CONST.__auth_ptr: 0x70
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x90
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__auth_ptr: 0x70
+   __DATA.__objc_const: 0x48
+   __DATA.__objc_selrefs: 0x20
+   __DATA.__objc_data: 0xb0
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+```
+
+
+##### `com.apple.WebKit.WebContent`
+> `/System/Library/ExtensionKit/Extensions/WebContentExtension.appex/com.apple.WebKit.WebContent`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__const`
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
++7625.2.8.10.7
+   __TEXT.__text: 0x5a8
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__objc_stubs: 0x40
+
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_proto: 0xc
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x90
+-  __DATA_CONST.__auth_got: 0x90
+-  __DATA_CONST.__got: 0x20
+-  __DATA_CONST.__auth_ptr: 0x70
++  __TEXT.__unwind_info: 0x88
+   __DATA_CONST.__const: 0xa0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x90
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__auth_ptr: 0x70
+   __DATA.__objc_const: 0x48
+   __DATA.__objc_selrefs: 0x20
+   __DATA.__objc_data: 0xb0
+
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+Symbols:
++ __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+```
+
+
+##### `com.apple.SafariServices.ContentBlockerLoader`
+> `/System/Library/Frameworks/SafariServices.framework/XPCServices/com.apple.SafariServices.ContentBlockerLoader.xpc/com.apple.SafariServices.ContentBlockerLoader`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x341c
+-  __TEXT.__auth_stubs: 0x390
++7625.2.8.10.7
++  __TEXT.__text: 0x30a4
++  __TEXT.__auth_stubs: 0x3e0
+   __TEXT.__objc_stubs: 0xac0
+   __TEXT.__objc_methlist: 0x2d0
+-  __TEXT.__objc_classname: 0xaf
++  __TEXT.__objc_classname: 0xac
+   __TEXT.__objc_methname: 0xc4f
+   __TEXT.__objc_methtype: 0x2dd
+-  __TEXT.__cstring: 0x1b0
+-  __TEXT.__gcc_except_tab: 0x684
++  __TEXT.__cstring: 0x1b2
++  __TEXT.__gcc_except_tab: 0x578
+   __TEXT.__const: 0x20
+   __TEXT.__oslogstring: 0x566
+-  __TEXT.__unwind_info: 0x240
+-  __DATA_CONST.__auth_got: 0x1d8
+-  __DATA_CONST.__got: 0x118
++  __TEXT.__unwind_info: 0x238
+   __DATA_CONST.__const: 0x338
+   __DATA_CONST.__cfstring: 0xe0
+   __DATA_CONST.__objc_classlist: 0x18
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x8
++  __DATA_CONST.__auth_got: 0x200
++  __DATA_CONST.__got: 0x118
+   __DATA.__objc_const: 0x438
+   __DATA.__objc_selrefs: 0x3b0
+   __DATA.__objc_ivar: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 67
+-  Symbols:   101
++  Functions: 65
++  Symbols:   106
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x24
++ _objc_retain_x3
++ _objc_retain_x8
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x27
+```
+
+
+##### `adattributiond`
+> `/System/Library/Frameworks/WebKit.framework/Daemons/adattributiond`
+```diff
+
+-624.5.1.10.3
++625.2.8.10.7
+   __TEXT.__text: 0x1c
+   __TEXT.__auth_stubs: 0x10
+   __DATA_CONST.__auth_got: 0x8
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
++  - /usr/lib/swift/libswiftCore.dylib
+   Functions: 1
+   Symbols:   3
+   CStrings:  0
+```
+
+
+##### `DeviceRecoveryBrainSupport`
+> `/System/Library/PrivateFrameworks/DeviceRecoveryBrainSupport.framework/DeviceRecoveryBrainSupport`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__AUTH_CONST.__const`
+- `__AUTH_CONST.__objc_intobj`
+- `__AUTH_CONST.__objc_arrayobj`
+- `__AUTH_CONST.__objc_dictobj`
+- `__DATA.__objc_ivar`
+
+```diff
+
+-107.100.11.0.0
+-  __TEXT.__text: 0x1cd40
+-  __TEXT.__auth_stubs: 0xbb0
+-  __TEXT.__objc_methlist: 0xd1c
+-  __TEXT.__const: 0x150
+-  __TEXT.__oslogstring: 0x2bf1
+-  __TEXT.__cstring: 0x3ee7
+-  __TEXT.__gcc_except_tab: 0x5bc
+-  __TEXT.__unwind_info: 0x5b0
+-  __TEXT.__eh_frame: 0xa0
+-  __TEXT.__objc_classname: 0x16b
+-  __TEXT.__objc_methname: 0x209d
+-  __TEXT.__objc_methtype: 0x490
+-  __TEXT.__objc_stubs: 0x1bc0
+-  __DATA_CONST.__got: 0x180
+-  __DATA_CONST.__const: 0x900
+-  __DATA_CONST.__objc_classlist: 0x48
++150.40.9.0.0
++  __TEXT.__text: 0x1ca34
++  __TEXT.__objc_methlist: 0xd84
++  __TEXT.__const: 0x1b0
++  __TEXT.__oslogstring: 0x2c5a
++  __TEXT.__cstring: 0x4070
++  __TEXT.__gcc_except_tab: 0x538
++  __TEXT.__constg_swiftt: 0x78
++  __TEXT.__swift5_typeref: 0x38
++  __TEXT.__swift5_reflstr: 0x20
++  __TEXT.__swift5_fieldmd: 0x34
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__unwind_info: 0x5c0
++  __TEXT.__eh_frame: 0x180
++  __TEXT.__objc_stubs: 0x1c20
++  __TEXT.__auth_stubs: 0xe70
++  __TEXT.__objc_classname: 0x1a5
++  __TEXT.__objc_methname: 0x21ab
++  __TEXT.__objc_methtype: 0x4b5
++  __DATA_CONST.__const: 0x970
++  __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa60
++  __DATA_CONST.__objc_selrefs: 0xaa8
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__objc_arraydata: 0x78
+-  __AUTH_CONST.__auth_got: 0x5e8
+-  __AUTH_CONST.__auth_ptr: 0x48
++  __DATA_CONST.__got: 0x1c8
+   __AUTH_CONST.__const: 0x2e0
+-  __AUTH_CONST.__cfstring: 0x2340
+-  __AUTH_CONST.__objc_const: 0xdb8
++  __AUTH_CONST.__cfstring: 0x2440
++  __AUTH_CONST.__objc_const: 0xe80
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH.__objc_data: 0x2d0
++  __AUTH_CONST.__auth_got: 0x748
++  __AUTH_CONST.__auth_ptr: 0x58
++  __AUTH.__objc_data: 0x3d0
++  __AUTH.__data: 0x28
+   __DATA.__objc_ivar: 0x68
+-  __DATA.__data: 0x23c
++  __DATA.__data: 0x264
+   __DATA.__bss: 0x90
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/APFS.framework/APFS
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 558
+-  Symbols:   1096
++  - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  Functions: 582
++  Symbols:   1157
+   CStrings:  0
+ 
+Symbols:
++ _DRAnalyticsEventPerformDiagnosticsMode
++ _DRAnalyticsEventPerformEACS
++ _DRAnalyticsEventPerformNeRD
++ _DRAnalyticsEventPerformRecoveryMode
++ _DRAnalyticsKeyDuration
++ _DREGetNVRAMAll
++ _DRENVRAMValueToString
++ _DRServiceAttributeEraseAndUpdateRestricted
++ _IORegistryEntryCreateCFProperties
++ _OBJC_CLASS_$_NSMutableString
++ _OBJC_CLASS_$__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ _OBJC_METACLASS_$__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ __DATA__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ __INSTANCE_METHODS__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ __IVARS__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ __METACLASS_DATA__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ __PROPERTIES__TtC26DeviceRecoveryBrainSupport34DeviceRecoveryFileStreamJSONWriter
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_instantiateConcreteTypeFromMangledNameV2
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_reflection_version
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftAppleArchive_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_DeviceRecoveryBrainSupport
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_DeviceRecoveryBrainSupport
++ __swift_stdlib_reportUnimplementedInitializer
++ _memcpy
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$appendFormat:
++ _objc_msgSend$string
++ _objc_msgSend$stringValue
++ _objc_opt_self
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x4
++ _objc_retain_x8
++ _swift_allocObject
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_errorRelease
++ _swift_getTypeByMangledNameInContext2
++ _swift_getWitnessTable
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_release
++ _swift_release_x23
++ _swift_retain
++ _swift_retain_x22
++ _swift_retain_x23
++ _symbolic Si
++ _symbolic So12NSFileHandleC
++ _symbolic So8NSObjectC
++ _symbolic _____ 10Foundation11JSONEncoderC
++ _symbolic _____ 26DeviceRecoveryBrainSupport0aB20FileStreamJSONWriterC
++ _symbolic ______p 10Foundation15ContiguousBytesP
+- GCC_except_table43
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_40
+- _OUTLINED_FUNCTION_41
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+```
+
+
+##### `BrowsingDataImport`
+> `/System/Library/PrivateFrameworks/MobileSafari.framework/XPCServices/BrowsingDataImport.xpc/BrowsingDataImport`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__objc_protolist`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x110
++7625.2.8.10.7
++  __TEXT.__text: 0x100
+   __TEXT.__auth_stubs: 0x90
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__objc_methlist: 0x134
+
+   __TEXT.__objc_methname: 0x1cf
+   __TEXT.__objc_methtype: 0xe9
+   __TEXT.__unwind_info: 0x58
+-  __DATA_CONST.__auth_got: 0x50
+-  __DATA_CONST.__got: 0x18
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x50
++  __DATA_CONST.__got: 0x18
+   __DATA.__objc_const: 0x1f8
+   __DATA.__objc_selrefs: 0xe0
+   __DATA.__objc_data: 0x50
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x3
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+```
+
+
+##### `PlugInKitDaemon`
+> `/System/Library/PrivateFrameworks/PlugInKitDaemon.framework/PlugInKitDaemon`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__auth_ptr`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-498.160.1.0.0
+-  __TEXT.__text: 0x1904c
+-  __TEXT.__auth_stubs: 0xb10
+-  __TEXT.__objc_stubs: 0x30a0
+-  __TEXT.__objc_methlist: 0xfc8
+-  __TEXT.__const: 0x6a
+-  __TEXT.__objc_methname: 0x2f60
+-  __TEXT.__oslogstring: 0x2ce7
+-  __TEXT.__cstring: 0x11b6
+-  __TEXT.__objc_classname: 0x192
+-  __TEXT.__objc_methtype: 0x6fb
+-  __TEXT.__gcc_except_tab: 0x53c
+-  __TEXT.__unwind_info: 0x4d8
+-  __DATA_CONST.__auth_got: 0x598
+-  __DATA_CONST.__got: 0x480
+-  __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__const: 0x4f0
+-  __DATA_CONST.__cfstring: 0x1160
++517.0.0.0.0
++  __TEXT.__text: 0x17b20
++  __TEXT.__auth_stubs: 0xb90
++  __TEXT.__objc_stubs: 0x31a0
++  __TEXT.__objc_methlist: 0xff8
++  __TEXT.__const: 0x62
++  __TEXT.__objc_methname: 0x307e
++  __TEXT.__oslogstring: 0x2c73
++  __TEXT.__cstring: 0x13f9
++  __TEXT.__objc_classname: 0x171
++  __TEXT.__objc_methtype: 0x724
++  __TEXT.__gcc_except_tab: 0x478
++  __TEXT.__unwind_info: 0x4c8
++  __DATA_CONST.__const: 0x5a0
++  __DATA_CONST.__cfstring: 0x1240
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_superrefs: 0x58
+-  __DATA_CONST.__objc_intobj: 0xc0
++  __DATA_CONST.__objc_intobj: 0xa8
+   __DATA_CONST.__objc_arraydata: 0x18
+   __DATA_CONST.__objc_arrayobj: 0x18
+   __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA.__objc_const: 0x2768
+-  __DATA.__objc_selrefs: 0xdf8
+-  __DATA.__objc_ivar: 0x118
++  __DATA_CONST.__auth_got: 0x5d8
++  __DATA_CONST.__got: 0x488
++  __DATA_CONST.__auth_ptr: 0x8
++  __DATA.__objc_const: 0x2798
++  __DATA.__objc_selrefs: 0xe30
++  __DATA.__objc_ivar: 0x11c
+   __DATA.__objc_data: 0x4b0
+   __DATA.__data: 0x300
+-  __DATA.__bss: 0x68
++  __DATA.__bss: 0x78
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 448
+-  Symbols:   1333
++  Functions: 439
++  Symbols:   1355
+   CStrings:  0
+ 
+Symbols:
++ -[PKDContainerProvider query_get_single_result:]
++ -[PKDPersona initWithPersonaID:dataSeparated:]
++ -[PKDPersona isDataSeparated]
++ -[PKDPersonaCache _lock_personaUniqueStringsToPersonas:]
++ -[PKDPersonaCache lock_personaUniqueStringToPersonaMap]
++ -[PKDPersonaCache personasForPersonaUniqueStrings:error:]
++ -[PKDPlugIn _personaIDForClient:requestedPersona:error:]
++ -[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]
++ _CONTAINER_PERSONA_PRIMARY
++ _OBJC_IVAR_$_PKDPersona._dataSeparated
++ _OBJC_IVAR_$_PKDPersonaCache._lock_personaUniqueStringToPersonaMap
++ _PKDExcludedExtensionPointsKey
++ _PKUseLSPersonaAssociations
++ _SecTaskCopySigningIdentifier
++ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke
++ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke_2
++ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke_3
++ ___72-[PKDPlugIn reportAnalyticsForPersonaLaunchWithClient:requestedPersona:]_block_invoke_4
++ ___block_descriptor_32_e33_Q16?0"UMUserPersonaAttributes"8l
++ ___block_descriptor_40_e8_32s_e26_B32?0"PKDPlugIn"8Q16^B24ls32l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s64l8s48l8s56l8
++ _container_copy_sandbox_token
++ _dispatch_queue_attr_make_with_qos_class
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_lock_personaUniqueStringsToPersonas:
++ _objc_msgSend$_personaIDForClient:requestedPersona:error:
++ _objc_msgSend$clientid
++ _objc_msgSend$initWithPersonaID:dataSeparated:
++ _objc_msgSend$isDataSeparated
++ _objc_msgSend$isDefaultPersona
++ _objc_msgSend$lock_personaUniqueStringToPersonaMap
++ _objc_msgSend$numberWithUnsignedInteger:
++ _objc_msgSend$personasForPersonaUniqueStrings:error:
++ _objc_msgSend$query_get_single_result:
++ _objc_msgSend$reportAnalyticsForPersonaLaunchWithClient:requestedPersona:
++ _objc_msgSend$sandbox
++ _objc_msgSend$sandbox_extension_consume:
++ _objc_msgSend$setWithCapacity:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x9
++ _reportAnalyticsForPersonaLaunchWithClient:requestedPersona:.onceToken
++ _reportAnalyticsForPersonaLaunchWithClient:requestedPersona:.queue
+- -[PKDContainerProvider create_or_lookup_path_for_current_user:identifier:create_if_necessary:transient:out_existed:out_error:]
+- -[PKDPersona initWithPersonaID:enterprise:]
+- -[PKDPersona isEnterprise]
+- -[PKDPlugIn _personaIDForClient:requestedPersona:]
+- GCC_except_table34
+- GCC_except_table37
+- _OBJC_IVAR_$_PKDPersona._enterprise
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- _PKPersonaEntitlementNoneValue
+- _PKPersonaEntitlementPersonalValue
+- _PKPersonaPropagateEntitlement
+- _container_create_or_lookup_path_for_current_user
+- _objc_msgSend$_personaIDForClient:requestedPersona:
+- _objc_msgSend$create_or_lookup_path_for_current_user:identifier:create_if_necessary:transient:out_existed:out_error:
+- _objc_msgSend$dataContainerURLForPersona:
+- _objc_msgSend$initWithPersonaID:enterprise:
+- _objc_msgSend$isEnterprise
+- _objc_msgSend$isEnterprisePersona
+```
+
+
+##### `AutoFillHelper`
+> `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/AutoFillHelper.xpc/AutoFillHelper`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x68c
+-  __TEXT.__auth_stubs: 0x190
+-  __TEXT.__objc_stubs: 0x2c0
+-  __TEXT.__objc_methlist: 0x19c
+-  __TEXT.__const: 0x8
+-  __TEXT.__cstring: 0xf2
++7625.2.8.10.7
++  __TEXT.__text: 0x20c
++  __TEXT.__auth_stubs: 0xc0
++  __TEXT.__objc_stubs: 0x160
++  __TEXT.__objc_methlist: 0x164
++  __TEXT.__cstring: 0x43
+   __TEXT.__objc_classname: 0x57
+-  __TEXT.__objc_methname: 0x4e4
+-  __TEXT.__objc_methtype: 0x1c5
+-  __TEXT.__unwind_info: 0x78
+-  __DATA_CONST.__auth_got: 0xd0
+-  __DATA_CONST.__got: 0x60
+-  __DATA_CONST.__const: 0x50
+-  __DATA_CONST.__cfstring: 0x40
++  __TEXT.__objc_methname: 0x265
++  __TEXT.__objc_methtype: 0x111
++  __TEXT.__unwind_info: 0x60
++  __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA.__objc_const: 0x318
+-  __DATA.__objc_selrefs: 0x168
++  __DATA_CONST.__auth_got: 0x68
++  __DATA_CONST.__got: 0x38
++  __DATA.__objc_const: 0x308
++  __DATA.__objc_selrefs: 0x108
+   __DATA.__objc_data: 0xa0
+   __DATA.__data: 0x120
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 8
+-  Symbols:   49
++  Functions: 3
++  Symbols:   31
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x3
+- _OBJC_CLASS_$_LSBundleRecord
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_SFStrongPasswordGenerator
+- _WBSApplicationIdentifierFromAuditToken
+- _WBSAuditTokenHasEntitlement
+- __NSConcreteStackBlock
+- ___NSArray0__struct
+- _objc_autoreleaseReturnValue
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x8
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x24
+```
+
+
+##### `CredentialProviderExtensionHelper`
+> `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/CredentialProviderExtensionHelper.xpc/CredentialProviderExtensionHelper`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x4e1c
+-  __TEXT.__auth_stubs: 0x330
+-  __TEXT.__objc_stubs: 0xae0
++7625.2.8.10.7
++  __TEXT.__text: 0x4d10
++  __TEXT.__auth_stubs: 0x390
++  __TEXT.__objc_stubs: 0xb40
+   __TEXT.__objc_methlist: 0x3fc
+   __TEXT.__const: 0x20
+-  __TEXT.__gcc_except_tab: 0x60
+-  __TEXT.__objc_methname: 0x108e
+-  __TEXT.__cstring: 0x194
++  __TEXT.__gcc_except_tab: 0x4c
++  __TEXT.__objc_methname: 0x10db
++  __TEXT.__cstring: 0x198
+   __TEXT.__oslogstring: 0x2b6
+-  __TEXT.__objc_classname: 0xa8
++  __TEXT.__objc_classname: 0xa3
+   __TEXT.__objc_methtype: 0x385
+-  __TEXT.__unwind_info: 0x1c8
+-  __DATA_CONST.__auth_got: 0x1a8
+-  __DATA_CONST.__got: 0xe0
++  __TEXT.__unwind_info: 0x1a8
+   __DATA_CONST.__const: 0x560
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x20
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x18
++  __DATA_CONST.__auth_got: 0x1d8
++  __DATA_CONST.__got: 0xe0
+   __DATA.__objc_const: 0x590
+-  __DATA.__objc_selrefs: 0x3b8
++  __DATA.__objc_selrefs: 0x3d0
+   __DATA.__objc_ivar: 0x1c
+   __DATA.__objc_data: 0x140
+   __DATA.__data: 0x120
+
+   - /System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 108
+-  Symbols:   97
++  Functions: 107
++  Symbols:   103
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x26
++ _objc_retain_x3
++ _objc_retain_x4
+- _objc_retainAutoreleasedReturnValue
+```
+
+
+##### `SafariConfigurationSubscriber`
+> `/System/Library/PrivateFrameworks/SafariFoundation.framework/XPCServices/SafariConfigurationSubscriber.xpc/SafariConfigurationSubscriber`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x2238
+-  __TEXT.__auth_stubs: 0x260
++7625.2.8.10.7
++  __TEXT.__text: 0x20ac
++  __TEXT.__auth_stubs: 0x2d0
+   __TEXT.__objc_stubs: 0x920
+   __TEXT.__objc_methlist: 0x544
+   __TEXT.__const: 0x10
+-  __TEXT.__cstring: 0x1c5
++  __TEXT.__cstring: 0x1ca
+   __TEXT.__oslogstring: 0xd1
+-  __TEXT.__objc_classname: 0x172
+-  __TEXT.__objc_methname: 0xf84
++  __TEXT.__objc_classname: 0x16d
++  __TEXT.__objc_methname: 0xf73
+   __TEXT.__objc_methtype: 0x440
+   __TEXT.__unwind_info: 0x108
+-  __DATA_CONST.__auth_got: 0x138
+-  __DATA_CONST.__got: 0xc8
+   __DATA_CONST.__const: 0x160
+   __DATA_CONST.__cfstring: 0x200
+   __DATA_CONST.__objc_classlist: 0x28
+
+   __DATA_CONST.__objc_intobj: 0x78
+   __DATA_CONST.__objc_arraydata: 0x40
+   __DATA_CONST.__objc_arrayobj: 0xc0
++  __DATA_CONST.__auth_got: 0x170
++  __DATA_CONST.__got: 0xc8
+   __DATA.__objc_const: 0x7c0
+   __DATA.__objc_selrefs: 0x3f0
+   __DATA.__objc_ivar: 0x18
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 62
+-  Symbols:   89
++  Symbols:   96
+   CStrings:  0
+ 
+Symbols:
++ _OBJC_CLASS_$_WBSManagedExtensionsConfigurationStore
++ _objc_claimAutoreleasedReturnValue
++ _objc_release_x9
++ _objc_retain
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x8
+- _OBJC_CLASS_$_WBSManagedExtensionsController
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x26
+```
+
+
+##### `com.apple.Safari.CredentialExtractionHelper`
+> `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.CredentialExtractionHelper.xpc/com.apple.Safari.CredentialExtractionHelper`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x5b8
+-  __TEXT.__auth_stubs: 0x170
++7625.2.8.10.7
++  __TEXT.__text: 0x55c
++  __TEXT.__auth_stubs: 0x180
+   __TEXT.__objc_stubs: 0x1e0
+   __TEXT.__objc_methlist: 0x178
+   __TEXT.__const: 0x10
+   __TEXT.__oslogstring: 0x58
+-  __TEXT.__cstring: 0x6
+-  __TEXT.__objc_classname: 0x8a
++  __TEXT.__cstring: 0x7
++  __TEXT.__objc_classname: 0x89
+   __TEXT.__objc_methname: 0x333
+   __TEXT.__objc_methtype: 0x16a
+   __TEXT.__unwind_info: 0x78
+-  __DATA_CONST.__auth_got: 0xc0
+-  __DATA_CONST.__got: 0x50
+   __DATA_CONST.__const: 0x20
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x8
++  __DATA_CONST.__auth_got: 0xc8
++  __DATA_CONST.__got: 0x50
+   __DATA.__objc_const: 0x2b0
+   __DATA.__objc_selrefs: 0x130
+   __DATA.__objc_data: 0xa0
+
+   - /System/Library/PrivateFrameworks/SafariShared.framework/SafariShared
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 10
+-  Symbols:   39
++  Functions: 8
++  Symbols:   40
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x8
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x23
+```
+
+
+##### `com.apple.Safari.SearchHelper`
+> `/System/Library/PrivateFrameworks/SafariShared.framework/XPCServices/com.apple.Safari.SearchHelper.xpc/com.apple.Safari.SearchHelper`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x357c
+-  __TEXT.__auth_stubs: 0x430
+-  __TEXT.__objc_stubs: 0xe40
+-  __TEXT.__objc_methlist: 0x4b8
+-  __TEXT.__cstring: 0x1cb
+-  __TEXT.__const: 0x40
+-  __TEXT.__objc_methname: 0x14c4
+-  __TEXT.__oslogstring: 0x1d9
+-  __TEXT.__objc_classname: 0xde
+-  __TEXT.__objc_methtype: 0x5ff
+-  __TEXT.__gcc_except_tab: 0x33c
+-  __TEXT.__unwind_info: 0x198
+-  __DATA_CONST.__auth_got: 0x228
+-  __DATA_CONST.__got: 0x130
+-  __DATA_CONST.__const: 0x220
+-  __DATA_CONST.__cfstring: 0x300
+-  __DATA_CONST.__objc_classlist: 0x20
++7625.2.8.10.7
++  __TEXT.__text: 0x3eac
++  __TEXT.__auth_stubs: 0x450
++  __TEXT.__objc_stubs: 0x1080
++  __TEXT.__objc_methlist: 0x508
++  __TEXT.__cstring: 0x23b
++  __TEXT.__const: 0x50
++  __TEXT.__objc_methname: 0x1736
++  __TEXT.__oslogstring: 0x204
++  __TEXT.__objc_classname: 0xf1
++  __TEXT.__objc_methtype: 0x634
++  __TEXT.__gcc_except_tab: 0x4a8
++  __TEXT.__unwind_info: 0x1f8
++  __DATA_CONST.__const: 0x268
++  __DATA_CONST.__cfstring: 0x420
++  __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__objc_intobj: 0x18
++  __DATA_CONST.__objc_intobj: 0x30
+   __DATA_CONST.__objc_arraydata: 0x8
+   __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA.__objc_const: 0x800
+-  __DATA.__objc_selrefs: 0x548
++  __DATA_CONST.__auth_got: 0x238
++  __DATA_CONST.__got: 0x158
++  __DATA.__objc_const: 0x890
++  __DATA.__objc_selrefs: 0x5d8
+   __DATA.__objc_ivar: 0x44
+-  __DATA.__objc_data: 0x140
++  __DATA.__objc_data: 0x190
+   __DATA.__data: 0x1e0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 72
+-  Symbols:   116
++  Functions: 79
++  Symbols:   123
+   CStrings:  0
+ 
+Symbols:
++ _NSInlinePresentationIntentAttributeName
++ _OBJC_CLASS_$_NSMutableAttributedString
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSValue
++ ___NSArray0__struct
++ __os_log_debug_impl
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x28
++ _objc_retain_x8
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x24
+- _objc_retain_x27
+```
+
+
+##### `VisualTestKit`
+> `/System/Library/PrivateFrameworks/VisualTestKit.framework/VisualTestKit`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__AUTH_CONST.__cfstring`
+- `__AUTH_CONST.__objc_const`
+- `__AUTH.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+ 5.0.0.0.0
+-  __TEXT.__text: 0x5d54
+-  __TEXT.__auth_stubs: 0x500
++  __TEXT.__text: 0x5948
+   __TEXT.__objc_methlist: 0xbc4
+   __TEXT.__const: 0x1f8
+-  __TEXT.__cstring: 0x2e8
++  __TEXT.__cstring: 0x2f9
+   __TEXT.__gcc_except_tab: 0x5c
+-  __TEXT.__unwind_info: 0x2d0
+-  __TEXT.__objc_classname: 0x292
++  __TEXT.__unwind_info: 0x2b0
++  __TEXT.__objc_stubs: 0x1520
++  __TEXT.__auth_stubs: 0x560
++  __TEXT.__objc_classname: 0x282
+   __TEXT.__objc_methname: 0x1827
+   __TEXT.__objc_methtype: 0x6d3
+-  __TEXT.__objc_stubs: 0x1520
+-  __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__const: 0x110
+   __DATA_CONST.__objc_classlist: 0xb0
+   __DATA_CONST.__objc_catlist: 0x18
+
+   __DATA_CONST.__objc_selrefs: 0x658
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x78
+-  __AUTH_CONST.__auth_got: 0x290
++  __DATA_CONST.__got: 0xe0
+   __AUTH_CONST.__cfstring: 0x3e0
+   __AUTH_CONST.__objc_const: 0x40e0
++  __AUTH_CONST.__auth_got: 0x2c0
+   __AUTH.__objc_data: 0x6e0
+   __DATA.__objc_ivar: 0xcc
+   __DATA.__data: 0x488
+
+   - /usr/lib/libobjc.A.dylib
+   - @rpath/XCTest.framework/XCTest
+   Functions: 208
+-  Symbols:   794
++  Symbols:   800
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x6
++ _objc_retain_x8
+- _objc_retainAutoreleasedReturnValue
+```
+
+
+##### `WeaveReplay`
+> `/System/Library/PrivateFrameworks/WeaveReplay.framework/WeaveReplay`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_proto`
+- `__TEXT.__oslogstring`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_mpenum`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA_CONST.__objc_selrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+
+```diff
+
+-5.100.6.0.0
+-  __TEXT.__text: 0x2bd8c
+-  __TEXT.__auth_stubs: 0xd00
++8.0.0.0.0
++  __TEXT.__text: 0x29ddc
++  __TEXT.__auth_stubs: 0xf40
+   __TEXT.__objc_stubs: 0x120
+-  __TEXT.__const: 0xb40
+-  __TEXT.__swift5_typeref: 0x6ff
++  __TEXT.__const: 0xb90
++  __TEXT.__swift5_typeref: 0x70d
+   __TEXT.__cstring: 0x473
+-  __TEXT.__swift5_capture: 0xa8
++  __TEXT.__swift5_capture: 0xb8
+   __TEXT.__objc_classname: 0x18b
+   __TEXT.__objc_methname: 0x3df
+-  __TEXT.__constg_swiftt: 0x6dc
+-  __TEXT.__swift5_reflstr: 0x2de
+-  __TEXT.__swift5_fieldmd: 0x32c
++  __TEXT.__constg_swiftt: 0x700
++  __TEXT.__swift5_reflstr: 0x32e
++  __TEXT.__swift5_fieldmd: 0x378
+   __TEXT.__swift5_proto: 0x2c
+-  __TEXT.__swift5_types: 0x38
++  __TEXT.__swift5_types: 0x3c
+   __TEXT.__oslogstring: 0x509
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__objc_methtype: 0x13
+-  __TEXT.__unwind_info: 0x520
+-  __TEXT.__eh_frame: 0x8a8
+-  __DATA_CONST.__auth_got: 0x688
+-  __DATA_CONST.__got: 0x190
+-  __DATA_CONST.__auth_ptr: 0x180
+-  __DATA_CONST.__const: 0x5c0
++  __TEXT.__unwind_info: 0x538
++  __TEXT.__eh_frame: 0x870
++  __DATA_CONST.__const: 0x668
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x48
++  __DATA_CONST.__auth_got: 0x7a8
++  __DATA_CONST.__got: 0x170
++  __DATA_CONST.__auth_ptr: 0x188
+   __DATA.__objc_const: 0x8d0
+   __DATA.__objc_data: 0xa0
+-  __DATA.__data: 0xe50
++  __DATA.__data: 0xe40
+   __DATA.__common: 0x50
+   __DATA.__bss: 0x580
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+-  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 450
+-  Symbols:   315
++  Functions: 460
++  Symbols:   341
+   CStrings:  0
+ 
+Symbols:
++ ___swift__destructor
++ ___swift_closure_destructor
++ ___swift_closure_destructor.59Tm
++ ___swift_memcpy40_8
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_WeaveReplay
++ _objc_retain_x22
++ _objc_retain_x25
++ _objc_retain_x28
++ _swift_release_x1
++ _swift_release_x12
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x10
++ _swift_retain_x13
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _symbolic Si
++ _symbolic _____ 11WeaveReplay24PolarisSimulationManagerC22GraphSubmissionSummary33_7AC9A844579C91CE9BA29ACB5A5103FELLV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 14PolarisRuntime4TaskV8ModifierO
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 14PolarisRuntime5GraphV8ModifierO
++ _symbolic _____ySay_____y_______GGG s23_ContiguousArrayStorageC 14PolarisRuntime5GraphV12TriggerGroupV8ModifierO AE08ResourceG0V
++ _symbolic _____y_______G 14PolarisRuntime5GraphV12TriggerGroupV8ModifierO AC08ResourceD0V
++ _type_layout_string 11WeaveReplay24PolarisSimulationManagerC22GraphSubmissionSummary33_7AC9A844579C91CE9BA29ACB5A5103FELLV
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_destroy_boxed_opaque_existential_1Tm
+- __swift_FORCE_LOAD_$_swiftAccelerate
+- __swift_FORCE_LOAD_$_swiftAccelerate_$_WeaveReplay
+- __swift_FORCE_LOAD_$_swiftCoreLocation
+- __swift_FORCE_LOAD_$_swiftCoreLocation_$_WeaveReplay
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_WeaveReplay
+- _objc_retain
+- _objc_retain_x23
+- _objc_retain_x27
+- _objectdestroy.59Tm
+- _swift_allocBox
+- _swift_stdlib_isStackAllocationSafe
+- _swift_willThrowTypedImpl
+- _symbolic ______p 14PolarisRuntime13TaskComponentP
+- _symbolic ______p 14PolarisRuntime14GraphComponentP
+- _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 14PolarisRuntime5GraphV15ResourceTriggerV
+- _symbolic _____ySay______pGG s23_ContiguousArrayStorageC 14PolarisRuntime13TaskComponentP
+- _symbolic _____ySay______pGG s23_ContiguousArrayStorageC 14PolarisRuntime14GraphComponentP
+```
+
+
+##### `libos-brain.dylib`
+> `/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Frameworks/libos-brain.dylib`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_imageinfo`
+
+```diff
+
+-4479.160.12.0.0
+-  __TEXT.__text: 0xcff14
+-  __TEXT.__auth_stubs: 0x20d0
+-  __TEXT.__objc_stubs: 0x1340
+-  __TEXT.__objc_methlist: 0x760
+-  __TEXT.__objc_methname: 0x23db
+-  __TEXT.__objc_classname: 0x208
+-  __TEXT.__objc_methtype: 0x935
+-  __TEXT.__const: 0x6c1a
+-  __TEXT.__constg_swiftt: 0x223c
+-  __TEXT.__swift5_typeref: 0x2efe
+-  __TEXT.__swift5_fieldmd: 0x18bc
+-  __TEXT.__swift5_proto: 0x480
+-  __TEXT.__swift5_types: 0x180
+-  __TEXT.__cstring: 0x4b6a
+-  __TEXT.__oslogstring: 0x154
+-  __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_reflstr: 0x1c9f
+-  __TEXT.__swift5_assocty: 0x7e0
+-  __TEXT.__swift5_protos: 0xc0
+-  __TEXT.__swift_as_entry: 0x254
+-  __TEXT.__swift_as_ret: 0x2a8
+-  __TEXT.__swift5_capture: 0xb10
+-  __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__unwind_info: 0x2bf0
+-  __TEXT.__eh_frame: 0x5e54
+-  __DATA_CONST.__auth_got: 0x1070
+-  __DATA_CONST.__got: 0x638
+-  __DATA_CONST.__auth_ptr: 0xa60
+-  __DATA_CONST.__const: 0x3b88
+-  __DATA_CONST.__objc_classlist: 0x48
+-  __DATA_CONST.__objc_protolist: 0x60
++5168.40.162.0.0
++  __TEXT.__text: 0x22bf08
++  __TEXT.__auth_stubs: 0x2a60
++  __TEXT.__objc_stubs: 0x2040
++  __TEXT.__objc_methlist: 0xda4
++  __TEXT.__objc_methname: 0x3cf8
++  __TEXT.__objc_classname: 0x438
++  __TEXT.__cstring: 0x45e2
++  __TEXT.__objc_methtype: 0x135f
++  __TEXT.__const: 0xd3e8
++  __TEXT.__swift5_typeref: 0x5688
++  __TEXT.__swift5_capture: 0x1ca4
++  __TEXT.__swift5_reflstr: 0x3652
++  __TEXT.__swift5_assocty: 0xfa8
++  __TEXT.__constg_swiftt: 0x477c
++  __TEXT.__swift5_fieldmd: 0x3004
++  __TEXT.__oslogstring: 0x8628
++  __TEXT.__swift5_proto: 0x90c
++  __TEXT.__swift5_types: 0x2fc
++  __TEXT.__swift_as_entry: 0x61c
++  __TEXT.__swift_as_ret: 0x708
++  __TEXT.__swift5_builtin: 0x190
++  __TEXT.__swift_as_cont: 0xe30
++  __TEXT.__swift5_mpenum: 0x30
++  __TEXT.__swift5_protos: 0x16c
++  __TEXT.__unwind_info: 0x6990
++  __TEXT.__eh_frame: 0x12f68
++  __DATA_CONST.__const: 0x8c10
++  __DATA_CONST.__objc_classlist: 0x98
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x718
+-  __DATA_CONST.__objc_protorefs: 0x30
+-  __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA.__objc_const: 0x3760
+-  __DATA.__objc_ivar: 0x1c
+-  __DATA.__objc_data: 0x2d0
+-  __DATA.__data: 0x2740
+-  __DATA.__bss: 0x90e0
+-  __DATA.__common: 0xa20
++  __DATA_CONST.__objc_selrefs: 0xaa0
++  __DATA_CONST.__objc_protorefs: 0x50
++  __DATA_CONST.__objc_superrefs: 0x18
++  __DATA_CONST.__auth_got: 0x1538
++  __DATA_CONST.__got: 0x758
++  __DATA_CONST.__auth_ptr: 0x32d0
++  __DATA.__objc_const: 0x58d8
++  __DATA.__objc_ivar: 0x90
++  __DATA.__objc_data: 0x4a0
++  __DATA.__data: 0x5340
++  __DATA.__common: 0xb00
++  __DATA.__bss: 0x11300
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/libprequelite.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 3533
+-  Symbols:   1244
++  Functions: 7382
++  Symbols:   2164
+   CStrings:  0
+ 
+Symbols:
++ -[iCDCreateItemContext clientKey]
++ -[iCDCreateItemContext initWithReserverItemIDString:reservedFileProviderIdentifier:parentZoneName:parentZoneOwner:parentIDString:symlinkTarget:parentShareState:shareRootItemIdentifierString:parentPCSChainState:parentSharePermissions:initialItem:resetItem:isInDocumentScope:trashPutBackPath:trashPutbackItemIDString:progress:clientKey:]
++ -[iCDCreateItemContext initialItem]
++ -[iCDCreateItemContext isInDocumentScope]
++ -[iCDCreateItemContext parentIDString]
++ -[iCDCreateItemContext parentPCSChainState]
++ -[iCDCreateItemContext parentSharePermissions]
++ -[iCDCreateItemContext parentShareState]
++ -[iCDCreateItemContext progress]
++ -[iCDCreateItemContext resetItem]
++ -[iCDCreateItemContext shareRootItemIdentifierString]
++ -[iCDCreateItemContext trashPutBackPath]
++ -[iCDCreateItemContext trashPutbackItemIDString]
++ -[iCDDeleteItemContext .cxx_destruct]
++ -[iCDDeleteItemContext clientKey]
++ -[iCDDeleteItemContext initWithZoneName:zoneOwner:itemIDString:serverChangeToken:progress:clientKey:]
++ -[iCDDeleteItemContext itemIDString]
++ -[iCDDeleteItemContext progress]
++ -[iCDDeleteItemContext serverChangeToken]
++ -[iCDDeleteItemContext zoneName]
++ -[iCDDeleteItemContext zoneOwner]
++ -[iCDModifyItemContext .cxx_destruct]
++ -[iCDModifyItemContext clientKey]
++ -[iCDModifyItemContext forceParentShared]
++ -[iCDModifyItemContext initWithResetItem:forceParentShared:zoneName:zoneOwner:itemIDString:parentZoneName:parentZoneOwner:parentIDString:isInDocumentScope:trashPutBackPath:trashPutbackItemIDString:progress:clientKey:]
++ -[iCDModifyItemContext isInDocumentScope]
++ -[iCDModifyItemContext itemIDString]
++ -[iCDModifyItemContext parentIDString]
++ -[iCDModifyItemContext parentZoneName]
++ -[iCDModifyItemContext parentZoneOwner]
++ -[iCDModifyItemContext progress]
++ -[iCDModifyItemContext resetItem]
++ -[iCDModifyItemContext trashPutBackPath]
++ -[iCDModifyItemContext trashPutbackItemIDString]
++ -[iCDModifyItemContext zoneName]
++ -[iCDModifyItemContext zoneOwner]
++ _CKWebSharingProtectionDataKey
++ _FPExpensiveRequestWithContinuationTokenError
++ _FPGetTagsDataForTags
++ _FPGetTagsFromTagsData
++ _NSFileProviderErrorCategoryKey
++ _NSFileProviderErrorPostponeUpload
++ _NSFileProviderErrorRetryAfterKey
++ _NSFileProviderErrorTransientErrorKey
++ _NSFileProviderTrashContainerItemIdentifier
++ _NSMultipleUnderlyingErrorsKey
++ _NSURLUbiquitousSharedItemPermissionsReadOnly
++ _NSURLUbiquitousSharedItemPermissionsReadWrite
++ _OBJC_CLASS_$_CKAssetReference
++ _OBJC_CLASS_$_CKFetchRecordsOperation
++ _OBJC_CLASS_$_CKShare
++ _OBJC_CLASS_$_NSLock
++ _OBJC_CLASS_$_NSPersonNameComponentsFormatter
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_PQLConnection
++ _OBJC_CLASS_$_iCDDeleteItemContext
++ _OBJC_CLASS_$_iCDModifyItemContext
++ _OBJC_IVAR_$_iCDCreateItemContext._clientKey
++ _OBJC_IVAR_$_iCDCreateItemContext._initialItem
++ _OBJC_IVAR_$_iCDCreateItemContext._isInDocumentScope
++ _OBJC_IVAR_$_iCDCreateItemContext._parentIDString
++ _OBJC_IVAR_$_iCDCreateItemContext._parentPCSChainState
++ _OBJC_IVAR_$_iCDCreateItemContext._parentSharePermissions
++ _OBJC_IVAR_$_iCDCreateItemContext._parentShareState
++ _OBJC_IVAR_$_iCDCreateItemContext._progress
++ _OBJC_IVAR_$_iCDCreateItemContext._resetItem
++ _OBJC_IVAR_$_iCDCreateItemContext._shareRootItemIdentifierString
++ _OBJC_IVAR_$_iCDCreateItemContext._trashPutBackPath
++ _OBJC_IVAR_$_iCDCreateItemContext._trashPutbackItemIDString
++ _OBJC_IVAR_$_iCDDeleteItemContext._clientKey
++ _OBJC_IVAR_$_iCDDeleteItemContext._itemIDString
++ _OBJC_IVAR_$_iCDDeleteItemContext._progress
++ _OBJC_IVAR_$_iCDDeleteItemContext._serverChangeToken
++ _OBJC_IVAR_$_iCDDeleteItemContext._zoneName
++ _OBJC_IVAR_$_iCDDeleteItemContext._zoneOwner
++ _OBJC_IVAR_$_iCDModifyItemContext._clientKey
++ _OBJC_IVAR_$_iCDModifyItemContext._forceParentShared
++ _OBJC_IVAR_$_iCDModifyItemContext._isInDocumentScope
++ _OBJC_IVAR_$_iCDModifyItemContext._itemIDString
++ _OBJC_IVAR_$_iCDModifyItemContext._parentIDString
++ _OBJC_IVAR_$_iCDModifyItemContext._parentZoneName
++ _OBJC_IVAR_$_iCDModifyItemContext._parentZoneOwner
++ _OBJC_IVAR_$_iCDModifyItemContext._progress
++ _OBJC_IVAR_$_iCDModifyItemContext._resetItem
++ _OBJC_IVAR_$_iCDModifyItemContext._trashPutBackPath
++ _OBJC_IVAR_$_iCDModifyItemContext._trashPutbackItemIDString
++ _OBJC_IVAR_$_iCDModifyItemContext._zoneName
++ _OBJC_IVAR_$_iCDModifyItemContext._zoneOwner
++ _OBJC_METACLASS_$_iCDDeleteItemContext
++ _OBJC_METACLASS_$_iCDModifyItemContext
++ _PQLSqliteErrorDomain
++ __CATEGORY_INSTANCE_METHODS_NSError_$_os_brain
++ __CATEGORY_NSError_$_os_brain
++ __CATEGORY_PROPERTIES_NSError_$_os_brain
++ __DATA__TtC12common_brain18SQLDatabaseDecoder
++ __DATA__TtC12common_brain19PeriodicTaskManager
++ __DATA__TtC12common_brain20DatabaseColumnsCache
++ __DATA__TtC12common_brain22TaskSleepWakeScheduler
++ __DATA__TtC8os_brain12TaskRegistry
++ __DATA__TtC8os_brain27ExpensiveOperationsDatabase
++ __DATA__TtC8os_brainP33_3314DE9DFC97F8F2A3D1D266C5536DEE22ICDUserSettingsAdapter
++ __DATA__TtC8os_brainP33_3314DE9DFC97F8F2A3D1D266C5536DEE23ICDUserSettingsProvider
++ __INSTANCE_METHODS__TtC12common_brain22TaskSleepWakeScheduler
++ __IVARS__TtC12common_brain15ResultCollector
++ __IVARS__TtC12common_brain18SQLDatabaseDecoder
++ __IVARS__TtC12common_brain18SQLDatabaseEncoder
++ __IVARS__TtC12common_brain19PeriodicTaskManager
++ __IVARS__TtC12common_brain20DatabaseColumnsCache
++ __IVARS__TtC12common_brain22TaskSleepWakeScheduler
++ __IVARS__TtC12common_brain26ExclusiveAccessCoordinator
++ __IVARS__TtC8os_brain12TaskRegistry
++ __IVARS__TtC8os_brain27ExpensiveOperationsDatabase
++ __IVARS__TtC8os_brainP33_3314DE9DFC97F8F2A3D1D266C5536DEE22ICDUserSettingsAdapter
++ __IVARS__TtC8os_brainP33_3314DE9DFC97F8F2A3D1D266C5536DEE23ICDUserSettingsProvider
++ __IVARS__TtCV12common_brain8LRUCacheP33_070C38097B304830BF1E986E1B288DE34Node
++ __METACLASS_DATA__TtC12common_brain18SQLDatabaseDecoder
++ __METACLASS_DATA__TtC12common_brain19PeriodicTaskManager
++ __METACLASS_DATA__TtC12common_brain20DatabaseColumnsCache
++ __METACLASS_DATA__TtC12common_brain22TaskSleepWakeScheduler
++ __METACLASS_DATA__TtC8os_brain12TaskRegistry
++ __METACLASS_DATA__TtC8os_brain27ExpensiveOperationsDatabase
++ __METACLASS_DATA__TtC8os_brainP33_3314DE9DFC97F8F2A3D1D266C5536DEE22ICDUserSettingsAdapter
++ __METACLASS_DATA__TtC8os_brainP33_3314DE9DFC97F8F2A3D1D266C5536DEE23ICDUserSettingsProvider
++ __OBJC_$_INSTANCE_METHODS_OSFileProviderResponseItem(os_brain)
++ __OBJC_$_INSTANCE_METHODS_iCDDeleteItemContext
++ __OBJC_$_INSTANCE_METHODS_iCDModifyItemContext
++ __OBJC_$_INSTANCE_VARIABLES_iCDDeleteItemContext
++ __OBJC_$_INSTANCE_VARIABLES_iCDModifyItemContext
++ __OBJC_$_PROP_LIST_OSDanglingAlias
++ __OBJC_$_PROP_LIST_OSServerItem
++ __OBJC_$_PROP_LIST_iCDDeleteItemContext
++ __OBJC_$_PROP_LIST_iCDModifyItemContext
++ __OBJC_$_PROP_LIST_iCDUserDefaults
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OSDanglingAlias
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OSServerItem
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_iCDUserDefaults
++ __OBJC_$_PROTOCOL_METHOD_TYPES_OSDanglingAlias
++ __OBJC_$_PROTOCOL_METHOD_TYPES_OSServerItem
++ __OBJC_$_PROTOCOL_METHOD_TYPES_iCDUserDefaults
++ __OBJC_$_PROTOCOL_REFS_OSDanglingAlias
++ __OBJC_$_PROTOCOL_REFS_OSServerItem
++ __OBJC_$_PROTOCOL_REFS_iCDUserDefaults
++ __OBJC_CLASS_RO_$_iCDDeleteItemContext
++ __OBJC_CLASS_RO_$_iCDModifyItemContext
++ __OBJC_LABEL_PROTOCOL_$_OSDanglingAlias
++ __OBJC_LABEL_PROTOCOL_$_OSServerItem
++ __OBJC_LABEL_PROTOCOL_$_iCDUserDefaults
++ __OBJC_METACLASS_RO_$_iCDDeleteItemContext
++ __OBJC_METACLASS_RO_$_iCDModifyItemContext
++ __OBJC_PROTOCOL_$_OSDanglingAlias
++ __OBJC_PROTOCOL_$_OSServerItem
++ __OBJC_PROTOCOL_$_iCDUserDefaults
++ __PROTOCOLS__TtC12common_brain22TaskSleepWakeScheduler
++ __PROTOCOL_INSTANCE_METHODS_PeriodicTaskWakeScheduler
++ __PROTOCOL_METHOD_TYPES_PeriodicTaskWakeScheduler
++ __PROTOCOL_PeriodicTaskWakeScheduler
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_0
++ ___swift_async_cont_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructor.112Tm
++ ___swift_closure_destructor.11Tm
++ ___swift_closure_destructor.13Tm
++ ___swift_closure_destructor.20Tm
++ ___swift_closure_destructor.22Tm
++ ___swift_closure_destructor.31Tm
++ ___swift_closure_destructor.32Tm
++ ___swift_closure_destructor.3Tm
++ ___swift_closure_destructor.404Tm
++ ___swift_closure_destructor.40Tm
++ ___swift_closure_destructor.52Tm
++ ___swift_closure_destructor.71Tm
++ ___swift_closure_destructor.75Tm
++ ___swift_closure_destructor.85Tm
++ ___swift_closure_destructor.9Tm
++ ___swift_closure_destructorTm
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_exist.box.addr_destructor
++ ___swift_exist.box.addr_destructor.392Tm
++ ___swift_exist.box.addr_destructorTm
++ ___swift_get_extra_inhabitant_index.19Tm
++ ___swift_memcpy0_1
++ ___swift_memcpy120_8
++ ___swift_memcpy144_8
++ ___swift_memcpy176_8
++ ___swift_memcpy184_8
++ ___swift_memcpy25_8
++ ___swift_memcpy72_8
++ ___swift_memcpy80_8
++ ___swift_memcpy88_8
++ ___swift_memcpy8_8
++ ___swift_memcpy9_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_store_extra_inhabitant_index.20Tm
++ ___unnamed_11
++ ___unnamed_13
++ ___unnamed_15
++ ___unnamed_20
++ ___unnamed_27
++ ___unnamed_28
++ ___unnamed_30
++ ___unnamed_31
++ ___unnamed_4
++ ___unnamed_5
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swiftos_$_common_brain
++ __swift_implicitisolationactor_to_executor_cast
++ _associated conformance 12common_brain12BaseItemTypeOSHAASQ
++ _associated conformance 12common_brain12FilenameTypeOSHAASQ
++ _associated conformance 12common_brain12FlushOptionsVs10SetAlgebraAASQ
++ _associated conformance 12common_brain12FlushOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12common_brain12FlushOptionsVs9OptionSetAASY
++ _associated conformance 12common_brain12FlushOptionsVs9OptionSetAAs0F7Algebra
++ _associated conformance 12common_brain13CreationFlagsVs10SetAlgebraAASQ
++ _associated conformance 12common_brain13CreationFlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12common_brain13CreationFlagsVs9OptionSetAASY
++ _associated conformance 12common_brain13CreationFlagsVs9OptionSetAAs0F7Algebra
++ _associated conformance 12common_brain16CommonBrainErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 12common_brain16CommonBrainErrorO10Foundation13CustomNSErrorAAs0E0
++ _associated conformance 12common_brain16EnclosingContextV10CodingKeys33_3553FD737F1717C5A41C6689630793F6LLOSHAASQ
++ _associated conformance 12common_brain16EnclosingContextV10CodingKeys33_3553FD737F1717C5A41C6689630793F6LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain16EnclosingContextV10CodingKeys33_3553FD737F1717C5A41C6689630793F6LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain16SharePermissionsOSHAASQ
++ _associated conformance 12common_brain17ModificationFlagsVs10SetAlgebraAASQ
++ _associated conformance 12common_brain17ModificationFlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12common_brain17ModificationFlagsVs9OptionSetAASY
++ _associated conformance 12common_brain17ModificationFlagsVs9OptionSetAAs0F7Algebra
++ _associated conformance 12common_brain19DanglingAliasGCTaskVyxGAA12PeriodicTaskAA17ContinuationTokenAaEP_SE
++ _associated conformance 12common_brain19DanglingAliasGCTaskVyxGAA12PeriodicTaskAA17ContinuationTokenAaEP_Se
++ _associated conformance 12common_brain19ExclusiveAccessTypeOSHAASQ
++ _associated conformance 12common_brain19TraversalStackFrameV12DatabaseKeysVy_xGAA0F9CodingKeyAA9ValueTypeAaGP_AA0fjK0
++ _associated conformance 12common_brain19TraversalStackFrameV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain19TraversalStackFrameV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20AssetRereferenceTypeOSHAASQ
++ _associated conformance 12common_brain20CrossZoneItemMappingV0E4InfoV12DatabaseKeysVy__xGAA0H9CodingKeyAA9ValueTypeAaIP_AA0hlM0
++ _associated conformance 12common_brain20CrossZoneItemMappingV0E4InfoV12DatabaseKeysVy__xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain20CrossZoneItemMappingV0E4InfoV12DatabaseKeysVy__xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20CrossZoneItemMappingV12DatabaseKeysVy_xGAA0G9CodingKeyAA9ValueTypeAaGP_AA0gkL0
++ _associated conformance 12common_brain20CrossZoneItemMappingV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain20CrossZoneItemMappingV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20DatabaseInsertPolicyOSHAASQ
++ _associated conformance 12common_brain20DatabaseTableMonitorV17ContinuationTokenV10CodingKeys33_5E1606F16A5203251D42B8F3B27E9E4DLLOyxq_q0___Gs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain20DatabaseTableMonitorV17ContinuationTokenV10CodingKeys33_5E1606F16A5203251D42B8F3B27E9E4DLLOyxq_q0___Gs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20DatabaseTableMonitorVyxq_q0_GAA12PeriodicTaskAA17ContinuationTokenAaEP_SE
++ _associated conformance 12common_brain20DatabaseTableMonitorVyxq_q0_GAA12PeriodicTaskAA17ContinuationTokenAaEP_Se
++ _associated conformance 12common_brain20GlobalItemIdentifierV12DatabaseKeysVy_xGAA0F9CodingKeyAA9ValueTypeAaGP_AA0fjK0
++ _associated conformance 12common_brain20GlobalItemIdentifierV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain20GlobalItemIdentifierV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20PeriodicTaskScheduleV12DatabaseKeysVy_xGAA0F9CodingKeyAA9ValueTypeAaGP_AA0fjK0
++ _associated conformance 12common_brain20PeriodicTaskScheduleV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain20PeriodicTaskScheduleV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20RecursiveDeleteEntryV12DatabaseKeysVy_xGAA0F9CodingKeyAA9ValueTypeAaGP_AA0fjK0
++ _associated conformance 12common_brain20RecursiveDeleteEntryV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain20RecursiveDeleteEntryV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain20RecursiveDeleteEntryV5FlagsVs10SetAlgebraAASQ
++ _associated conformance 12common_brain20RecursiveDeleteEntryV5FlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12common_brain20RecursiveDeleteEntryV5FlagsVs9OptionSetAASY
++ _associated conformance 12common_brain20RecursiveDeleteEntryV5FlagsVs9OptionSetAAs0H7Algebra
++ _associated conformance 12common_brain21PipelineJobIdentifierVSHAASQ
++ _associated conformance 12common_brain21ServerChildItemFilterOSHAASQ
++ _associated conformance 12common_brain22CrossZoneMoveOperationV12DatabaseKeysVy_xGAA0G9CodingKeyAA9ValueTypeAaGP_AA0gkL0
++ _associated conformance 12common_brain22CrossZoneMoveOperationV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain22CrossZoneMoveOperationV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain22CrossZoneMoveOperationV5FlagsVs10SetAlgebraAASQ
++ _associated conformance 12common_brain22CrossZoneMoveOperationV5FlagsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12common_brain22CrossZoneMoveOperationV5FlagsVs9OptionSetAASY
++ _associated conformance 12common_brain22CrossZoneMoveOperationV5FlagsVs9OptionSetAAs0I7Algebra
++ _associated conformance 12common_brain22PeriodicTaskIdentifierOSHAASQ
++ _associated conformance 12common_brain22PeriodicTaskIdentifierOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 12common_brain23TraversalTaskIdentifierOSHAASQ
++ _associated conformance 12common_brain23TraversalTaskIdentifierOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 12common_brain24RecursiveDeleteOperationV12DatabaseKeysVy_xGAA0F9CodingKeyAA9ValueTypeAaGP_AA0fjK0
++ _associated conformance 12common_brain24RecursiveDeleteOperationV12DatabaseKeysVy_xGs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain24RecursiveDeleteOperationV12DatabaseKeysVy_xGs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain27DanglingAliasGCContinuationV10CodingKeys33_B8E100B4DD5CA9E87F77B0AC042366B7LLOSHAASQ
++ _associated conformance 12common_brain27DanglingAliasGCContinuationV10CodingKeys33_B8E100B4DD5CA9E87F77B0AC042366B7LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12common_brain27DanglingAliasGCContinuationV10CodingKeys33_B8E100B4DD5CA9E87F77B0AC042366B7LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12common_brain33CrossZoneMoveMonitorActionHandlerVyxGAA013DatabaseTablefgH0AA10RecordTypeAaEP_AA0iJ7Codable
++ _associated conformance 12common_brain33ServerChildItemBatchAsyncIteratorVScIAA7FailureScI_s5Error
++ _associated conformance 12common_brain33ServerChildItemBatchAsyncSequenceVSciAA0G8IteratorSci_ScI
++ _associated conformance 12common_brain40RecursiveOperationsDatabaseSchemaVersionOSHAASQ
++ _associated conformance 12common_brain40RecursiveOperationsDatabaseSchemaVersionOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 8os_brain12OSBrainErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 8os_brain12OSBrainErrorO10Foundation13CustomNSErrorAAs0D0
++ _associated conformance 8os_brain18UploadStageHandlerV07common_B0010SyncUpBasedE8ProtocolAA16ContainerManagerAdEP_AD06ServerklJ0
++ _associated conformance 8os_brain23RenameShareStageHandlerV07common_B0015PipelineActorToE18ForwardingProtocolAA3JobAdEP_AD0hM0
++ _associated conformance 8os_brain23RenameShareStageHandlerV07common_B0020SyncUpIndependentJobeF0AA6RecordAdEP_AD06ServerL0
++ _associated conformance 8os_brain23RenameShareStageHandlerV07common_B008PipelineeF8ProtocolAA12GroupingTypeAdEP_SH
++ _associated conformance 8os_brain23RenameShareStageHandlerV07common_B00cdeF8ProtocolAA16ContainerManagerAdEP_AD06ServerijH0
++ _associated conformance 8os_brain25CrossZoneMoveStageHandlerV07common_B0015PipelineActorToF18ForwardingProtocolAA3JobAdEP_AD0iN0
++ _associated conformance 8os_brain25CrossZoneMoveStageHandlerV07common_B0020SyncUpIndependentJobfG0AA6RecordAdEP_AD06ServerM0
++ _associated conformance 8os_brain25CrossZoneMoveStageHandlerV07common_B008PipelinefG8ProtocolAA12GroupingTypeAdEP_SH
++ _associated conformance 8os_brain25CrossZoneMoveStageHandlerV07common_B00cdefG8ProtocolAA16ContainerManagerAdEP_AD06ServerjkI0
++ _associated conformance 8os_brain25CrossZoneMoveStageHandlerV07common_B00cdefG8ProtocolAA8DatabaseAdEP_AD0J22TableMonitorDataSource
++ _associated conformance 8os_brain25CrossZoneMoveStageHandlerV07common_B00cdefG8ProtocolAA8DatabaseAdEP_AD0cdE10DBProtocol
++ _associated conformance 8os_brain25FileProviderErrorCategoryOSHAASQ
++ _associated conformance 8os_brain26CleanSubsharesStageHandlerV07common_B0015PipelineActorToE18ForwardingProtocolAA3JobAdEP_AD0hM0
++ _associated conformance 8os_brain26CleanSubsharesStageHandlerV07common_B0020SyncUpIndependentJobeF0AA6RecordAdEP_AD06ServerL0
++ _associated conformance 8os_brain26CleanSubsharesStageHandlerV07common_B008PipelineeF8ProtocolAA12GroupingTypeAdEP_SH
++ _associated conformance 8os_brain26CleanSubsharesStageHandlerV07common_B00cdeF8ProtocolAA16ContainerManagerAdEP_AD06ServerijH0
++ _associated conformance 8os_brain26SyncUpMetadataStageHandlerV07common_B00cd4BasefG8ProtocolAA16ContainerManagerAdEP_AD06ServerklJ0
++ _associated conformance 8os_brain27ExpensiveOperationsDatabaseC07common_B009RecursivedE0AA10ConnectionAdEP_AD0eH0
++ _associated conformance 8os_brain27RecursiveDeleteStageHandlerV07common_B0015PipelineActorToE18ForwardingProtocolAA3JobAdEP_AD0hM0
++ _associated conformance 8os_brain27RecursiveDeleteStageHandlerV07common_B0020SyncUpIndependentJobeF0AA6RecordAdEP_AD06ServerL0
++ _associated conformance 8os_brain27RecursiveDeleteStageHandlerV07common_B008PipelineeF8ProtocolAA12GroupingTypeAdEP_SH
++ _associated conformance 8os_brain27RecursiveDeleteStageHandlerV07common_B00cdeF8ProtocolAA16ContainerManagerAdEP_AD06ServerijH0
++ _associated conformance 8os_brain27RecursiveDeleteStageHandlerV07common_B00cdeF8ProtocolAA8DatabaseAdEP_AD0cD10DBProtocol
++ _associated conformance 8os_brain37CreateZoneAndSubscriptionStageHandlerV07common_B0010SyncUpBasegH8ProtocolAA16ContainerManagerAdEP_AD06ServernoM0
++ _associated conformance 8os_brain37FetchDestinationDirectoryStageHandlerV07common_B0015PipelineActorToF18ForwardingProtocolAA3JobAdEP_AD0iN0
++ _associated conformance 8os_brain37FetchDestinationDirectoryStageHandlerV07common_B0020SyncUpIndependentJobfG0AA6RecordAdEP_AD06ServerM0
++ _associated conformance 8os_brain37FetchDestinationDirectoryStageHandlerV07common_B008PipelinefG8ProtocolAA12GroupingTypeAdEP_SH
++ _associated conformance 8os_brain38PrepIWorkSharingIdentitiesStageHandlerV07common_B0010SyncUpBasegH8ProtocolAA16ContainerManagerAdEP_AD06ServernoM0
++ _associated conformance 8os_brain38PrepIWorkSharingIdentitiesStageHandlerV07common_B0015PipelineActorToG18ForwardingProtocolAA3JobAdEP_AD0jO0
++ _associated conformance 8os_brain38PrepIWorkSharingIdentitiesStageHandlerV07common_B0020SyncUpIndependentJobgH0AA6RecordAdEP_AD06ServerN0
++ _associated conformance 8os_brain38PrepIWorkSharingIdentitiesStageHandlerV07common_B008PipelinegH8ProtocolAA12GroupingTypeAdEP_SH
++ _associated conformance So11CKContainerC12common_brain23ServerContainerProtocol03os_C021FetchRecordsOperationAcDP_AC0dhiJ0
++ _associated conformance So13PQLConnectionC12common_brain18DatabaseConnection03os_C012QueryBuilderAcDP_AC0dgH0
++ _associated conformance So13PQLConnectionC12common_brain18DatabaseConnection03os_C09ResultSetAcDP_AC09SQLResultH0
++ _associated conformance So23CKFetchRecordsOperationC12common_brain011ServerFetchbC003os_E011RecordErrorAcDP_AC06SyncUpiJ0
++ _associated conformance So24CKModifyRecordsOperationC12common_brain012ServerModifybC003os_E00C7MetricsAcDP_AC0fcI0
++ _associated conformance So31NSFileProviderCreateItemOptionsVs10SetAlgebraSCSQ
++ _associated conformance So31NSFileProviderCreateItemOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So31NSFileProviderCreateItemOptionsVs9OptionSetSCSY
++ _associated conformance So31NSFileProviderCreateItemOptionsVs9OptionSetSCs0G7Algebra
++ _associated conformance So31NSFileProviderModifyItemOptionsVs10SetAlgebraSCSQ
++ _associated conformance So31NSFileProviderModifyItemOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So31NSFileProviderModifyItemOptionsVs9OptionSetSCSY
++ _associated conformance So31NSFileProviderModifyItemOptionsVs9OptionSetSCs0G7Algebra
++ _associated conformance So36NSURLUbiquitousSharedItemPermissionsaSHSCSQ
++ _associated conformance So36NSURLUbiquitousSharedItemPermissionsas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So36NSURLUbiquitousSharedItemPermissionsas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _exit
++ _flat unique So12OSServerItem_p
++ _flat unique So15OSDanglingAlias_p
++ _flat unique So15iCDUserDefaults_p
++ _flat unique So25PeriodicTaskWakeScheduler_p
++ _generic environment 12common_brain22ExclusiveAccessCapableRzAA11PipelineJobRzl
++ _get_enum_tag_for_layout_string 12common_brain16DiffableItemTypeO
++ _get_enum_tag_for_layout_string 12common_brain18ContainerResetTypeO
++ _objc_msgSend$MMCSMetrics
++ _objc_msgSend$appLibraryRootNeedsCreationForAppLibraryID:completionHandler:
++ _objc_msgSend$bindBooleanParameter:
++ _objc_msgSend$bindDoubleParameter:
++ _objc_msgSend$bindLongParameter:
++ _objc_msgSend$bindObjectParameter:
++ _objc_msgSend$bindStringParameter:
++ _objc_msgSend$blockedThumbnailExtensions
++ _objc_msgSend$boolValue
++ _objc_msgSend$bytesUploaded
++ _objc_msgSend$changes
++ _objc_msgSend$clearCrossZoneMovePreviousItemGlobalIDsWithDestinationItemIDs:destinationZoneName:destinationOwnerName:completionHandler:
++ _objc_msgSend$clientKey
++ _objc_msgSend$clonedPackageWithRecordID:databaseScope:fieldName:error:
++ _objc_msgSend$close
++ _objc_msgSend$close:
++ _objc_msgSend$conflictLoserEtags
++ _objc_msgSend$dataAtIndex:
++ _objc_msgSend$debugDescription
++ _objc_msgSend$description
++ _objc_msgSend$directoryHierarchyDepth
++ _objc_msgSend$doubleAtIndex:
++ _objc_msgSend$executeSwift:error:
++ _objc_msgSend$fetchServerItemBatchParentedTo:zoneName:ownerName:batchSize:continuationToken:filter:completionHandler:
++ _objc_msgSend$fetchSwift:error:
++ _objc_msgSend$finishPackageUploadForItemIdentifier:zoneName:ownerName:record:workDirectory:error:
++ _objc_msgSend$flush
++ _objc_msgSend$forceParentShared
++ _objc_msgSend$getNewWebSharingIdentityDataWithCompletionHandler:
++ _objc_msgSend$getUserDefaultsForZoneName:ownerName:
++ _objc_msgSend$groupInTransaction:
++ _objc_msgSend$initWithAssetReference:
++ _objc_msgSend$initWithExistingRecordID:databaseScope:fieldName:fileSignature:
++ _objc_msgSend$initWithInteger:
++ _objc_msgSend$initWithLabel:color:
++ _objc_msgSend$initialItem
++ _objc_msgSend$invokeListDirectoryOnItem:zoneName:ownerName:recursive:completionHandler:
++ _objc_msgSend$isHiddenExt
++ _objc_msgSend$isInDocumentScope
++ _objc_msgSend$isKnownToServer
++ _objc_msgSend$isNullAtIndex:
++ _objc_msgSend$isValidSignature:
++ _objc_msgSend$itemIDString
++ _objc_msgSend$lastInsertedRowID
++ _objc_msgSend$learnCrossZoneMoveETagsWithDestinationItemIDs:destinationZoneName:destinationOwnerName:destinationStructureETags:destinationContentETags:completionHandler:
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$localizedStringFromPersonNameComponents:style:options:
++ _objc_msgSend$locateItemWithRecordName:zoneName:ownerName:completionHandler:
++ _objc_msgSend$lock
++ _objc_msgSend$longLongAtIndex:
++ _objc_msgSend$makeNextFlushBarrierFSync
++ _objc_msgSend$makeNextFlushFullSync
++ _objc_msgSend$markAppLibraryRootCreatedForAppLibraryID:completionHandler:
++ _objc_msgSend$markDeletedWithItemIDs:zoneName:ownerName:completionHandler:
++ _objc_msgSend$maxRelativePathDepth
++ _objc_msgSend$metrics
++ _objc_msgSend$minFileSizeForThumbnailTransfer
++ _objc_msgSend$next
++ _objc_msgSend$openAtURL:withFlags:error:
++ _objc_msgSend$osPCSChainState
++ _objc_msgSend$parent
++ _objc_msgSend$parentChainForItemIdentifierString:zoneName:ownerName:filter:
++ _objc_msgSend$parentIDString
++ _objc_msgSend$parentOwnerIdentifier
++ _objc_msgSend$parentPCSChainState
++ _objc_msgSend$parentSharePermissions
++ _objc_msgSend$parentShareState
++ _objc_msgSend$performWithFlags:action:
++ _objc_msgSend$preMarkCrossZoneMovedWithSourceItemIDs:itemMapping:parentMapping:sourceZoneName:sourceOwnerName:sourceZoneNameOverrides:sourceOwnerNameOverrides:destinationZoneName:destinationOwnerName:completionHandler:
++ _objc_msgSend$privateZoneNamesWithCompletionHandler:
++ _objc_msgSend$progress
++ _objc_msgSend$quarantineInfo
++ _objc_msgSend$quotaCategoryMUpperBound
++ _objc_msgSend$quotaCategorySUpperBound
++ _objc_msgSend$quotaCategoryXSUpperBound
++ _objc_msgSend$recordIDs
++ _objc_msgSend$recoverStaleCrossZoneMoveForSourceItemIdentifier:sourceZoneName:sourceOwnerName:destinationItemIdentifier:destinationZoneName:destinationOwnerName:completionHandler:
++ _objc_msgSend$recursiveOperationsDatabaseBatchSize
++ _objc_msgSend$refetchParentChainForItemIdentifier:zoneName:ownerName:completionHandler:
++ _objc_msgSend$resetItem
++ _objc_msgSend$resetZoneName:ownerName:resetType:reason:completionHandler:
++ _objc_msgSend$reviveAndSignalFPForRootItemID:zoneName:ownerName:completionHandler:
++ _objc_msgSend$scheduleWakeAfterDelay:tolerance:cancellableBody:
++ _objc_msgSend$serverChangeToken
++ _objc_msgSend$setConflictLoserEtags:
++ _objc_msgSend$setConflictResolved:
++ _objc_msgSend$setKnownToServer:
++ _objc_msgSend$setRecordIDs:
++ _objc_msgSend$setShare:
++ _objc_msgSend$setShouldCloneFileInAssetCache:
++ _objc_msgSend$setShouldFetchAssetContent:
++ _objc_msgSend$setSqliteErrorHandler:
++ _objc_msgSend$sharePermissions
++ _objc_msgSend$shareRootItemIdentifier
++ _objc_msgSend$shareRootItemIdentifierString
++ _objc_msgSend$shareState
++ _objc_msgSend$sharedByMeSubitemCount
++ _objc_msgSend$sharedToMeSubitemCount
++ _objc_msgSend$shouldFetchAssetContent
++ _objc_msgSend$shouldListDirectoryItem:zoneName:ownerName:completionHandler:
++ _objc_msgSend$stringAtIndex:
++ _objc_msgSend$tagData
++ _objc_msgSend$targetItemIdentifierString
++ _objc_msgSend$targetZoneName
++ _objc_msgSend$targetZoneOwnerName
++ _objc_msgSend$thumbnailSignature
++ _objc_msgSend$trashItemIdentifierForZoneName:ownerName:completionHandler:
++ _objc_msgSend$trashItemIdentifierIfNeededCreationForItemID:zoneName:ownerName:completionHandler:
++ _objc_msgSend$trashPutBackPath
++ _objc_msgSend$trashPutbackItemIDString
++ _objc_msgSend$underlyingErrors
++ _objc_msgSend$unlock
++ _objc_msgSend$updatePackageRecordForItemIdentifier:zoneName:ownerName:record:workDirectory:error:
++ _objc_msgSend$updateUploadedBytesWithSize:forItemIdentifiers:zoneName:ownerName:
++ _objc_msgSend$zoneAndAppLibraryConsolidationFlagsForItemIDString:zoneName:ownerName:completionHandler:
++ _objc_msgSend$zoneAndAppLibraryRootNeedsCreationForZoneName:ownerName:completionHandler:
++ _objc_msgSend$zoneHasSyncedDownWithoutError:ownerName:completionHandler:
++ _objc_msgSend$zoneNeedsCreation:ownerName:completionHandler:
++ _objc_msgSend$zoneOwner
++ _objc_release_x11
++ _objc_retain_x2
++ _objc_retain_x4
++ _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
++ _swift_deallocUninitializedObject
++ _swift_getTupleTypeLayout
++ _swift_isEscapingClosureAtFileLocation
++ _swift_isaMask
++ _swift_release_x1
++ _swift_release_x11
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x3
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x28
++ _swift_retain_x8
++ _swift_retain_x9
++ _swift_task_addCancellationHandler
++ _swift_task_removeCancellationHandler
++ _swift_weakAssign
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s12common_brain12PeriodicTaskP
++ _symbolic $s12common_brain12SQLResultSetP
++ _symbolic $s12common_brain12UserSettingsP
++ _symbolic $s12common_brain13ZonesProviderP
++ _symbolic $s12common_brain15DatabaseCodableP
++ _symbolic $s12common_brain15DatabaseDecoderP
++ _symbolic $s12common_brain15DatabaseEncoderP
++ _symbolic $s12common_brain17DatabaseCodingKeyP
++ _symbolic $s12common_brain17DatabaseValueTypeP
++ _symbolic $s12common_brain18DatabaseConnectionP
++ _symbolic $s12common_brain19TraversalStackStoreP
++ _symbolic $s12common_brain20DatabaseQueryBuilderP
++ _symbolic $s12common_brain20DatabaseTableCodableP
++ _symbolic $s12common_brain20UserSettingsProviderP
++ _symbolic $s12common_brain22ExclusiveAccessCapableP
++ _symbolic $s12common_brain22ServerOperationMetricsP
++ _symbolic $s12common_brain22ServerRecordDataSourceP
++ _symbolic $s12common_brain22ZoneLifecycleProvidingP
++ _symbolic $s12common_brain23CrossZoneMoveDBProtocolP
++ _symbolic $s12common_brain23PathMatchLookupProviderP
++ _symbolic $s12common_brain24DatabaseRawRepresentableP
++ _symbolic $s12common_brain24PipelineBatchingStrategyP
++ _symbolic $s12common_brain24TestHooksServiceProviderP
++ _symbolic $s12common_brain25ParentChainLookupProviderP
++ _symbolic $s12common_brain25PeriodicTaskScheduleStoreP
++ _symbolic $s12common_brain25PeriodicTaskWakeSchedulerP
++ _symbolic $s12common_brain25RecursiveDeleteDBProtocolP
++ _symbolic $s12common_brain26DatabaseMultiColumnCodableP
++ _symbolic $s12common_brain27RecursiveOperationsDatabaseP
++ _symbolic $s12common_brain27ServerFetchRecordsOperationP
++ _symbolic $s12common_brain28CrossZoneMoveRecoveryServiceP
++ _symbolic $s12common_brain28PackageUploadServiceProviderP
++ _symbolic $s12common_brain28ServerChildItemBatchProviderP
++ _symbolic $s12common_brain30CrossZoneMoveOperationDelegateP
++ _symbolic $s12common_brain30DatabaseTableMonitorDataSourceP
++ _symbolic $s12common_brain30SyncUpBaseStageHandlerProtocolP
++ _symbolic $s12common_brain31RenameShareStageHandlerProtocolP
++ _symbolic $s12common_brain32RecursiveDeleteOperationDelegateP
++ _symbolic $s12common_brain33CrossZoneMoveStageHandlerProtocolP
++ _symbolic $s12common_brain33DatabaseTableMonitorActionHandlerP
++ _symbolic $s12common_brain34CleanSubsharesStageHandlerProtocolP
++ _symbolic $s12common_brain34JobCoordinationNotificationHandlerP
++ _symbolic $s12common_brain35RecursiveDeleteStageHandlerProtocolP
++ _symbolic $s12common_brain36ListDirectoryExternalServiceProtocolP
++ _symbolic $s12common_brain39UploadConstraintExternalServiceProtocolP
++ _symbolic $s12common_brain45FetchDestinationDirectoryStageHandlerProtocolP
++ _symbolic $s12common_brain46PrepIWorkSharingIdentitiesStageHandlerProtocolP
++ _symbolic $s8os_brain20TaskRegistryProtocolP
++ _symbolic $sScI
++ _symbolic $sSci
++ _symbolic 10Connection_____Qz 12common_brain27RecursiveOperationsDatabaseP
++ _symbolic 10RecordType_____Qy_ 12common_brain33DatabaseTableMonitorActionHandlerP
++ _symbolic 10RecordType_____Qz 12common_brain33DatabaseTableMonitorActionHandlerP
++ _symbolic 11RecordError_____Qz 12common_brain27ServerFetchRecordsOperationP
++ _symbolic 12QueryBuilder_____Qz 12common_brain18DatabaseConnectionP
++ _symbolic 16ContainerManager_____Qz 12common_brain30SyncUpBaseStageHandlerProtocolP
++ _symbolic 16ContainerManager_____Qz 12common_brain31RenameShareStageHandlerProtocolP
++ _symbolic 16ContainerManager_____Qz 12common_brain33CrossZoneMoveStageHandlerProtocolP
++ _symbolic 16ContainerManager_____Qz 12common_brain34CleanSubsharesStageHandlerProtocolP
++ _symbolic 16ContainerManager_____Qz 12common_brain35RecursiveDeleteStageHandlerProtocolP
++ _symbolic 16ContainerManager______0A4Type_____22ModifyRecordsOperation_____0F7Metrics_____QZSg 12common_brain30SyncUpBaseStageHandlerProtocolP AA022ServerContainerManagerH0P AA0ijH0P AA0I22ModifyRecordsOperationP
++ _symbolic 16ContainerManager______0A4Type_____22ModifyRecordsOperation_____QZ 12common_brain30SyncUpBaseStageHandlerProtocolP AA022ServerContainerManagerH0P AA0ijH0P
++ _symbolic 16ContainerManager______0A4Type_____6Record_____QZ 12common_brain30SyncUpBaseStageHandlerProtocolP AA022ServerContainerManagerH0P AA0ijH0P
++ _symbolic 16ContainerManager______0A4Type_____6Record_____QZ 12common_brain31RenameShareStageHandlerProtocolP AA022ServerContainerManagerG0P AA0hiG0P
++ _symbolic 16ContainerManager______0A4Type_____6Record_____QZ 12common_brain33CrossZoneMoveStageHandlerProtocolP AA022ServerContainerManagerH0P AA0ijH0P
++ _symbolic 16ContainerManager______0A4Type_____6Record_____QZ 12common_brain34CleanSubsharesStageHandlerProtocolP AA022ServerContainerManagerG0P AA0hiG0P
++ _symbolic 16ContainerManager______0A4Type_____6Record_____QZ 12common_brain35RecursiveDeleteStageHandlerProtocolP AA022ServerContainerManagerG0P AA0hiG0P
++ _symbolic 16OperationMetrics_____Qz 12common_brain28ServerModifyRecordsOperationP
++ _symbolic 17ContinuationToken_____Qz 12common_brain12PeriodicTaskP
++ _symbolic 21FetchRecordsOperation_____Qz 12common_brain23ServerContainerProtocolP
++ _symbolic 21FetchRecordsOperation_____QzIeghH_Iegg______yyt______pGIeghg_Ieghggg_ 12common_brain23ServerContainerProtocolP s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic 21FetchRecordsOperation______0C13Configuration_____QZ 12common_brain23ServerContainerProtocolP AA0C9OperationP
++ _symbolic 21FetchRecordsOperation______0C5Group_____QZ 12common_brain23ServerContainerProtocolP AA0C9OperationP
++ _symbolic 21FetchRecordsOperation______6Record_____QZ 12common_brain23ServerContainerProtocolP AA0C9OperationP
++ _symbolic 6Record_____Qz 12common_brain30SyncUpBaseStageHandlerProtocolP
++ _symbolic 8Database_____Qz 12common_brain33CrossZoneMoveStageHandlerProtocolP
++ _symbolic 8Database_____Qz 12common_brain35RecursiveDeleteStageHandlerProtocolP
++ _symbolic 9ResultSet_____Qz 12common_brain18DatabaseConnectionP
++ _symbolic 9ValueType_____Qy0_ 12common_brain17DatabaseCodingKeyP
++ _symbolic 9ValueType_____Qz 12common_brain17DatabaseCodingKeyP
++ _symbolic B2
++ _symbolic G0G0R6__
++ _symbolic IeAgH_
++ _symbolic Ieg_
++ _symbolic SDy13JobIdentifier_____Qz_____yx_GG 12common_brain11PipelineJobP AA26ExclusiveAccessCoordinatorC06ActiveD5Entry33_8EA3B7E6C4F5005094B4C9C7AEEDFA0FLLV
++ _symbolic SDySOSDySSSiGG
++ _symbolic SDySSSiG
++ _symbolic SDySSypG
++ _symbolic SDy_____AAG 12common_brain14ItemIdentifierO
++ _symbolic SDy_____SDy_____ScCyyt______pGGG 12common_brain20GlobalItemIdentifierV 10Foundation4UUIDV s5ErrorP
++ _symbolic SDy_____Say_____GG 12common_brain14ZoneIdentifierO 03os_B012TaskRegistryC5Entry33_20662B8427504A7D2BD0236C5B295C51LLV
++ _symbolic SDy__________G 10Foundation4UUIDV 12common_brain14ZoneIdentifierO
++ _symbolic SDy__________G 12common_brain14ItemIdentifierO AA04ZoneD0O
++ _symbolic SDy__________G 12common_brain20GlobalItemIdentifierV AA19ExclusiveAccessTypeO
++ _symbolic SDy__________y6Record_____QzGG 12common_brain14ServerRecordIDV AA03JobD7TrackerC AA30SyncUpBaseStageHandlerProtocolP
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SDyx_____yq_______pGG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic SDyx_____yxq__GG 12common_brain8LRUCacheV4Node33_070C38097B304830BF1E986E1B288DE3LLC
++ _symbolic SS10recordName_SS10sourceEtagt
++ _symbolic SS12appLibraryID_t
++ _symbolic SS3key_yp5valuet
++ _symbolic SS6reason_t
++ _symbolic SS6target_t
++ _symbolic SS_SSt
++ _symbolic SS_Sit
++ _symbolic SS______t 12common_brain14ItemIdentifierO
++ _symbolic Say6Record_____QzG 12common_brain30SyncUpBaseStageHandlerProtocolP
++ _symbolic Say6Record_____QzG 12common_brain32SyncUpIndependentJobStageHandlerP
++ _symbolic Say_____10rootItemID______4zonetG0A5Items_ShyACG5zonest 12common_brain14ItemIdentifierO AA04ZoneD0O
++ _symbolic Say_____14itemIdentifier_______p5errortG11failedItems_t 12common_brain14ItemIdentifierO s5ErrorP
++ _symbolic Say_____8recordID_SSSg4etagtG 12common_brain14ServerRecordIDV
++ _symbolic Say_____G 12common_brain10ServerItemV
++ _symbolic Say_____G 12common_brain13CreationFlagsV
++ _symbolic Say_____G 12common_brain13DanglingAliasV
++ _symbolic Say_____G 12common_brain14ZoneIdentifierO
++ _symbolic Say_____G 12common_brain19SyncUpInternalFixupO
++ _symbolic Say_____G 12common_brain20CrossZoneItemMappingV
++ _symbolic Say_____G 12common_brain20RecursiveDeleteEntryV
++ _symbolic Say_____G 12common_brain22CrossZoneMoveOperationV5FlagsV
++ _symbolic Say_____G 12common_brain22PeriodicTaskIdentifierO
++ _symbolic Say_____G 12common_brain23TraversalTaskIdentifierO
++ _symbolic Say_____G 12common_brain40RecursiveOperationsDatabaseSchemaVersionO
++ _symbolic Say______pG 12common_brain12PeriodicTaskP
++ _symbolic Say_____xXjG l12common_brain26PipelineStageActorProtocol_px3JobRts_XPXGMq
++ _symbolic Say_____y6Record_____Qz_GG 12common_brain9SyncUpJobV0E5SliceV AA0cD24BaseStageHandlerProtocolP
++ _symbolic Sb17zoneNeedsCreation_Sb014appLibraryRootbC0t
++ _symbolic Sb17zoneNeedsCreation_Sb04rootbC0Sb14isConsolidatedt
++ _symbolic ScCySSSg_____G s5NeverO
++ _symbolic ScCySay_____G_____G 12common_brain14ZoneIdentifierO s5NeverO
++ _symbolic ScCySb17zoneNeedsCreation_Sb014appLibraryRootbC0t_____G s5NeverO
++ _symbolic ScCySb17zoneNeedsCreation_Sb04rootbC0Sb14isConsolidatedt_____G s5NeverO
++ _symbolic ScCy_____Sg______pG 12common_brain20GlobalItemIdentifierV s5ErrorP
++ _symbolic ScCy_____Sg______pG So28NSFileProviderItemIdentifiera s5ErrorP
++ _symbolic ScCy___________pG 12common_brain20ServerChildItemBatchV s5ErrorP
++ _symbolic ScCy_____yyt_____G_____G s6ResultOsRi_zRi0_zrlE 12common_brain26CrossZoneMoveRecoveryErrorO s5NeverO
++ _symbolic ScCyyt______pGSg s5ErrorP
++ _symbolic ScGyytG
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Shy_____G 12common_brain14ItemIdentifierO
++ _symbolic Shy_____G 12common_brain20GlobalItemIdentifierV
++ _symbolic So12PQLResultSetC
++ _symbolic So13PQLConnectionC
++ _symbolic So13PQLConnectionCSbIggd_
++ _symbolic So15PQLQueryBuilderC
++ _symbolic So15PQLQueryBuilderCSSIggo_
++ _symbolic So18CKOperationMetricsCSg
++ _symbolic So20iCDCreateItemContextC
++ _symbolic So20iCDDeleteItemContextC
++ _symbolic So20iCDModifyItemContextC
++ _symbolic So21NSFileProviderRequestC
++ _symbolic So23CKFetchRecordsOperationC
++ _symbolic So6NSLockC
++ _symbolic So7NSErrorCSgIeyBhy_
++ _symbolic So7NSErrorCSgIeyBhy_IeyBh_IeyBhya_
++ _symbolic _____ 12common_brain10ServerItemV12DocumentInfoV
++ _symbolic _____ 12common_brain10ServerItemV13DirectoryInfoV
++ _symbolic _____ 12common_brain11BaseVersionV
++ _symbolic _____ 12common_brain12BaseItemTypeO
++ _symbolic _____ 12common_brain12FilenameTypeO
++ _symbolic _____ 12common_brain12FlushOptionsV
++ _symbolic _____ 12common_brain13CreationFlagsV
++ _symbolic _____ 12common_brain13DanglingAliasV
++ _symbolic _____ 12common_brain14FileSystemItemV15DocumentContextV
++ _symbolic _____ 12common_brain14FileSystemItemV16ThumbnailContextV
++ _symbolic _____ 12common_brain14FileSystemItemV25AssetReferenceWithContextV
++ _symbolic _____ 12common_brain14TreeAttributesV
++ _symbolic _____ 12common_brain15ResultCollectorC
++ _symbolic _____ 12common_brain16DiffableItemTypeO
++ _symbolic _____ 12common_brain16EnclosingContextV
++ _symbolic _____ 12common_brain16EnclosingContextV10CodingKeys33_3553FD737F1717C5A41C6689630793F6LLO
++ _symbolic _____ 12common_brain16SharePermissionsO
++ _symbolic _____ 12common_brain17ModificationFlagsV
++ _symbolic _____ 12common_brain18ContainerResetTypeO
++ _symbolic _____ 12common_brain18PrerequisiteTargetV
++ _symbolic _____ 12common_brain18SQLDatabaseDecoderC
++ _symbolic _____ 12common_brain18SQLDatabaseEncoderC
++ _symbolic _____ 12common_brain19DanglingAliasGCTaskV
++ _symbolic _____ 12common_brain19ExclusiveAccessTypeO
++ _symbolic _____ 12common_brain19PeriodicTaskManagerC
++ _symbolic _____ 12common_brain19PrerequisiteRecordsV
++ _symbolic _____ 12common_brain19SyncUpInternalFixupO
++ _symbolic _____ 12common_brain19TraversalStackFrameV
++ _symbolic _____ 12common_brain19TraversalStackFrameV12DatabaseKeysV
++ _symbolic _____ 12common_brain20AssetRereferenceTypeO
++ _symbolic _____ 12common_brain20CrossZoneItemMappingV
++ _symbolic _____ 12common_brain20CrossZoneItemMappingV0E4InfoV
++ _symbolic _____ 12common_brain20CrossZoneItemMappingV0E4InfoV12DatabaseKeysV
++ _symbolic _____ 12common_brain20CrossZoneItemMappingV12DatabaseKeysV
++ _symbolic _____ 12common_brain20DatabaseColumnsCacheC
++ _symbolic _____ 12common_brain20DatabaseInsertPolicyO
++ _symbolic _____ 12common_brain20DatabaseTableMonitorV
++ _symbolic _____ 12common_brain20DatabaseTableMonitorV17ContinuationTokenV
++ _symbolic _____ 12common_brain20DatabaseTableMonitorV17ContinuationTokenV10CodingKeys33_5E1606F16A5203251D42B8F3B27E9E4DLLO
++ _symbolic _____ 12common_brain20EWMABatchingStrategyV
++ _symbolic _____ 12common_brain20EWMABatchingStrategyV6ConfigV
++ _symbolic _____ 12common_brain20GlobalItemIdentifierV12DatabaseKeysV
++ _symbolic _____ 12common_brain20PackageUploadContextV
++ _symbolic _____ 12common_brain20PeriodicTaskScheduleV
++ _symbolic _____ 12common_brain20PeriodicTaskScheduleV12DatabaseKeysV
++ _symbolic _____ 12common_brain20RecursiveDeleteEntryV
++ _symbolic _____ 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV
++ _symbolic _____ 12common_brain20RecursiveDeleteEntryV5FlagsV
++ _symbolic _____ 12common_brain20ServerChildItemBatchV
++ _symbolic _____ 12common_brain21PipelineJobIdentifierV
++ _symbolic _____ 12common_brain21ServerChildItemFilterO
++ _symbolic _____ 12common_brain22CrossZoneMoveOperationV
++ _symbolic _____ 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV
++ _symbolic _____ 12common_brain22CrossZoneMoveOperationV5FlagsV
++ _symbolic _____ 12common_brain22PeriodicTaskIdentifierO
++ _symbolic _____ 12common_brain22TaskSleepWakeSchedulerC
++ _symbolic _____ 12common_brain23TraversalTaskIdentifierO
++ _symbolic _____ 12common_brain24RecursiveDeleteOperationV
++ _symbolic _____ 12common_brain24RecursiveDeleteOperationV12DatabaseKeysV
++ _symbolic _____ 12common_brain24SaveEntryBatchUpdateTypeO
++ _symbolic _____ 12common_brain25TreeTraversalContinuationV
++ _symbolic _____ 12common_brain26CrossZoneMoveRecoveryErrorO
++ _symbolic _____ 12common_brain26ExclusiveAccessCoordinatorC
++ _symbolic _____ 12common_brain26ExclusiveAccessCoordinatorC14ActiveJobEntry33_8EA3B7E6C4F5005094B4C9C7AEEDFA0FLLV
++ _symbolic _____ 12common_brain26ExclusiveAccessCoordinatorC16WaitingTaskEntry33_8EA3B7E6C4F5005094B4C9C7AEEDFA0FLLV
++ _symbolic _____ 12common_brain26SaveMappingBatchUpdateTypeO
++ _symbolic _____ 12common_brain27DanglingAliasGCContinuationV
++ _symbolic _____ 12common_brain27DanglingAliasGCContinuationV10CodingKeys33_B8E100B4DD5CA9E87F77B0AC042366B7LLO
++ _symbolic _____ 12common_brain33CrossZoneMoveMonitorActionHandlerV
++ _symbolic _____ 12common_brain33ServerChildItemBatchAsyncIteratorV
++ _symbolic _____ 12common_brain33ServerChildItemBatchAsyncSequenceV
++ _symbolic _____ 12common_brain40RecursiveOperationsDatabaseSchemaVersionO
++ _symbolic _____ 12common_brain8LRUCacheV
++ _symbolic _____ 12common_brain8LRUCacheV4Node33_070C38097B304830BF1E986E1B288DE3LLC
++ _symbolic _____ 8os_brain10SyncEngineC25CorrectiveActionOverrides33_0363D5EF121AC73FB9168692FD66EC54LLV
++ _symbolic _____ 8os_brain12TaskRegistryC
++ _symbolic _____ 8os_brain12TaskRegistryC5Entry33_20662B8427504A7D2BD0236C5B295C51LLV
++ _symbolic _____ 8os_brain14SyncUpResponseV
++ _symbolic _____ 8os_brain17QuotaErrorContextV
++ _symbolic _____ 8os_brain19QuotaSizeThresholdsO
++ _symbolic _____ 8os_brain22ICDUserSettingsAdapter33_3314DE9DFC97F8F2A3D1D266C5536DEELLC
++ _symbolic _____ 8os_brain23ICDUserSettingsProvider33_3314DE9DFC97F8F2A3D1D266C5536DEELLC
++ _symbolic _____ 8os_brain23RenameShareStageHandlerV
++ _symbolic _____ 8os_brain25CKOperationMetricsWrapperV
++ _symbolic _____ 8os_brain25CrossZoneMoveStageHandlerV
++ _symbolic _____ 8os_brain25FileProviderErrorCategoryO
++ _symbolic _____ 8os_brain26CleanSubsharesStageHandlerV
++ _symbolic _____ 8os_brain27ExpensiveOperationsDatabaseC
++ _symbolic _____ 8os_brain27RecursiveDeleteStageHandlerV
++ _symbolic _____ 8os_brain37FetchDestinationDirectoryStageHandlerV
++ _symbolic _____ 8os_brain38PrepIWorkSharingIdentitiesStageHandlerV
++ _symbolic _____ So12OSShareStateV
++ _symbolic _____ So15OSPCSChainStateV
++ _symbolic _____ So18OSSharePermissionsV
++ _symbolic _____ So31NSFileProviderCreateItemOptionsV
++ _symbolic _____ So31NSFileProviderModifyItemOptionsV
++ _symbolic _____ So36NSURLUbiquitousSharedItemPermissionsa
++ _symbolic _____ s5Int64V
++ _symbolic _____ s5UInt8V
++ _symbolic _____10rootItemID______4zonet 12common_brain14ItemIdentifierO AA04ZoneD0O
++ _symbolic _____14itemIdentifier_SiSg17continuationTokent 12common_brain14ItemIdentifierO
++ _symbolic _____14itemIdentifier______04zoneB0t 12common_brain14ItemIdentifierO AA04ZoneD0O
++ _symbolic _____14itemIdentifier_______p5errort 12common_brain14ItemIdentifierO s5ErrorP
++ _symbolic _____14serverRecordID_t 12common_brain14ServerRecordIDV
++ _symbolic _____14zoneIdentifier______9resetTypet 12common_brain14ZoneIdentifierO AA18ContainerResetTypeO
++ _symbolic _____16contentSignature______Sg4sizet 10Foundation4DataV s5Int64V
++ _symbolic _____17oldItemIdentifier_AA03newbC0t 12common_brain14ItemIdentifierO
++ _symbolic _____20globalItemIdentifier______017destinationParentbC0SS0D13StructureEtagSSSg0d7ContentG0t 12common_brain20GlobalItemIdentifierV AA0dE0O
++ _symbolic _____20globalItemIdentifier______8newStatet 12common_brain20GlobalItemIdentifierV AA13PCSChainStateO
++ _symbolic _____23shareRootItemIdentifier_t 12common_brain14ItemIdentifierO
++ _symbolic _____3key_AA5valuet 12common_brain14ItemIdentifierO
++ _symbolic _____3key_SS5valuet 12common_brain14ItemIdentifierO
++ _symbolic _____3key_ScCyyt______pG5valuet 10Foundation4UUIDV s5ErrorP
++ _symbolic _____3key______5valuet 12common_brain14ItemIdentifierO AA04ZoneD0O
++ _symbolic _____3key______5valuet 12common_brain14ItemIdentifierO AA06ServerC0V
++ _symbolic _____3key______5valuet 12common_brain20GlobalItemIdentifierV AA19ExclusiveAccessTypeO
++ _symbolic _____3key_______p5valuet s11AnyHashableV s5ErrorP
++ _symbolic _____3key_yp5valuet s11AnyHashableV
++ _symbolic _____6actual_AA8expectedt 12common_brain16DiffableItemTypeO
++ _symbolic _____6fields_t So24NSFileProviderItemFieldsV
++ _symbolic _____7mapping_SaySS10recordName_SS10sourceEtagtG7recordst 12common_brain20CrossZoneItemMappingV
++ _symbolic _____8recordID_SSSg4etagt 12common_brain14ServerRecordIDV
++ _symbolic _____SdIeghHny_ 12common_brain21PipelineJobIdentifierV
++ _symbolic _____Sg 12common_brain10ShareStateO
++ _symbolic _____Sg 12common_brain11BaseVersionV
++ _symbolic _____Sg 12common_brain14TreeAttributesV
++ _symbolic _____Sg 12common_brain14ZoneIdentifierO
++ _symbolic _____Sg 12common_brain16EnclosingContextV
++ _symbolic _____Sg 12common_brain19ExclusiveAccessTypeO
++ _symbolic _____Sg 12common_brain19TraversalStackFrameV
++ _symbolic _____Sg 12common_brain20CrossZoneItemMappingV
++ _symbolic _____Sg 12common_brain20CrossZoneItemMappingV0E4InfoV
++ _symbolic _____Sg 12common_brain20GlobalItemIdentifierV
++ _symbolic _____Sg 12common_brain20PackageUploadContextV
++ _symbolic _____Sg 12common_brain20PeriodicTaskScheduleV
++ _symbolic _____Sg 12common_brain20RecursiveDeleteEntryV
++ _symbolic _____Sg 12common_brain22CrossZoneMoveOperationV
++ _symbolic _____Sg 12common_brain24RecursiveDeleteOperationV
++ _symbolic _____Sg 8os_brain24FileProviderResponseItemC
++ _symbolic _____Sg So36NSURLUbiquitousSharedItemPermissionsa
++ _symbolic _____Sg s15ContinuousClockV7InstantV
++ _symbolic _____SgXw 12common_brain19PeriodicTaskManagerC
++ _symbolic _____SgXwz_Xx 12common_brain19PeriodicTaskManagerC
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 12common_brain14ItemIdentifierO
++ _symbolic _____Sg_ABt 12common_brain20GlobalItemIdentifierV
++ _symbolic _____Sg_ABt s15ContinuousClockV7InstantV
++ _symbolic ______AAt 12common_brain10ShareStateO
++ _symbolic ______AAt 12common_brain14ItemIdentifierO
++ _symbolic ______AAt 12common_brain19ExclusiveAccessTypeO
++ _symbolic ______AAt 12common_brain19SyncUpInternalFixupO
++ _symbolic ______SDy_____ScCyyt______pGGt 12common_brain20GlobalItemIdentifierV 10Foundation4UUIDV s5ErrorP
++ _symbolic ______SSt 12common_brain14ItemIdentifierO
++ _symbolic ______SSt 12common_brain14ServerRecordIDV
++ _symbolic ______ScCyyt______pGt 10Foundation4UUIDV s5ErrorP
++ _symbolic ____________p10underlyingt 12common_brain20GlobalItemIdentifierV s5ErrorP
++ _symbolic ___________t 10Foundation4UUIDV 12common_brain14ZoneIdentifierO
++ _symbolic ___________t 12common_brain14ItemIdentifierO AA04ZoneD0O
++ _symbolic ___________t 12common_brain14ItemIdentifierO AA06ServerC0V
++ _symbolic ___________t 12common_brain20GlobalItemIdentifierV AA19ExclusiveAccessTypeO
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 12common_brain12PeriodicTaskP
++ _symbolic ______p 12common_brain12SQLResultSetP
++ _symbolic ______p 12common_brain12ServerRecordP
++ _symbolic ______p 12common_brain13ZonesProviderP
++ _symbolic ______p 12common_brain19TraversalStackStoreP
++ _symbolic ______p 12common_brain20UserSettingsProviderP
++ _symbolic ______p 12common_brain25ParentChainLookupProviderP
++ _symbolic ______p 12common_brain25PeriodicTaskScheduleStoreP
++ _symbolic ______p 12common_brain25PeriodicTaskWakeSchedulerP
++ _symbolic ______p 12common_brain28CrossZoneMoveRecoveryServiceP
++ _symbolic ______p 12common_brain28PackageUploadServiceProviderP
++ _symbolic ______p 12common_brain28ServerChildItemBatchProviderP
++ _symbolic ______p 12common_brain30CrossZoneMoveOperationDelegateP
++ _symbolic ______p 12common_brain30DatabaseTableMonitorDataSourceP
++ _symbolic ______p 12common_brain32RecursiveDeleteOperationDelegateP
++ _symbolic ______p 12common_brain34JobCoordinationNotificationHandlerP
++ _symbolic ______p 12common_brain36ListDirectoryExternalServiceProtocolP
++ _symbolic ______p 12common_brain39UploadConstraintExternalServiceProtocolP
++ _symbolic ______p 8os_brain20TaskRegistryProtocolP
++ _symbolic ______p So12OSServerItemP
++ _symbolic ______p So15OSDanglingAliasP
++ _symbolic ______p So15iCDUserDefaultsP
++ _symbolic ______pSg 12common_brain15DatabaseCodableP
++ _symbolic ______pSg 12common_brain24PipelineBatchingStrategyP
++ _symbolic ______pSg 12common_brain24TestHooksServiceProviderP
++ _symbolic ______pSg 12common_brain34JobCoordinationNotificationHandlerP
++ _symbolic ______pSg 12common_brain37SyncUpMetadataExternalServiceProtocolP
++ _symbolic ______pSgIeghg_ s5ErrorP
++ _symbolic ______p______t s9CodingKeyP s13DecodingErrorO7ContextV
++ _symbolic _____y6Record_____Qz16ContainerManagerAC_0B4Type_____21FetchRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain30SyncUpBaseStageHandlerProtocolP AC022ServerContainerManagerI0P AC0jkI0P AC0J21FetchRecordsOperationP
++ _symbolic _____y6Record_____Qz16ContainerManagerAC_0B4Type_____22ModifyRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain30SyncUpBaseStageHandlerProtocolP AC022ServerContainerManagerI0P AC0jkI0P AC0J22ModifyRecordsOperationP
++ _symbolic _____y6Record_____Qz16ContainerManager______0B4Type_____21FetchRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain32SyncUpIndependentJobStageHandlerP AC011RenameSharehI8ProtocolP AC022ServerContainerManagerL0P AC0mnL0P AC0M21FetchRecordsOperationP
++ _symbolic _____y6Record_____Qz16ContainerManager______0B4Type_____21FetchRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain32SyncUpIndependentJobStageHandlerP AC013CrossZoneMovehI8ProtocolP AC022ServerContainerManagerM0P AC0noM0P AC0N21FetchRecordsOperationP
++ _symbolic _____y6Record_____Qz16ContainerManager______0B4Type_____22ModifyRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain32SyncUpIndependentJobStageHandlerP AC011RenameSharehI8ProtocolP AC022ServerContainerManagerL0P AC0mnL0P AC0M22ModifyRecordsOperationP
++ _symbolic _____y6Record_____Qz16ContainerManager______0B4Type_____22ModifyRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain32SyncUpIndependentJobStageHandlerP AC013CrossZoneMovehI8ProtocolP AC022ServerContainerManagerM0P AC0noM0P AC0N22ModifyRecordsOperationP
++ _symbolic _____y6Record_____Qz16ContainerManager______0B4Type_____22ModifyRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain32SyncUpIndependentJobStageHandlerP AC014CleanSubshareshI8ProtocolP AC022ServerContainerManagerL0P AC0mnL0P AC0M22ModifyRecordsOperationP
++ _symbolic _____y6Record_____Qz_G 12common_brain9SyncUpJobV0E5SliceV AA0cD24BaseStageHandlerProtocolP
++ _symbolic _____yS2SG 12common_brain15ResultCollectorC
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySOSDySSSiGG s18_DictionaryStorageC
++ _symbolic _____ySS10recordName_SS10sourceEtagtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS6Record_____QzG 12common_brain15ResultCollectorC AA32SyncUpIndependentJobStageHandlerP
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SitG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12common_brain14ItemIdentifierO
++ _symbolic _____ySS______G SD4KeysV 10Foundation4DataV
++ _symbolic _____ySS______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySSytG 12common_brain15ResultCollectorC
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____y_SSG 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV
++ _symbolic _____y_SiG 12common_brain19TraversalStackFrameV12DatabaseKeysV
++ _symbolic _____y_SiG 12common_brain20CrossZoneItemMappingV12DatabaseKeysV
++ _symbolic _____y_SiG 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV
++ _symbolic _____y_SiG 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV
++ _symbolic _____y_SiG 12common_brain24RecursiveDeleteOperationV12DatabaseKeysV
++ _symbolic _____y__SSG 12common_brain20CrossZoneItemMappingV0E4InfoV12DatabaseKeysV
++ _symbolic _____y_____10rootItemID______4zonetG s23_ContiguousArrayStorageC 12common_brain14ItemIdentifierO AC04ZoneG0O
++ _symbolic _____y_____14itemIdentifier_______p5errortG s23_ContiguousArrayStorageC 12common_brain14ItemIdentifierO s5ErrorP
++ _symbolic _____y_____6Record_____QzG 12common_brain15ResultCollectorC AA14ServerRecordIDV AA30SyncUpBaseStageHandlerProtocolP
++ _symbolic _____y_____6Record_____QzG 12common_brain15ResultCollectorC AA14ServerRecordIDV AA32SyncUpIndependentJobStageHandlerP
++ _symbolic _____y_____7mapping_SaySS10recordName_SS10sourceEtagtG7recordstG s23_ContiguousArrayStorageC 12common_brain20CrossZoneItemMappingV
++ _symbolic _____y_____8recordID_SSSg4etagtG s23_ContiguousArrayStorageC 12common_brain14ServerRecordIDV
++ _symbolic _____y_____ABG s18_DictionaryStorageC 12common_brain14ItemIdentifierO
++ _symbolic _____y_____G s11_SetStorageC 12common_brain14ItemIdentifierO
++ _symbolic _____y_____G s11_SetStorageC 12common_brain20GlobalItemIdentifierV
++ _symbolic _____y_____G s11_SetStorageC 12common_brain20SyncUpPipelineStagesO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12common_brain16EnclosingContextV10CodingKeys33_3553FD737F1717C5A41C6689630793F6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12common_brain27DanglingAliasGCContinuationV10CodingKeys33_B8E100B4DD5CA9E87F77B0AC042366B7LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12common_brain16EnclosingContextV10CodingKeys33_3553FD737F1717C5A41C6689630793F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12common_brain27DanglingAliasGCContinuationV10CodingKeys33_B8E100B4DD5CA9E87F77B0AC042366B7LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain10ServerItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain13CreationFlagsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain13DanglingAliasV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain14AnyRecordFieldV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain14ItemIdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain18PrerequisiteTargetV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain19SyncUpInternalFixupO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain20CrossZoneItemMappingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain20RecursiveDeleteEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12common_brain21PipelineJobIdentifierV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8os_brain12TaskRegistryC5Entry33_20662B8427504A7D2BD0236C5B295C51LLV
++ _symbolic _____y_____SDy_____ScCyyt______pGGG s18_DictionaryStorageC 12common_brain20GlobalItemIdentifierV 10Foundation4UUIDV s5ErrorP
++ _symbolic _____y_____SDy__________GG s18_DictionaryStorageC 12common_brain14ZoneIdentifierO AC04ItemF0O AC06ServerG0V
++ _symbolic _____y_____SSG s18_DictionaryStorageC 12common_brain14ItemIdentifierO
++ _symbolic _____y_____Say_____8recordID_SSSg4etagtGG s18_DictionaryStorageC 12common_brain14ZoneIdentifierO AC14ServerRecordIDV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 12common_brain14ZoneIdentifierO 03os_D012TaskRegistryC5Entry33_20662B8427504A7D2BD0236C5B295C51LLV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 12common_brain14ZoneIdentifierO AC04ItemF0O
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC 12common_brain14ZoneIdentifierO AC14ServerRecordIDV
++ _symbolic _____y_____ScCyyt______pGG s18_DictionaryStorageC 10Foundation4UUIDV s5ErrorP
++ _symbolic _____y_____ShyABGG 12common_brain8LRUCacheV AA20GlobalItemIdentifierV
++ _symbolic _____y______G 12common_brain14FileSystemItemV25AssetReferenceWithContextV AA013PackageUploadI0V
++ _symbolic _____y______G 12common_brain14FileSystemItemV25AssetReferenceWithContextV AC09ThumbnailI0V
++ _symbolic _____y______G 12common_brain19TraversalStackFrameV12DatabaseKeysV AA0C14TaskIdentifierO
++ _symbolic _____y______G 12common_brain19TraversalStackFrameV12DatabaseKeysV AA14ItemIdentifierO
++ _symbolic _____y______G 12common_brain20CrossZoneItemMappingV12DatabaseKeysV AA04BaseE4TypeO
++ _symbolic _____y______G 12common_brain20CrossZoneItemMappingV12DatabaseKeysV AA0D10IdentifierO
++ _symbolic _____y______G 12common_brain20CrossZoneItemMappingV12DatabaseKeysV AA0E10IdentifierO
++ _symbolic _____y______G 12common_brain20CrossZoneItemMappingV12DatabaseKeysV AC0E4InfoV
++ _symbolic _____y______G 12common_brain20GlobalItemIdentifierV12DatabaseKeysV AA04ZoneE0O
++ _symbolic _____y______G 12common_brain20GlobalItemIdentifierV12DatabaseKeysV AA0dE0O
++ _symbolic _____y______G 12common_brain20PeriodicTaskScheduleV12DatabaseKeysV 10Foundation4DataV
++ _symbolic _____y______G 12common_brain20PeriodicTaskScheduleV12DatabaseKeysV 10Foundation4DateV
++ _symbolic _____y______G 12common_brain20PeriodicTaskScheduleV12DatabaseKeysV AA0cD10IdentifierO
++ _symbolic _____y______G 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV AA12BaseItemTypeO
++ _symbolic _____y______G 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV AA14ItemIdentifierO
++ _symbolic _____y______G 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV AA14ZoneIdentifierO
++ _symbolic _____y______G 12common_brain20RecursiveDeleteEntryV12DatabaseKeysV AC5FlagsV
++ _symbolic _____y______G 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV 10Foundation4DateV
++ _symbolic _____y______G 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV AA0D10IdentifierO
++ _symbolic _____y______G 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV AA14ItemIdentifierO
++ _symbolic _____y______G 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV AA16EnclosingContextV
++ _symbolic _____y______G 12common_brain22CrossZoneMoveOperationV12DatabaseKeysV AC5FlagsV
++ _symbolic _____y______G 12common_brain24RecursiveDeleteOperationV12DatabaseKeysV 10Foundation4DataV
++ _symbolic _____y______G 12common_brain24RecursiveDeleteOperationV12DatabaseKeysV 10Foundation4DateV
++ _symbolic _____y______G 12common_brain24RecursiveDeleteOperationV12DatabaseKeysV AA14ItemIdentifierO
++ _symbolic _____y______G 12common_brain24RecursiveDeleteOperationV12DatabaseKeysV AA14ZoneIdentifierO
++ _symbolic _____y______GSg 12common_brain14FileSystemItemV25AssetReferenceWithContextV AA013PackageUploadI0V
++ _symbolic _____y______GSg 12common_brain14FileSystemItemV25AssetReferenceWithContextV AC09ThumbnailI0V
++ _symbolic _____y______SStG s23_ContiguousArrayStorageC 12common_brain14ServerRecordIDV
++ _symbolic _____y_______G 12common_brain20CrossZoneItemMappingV0E4InfoV12DatabaseKeysV AA0E10IdentifierO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 12common_brain14ZoneIdentifierO
++ _symbolic _____y__________G s18_DictionaryStorageC 12common_brain14ItemIdentifierO AC04ZoneF0O
++ _symbolic _____y__________G s18_DictionaryStorageC 12common_brain14ItemIdentifierO AC06ServerE0V
++ _symbolic _____y__________G s18_DictionaryStorageC 12common_brain20GlobalItemIdentifierV AC19ExclusiveAccessTypeO
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 12common_brain14ZoneIdentifierO s5ErrorP
++ _symbolic _____y___________p_G Scg8IteratorV 12common_brain14ZoneIdentifierO s5ErrorP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 12common_brain12PeriodicTaskP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 12common_brain17DatabaseCodingKeyP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____ySo8CKRecordC_AD_____8os_brainyHCg_GG 12common_brain26ExclusiveAccessCoordinatorC AA9SyncUpJobV0H5SliceV AA12ServerRecordP
++ _symbolic _____y_____ySo8CKRecordC_AD_____8os_brainyHCg_G______G 12common_brain8PipelineC10StageActorC AA9SyncUpJobV0H5SliceV AA12ServerRecordP AA0cH10IdentifierV
++ _symbolic _____y_____yx_GG 12common_brain26ExclusiveAccessCoordinatorC AA9SyncUpJobV0H5SliceV
++ _symbolic _____y_____yx_GScPG 12common_brain11SortedArrayV AA26ExclusiveAccessCoordinatorC16WaitingTaskEntry33_8EA3B7E6C4F5005094B4C9C7AEEDFA0FLLV
++ _symbolic _____y_ytG 12common_brain14FileSystemItemV25AssetReferenceWithContextV
++ _symbolic _____y_ytGSg 12common_brain14FileSystemItemV25AssetReferenceWithContextV
++ _symbolic _____y_ytGSg7content______Sg4sizet 12common_brain14FileSystemItemV25AssetReferenceWithContextV s5Int64V
++ _symbolic _____yxG 12common_brain19DanglingAliasGCTaskV
++ _symbolic _____yxG 12common_brain26ExclusiveAccessCoordinatorC
++ _symbolic _____yx_G 12common_brain26ExclusiveAccessCoordinatorC16WaitingTaskEntry33_8EA3B7E6C4F5005094B4C9C7AEEDFA0FLLV
++ _symbolic _____yx_G 12common_brain9SyncUpJobV12CreationInfoV
++ _symbolic _____yx_qd__GSgXw 12common_brain8PipelineC10StageActorC
++ _symbolic _____yx_qd__GSgXwz_x_qd_______RzSHRd__r__lXX 12common_brain8PipelineC10StageActorC AA0C3JobP
++ _symbolic _____yxq__G 12common_brain8LRUCacheV4Node33_070C38097B304830BF1E986E1B288DE3LLC
++ _symbolic _____yxq__GSgXw 12common_brain8LRUCacheV4Node33_070C38097B304830BF1E986E1B288DE3LLC
++ _symbolic _____yxq_q0__G 12common_brain20DatabaseTableMonitorV17ContinuationTokenV
++ _symbolic _____yyt16ContainerManager______0A4Type_____22ModifyRecordsOperation_____11RecordError_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain30SyncUpBaseStageHandlerProtocolP AC022ServerContainerManagerI0P AC0jkI0P AC0J22ModifyRecordsOperationP
++ _symbolic _____yyt16ContainerManager______0A4Type_____22ModifyRecordsOperation_____11RecordError_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain33CrossZoneMoveStageHandlerProtocolP AC022ServerContainerManagerI0P AC0jkI0P AC0J22ModifyRecordsOperationP
++ _symbolic _____yyt16ContainerManager______0A4Type_____22ModifyRecordsOperation_____11RecordError_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain34CleanSubsharesStageHandlerProtocolP AC022ServerContainerManagerH0P AC0ijH0P AC0I22ModifyRecordsOperationP
++ _symbolic _____yyt16ContainerManager______0A4Type_____22ModifyRecordsOperation_____11RecordError_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain35RecursiveDeleteStageHandlerProtocolP AC022ServerContainerManagerH0P AC0ijH0P AC0I22ModifyRecordsOperationP
++ _symbolic _____yyt_____G s6ResultOsRi_zRi0_zrlE 12common_brain26CrossZoneMoveRecoveryErrorO
++ _symbolic _____yyt______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt______pGSgz_Xx s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic q0_
++ _symbolic q_Sg
++ _symbolic qd_0_
++ _symbolic xSg
++ _symbolic x______pIgrzo_ s5ErrorP
++ _symbolic y___________y_____yx_G______pGtYaYbc 12common_brain21PipelineJobIdentifierV s6ResultOsRi_zRi0_zrlE AA06SyncUpD0V0D5SliceV s5ErrorP
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIegr_
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yyYbcSg
++ _type_layout_string 12common_brain10ServerItemV12DocumentInfoV
++ _type_layout_string 12common_brain10ServerItemV13DirectoryInfoV
++ _type_layout_string 12common_brain11BaseVersionV
++ _type_layout_string 12common_brain12FlushOptionsV
++ _type_layout_string 12common_brain12ServerRecordRzlAA19PrerequisiteRecordsVyxG
++ _type_layout_string 12common_brain13CreationFlagsV
++ _type_layout_string 12common_brain14FileSystemItemV16ThumbnailContextV
++ _type_layout_string 12common_brain16DiffableItemTypeO
++ _type_layout_string 12common_brain17DatabaseValueTypeRzlAA20PeriodicTaskScheduleV0C4KeysVy_xG
++ _type_layout_string 12common_brain17DatabaseValueTypeRzlSS10appLibrary_t
++ _type_layout_string 12common_brain17DatabaseValueTypeRzlSS8zoneName_t
++ _type_layout_string 12common_brain18ContainerResetTypeO
++ _type_layout_string 12common_brain20EWMABatchingStrategyV6ConfigV
++ _type_layout_string 12common_brain20RecursiveDeleteEntryV5FlagsV
++ _type_layout_string 12common_brain20ServerChildItemBatchV
++ _type_layout_string 12common_brain22CrossZoneMoveOperationV5FlagsV
++ _type_layout_string 12common_brain24SimplePluginErrorPayload33_68360592679040F3BADA528F87D35294LLV
++ _type_layout_string 12common_brain25TreeTraversalContinuationV
++ _type_layout_string 12common_brain27DanglingAliasGCContinuationV
++ _type_layout_string 8os_brain14SyncUpResponseV
++ _type_layout_string 8os_brain17QuotaErrorContextV
++ _type_layout_string 8os_brain23RenameShareStageHandlerV
++ _type_layout_string 8os_brain25CKOperationMetricsWrapperV
++ _type_layout_string 8os_brain25CrossZoneMoveStageHandlerV
++ _type_layout_string 8os_brain26CleanSubsharesStageHandlerV
++ _type_layout_string 8os_brain27CreateThumbnailStageHandlerV
++ _type_layout_string 8os_brain27RecursiveDeleteStageHandlerV
++ _type_layout_string 8os_brain37FetchDestinationDirectoryStageHandlerV
++ _type_layout_string 8os_brain38PrepIWorkSharingIdentitiesStageHandlerV
++ _type_layout_string SHRzr0_l12common_brain8LRUCacheVyxq_G
++ _type_layout_string So31NSFileProviderCreateItemOptionsV
++ _type_layout_string So36NSURLUbiquitousSharedItemPermissionsa
+- -[iCDCreateItemContext initWithReserverItemIDString:reservedFileProviderIdentifier:parentZoneName:parentZoneOwner:parentIdentifier:primaryZoneNeedsCreation:symlinkTarget:]
+- -[iCDCreateItemContext parentIdentifier]
+- -[iCDCreateItemContext primaryZoneNeedsCreation]
+- _NSFileProviderRootContainerItemIdentifier
+- _OBJC_CLASS_$_NSProgress
+- _OBJC_IVAR_$_iCDCreateItemContext._parentIdentifier
+- _OBJC_IVAR_$_iCDCreateItemContext._primaryZoneNeedsCreation
+- __INSTANCE_METHODS_OSFileProviderResponseItem
+- __PROPERTIES_OSFileProvider

@@ -1,0 +1,1757 @@
+ResponseItem
+- ___swift_allocate_boxed_opaque_existential_0Tm
+- ___swift_allocate_boxed_opaque_existential_1Tm
+- ___unnamed_10
+- ___unnamed_16
+- ___unnamed_17
+- ___unnamed_22
+- ___unnamed_25
+- ___unnamed_26
+- ___unnamed_7
+- _associated conformance 12common_brain10ShareStateOSHAASQ
+- _associated conformance 8os_brain18UploadStageHandlerV07common_B006SyncUpdE8ProtocolAA16ContainerManagerAdEP_AD06ServerjkI0
+- _associated conformance 8os_brain20SyncDownStageHandlerV07common_B0015PipelineActorToE18ForwardingProtocolAA3JobAdEP_AD0hM0
+- _associated conformance 8os_brain20SyncDownStageHandlerV07common_B008PipelineeF8ProtocolAA12GroupingTypeAdEP_SH
+- _associated conformance 8os_brain20SyncDownStageHandlerV07common_B00c16UpIndependentJobeF0AA6RecordAdEP_AD06ServerK0
+- _associated conformance 8os_brain26SyncUpMetadataStageHandlerV07common_B00cdfG8ProtocolAA16ContainerManagerAdEP_AD06ServerjkI0
+- _associated conformance 8os_brain37CreateZoneAndSubscriptionStageHandlerV07common_B006SyncUpgH8ProtocolAA16ContainerManagerAdEP_AD06ServermnL0
+- _objc_msgSend$addItem:
+- _objc_msgSend$hasSyncedDownZoneSinceStartup:ownerName:completionHandler:
+- _objc_msgSend$hasUnresolvedConflicts
+- _objc_msgSend$isShared
+- _objc_msgSend$isSharedByCurrentUser
+- _objc_msgSend$isSystemRequest
+- _objc_msgSend$isTrashed
+- _objc_msgSend$locateItemWithIdentifier:zoneName:ownerName:completionHandler:
+- _objc_msgSend$megabytes
+- _objc_msgSend$packageWithError:
+- _objc_msgSend$parentIdentifier
+- _objc_msgSend$pcsChainState
+- _objc_msgSend$primaryZoneNeedsCreation
+- _objc_msgSend$serverItemForItemIdentifier:
+- _objc_msgSend$tags
+- _objectdestroy.18Tm
+- _objectdestroy.2Tm
+- _objectdestroy.44Tm
+- _objectdestroy.59Tm
+- _objectdestroy.73Tm
+- _objectdestroy.9Tm
+- _objectdestroyTm
+- _swift_unknownObjectRelease_n
+- _symbolic $s12common_brain11BrainLoggerP
+- _symbolic $s12common_brain19BaseVersionProviderP
+- _symbolic $s12common_brain28SyncDownStageHandlerProtocolP
+- _symbolic $s8os_brain30NSFileProviderItemWithTagNamesP
+- _symbolic 16ContainerManager_____Qz 12common_brain26SyncUpStageHandlerProtocolP
+- _symbolic 16ContainerManager______0A4Type_____6Record_____QZ 12common_brain26SyncUpStageHandlerProtocolP AA022ServerContainerManagerG0P AA0hiG0P
+- _symbolic 6Record_____Qz 12common_brain26SyncUpStageHandlerProtocolP
+- _symbolic SDy__________y6Record_____QzGG 12common_brain14ServerRecordIDV AA03JobD7TrackerC AA26SyncUpStageHandlerProtocolP
+- _symbolic SS______t 10Foundation4DataV
+- _symbolic Say6Record_____QzG 12common_brain26SyncUpStageHandlerProtocolP
+- _symbolic ShySSGSg
+- _symbolic SiSg14childItemCount_t
+- _symbolic _____ 12common_brain18ExtendedAttributesV
+- _symbolic _____ 12common_brain9SyncUpJobV0cdE10PropertiesV
+- _symbolic _____ 8os_brain20SyncDownStageHandlerV
+- _symbolic _____ 8os_brain3LogV
+- _symbolic _____ s4Int8V
+- _symbolic _____14itemIdentifier______8newStatet 12common_brain14ItemIdentifierO AA13PCSChainStateO
+- _symbolic _____17newItemIdentifier_t 12common_brain14ItemIdentifierO
+- _symbolic _____6actual_AA8expectedt 12common_brain14FileSystemItemV0E4TypeO
+- _symbolic _____SdIeghHny_ 10Foundation4UUIDV
+- _symbolic _____Sg 10Foundation17URLResourceValuesV
+- _symbolic _____Sg 12common_brain18ExtendedAttributesV
+- _symbolic _____Sg10contentURL_AB09thumbnailB0_____Sg0C8MetadataAF0A9Signaturet 10Foundation3URLV AA4DataV
+- _symbolic _____Sg10contentURL_t 10Foundation3URLV
+- _symbolic ______AAt 12common_brain14FileSystemItemV0E4TypeO
+- _symbolic ______p 12common_brain11BrainLoggerP
+- _symbolic ______p 12common_brain19BaseVersionProviderP
+- _symbolic ______pSg 12common_brain19BaseVersionProviderP
+- _symbolic _____y6Record_____Qz16ContainerManagerAC_0B4Type_____22ModifyRecordsOperation_____0A5Error_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain26SyncUpStageHandlerProtocolP AC022ServerContainerManagerH0P AC0ijH0P AC0I22ModifyRecordsOperationP
+- _symbolic _____y6Record_____Qz_G 12common_brain9SyncUpJobV0E5SliceV AA0cD20StageHandlerProtocolP
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 10Foundation4DataV
+- _symbolic _____ySo8CKRecordC_AC_____8os_brainyHCg_G 12common_brain9SyncUpJobV0cdE10PropertiesV AA12ServerRecordP
+- _symbolic _____ySo8CKRecordC_AC_____8os_brainyHCg_G 12common_brain9SyncUpJobV12CreationInfoV AA12ServerRecordP
+- _symbolic _____ySo8CKRecordC_AC_____8os_brainyHCg_G 12common_brain9SyncUpJobV16ModificationInfoV AA12ServerRecordP
+- _symbolic _____y_____ySo8CKRecordC_AD_____8os_brainyHCg_G______G 12common_brain8PipelineC10StageActorC AA9SyncUpJobV0H5SliceV AA12ServerRecordP 10Foundation4UUIDV
+- _symbolic _____yxG 12common_brain21SyncUpPipelineManagerC
+- _symbolic _____yxG 12common_brain9SyncUpJobV
+- _symbolic _____yx_G 12common_brain9SyncUpJobV0cdE10PropertiesV
+- _symbolic _____yx_G______12fieldsToSendt 12common_brain9SyncUpJobV12CreationInfoV AA0cdE6FieldsV
+- _symbolic _____yyt16ContainerManager______0A4Type_____22ModifyRecordsOperation_____11RecordError_____QZG s6ResultOsRi_zRi0_zrlE 12common_brain26SyncUpStageHandlerProtocolP AC022ServerContainerManagerH0P AC0ijH0P AC0I22ModifyRecordsOperationP
+- _symbolic y___________y_____yx_G______pGtYaYbc 10Foundation4UUIDV s6ResultOsRi_zRi0_zrlE 12common_brain9SyncUpJobV0H5SliceV s5ErrorP
+- _type_layout_string 12common_brain11PipelineJobRzSHRd__s8SendableRd__r__lAA0C0C0cD5Queue33_B1CD027E3CACC73990212D12F8512089LLVyx_qd__G
+- _type_layout_string 12common_brain18ExtendedAttributesV
+- _type_layout_string 8os_brain20SyncDownStageHandlerV
+- _type_layout_string SSSg6target_t
+```
+
+
+##### `libLogRedirect.dylib`
+> `/usr/lib/libLogRedirect.dylib`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__TEXT.__const`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__auth_ptr`
+- `__AUTH_CONST.__interpose`
+- `__DATA.__data`
+
+```diff
+
+-64575.39.1.0.0
+-  __TEXT.__text: 0x2078
+-  __TEXT.__auth_stubs: 0x270
++64578.81.1.0.0
++  __TEXT.__text: 0x24d8
++  __TEXT.__auth_stubs: 0x290
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__const: 0x60
+-  __TEXT.__cstring: 0x46c
++  __TEXT.__cstring: 0x4ed
+   __TEXT.__oslogstring: 0x19
+-  __TEXT.__unwind_info: 0xb0
+-  __DATA_CONST.__auth_got: 0x138
++  __TEXT.__unwind_info: 0xc8
++  __DATA_CONST.__const: 0x60
++  __DATA_CONST.__auth_got: 0x148
+   __DATA_CONST.__got: 0x28
+   __DATA_CONST.__auth_ptr: 0x8
+-  __DATA_CONST.__const: 0x48
+   __AUTH_CONST.__interpose: 0x50
+   __DATA.__data: 0x58
+   __DATA.__common: 0x18
+-  __DATA.__bss: 0x217c
++  __DATA.__bss: 0x21ac
+   - /usr/lib/libSystem.B.dylib
+-  Functions: 20
+-  Symbols:   91
++  Functions: 25
++  Symbols:   99
+   CStrings:  0
+ 
+Symbols:
++ _GetIsSystemFramework
++ _GetIsSystemFramework.SysPaths
++ _LogPredicate_Evaluate
++ _LogPredicate_Init
++ _LogPredicate_InitContext
++ _ParsePathList
++ _globalConfig
++ _malloc_type_malloc
++ _strsep
+- _HookIsSystemFramework.SysPaths
+```
+
+
+##### `libMTLHud.dylib`
+> `/usr/lib/libMTLHud.dylib`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__init_offsets`
+- `__DATA_CONST.__objc_dictobj`
+
+```diff
+
+-4.1.8.0.0
+-  __TEXT.__text: 0x4a788
+-  __TEXT.__auth_stubs: 0xee0
+-  __TEXT.__objc_stubs: 0x37a0
++5.0.26.0.0
++  __TEXT.__text: 0x319d4
++  __TEXT.__auth_stubs: 0xcd0
++  __TEXT.__objc_stubs: 0x3bc0
+   __TEXT.__init_offsets: 0x4
+-  __TEXT.__objc_methlist: 0x1c1c
+-  __TEXT.__gcc_except_tab: 0x32d4
+-  __TEXT.__const: 0x8d0
+-  __TEXT.__cstring: 0x8567
+-  __TEXT.__objc_classname: 0x418
+-  __TEXT.__oslogstring: 0x472
+-  __TEXT.__objc_methname: 0x4763
+-  __TEXT.__objc_methtype: 0x35de
+-  __TEXT.__ustring: 0x2e
+-  __TEXT.__unwind_info: 0x1818
+-  __TEXT.__eh_frame: 0x48
+-  __DATA_CONST.__auth_got: 0x788
+-  __DATA_CONST.__got: 0x2a0
+-  __DATA_CONST.__auth_ptr: 0x18
+-  __DATA_CONST.__const: 0x1938
+-  __DATA_CONST.__cfstring: 0x47e0
+-  __DATA_CONST.__objc_classlist: 0xd8
+-  __DATA_CONST.__objc_protolist: 0x40
++  __TEXT.__objc_methlist: 0x1d1c
++  __TEXT.__const: 0x448
++  __TEXT.__gcc_except_tab: 0x2148
++  __TEXT.__cstring: 0x79cd
++  __TEXT.__objc_classname: 0x3be
++  __TEXT.__objc_methname: 0x4a0c
++  __TEXT.__objc_methtype: 0x44b2
++  __TEXT.__ustring: 0xb8
++  __TEXT.__oslogstring: 0x9a
++  __TEXT.__unwind_info: 0xe98
++  __DATA_CONST.__const: 0x1000
++  __DATA_CONST.__cfstring: 0x3480
++  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_superrefs: 0xb8
+-  __DATA_CONST.__objc_arraydata: 0x430
+-  __DATA_CONST.__objc_arrayobj: 0x180
+-  __DATA_CONST.__objc_intobj: 0x450
++  __DATA_CONST.__objc_superrefs: 0xc0
++  __DATA_CONST.__objc_intobj: 0x6d8
++  __DATA_CONST.__objc_arraydata: 0x4a8
++  __DATA_CONST.__objc_arrayobj: 0x60
+   __DATA_CONST.__objc_dictobj: 0x50
+-  __DATA.__objc_const: 0x31c8
+-  __DATA.__objc_selrefs: 0x1460
+-  __DATA.__objc_ivar: 0x1d4
+-  __DATA.__objc_data: 0x870
+-  __DATA.__data: 0x16f0
+-  __DATA.__thread_vars: 0x90
+-  __DATA.__thread_bss: 0x6
+-  __DATA.__bss: 0x19a0
+-  __DATA.__common: 0x51
++  __DATA_CONST.__auth_got: 0x680
++  __DATA_CONST.__got: 0x208
++  __DATA_CONST.__auth_ptr: 0x20
++  __DATA.__objc_const: 0x3498
++  __DATA.__objc_selrefs: 0x1548
++  __DATA.__objc_ivar: 0x1f4
++  __DATA.__objc_data: 0x910
++  __DATA.__data: 0x698
++  __DATA.__thread_vars: 0x18
++  __DATA.__thread_bss: 0x1
++  __DATA.__bss: 0x1c68
++  __DATA.__common: 0x41
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+   - /System/Library/Frameworks/Metal.framework/Metal
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/StateReporting.framework/StateReporting
+   - /usr/lib/libIOReport.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1285
+-  Symbols:   2870
++  Functions: 898
++  Symbols:   2224
+   CStrings:  0
+ 
+Symbols:
++ +[HUDStateReporterManager instance]
++ +[MTLHUDService instance]
++ -[FPMTLMetricsClientInsightsWindow draw:drawableState:fontSize:frame:width:height:]
++ -[FPMTLMetricsClientInsightsWindow enableInsight:enabled:]
++ -[FPMTLMetricsClientInsightsWindow getInsight:]
++ -[FPMTLMetricsClientInsightsWindow initWithFrame:]
++ -[FPMTLMetricsClientInsightsWindow isInsightEnabled:]
++ -[HUDFPMTLMetricsListener metricsUpdatedForLayer:metrics:]
++ -[HUDGPUTimeline .cxx_construct]
++ -[HUDGPUTimeline .cxx_destruct]
++ -[HUDGPUTimeline alignedTimeRangeWithEncoderEnabled:cmdBufferEnabled:]
++ -[HUDGPUTimeline dealloc]
++ -[HUDGPUTimeline enabled]
++ -[HUDGPUTimeline gpuTimingUpdatedForFrame:onScreenTime:timingSnapshot:]
++ -[HUDGPUTimeline init]
++ -[HUDGPUTimeline setEnabled:]
++ -[HUDGPUTimeline withCurrentCommandBufferTimeline:]
++ -[HUDGPUTimeline withCurrentTimeline:]
++ -[HUDIOReport addMetrics:]
++ -[HUDMTLLayerOverlay _drawablePresentedCommon:state:]
++ -[HUDMTLLayerOverlay _log:drawableState:gpuTime:]
++ -[HUDMTLLayerOverlay generateQRCodeContent:state:]
++ -[HUDMTLLayerOverlay layerTracking:presentDrawable:mtl4Queue:]
++ -[HUDMTLLayerTracking _presentOrSignalDrawable:mtl4Queue:]
++ -[HUDMTLLayerTracking _snapshotDrawable:]
++ -[HUDMTLLayerTracking drawablePresented:]
++ -[HUDMTLLayerTracking drawableStateForDrawable:]
++ -[HUDMTLLayerTracking initWithLayer:client:]
++ -[HUDMTLLayerTracking metal4SignalDrawable:onQueue:]
++ -[HUDStateReporter .cxx_destruct]
++ -[HUDStateReporter available]
++ -[HUDStateReporter domain]
++ -[HUDStateReporter enabled]
++ -[HUDStateReporter initWithDomain:]
++ -[HUDStateReporter initWithDomain:stateLabel:stableStateDict:volatileStateDict:]
++ -[HUDStateReporter setEnabled:]
++ -[HUDStateReporter stableStateDict]
++ -[HUDStateReporter stateLabel]
++ -[HUDStateReporter updateStateLabel:stableStateDict:volatileStateDict:]
++ -[HUDStateReporter updateVolatileState:]
++ -[HUDStateReporter volatileStateDict]
++ -[HUDStateReporterManager .cxx_destruct]
++ -[HUDStateReporterManager _updateReporterTranstion:]
++ -[HUDStateReporterManager _updateVolatileState:volatileState:]
++ -[HUDStateReporterManager dealloc]
++ -[HUDStateReporterManager enabledDomains]
++ -[HUDStateReporterManager handleStateTransitionNotification:]
++ -[HUDStateReporterManager handleVolatileUpdateNotification:]
++ -[HUDStateReporterManager init]
++ -[HUDStateReporterManager setEnabledDomains:]
++ -[HUDStateReporterManager withAvailableReporters:]
++ -[HUDUserClientFeatureEntry addAssociation:]
++ -[HUDUserClientFeatureEntry associatedFeatures]
++ -[HUDUserClientFeatureEntry initButton:didChange:]
++ -[HUDUserClientFeatureEntry initSlider:value:minValue:maxValue:numberOfTicks:didChange:]
++ -[HUDUserClientFeatureEntry initTextbox:value:didChange:]
++ -[HUDUserClientMainWindow _drawStateReporters:frame:layout:overlay:]
++ -[HUDUserClientMainWindow _stateReporterValueText:]
++ -[HUDUserClientMainWindow dateFormatter]
++ -[MTLHUDConfigViewController addSlider:envVar:enabled:minValue:maxValue:initialValue:numberOfTicks:didChange:]
++ -[MTLHUDConfigViewControllerSliderEntry .cxx_destruct]
++ -[MTLHUDConfigViewControllerSliderEntry editView]
++ -[MTLHUDConfigViewControllerSliderEntry initWithTitle:envVar:enabled:minValue:maxValue:initialValue:numberOfTicks:representedObject:didChange:]
++ -[MTLHUDConfigViewControllerSliderEntry numberOfTicks]
++ -[MTLHUDConfigViewControllerSliderEntry setEditView:]
++ -[MTLHUDConfigViewControllerSliderEntry stringValue]
++ -[MTLHUDConfigViewControllerTextboxEntry setDefaultValue:]
++ -[MTLHUDConfigViewControllerTextboxEntry setValue:]
++ -[MTLHUDService .cxx_destruct]
++ -[MTLHUDService UTF8StringForName:]
++ -[MTLHUDService addBridgedMetric:record:]
++ -[MTLHUDService addGraph:after:min:max:]
++ -[MTLHUDService addInsight:isPrototype:]
++ -[MTLHUDService addInsight:message:documtationTitles:documentLinks:options:isPrototype:]
++ -[MTLHUDService addInsight:name:category:message:documtationTitles:documentLinks:supportedAPI:options:isPrototype:]
++ -[MTLHUDService addLabel:after:]
++ -[MTLHUDService addMetric:]
++ -[MTLHUDService addMetric:name:unit:nameColor:valueColor:visualType:options:]
++ -[MTLHUDService addStatistic:after:color:tolerance:graph:]
++ -[MTLHUDService addWindow:frame:]
++ -[MTLHUDService alignment]
++ -[MTLHUDService configInternal]
++ -[MTLHUDService config]
++ -[MTLHUDService disableExplicitFrameBoundary]
++ -[MTLHUDService elements]
++ -[MTLHUDService enableInsight:enabled:]
++ -[MTLHUDService enabled]
++ -[MTLHUDService featureAssociateToggle:withIdentifier:]
++ -[MTLHUDService featureRegisterButton:didChange:]
++ -[MTLHUDService featureRegisterButton:title:description:documtationTitles:documentLinks:options:didChange:]
++ -[MTLHUDService featureRegisterPopover:envVar:description:documtationTitles:documentLinks:options:defaultValue:items:selectedIndex:didChange:]
++ -[MTLHUDService featureRegisterPopover:items:selectedIndex:didChange:]
++ -[MTLHUDService featureRegisterPopover:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:items:selectedIndex:didChange:]
++ -[MTLHUDService featureRegisterSlider:minValue:maxValue:defaultValue:numberOfTicks:didChange:]
++ -[MTLHUDService featureRegisterSlider:title:envVar:description:documtationTitles:documentLinks:options:minValue:maxValue:defaultValue:numberOfTicks:didChange:]
++ -[MTLHUDService featureRegisterTextbox:defaultValue:didChange:]
++ -[MTLHUDService featureRegisterTextbox:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:didChange:]
++ -[MTLHUDService featureRegisterToggle:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:didChange:]
++ -[MTLHUDService featureRegisterToggle:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:valueRef:]
++ -[MTLHUDService featureRegisterToggle:state:didChange:]
++ -[MTLHUDService featureRegisterToggle:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:didChange:]
++ -[MTLHUDService featureRegisterToggle:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:valueRef:]
++ -[MTLHUDService frameMarker]
++ -[MTLHUDService frameNumber]
++ -[MTLHUDService generatedReportURLs]
++ -[MTLHUDService getMetric:]
++ -[MTLHUDService getUserFeature:]
++ -[MTLHUDService gpuName]
++ -[MTLHUDService graphicsAPI]
++ -[MTLHUDService hasMetalMetrics]
++ -[MTLHUDService incrementStatistic:value:]
++ -[MTLHUDService init]
++ -[MTLHUDService insertMetric:after:]
++ -[MTLHUDService insertMetric:after:name:unit:nameColor:valueColor:visualType:options:]
++ -[MTLHUDService insightsWindow]
++ -[MTLHUDService internalPerfMetrics]
++ -[MTLHUDService isHUDElementEnabled:]
++ -[MTLHUDService isHUDElementEnabled:mainLayer:]
++ -[MTLHUDService isInsightEnabled:]
++ -[MTLHUDService isInternalInstall]
++ -[MTLHUDService isMetricEnabled:]
++ -[MTLHUDService isSideLoaded]
++ -[MTLHUDService isTranslated]
++ -[MTLHUDService layout]
++ -[MTLHUDService logHandler]
++ -[MTLHUDService loggingEnabled]
++ -[MTLHUDService mainLayer]
++ -[MTLHUDService mainWindow]
++ -[MTLHUDService markAccelerationStructureEncoder:component:]
++ -[MTLHUDService markBlitEncoder:component:]
++ -[MTLHUDService markCommandBuffer:component:]
++ -[MTLHUDService markComputeEncoder:component:]
++ -[MTLHUDService markExplicitFrameBoundary]
++ -[MTLHUDService markMainLayer:]
++ -[MTLHUDService markRenderEncoder:component:]
++ -[MTLHUDService markResourceStateEncoder:component:]
++ -[MTLHUDService metalFXFrameInterpolatorDisable]
++ -[MTLHUDService metalFXFrameInterpolatorEncodingEnd:]
++ -[MTLHUDService metalFXFrameInterpolatorEncodingEndNoDirectObject:]
++ -[MTLHUDService metricForStandardMetric:]
++ -[MTLHUDService osBuildString]
++ -[MTLHUDService osVersionString]
++ -[MTLHUDService position]
++ -[MTLHUDService progName]
++ -[MTLHUDService pushGeneratedReportURL:]
++ -[MTLHUDService remove:]
++ -[MTLHUDService removeMetric:]
++ -[MTLHUDService removeRegisteredFeature:]
++ -[MTLHUDService reportOutputURL]
++ -[MTLHUDService reportRTCommandEncoder:]
++ -[MTLHUDService resetMetricHistory:]
++ -[MTLHUDService scale]
++ -[MTLHUDService setAlignment:]
++ -[MTLHUDService setEnabled:]
++ -[MTLHUDService setFrameMarker:]
++ -[MTLHUDService setFrameNumber:]
++ -[MTLHUDService setGpuName:]
++ -[MTLHUDService setGraphicsAPI:]
++ -[MTLHUDService setHUDElementEnabled:flag:]
++ -[MTLHUDService setHUDElementEnabled:flag:mainLayer:]
++ -[MTLHUDService setLayout:]
++ -[MTLHUDService setLogHandler:]
++ -[MTLHUDService setLoggingEnabled:]
++ -[MTLHUDService setMetricEnabled:enabled:]
++ -[MTLHUDService setPosition:]
++ -[MTLHUDService setReportOutputURL:]
++ -[MTLHUDService setScale:]
++ -[MTLHUDService setSize:]
++ -[MTLHUDService setStatistic:value:]
++ -[MTLHUDService size]
++ -[MTLHUDService trackCommandBuffer:forIdentifier:]
++ -[MTLHUDService trackEncoder:forIdentifier:]
++ -[MTLHUDService updateFloatMetric:value:]
++ -[MTLHUDService updateIntegerMetric:value:]
++ -[MTLHUDService updateLabel:value:]
++ -[MTLHUDService updateLabelMetric:label:]
++ -[MTLHUDService updateMetricColor:nameColor:valueColor:]
++ -[MTLHUDService updateMetricName:name:]
++ -[MTLHUDService updateMetricOptions:options:]
++ -[MTLHUDService userClientFeatures]
++ -[MTLHUDService version]
++ GCC_except_table116
++ GCC_except_table120
++ GCC_except_table121
++ GCC_except_table122
++ GCC_except_table137
++ GCC_except_table43
++ GCC_except_table72
++ GCC_except_table75
++ GCC_except_table76
++ GCC_except_table78
++ GCC_except_table97
++ GCC_except_table99
++ _CADisplayGetCurrentHeadroom
++ _CFStringFind
++ _CGColorSpaceGetName
++ _CGColorSpaceIsPQBased
++ _HUDGPUTimeTrackerGetCurrentLogicalFrame
++ _HUDGPUTimeTrackerHandleMetrics
++ _HUDInitInterposeMFX
++ _HUDInsightReportContextAlloc
++ _HUDInsightReportContextRelease
++ _HUDMFXEncodeToCommandBuffer
++ _HUDMFXGetJitterHistory
++ _HUDMFXGetJitterHistorySize
++ _HUDMFXGetJitterMultiplierX
++ _HUDMFXGetJitterMultiplierY
++ _HUDMFXGetJitterRange
++ _HUDMFXGetMotionScaleVectorX
++ _HUDMFXGetMotionScaleVectorY
++ _HUDMFXInitConfigurationPanel
++ _HUDMFXIsVisualizationEnabled
++ _HUDMFXSetJitterMultiplierX
++ _HUDMFXSetJitterMultiplierY
++ _HUDMFXSetMotionScaleVectorX
++ _HUDMFXSetMotionScaleVectorY
++ _HUDMFXSetOverridenMotionScaleVectorX
++ _HUDMFXSetOverridenMotionScaleVectorY
++ _HUDMetricValueFormatValue
++ _HUDSRStateTransitionVolatileUpdateNotificationDomainKey
++ _HUDSRStateTransitionVolatileUpdateNotificationInfoKey
++ _HUDSRStateTransitionVolatileUpdateNotificationName
++ _HUDUITemporaryString
++ _HUDUIWindowAddScatterPlot
++ _IORegistryEntryCreateCFProperty
++ _MFXEffect_Encoding
++ _MFXEffect_Encoding$tlv$init
++ _MTLHudCanUseIMPTrampolines
++ _MTLHudGPUCoreCount
++ _MTLHudGPUCoreCount.coreCount
++ _MTLHudGPUCoreCount.onceToken
++ _MTLHudOSTypeName
++ _NSStringFromClass
++ _OBJC_CLASS_$_FPMTLMetricsClientInsightsWindow
++ _OBJC_CLASS_$_HUDFPMTLMetricsListener
++ _OBJC_CLASS_$_HUDGPUTimeline
++ _OBJC_CLASS_$_HUDStateReporter
++ _OBJC_CLASS_$_HUDStateReporterManager
++ _OBJC_CLASS_$_MTL4ArgumentTableDescriptor
++ _OBJC_CLASS_$_MTLHUDService
++ _OBJC_CLASS_$_MTLResidencySetDescriptor
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_SRNotification
++ _OBJC_IVAR_$_FPMTLMetricsClientInsightsWindow._currentInsightWindowHeight
++ _OBJC_IVAR_$_HUDGPUTimeline._cmdBufLock
++ _OBJC_IVAR_$_HUDGPUTimeline._currentCmdBufTimeline
++ _OBJC_IVAR_$_HUDGPUTimeline._currentFrameCount
++ _OBJC_IVAR_$_HUDGPUTimeline._currentTimeline
++ _OBJC_IVAR_$_HUDGPUTimeline._enabled
++ _OBJC_IVAR_$_HUDGPUTimeline._lastUpdateTime
++ _OBJC_IVAR_$_HUDGPUTimeline._lock
++ _OBJC_IVAR_$_HUDGPUTimeline._updatingCmdBufTimeline
++ _OBJC_IVAR_$_HUDGPUTimeline._updatingTimeline
++ _OBJC_IVAR_$_HUDIOReport._lastUpdateTime
++ _OBJC_IVAR_$_HUDIOReport._numGPUPStateRecords
++ _OBJC_IVAR_$_HUDMTLLayerOverlay._layerID
++ _OBJC_IVAR_$_HUDMTLLayerTracking._currentDrawableStateIndex
++ _OBJC_IVAR_$_HUDMTLLayerTracking._drawableIDToStateIndex
++ _OBJC_IVAR_$_HUDMTLLayerTracking._drawableStates
++ _OBJC_IVAR_$_HUDMTLLayerTracking._lastWidthUsedToAdjustScale
++ _OBJC_IVAR_$_HUDStateReporter._domain
++ _OBJC_IVAR_$_HUDStateReporter._enabled
++ _OBJC_IVAR_$_HUDStateReporter._stableStateDict
++ _OBJC_IVAR_$_HUDStateReporter._stateLabel
++ _OBJC_IVAR_$_HUDStateReporter._volatileStateDict
++ _OBJC_IVAR_$_HUDStateReporterManager._enableAllDomains
++ _OBJC_IVAR_$_HUDStateReporterManager._enabledDomains
++ _OBJC_IVAR_$_HUDStateReporterManager._enabledDomainsSet
++ _OBJC_IVAR_$_HUDStateReporterManager._reporters
++ _OBJC_IVAR_$_HUDUserClientFeatureEntry._associatedFeatures
++ _OBJC_IVAR_$_HUDUserClientMainWindow._dateFormatter
++ _OBJC_IVAR_$_HUDUserClientMainWindow._gptkMPLBundleVersion
++ _OBJC_IVAR_$_MTLHUDConfigViewControllerSliderEntry._editView
++ _OBJC_IVAR_$_MTLHUDConfigViewControllerSliderEntry._numberOfTicks
++ _OBJC_IVAR_$_MTLHUDService._configExt
++ _OBJC_IVAR_$_MTLHUDService._frameMarker
++ _OBJC_IVAR_$_MTLHUDService._frameNumber
++ _OBJC_IVAR_$_MTLHUDService._generatedReportURLs
++ _OBJC_IVAR_$_MTLHUDService._gpuName
++ _OBJC_IVAR_$_MTLHUDService._graphicsAPI
++ _OBJC_IVAR_$_MTLHUDService._hudWindow
++ _OBJC_IVAR_$_MTLHUDService._identifierToMetric
++ _OBJC_IVAR_$_MTLHUDService._knownGPTKMetrics
++ _OBJC_IVAR_$_MTLHUDService._logHandler
++ _OBJC_IVAR_$_MTLHUDService._numberFormatter
++ _OBJC_IVAR_$_MTLHUDService._overiddenMetrics
++ _OBJC_IVAR_$_MTLHUDService._progName
++ _OBJC_IVAR_$_MTLHUDService._reportOutputURL
++ _OBJC_IVAR_$_MTLHUDService._userClientFeatureGroups
++ _OBJC_IVAR_$_MTLHUDService._userClientFeatures
++ _OBJC_IVAR_$_MTLHUDService._windows
++ _OBJC_METACLASS_$_FPMTLMetricsClientInsightsWindow
++ _OBJC_METACLASS_$_HUDFPMTLMetricsListener
++ _OBJC_METACLASS_$_HUDGPUTimeline
++ _OBJC_METACLASS_$_HUDStateReporter
++ _OBJC_METACLASS_$_HUDStateReporterManager
++ _OBJC_METACLASS_$_MTLHUDService
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _SRStateTransitionNotificationInfoKey
++ _SRStateTransitionNotificationName
++ _WEAK_MetalMetricsServiceInternal.service
++ __HUDCenterTruncateChars
++ __HUDDrawKeyValueRow
++ __HUDPersistancyDict
++ __MergedGlobals
++ __OBJC_$_CLASS_METHODS_HUDStateReporterManager
++ __OBJC_$_CLASS_METHODS_MTLHUDService
++ __OBJC_$_INSTANCE_METHODS_FPMTLMetricsClientInsightsWindow
++ __OBJC_$_INSTANCE_METHODS_HUDFPMTLMetricsListener
++ __OBJC_$_INSTANCE_METHODS_HUDGPUTimeline
++ __OBJC_$_INSTANCE_METHODS_HUDStateReporter
++ __OBJC_$_INSTANCE_METHODS_HUDStateReporterManager
++ __OBJC_$_INSTANCE_METHODS_MTLHUDService
++ __OBJC_$_INSTANCE_VARIABLES_FPMTLMetricsClientInsightsWindow
++ __OBJC_$_INSTANCE_VARIABLES_HUDGPUTimeline
++ __OBJC_$_INSTANCE_VARIABLES_HUDStateReporter
++ __OBJC_$_INSTANCE_VARIABLES_HUDStateReporterManager
++ __OBJC_$_INSTANCE_VARIABLES_MTLHUDService
++ __OBJC_$_PROP_LIST_HUDGPUTimeline
++ __OBJC_$_PROP_LIST_HUDStateReporter
++ __OBJC_$_PROP_LIST_HUDStateReporterManager
++ __OBJC_$_PROP_LIST_MTLHUDService
++ __OBJC_$_PROP_LIST_MTLHUDService_v4
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FPMTLMetricsGPUTimingListenerInternal
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FPMTLMetricsMetricListenerInternal
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLHUDService_v4
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FPMTLMetricsGPUTimingListenerInternal
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FPMTLMetricsMetricListenerInternal
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MTLHUDService_v4
++ __OBJC_$_PROTOCOL_REFS_MTLHUDService_v4
++ __OBJC_CLASS_PROTOCOLS_$_HUDFPMTLMetricsListener
++ __OBJC_CLASS_PROTOCOLS_$_HUDGPUTimeline
++ __OBJC_CLASS_PROTOCOLS_$_MTLHUDService
++ __OBJC_CLASS_RO_$_FPMTLMetricsClientInsightsWindow
++ __OBJC_CLASS_RO_$_HUDFPMTLMetricsListener
++ __OBJC_CLASS_RO_$_HUDGPUTimeline
++ __OBJC_CLASS_RO_$_HUDStateReporter
++ __OBJC_CLASS_RO_$_HUDStateReporterManager
++ __OBJC_CLASS_RO_$_MTLHUDService
++ __OBJC_LABEL_PROTOCOL_$_FPMTLMetricsGPUTimingListenerInternal
++ __OBJC_LABEL_PROTOCOL_$_FPMTLMetricsMetricListenerInternal
++ __OBJC_LABEL_PROTOCOL_$_MTLHUDService_v4
++ __OBJC_METACLASS_RO_$_FPMTLMetricsClientInsightsWindow
++ __OBJC_METACLASS_RO_$_HUDFPMTLMetricsListener
++ __OBJC_METACLASS_RO_$_HUDGPUTimeline
++ __OBJC_METACLASS_RO_$_HUDStateReporter
++ __OBJC_METACLASS_RO_$_HUDStateReporterManager
++ __OBJC_METACLASS_RO_$_MTLHUDService
++ __OBJC_PROTOCOL_$_FPMTLMetricsGPUTimingListenerInternal
++ __OBJC_PROTOCOL_$_FPMTLMetricsMetricListenerInternal
++ __OBJC_PROTOCOL_$_MTLHUDService_v4
++ __Z15_HUDUIDrawFrameP12HUDUIOverlayPU27objcproto16MTLCommandBuffer11objc_objectPKPU21objcproto10MTLTexture11objc_objectiS4_13MTLLoadActionbmbPU18objcproto8MTLEvent11objc_objectS9_yfbbU13block_pointerFvPU34objcproto23MTLRenderCommandEncoder11objc_objectEU13block_pointerFvvE
++ __Z20HUDInitLayerTrackingP12CAMetalLayer
++ __Z23_HUDMFXGetGlobalContextv
++ __Z25_HUDInsightReportGeneratePK23HUDInsightReportContextPK16HUDMTLLayerState
++ __Z26_HUDInsightReportAddRecordP21HUDValueHistoryRecord26HUDGPUTimeTrackerValueTypeP15NSMutableString
++ __Z28HUDUIOverlayGetPipelineStateP12HUDUIOverlayPU21objcproto10MTLTexture11objc_objectbbb
++ __Z30_HUDGPUTimelineBuildUITimelineP19HUDGPUTimelineStore
++ __Z31HUDCAMetalDrawablePresentCommonPU26objcproto15CAMetalDrawable11objc_object
++ __Z31HUDUIVertexBufferAddScatterPlotP12HUDUIOverlayP26HUDSimpleVertexBufferChunk9HUDUIRectPKfS5_jjffffjjff
++ __Z33_HUDInsightReportGenerateMetadataPK23HUDInsightReportContextP15NSMutableStringPK16HUDMTLLayerState
++ __Z36_HUDInsightReportGenerateFrameTimingPK23HUDInsightReportContextP15NSMutableStringP49FPMTLMetricsTargetRebindingInsightPerFrameContextP6NSDatam
++ __Z38_HUDGPUTimelineSnapshotFrameTimingDataP41FPMTLMetricsGPUTimeTrackerFrameTimingDataP19HUDGPUTimelineStore
++ __Z38_HUDInsightReportGenerateFrameEncodingPK23HUDInsightReportContextP15NSMutableStringP49FPMTLMetricsTargetRebindingInsightPerFrameContextP6NSDatam
++ __Z40_HUDInsightReportGenerateInsightsSectionPK23HUDInsightReportContextP15NSMutableStringP7NSArrayIP25FPMTLMetricsClientInsightE
++ __Z42_HUDInsightReportGenerateAdditionalContextPK23HUDInsightReportContextP15NSMutableStringP25FPMTLMetricsClientInsight
++ __Z42_HUDInsightReportGenerateShaderCompilationPK23HUDInsightReportContextP15NSMutableStringPK30FPMTLMetricsCompilerStatistics
++ __Z43_HUDGPUCommandBufferTimelineBuildUITimelineP32HUDGPUCommandBufferTimelineStore
++ __Z51_HUDGPUCommandBufferTimelineSnapshotFrameTimingDataP41FPMTLMetricsGPUTimeTrackerFrameTimingDataP32HUDGPUCommandBufferTimelineStore
++ __ZGVZL26HUDReplaceMFXJitterMethodsP10objc_classE15replacedClasses
++ __ZL13replaceMethodIU8__strongP11objc_objectJU8__strongPU19objcproto9MTLDevice11objc_objectEEvP10objc_classP13objc_selectorPFT_PFvvES1_S9_DpT0_E
++ __ZL13replaceMethodIU8__strongP11objc_objectJU8__strongPU19objcproto9MTLDevice11objc_objectU8__strongPU23objcproto12MTL4Compiler11objc_objectEEvP10objc_classP13objc_selectorPFT_PFvvES1_SC_DpT0_E
++ __ZL13replaceMethodIvJfEEvP10objc_classP13objc_selectorPFT_PFvvEP11objc_objectS3_DpT0_E
++ __ZL16_metricsListener
++ __ZL20MFXEffect_SetJitterXPFvvEP11objc_objectP13objc_selectorf
++ __ZL20MFXEffect_SetJitterYPFvvEP11objc_objectP13objc_selectorf
++ __ZL26HUDReplaceMFXJitterMethodsP10objc_class
++ __ZL31MFXEffect_EncodeToCommandBufferPFvvEP11objc_objectP13objc_selectorS2_
++ __ZL31MFXEffect_SetMotionVectorScaleXPFvvEP11objc_objectP13objc_selectorf
++ __ZL31MFXEffect_SetMotionVectorScaleYPFvvEP11objc_objectP13objc_selectorf
++ __ZL36_HUDUIFrameGetCompositeSourceTextureP10HUDUIFrame14MTLPixelFormatbb
++ __ZL37MFXEffect_newTemporalScalerWithDevicePFvvEP11objc_objectP13objc_selectorPU19objcproto9MTLDevice11objc_object
++ __ZL45MFXEffect_newTemporalDenoisedScalerWithDevicePFvvEP11objc_objectP13objc_selectorPU19objcproto9MTLDevice11objc_object
++ __ZL46MFXEffect_newTemporalScalerWithDevice_compilerPFvvEP11objc_objectP13objc_selectorPU19objcproto9MTLDevice11objc_objectPU23objcproto12MTL4Compiler11objc_object
++ __ZL54MFXEffect_newTemporalDenoisedScalerWithDevice_compilerPFvvEP11objc_objectP13objc_selectorPU19objcproto9MTLDevice11objc_objectPU23objcproto12MTL4Compiler11objc_object
++ __ZN10HUDUIFrameD2Ev
++ __ZN23HUDInsightReportContextC2ERKS_
++ __ZNKSt3__111__copy_implclB9fqe220106IP19HUDGPUTimelineTrackS3_S3_Li0EEENS_4pairIT_T1_EES5_T0_S6_
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9fqe220106EPKvm
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI11HUDUIWindowEEPS2_EclB9fqe220106Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI19HUDGPUTimelineTrackEEPS2_EclB9fqe220106Ev
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIm19HUDUIStringInternalEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9fqe220106Ev
++ __ZNSt3__112__destroy_atB9fqe220106INS_4pairIKm19HUDUIStringInternalEEEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEE21__construct_node_hashIJNS5_ImS2_EEEEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSF_ISN_EEEEEEmDpOT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEE22__deallocate_node_listB9fqe220106EPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEE4findImEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEED2Ev
++ __ZNSt3__114__split_bufferI11HUDUIWindowRNS_9allocatorIS1_EEE5clearB9fqe220106Ev
++ __ZNSt3__114__split_bufferI19HUDGPUTimelineTrackRNS_9allocatorIS1_EEE17__destruct_at_endB9fqe220106EPS1_
++ __ZNSt3__114__split_bufferI19HUDGPUTimelineTrackRNS_9allocatorIS1_EEED2Ev
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI11HUDUIVertexEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI11HUDUIWindowEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI19HUDGPUTimelineTrackEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI21FPMTLMetricsTimeRangeEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI22FPMTLMetricsShaderInfoEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI24HUDUISimpleTimelineTrackEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorI29HUDUISimpleTimelineTrackChunkEENS_16allocator_traitsIS3_EEEENS_19__allocation_resultINT0_7pointerENS7_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIN12HUDUIOverlay20ReusableVertexBufferEEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIP11HUDUIWindowEENS_16allocator_traitsIS4_EEEENS_19__allocation_resultINT0_7pointerENS8_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIjEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorItEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__119__allocate_at_leastB9fqe220106INS_9allocatorIyEENS_16allocator_traitsIS2_EEEENS_19__allocation_resultINT0_7pointerENS6_9size_typeEEERT_m
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B9fqe220106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B9fqe220106EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B9fqe220106EPKcm
++ __ZNSt3__127__tree_balance_after_insertB9fqe220106IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI11HUDUIWindowEEPS3_EEED2B9fqe220106Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI19HUDGPUTimelineTrackEEPS3_EEED2B9fqe220106Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorI11HUDUIWindowEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB9fqe220106INS_9allocatorI19HUDGPUTimelineTrackEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB9fqe220106INS_9allocatorI19HUDGPUTimelineTrackEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__13mapIjmNS_4lessIjEENS_9allocatorINS_4pairIKjmEEEEEixERS5_
++ __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjNS_4pairIKjmEENS_4lessIjEEEENS_9allocatorIS6_EEE14__tree_deleterclB9fqe220106EPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjNS_4pairIKjmEENS_4lessIjEEEENS_9allocatorIS6_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSH_SH_
++ __ZNSt3__16__treeINS_12__value_typeIjmEENS_19__map_value_compareIjNS_4pairIKjmEENS_4lessIjEEEENS_9allocatorIS6_EEE7destroyEPNS_11__tree_nodeIS2_PvEE
++ __ZNSt3__16vectorI11HUDUIVertexNS_9allocatorIS1_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorI11HUDUIVertexNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI11HUDUIVertexNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI11HUDUIVertexNS_9allocatorIS1_EEEC2B9fqe220106Em
++ __ZNSt3__16vectorI11HUDUIWindowNS_9allocatorIS1_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorI11HUDUIWindowNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE13__vdeallocateEv
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE16__destroy_vectorclB9fqe220106Ev
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJEEEPS1_DpOT_
++ __ZNSt3__16vectorI19HUDGPUTimelineTrackNS_9allocatorIS1_EEE5clearB9fqe220106Ev
++ __ZNSt3__16vectorI21FPMTLMetricsTimeRangeNS_9allocatorIS1_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorI21FPMTLMetricsTimeRangeNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI21FPMTLMetricsTimeRangeNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI21FPMTLMetricsTimeRangeNS_9allocatorIS1_EEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS1_S7_EENS_11__wrap_iterIS7_EENS8_IPKS1_EET0_T1_l
++ __ZNSt3__16vectorI21FPMTLMetricsTimeRangeNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI22FPMTLMetricsShaderInfoNS_9allocatorIS1_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorI22FPMTLMetricsShaderInfoNS_9allocatorIS1_EEE16__init_with_sizeB9fqe220106IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI22FPMTLMetricsShaderInfoNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI22FPMTLMetricsShaderInfoNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI24HUDUISimpleTimelineTrackNS_9allocatorIS1_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorI24HUDUISimpleTimelineTrackNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI24HUDUISimpleTimelineTrackNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI24HUDUISimpleTimelineTrackNS_9allocatorIS1_EEE6resizeEm
++ __ZNSt3__16vectorI29HUDUISimpleTimelineTrackChunkNS_9allocatorIS1_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorI29HUDUISimpleTimelineTrackChunkNS_9allocatorIS1_EEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPS1_S7_EEvT0_T1_l
++ __ZNSt3__16vectorI29HUDUISimpleTimelineTrackChunkNS_9allocatorIS1_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorI29HUDUISimpleTimelineTrackChunkNS_9allocatorIS1_EEE6resizeEm
++ __ZNSt3__16vectorIN12HUDUIOverlay20ReusableVertexBufferENS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIN12HUDUIOverlay20ReusableVertexBufferENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEE16__init_with_sizeB9fqe220106IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__insert_with_sizeB9fqe220106INS_17_ClassicAlgPolicyENS_11__wrap_iterIPjEES8_EES8_NS6_IPKjEET0_T1_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE24__emplace_back_slow_pathIJRKjEEEPjDpOT_
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE16__init_with_sizeB9fqe220106IPtS5_EEvT_T0_m
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorItNS_9allocatorItEEEC2B9fqe220106Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE11__vallocateB9fqe220106Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE18__assign_with_sizeB9fqe220106INS_17_ClassicAlgPolicyEPyS6_EEvT0_T1_l
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE24__emplace_back_slow_pathIJRKyEEEPyDpOT_
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE24__emplace_back_slow_pathIJyEEEPyDpOT_
++ __ZNSt3__19allocatorI11HUDUIWindowE7destroyB9fqe220106EPS1_
++ __ZSt28__throw_bad_array_new_lengthB9fqe220106v
++ __ZZ20HUDInitLayerTrackingP12CAMetalLayerE5_lock
++ __ZZ20HUDInitLayerTrackingP12CAMetalLayerE9onceToken
++ __ZZ23_HUDMFXGetGlobalContextvE9onceToken
++ __ZZ28HUDMFXInitConfigurationPanelE9onceToken
++ __ZZ33_HUDGPUTimeTrackerEncoderTypeName23FPMTLMetricsEncoderTypeE5names
++ __ZZL24_HUDInsightReportRecordsvE7metrics
++ __ZZL24_HUDInsightReportRecordsvE9onceToken
++ __ZZL26HUDReplaceMFXJitterMethodsP10objc_classE15replacedClasses
++ __ZZL26HUDReplaceMFXJitterMethodsP10objc_classE4lock
++ __ZZL31MFXEffect_EncodeToCommandBufferPFvvEP11objc_objectP13objc_selectorS2_E9onceToken
++ __ZZL32WEAK_MetalMetricsServiceInternalvE7service
++ __ZZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEEEENS_21__unordered_map_equalImS7_SB_S9_EENS_9allocatorIS7_EEE16__emplace_uniqueB9fqe220106IJNS5_ImS2_EEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEEDpOT_ENKUlRS6_OSJ_E_clESU_SV_
++ ___132-[MTLHUDService featureRegisterToggle:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:valueRef:]_block_invoke
++ ___24-[MTLHUDService remove:]_block_invoke
++ ___24-[MTLHUDService remove:]_block_invoke_2
++ ___25+[MTLHUDService instance]_block_invoke
++ ___30-[MTLHUDService osBuildString]_block_invoke
++ ___32-[MTLHUDService addLabel:after:]_block_invoke
++ ___32-[MTLHUDService osVersionString]_block_invoke
++ ___35+[HUDStateReporterManager instance]_block_invoke
++ ___35-[MTLHUDService updateLabel:value:]_block_invoke
++ ___35-[MTLHUDService updateLabel:value:]_block_invoke_2
++ ___41-[HUDMTLLayerTracking drawablePresented:]_block_invoke
++ ___45-[HUDStateReporterManager setEnabledDomains:]_block_invoke
++ ___50-[HUDUserClientFeatureEntry initButton:didChange:]_block_invoke
++ ___53-[HUDMTLLayerOverlay _drawablePresentedCommon:state:]_block_invoke
++ ___53-[HUDMTLLayerOverlay _drawablePresentedCommon:state:]_block_invoke_2
++ ___57-[HUDUserClientFeatureEntry initTextbox:value:didChange:]_block_invoke
++ ___58-[HUDFPMTLMetricsListener metricsUpdatedForLayer:metrics:]_block_invoke
++ ___58-[HUDMTLLayerTracking _presentOrSignalDrawable:mtl4Queue:]_block_invoke
++ ___62-[HUDMTLLayerOverlay layerTracking:presentDrawable:mtl4Queue:]_block_invoke
++ ___62-[HUDMTLLayerOverlay layerTracking:presentDrawable:mtl4Queue:]_block_invoke_2
++ ___68-[HUDUserClientMainWindow _drawStateReporters:frame:layout:overlay:]_block_invoke
++ ___68-[HUDUserClientMainWindow _drawStateReporters:frame:layout:overlay:]_block_invoke_2
++ ___68-[HUDUserClientMainWindow _drawStateReporters:frame:layout:overlay:]_block_invoke_3
++ ___68-[HUDUserClientMainWindow _drawStateReporters:frame:layout:overlay:]_block_invoke_4
++ ___82-[HUDUserClientMainWindow draw:drawableState:fontSize:frame:layout:height:qrCode:]_block_invoke_4
++ ___82-[HUDUserClientMainWindow draw:drawableState:fontSize:frame:layout:height:qrCode:]_block_invoke_5
++ ___88-[HUDUserClientFeatureEntry initSlider:value:minValue:maxValue:numberOfTicks:didChange:]_block_invoke
++ ___HUDInsightReportHeartbeat_block_invoke_3
++ ___HUDMFXInitConfigurationPanel_block_invoke
++ ___HUDMFXInitConfigurationPanel_block_invoke_2
++ ___HUDMFXInitConfigurationPanel_block_invoke_3
++ ___HUDMFXInitConfigurationPanel_block_invoke_4
++ ___HUDMFXInitConfigurationPanel_block_invoke_5
++ ___HUDMFXInitConfigurationPanel_block_invoke_6
++ ___HUDMFXInitConfigurationPanel_block_invoke_7
++ ___MTLHudGPUCoreCount_block_invoke
++ ____Z15_HUDUIDrawFrameP12HUDUIOverlayPU27objcproto16MTLCommandBuffer11objc_objectPKPU21objcproto10MTLTexture11objc_objectiS4_13MTLLoadActionbmbPU18objcproto8MTLEvent11objc_objectS9_yfbbU13block_pointerFvPU34objcproto23MTLRenderCommandEncoder11objc_objectEU13block_pointerFvvE_block_invoke
++ ____Z20HUDInitLayerTrackingP12CAMetalLayer_block_invoke
++ ____Z23_HUDMFXGetGlobalContextv_block_invoke
++ ____ZL13replaceMethodIU8__strongP11objc_objectJU8__strongPU19objcproto9MTLDevice11objc_objectEEvP10objc_classP13objc_selectorPFT_PFvvES1_S9_DpT0_E_block_invoke
++ ____ZL13replaceMethodIU8__strongP11objc_objectJU8__strongPU19objcproto9MTLDevice11objc_objectU8__strongPU23objcproto12MTL4Compiler11objc_objectEEvP10objc_classP13objc_selectorPFT_PFvvES1_SC_DpT0_E_block_invoke
++ ____ZL13replaceMethodIvJU8__strongP11objc_objectEEvP10objc_classP13objc_selectorPFT_PFvvES1_S6_DpT0_E_block_invoke
++ ____ZL13replaceMethodIvJfEEvP10objc_classP13objc_selectorPFT_PFvvEP11objc_objectS3_DpT0_E_block_invoke
++ ____ZL19_HUDUIBlitFrameMTL4P12HUDUIOverlayPU27objcproto16MTL4CommandQueue11objc_objectPU21objcproto10MTLTexture11objc_object13MTLLoadActionPU18objcproto8MTLEvent11objc_objectyU13block_pointerFvPU35objcproto24MTL4RenderCommandEncoder11objc_objectPU26objcproto15MTLResidencySet11objc_objectEU13block_pointerFvvEbb_block_invoke
++ ____ZL22_HUDUIBlitFramesMetal3P12HUDUIOverlayPU21objcproto10MTLTexture11objc_objectS2_P17HUDUIFrameContextjmPU18objcproto8MTLEvent11objc_objectyU13block_pointerFvvE_block_invoke
++ ____ZL22_HUDUIBlitFramesMetal3P12HUDUIOverlayPU21objcproto10MTLTexture11objc_objectS2_P17HUDUIFrameContextjmPU18objcproto8MTLEvent11objc_objectyU13block_pointerFvvE_block_invoke_2
++ ____ZL22_HUDUIBlitFramesMetal3P12HUDUIOverlayPU21objcproto10MTLTexture11objc_objectS2_P17HUDUIFrameContextjmPU18objcproto8MTLEvent11objc_objectyU13block_pointerFvvE_block_invoke_3
++ ____ZL22_HUDUIBlitFramesMetal4P12HUDUIOverlayPU27objcproto16MTL4CommandQueue11objc_objectPU21objcproto10MTLTexture11objc_objectP17HUDUIFrameContextjPU18objcproto8MTLEvent11objc_objectyU13block_pointerFvvE_block_invoke
++ ____ZL24_HUDInsightReportRecordsv_block_invoke
++ ____ZL31MFXEffect_EncodeToCommandBufferPFvvEP11objc_objectP13objc_selectorS2__block_invoke
++ ___block_descriptor_32_e31_q24?0"NSString"8"NSString"16l
++ ___block_descriptor_32_e31_v24?0"NSString"8"NSNumber"16l
++ ___block_descriptor_32_e31_v24?0"NSString"8"NSString"16l
++ ___block_descriptor_40_e42_v16?0^{FPMTLMetricsShaderInfo=QBB[128c]}8l
++ ___block_descriptor_40_e8_32w_e5_B8?0lw32l8
++ ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
++ ___block_descriptor_40_ea8_32bs_e30_v16?0"<MTL4CommitFeedback>"8ls32l8
++ ___block_descriptor_40_ea8_32s_e27_v36?0"NSString"8I16Q20Q28ls32l8
++ ___block_descriptor_41_e8_32s_e43_v32?0"NSString"8"HUDStateReporter"16^B24ls32l8
++ ___block_descriptor_48_e8_32bs40w_e41_v16?0"MTLHUDConfigViewControllerEntry"8lw40l8s32l8
++ ___block_descriptor_48_ea8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_48_ea8_32s_e29_v16?0"HUDMTLLayerTracking"8ls32l8
++ ___block_descriptor_52_ea8_32s_e35_v16?0"<MTLRenderCommandEncoder>"8ls32l8
++ ___block_descriptor_56_e11_v20?08f16l
++ ___block_descriptor_56_e11_v24?0816l
++ ___block_descriptor_56_e24_24?08"<MTLDevice>"16l
++ ___block_descriptor_56_e43_32?08"<MTLDevice>"16"<MTL4Compiler>"24l
++ ___block_descriptor_56_e8_32s40bs48w_e41_v16?0"MTLHUDConfigViewControllerEntry"8lw48l8s32l8s40l8
++ ___block_descriptor_56_e8_32s_e22_v16?0"NSDictionary"8ls32l8
++ ___block_descriptor_56_e8_32w_e5_v8?0lw32l8
++ ___block_descriptor_56_ea8_32c54_ZTSNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEEE_e35_v16?0"<MTLRenderCommandEncoder>"8l
++ ___block_descriptor_60_e8_32r_e27_v36?0"NSString"8I16Q20Q28lr32l8
++ ___block_descriptor_60_ea8_32s_e58_v24?0"<MTL4RenderCommandEncoder>"8"<MTLResidencySet>"16ls32l8
++ ___block_descriptor_64_e80_v32?0^{HUDUISimpleTimeline=^{HUDUISimpleTimelineTrack}QQ^Q}8{HUDTimeRange=QQ}16l
++ ___block_descriptor_64_e8_32s_e22_v16?0"NSDictionary"8ls32l8
++ ___block_descriptor_64_e8_32w_e5_v8?0lw32l8
++ ___block_descriptor_68_e8_32r_e27_v36?0"NSString"8I16Q20Q28lr32l8
++ ___block_descriptor_80_e8_32s40s48r56r64r_e5_v8?0lr48l8r56l8r64l8s32l8s40l8
++ ___copy_helper_block_ea8_32c54_ZTSNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEEE
++ ___destroy_helper_block_ea8_32c54_ZTSNSt3__16vectorIP11HUDUIWindowNS_9allocatorIS2_EEEE
++ ___strlcpy_chk
++ __log:drawableState:gpuTime:._loggingBegin
++ _instance.onceToken
++ _instance.reporter
++ _kHUDMetricIdentifierMFXMotionVectorScale
++ _kHUDMetricIdentifier_Rosetta_block_invoke.numberFormatter
++ _kHUDMetricIdentifier_Rosetta_block_invoke.onceToken
++ _layerTracking:presentDrawable:mtl4Queue:._presentBegin
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$SEMEnabled
++ _objc_msgSend$_drawStateReporters:frame:layout:overlay:
++ _objc_msgSend$_drawablePresentedCommon:state:
++ _objc_msgSend$_log:drawableState:gpuTime:
++ _objc_msgSend$_presentOrSignalDrawable:mtl4Queue:
++ _objc_msgSend$_snapshotDrawable:
++ _objc_msgSend$_stateReporterValueText:
++ _objc_msgSend$_updateReporterTranstion:
++ _objc_msgSend$_updateVolatileState:volatileState:
++ _objc_msgSend$acceleratorPort
++ _objc_msgSend$addAllocation:
++ _objc_msgSend$addAssociation:
++ _objc_msgSend$addGPUTimingListener:
++ _objc_msgSend$addInsight:name:category:message:documtationTitles:documentLinks:supportedAPI:options:isPrototype:
++ _objc_msgSend$addMetrics:
++ _objc_msgSend$addMetricsListener:
++ _objc_msgSend$additionalContext
++ _objc_msgSend$alignedTimeRangeWithEncoderEnabled:cmdBufferEnabled:
++ _objc_msgSend$allKeys
++ _objc_msgSend$colorspace
++ _objc_msgSend$compare:
++ _objc_msgSend$dateFormatter
++ _objc_msgSend$didChangeBlock
++ _objc_msgSend$displayId
++ _objc_msgSend$domain
++ _objc_msgSend$doubleValue
++ _objc_msgSend$drawablePresented:
++ _objc_msgSend$drawableStateForDrawable:
++ _objc_msgSend$enableFacet:enabled:
++ _objc_msgSend$encoderMetrics
++ _objc_msgSend$enumerateTopCommandBuffersWithLabel:
++ _objc_msgSend$enumerateTopEncodersWithLabel:
++ _objc_msgSend$enumerateTrackers:
++ _objc_msgSend$featureAssociateToggle:withIdentifier:
++ _objc_msgSend$featureRegisterButton:didChange:
++ _objc_msgSend$featureRegisterSlider:minValue:maxValue:defaultValue:numberOfTicks:didChange:
++ _objc_msgSend$featureRegisterSlider:title:envVar:description:documtationTitles:documentLinks:options:minValue:maxValue:defaultValue:numberOfTicks:didChange:
++ _objc_msgSend$featureRegisterTextbox:defaultValue:didChange:
++ _objc_msgSend$featureRegisterTextbox:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:didChange:
++ _objc_msgSend$gameModeEnabled
++ _objc_msgSend$generateQRCodeContent:state:
++ _objc_msgSend$gpuAddress
++ _objc_msgSend$gpuName
++ _objc_msgSend$hasMainLayer
++ _objc_msgSend$hasMetal4APIUsage
++ _objc_msgSend$identifier
++ _objc_msgSend$initButton:didChange:
++ _objc_msgSend$initSlider:value:minValue:maxValue:numberOfTicks:didChange:
++ _objc_msgSend$initTextbox:value:didChange:
++ _objc_msgSend$initWithDomain:stateLabel:stableStateDict:volatileStateDict:
++ _objc_msgSend$initWithLayer:client:
++ _objc_msgSend$initWithPattern:options:error:
++ _objc_msgSend$initWithTitle:envVar:enabled:minValue:maxValue:initialValue:numberOfTicks:representedObject:didChange:
++ _objc_msgSend$ioReportMetrics
++ _objc_msgSend$isFacetEnabled:
++ _objc_msgSend$isInGPTk
++ _objc_msgSend$lastTargetRebindingInsightContext
++ _objc_msgSend$layerTracking:presentDrawable:mtl4Queue:
++ _objc_msgSend$markCommandBuffer:component:
++ _objc_msgSend$markRenderEncoder:component:
++ _objc_msgSend$matchesInString:options:range:
++ _objc_msgSend$message
++ _objc_msgSend$metal4SignalDrawable:onQueue:
++ _objc_msgSend$metalFXFrameInterpolatorEncodingEndNoDirectObject:
++ _objc_msgSend$metalLayerMetrics
++ _objc_msgSend$motionVectorScaleX
++ _objc_msgSend$motionVectorScaleY
++ _objc_msgSend$newArgumentTableWithDescriptor:error:
++ _objc_msgSend$newResidencySetWithDescriptor:error:
++ _objc_msgSend$newTextureViewWithPixelFormat:
++ _objc_msgSend$notifyCurrentStates
++ _objc_msgSend$numberOfRanges
++ _objc_msgSend$numberOfTopLabeledCommandBuffers
++ _objc_msgSend$numberOfTopLabeledEncoders
++ _objc_msgSend$objCType
++ _objc_msgSend$operatingSystemVersion
++ _objc_msgSend$operatingSystemVersionString
++ _objc_msgSend$osBuildString
++ _objc_msgSend$osVersionString
++ _objc_msgSend$rangeAtIndex:
++ _objc_msgSend$removeAllAllocations
++ _objc_msgSend$removeGPUTimingListener:
++ _objc_msgSend$removeObserver:
++ _objc_msgSend$removeRegisteredFeature:
++ _objc_msgSend$requestResidency
++ _objc_msgSend$reset
++ _objc_msgSend$setAddress:atIndex:
++ _objc_msgSend$setArgumentTable:atStages:
++ _objc_msgSend$setEnabledDomains:
++ _objc_msgSend$setGpuName:
++ _objc_msgSend$setHazardTrackingMode:
++ _objc_msgSend$setHudService:
++ _objc_msgSend$setInitializeBindings:
++ _objc_msgSend$setMaxBufferBindCount:
++ _objc_msgSend$setMaxTextureBindCount:
++ _objc_msgSend$setMotionVectorScaleX:
++ _objc_msgSend$setMotionVectorScaleY:
++ _objc_msgSend$setShaderCompiledHandler:
++ _objc_msgSend$setTexture:atIndex:
++ _objc_msgSend$setValue:
++ _objc_msgSend$shaderCompilerMetrics
++ _objc_msgSend$sortedArrayUsingComparator:
++ _objc_msgSend$stableMetadataDict
++ _objc_msgSend$stableStateDict
++ _objc_msgSend$stateLabel
++ _objc_msgSend$stringByAppendingFormat:
++ _objc_msgSend$totalCompilerStatistics
++ _objc_msgSend$updateIntegerMetric:value:
++ _objc_msgSend$updateStateLabel:stableStateDict:volatileStateDict:
++ _objc_msgSend$updateVolatileState:
++ _objc_msgSend$useResidencySet:
++ _objc_msgSend$userInfo
++ _objc_msgSend$values
++ _objc_msgSend$volatileMetadataDict
++ _objc_msgSend$volatileStateDict
++ _objc_msgSend$waitForEvent:value:
++ _objc_msgSend$withAvailableReporters:
++ _objc_msgSend$withCurrentCommandBufferTimeline:
++ _objc_msgSend$withCurrentTimeline:
++ _objc_release_x10
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x7
++ _osBuildString.onceToken
++ _osBuildString.osBuildString
++ _osVersionString.onceToken
++ _osVersionString.osVersionString
++ _strtof
++ _strtoll
+- +[_CADeveloperHUDProperties instance]
+- -[HUDIOReport .cxx_construct]
+- -[HUDIOReport .cxx_destruct]
+- -[HUDIOReport _addSamplesToRecords:numSample:totalPackge:]
+- -[HUDIOReport _createIOReportSubscription]
+- -[HUDIOReport _createTimer:]
+- -[HUDIOReport _currentTime]
+- -[HUDIOReport _loadIOReportChannels:subGroup:channels:]
+- -[HUDIOReport _parseCPUChannel:sampleIndex:]
+- -[HUDIOReport _parseChannel:sampleIndex:]
+- -[HUDIOReport dealloc]
+- -[HUDIOReport sample]
+- -[HUDIOReport startSampling:]
+- -[HUDIOReport suspendSampling]
+- -[HUDMTLLayerOverlay _drawablePresentedCommon:]
+- -[HUDMTLLayerOverlay _log:drawableState:]
+- -[HUDMTLLayerOverlay generateQRCodeContent:]
+- -[HUDMTLLayerOverlay layerTracking:presentDrawable:]
+- -[HUDMTLLayerTracking _presentOrSignalDrawable:]
+- -[HUDMTLLayerTracking _snapshotDrawable:state:]
+- -[HUDMTLLayerTracking initWithLayer:client:frameNumber:]
+- -[HUDMTLLayerTracking lastDrawableState]
+- -[HUDMTLLayerTracking metal4SignalDrawable:]
+- -[HUDMTLLayerTracking nextDrawable]
+- -[HUDUserClientInsight .cxx_destruct]
+- -[HUDUserClientInsight componenet]
+- -[HUDUserClientInsight descriptor]
+- -[HUDUserClientInsight enabled]
+- -[HUDUserClientInsight initWithDescriptor:timeOut:isPrototype:]
+- -[HUDUserClientInsight numInstances]
+- -[HUDUserClientInsight setEnabled:]
+- -[HUDUserClientInsight timeCreated]
+- -[HUDUserClientInsight timeOut]
+- -[HUDUserClientInsight timeUpdated]
+- -[HUDUserClientInsight update:]
+- -[HUDUserClientInsightGroup .cxx_destruct]
+- -[HUDUserClientInsightGroup category]
+- -[HUDUserClientInsightGroup enabled]
+- -[HUDUserClientInsightGroup initWithCategory:]
+- -[HUDUserClientInsightGroup insights]
+- -[HUDUserClientInsightGroup setEnabled:]
+- -[HUDUserClientInsightsWindow .cxx_destruct]
+- -[HUDUserClientInsightsWindow addInsight:isPrototype:]
+- -[HUDUserClientInsightsWindow addInsightGroup:]
+- -[HUDUserClientInsightsWindow draw:drawableState:fontSize:frame:width:height:]
+- -[HUDUserClientInsightsWindow enableInsight:enabled:]
+- -[HUDUserClientInsightsWindow getInsight:]
+- -[HUDUserClientInsightsWindow initWithFrame:]
+- -[HUDUserClientInsightsWindow insightGroups]
+- -[HUDUserClientInsightsWindow isInsightEnabled:]
+- -[MTLHUDConfigViewController addSlider:envVar:enabled:minValue:maxValue:initialValue:didChange:]
+- -[MTLHUDConfigViewControllerSliderEntry initWithTitle:envVar:enabled:minValue:maxValue:initialValue:representedObject:didChange:]
+- -[_CADeveloperHUDProperties .cxx_destruct]
+- -[_CADeveloperHUDProperties UTF8StringForName:]
+- -[_CADeveloperHUDProperties addBridgedMetric:record:]
+- -[_CADeveloperHUDProperties addGraph:after:min:max:]
+- -[_CADeveloperHUDProperties addInsight:isPrototype:]
+- -[_CADeveloperHUDProperties addInsight:message:documtationTitles:documentLinks:options:isPrototype:]
+- -[_CADeveloperHUDProperties addInsight:name:category:message:documtationTitles:documentLinks:supportedAPI:options:isPrototype:]
+- -[_CADeveloperHUDProperties addLabel:after:]
+- -[_CADeveloperHUDProperties addMetric:]
+- -[_CADeveloperHUDProperties addMetric:name:unit:nameColor:valueColor:visualType:options:]
+- -[_CADeveloperHUDProperties addStatistic:after:color:tolerance:graph:]
+- -[_CADeveloperHUDProperties addWindow:frame:]
+- -[_CADeveloperHUDProperties alignment]
+- -[_CADeveloperHUDProperties captureGPUTrace:capturableObject:timeOut:error:]
+- -[_CADeveloperHUDProperties configInternal]
+- -[_CADeveloperHUDProperties config]
+- -[_CADeveloperHUDProperties disableExplicitFrameBoundary]
+- -[_CADeveloperHUDProperties elements]
+- -[_CADeveloperHUDProperties enableInsight:enabled:]
+- -[_CADeveloperHUDProperties enabled]
+- -[_CADeveloperHUDProperties featureRegisterPopover:envVar:description:documtationTitles:documentLinks:options:defaultValue:items:selectedIndex:didChange:]
+- -[_CADeveloperHUDProperties featureRegisterPopover:items:selectedIndex:didChange:]
+- -[_CADeveloperHUDProperties featureRegisterPopover:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:items:selectedIndex:didChange:]
+- -[_CADeveloperHUDProperties featureRegisterToggle:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:didChange:]
+- -[_CADeveloperHUDProperties featureRegisterToggle:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:valueRef:]
+- -[_CADeveloperHUDProperties featureRegisterToggle:state:didChange:]
+- -[_CADeveloperHUDProperties featureRegisterToggle:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:didChange:]
+- -[_CADeveloperHUDProperties featureRegisterToggle:title:envVar:description:documtationTitles:documentLinks:options:defaultValue:state:valueRef:]
+- -[_CADeveloperHUDProperties frameMarker]
+- -[_CADeveloperHUDProperties frameNumber]
+- -[_CADeveloperHUDProperties framePacingCAMetalLayerAlloc:]
+- -[_CADeveloperHUDProperties framePacingCAMetalayerDealloc:]
+- -[_CADeveloperHUDProperties framePacingCAMetalayerDrawableAcquired:drawableID:surfaceID:acquisitionStart:acquiredTime:]
+- -[_CADeveloperHUDProperties framePacingCAMetalayerDrawableDidPresent:drawableID:presentedTime:]
+- -[_CADeveloperHUDProperties framePacingCAMetalayerDrawableFinished:drawableID:finishedTime:presented:hasExplicitDeadline:targetCPUDeadlineTime:targetSamplingTime:targetPresentationTime:]
+- -[_CADeveloperHUDProperties framePacingCAMetalayerSetPixelFormat:pixelFormat:]
+- -[_CADeveloperHUDProperties framePacingCAMetalayerSetSize:width:height:]
+- -[_CADeveloperHUDProperties framePacingCommandBufferCommitted:]
+- -[_CADeveloperHUDProperties framePacingCommandBufferCompleted:gpuStartMAT:gpuEndMAT:]
+- -[_CADeveloperHUDProperties framePacingCommandBufferCreated:creationMAT:]
+- -[_CADeveloperHUDProperties framePacingCommandBufferScheduled:kernelStartMAT:kernelEndMAT:]
+- -[_CADeveloperHUDProperties generatedReportURLs]
+- -[_CADeveloperHUDProperties getInsight:]
+- -[_CADeveloperHUDProperties getMetric:]
+- -[_CADeveloperHUDProperties graphicsAPI]
+- -[_CADeveloperHUDProperties incrementStatistic:value:]
+- -[_CADeveloperHUDProperties init]
+- -[_CADeveloperHUDProperties insertMetric:after:]
+- -[_CADeveloperHUDProperties insertMetric:after:name:unit:nameColor:valueColor:visualType:options:]
+- -[_CADeveloperHUDProperties insightsWindow]
+- -[_CADeveloperHUDProperties internalPerfMetrics]
+- -[_CADeveloperHUDProperties isHUDElementEnabled:]
+- -[_CADeveloperHUDProperties isHUDElementEnabled:mainLayer:]
+- -[_CADeveloperHUDProperties isInsightEnabled:]
+- -[_CADeveloperHUDProperties isInternalInstall]
+- -[_CADeveloperHUDProperties isMetricEnabled:]
+- -[_CADeveloperHUDProperties isSideLoaded]
+- -[_CADeveloperHUDProperties isTranslated]
+- -[_CADeveloperHUDProperties layout]
+- -[_CADeveloperHUDProperties logHandler]
+- -[_CADeveloperHUDProperties loggingEnabled]
+- -[_CADeveloperHUDProperties mainLayer]
+- -[_CADeveloperHUDProperties mainWindow]
+- -[_CADeveloperHUDProperties markAccelerationStructureEncoder:component:]
+- -[_CADeveloperHUDProperties markBlitEncoder:component:]
+- -[_CADeveloperHUDProperties markCommandBuffer:component:]
+- -[_CADeveloperHUDProperties markComputeEncoder:component:]
+- -[_CADeveloperHUDProperties markExplicitFrameBoundary]
+- -[_CADeveloperHUDProperties markMainLayer:]
+- -[_CADeveloperHUDProperties markRenderEncoder:component:]
+- -[_CADeveloperHUDProperties markResourceStateEncoder:component:]
+- -[_CADeveloperHUDProperties metalFXFrameInterpolatorDisable]
+- -[_CADeveloperHUDProperties metalFXFrameInterpolatorEncodingEnd:]
+- -[_CADeveloperHUDProperties metricForStandardMetric:]
+- -[_CADeveloperHUDProperties position]
+- -[_CADeveloperHUDProperties progName]
+- -[_CADeveloperHUDProperties pushGeneratedReportURL:]
+- -[_CADeveloperHUDProperties remove:]
+- -[_CADeveloperHUDProperties removeMetric:]
+- -[_CADeveloperHUDProperties reportOutputURL]
+- -[_CADeveloperHUDProperties reportRTCommandEncoder:]
+- -[_CADeveloperHUDProperties resetMetricHistory:]
+- -[_CADeveloperHUDProperties scale]
+- -[_CADeveloperHUDProperties setAlignment:]
+- -[_CADeveloperHUDProperties setEnabled:]
+- -[_CADeveloperHUDProperties setFrameMarker:]
+- -[_CADeveloperHUDProperties setFrameNumber:]
+- -[_CADeveloperHUDProperties setGraphicsAPI:]
+- -[_CADeveloperHUDProperties setHUDElementEnabled:flag:]
+- -[_CADeveloperHUDProperties setHUDElementEnabled:flag:mainLayer:]
+- -[_CADeveloperHUDProperties setLayout:]
+- -[_CADeveloperHUDProperties setLogHandler:]
+- -[_CADeveloperHUDProperties setLoggingEnabled:]
+- -[_CADeveloperHUDProperties setMetricEnabled:enabled:]
+- -[_CADeveloperHUDProperties setPosition:]
+- -[_CADeveloperHUDProperties setReportOutputURL:]
+- -[_CADeveloperHUDProperties setScale:]
+- -[_CADeveloperHUDProperties setSize:]
+- -[_CADeveloperHUDProperties setStatistic:value:]
+- -[_CADeveloperHUDProperties size]
+- -[_CADeveloperHUDProperties trackCommandBuffer:forIdentifier:]
+- -[_CADeveloperHUDProperties trackEncoder:forIdentifier:]
+- -[_CADeveloperHUDProperties updateFloatMetric:value:]
+- -[_CADeveloperHUDProperties updateIntegerMetric:value:]
+- -[_CADeveloperHUDProperties updateLabel:value:]
+- -[_CADeveloperHUDProperties updateLabelMetric:label:]
+- -[_CADeveloperHUDProperties updateMetricColor:nameColor:valueColor:]
+- -[_CADeveloperHUDProperties updateMetricName:name:]
+- -[_CADeveloperHUDProperties updateMetricOptions:options:]
+- -[_CADeveloperHUDProperties userClientFeatures]
+- -[_CADeveloperHUDProperties version]
+- GCC_except_table100
+- GCC_except_table102
+- GCC_except_table103
+- GCC_except_table104
+- GCC_except_table106
+- GCC_except_table107
+- GCC_except_table108
+- GCC_except_table109
+- GCC_except_table111
+- GCC_except_table112
+- GCC_except_table114
+- GCC_except_table117
+- GCC_except_table119
+- GCC_except_table123
+- GCC_except_table124
+- GCC_except_table125
+- GCC_except_table130
+- GCC_except_table132
+- GCC_except_table133
+- GCC_except_table134
+- GCC_except_table136
+- GCC_except_table140
+- GCC_except_table141
+- GCC_except_table144
+- GCC_except_table145
+- GCC_except_table148
+- GCC_except_table149
+- GCC_except_table151
+- GCC_except_table160
+- GCC_except_table166
+- GCC_except_table170
+- GCC_except_table172
+- GCC_except_table179
+- GCC_except_table182
+- GCC_except_table183
+- GCC_except_table187
+- GCC_except_table191
+- GCC_except_table192
+- GCC_except_table193
+- GCC_except_table194
+- GCC_except_table197
+- GCC_except_table198
+- GCC_except_table199
+- GCC_except_table200
+- GCC_except_table201
+- GCC_except_table203
+- GCC_except_table206
+- GCC_except_table207
+- GCC_except_table213
+- GCC_except_table214
+- GCC_except_table217
+- GCC_except_table218
+- GCC_except_table221
+- GCC_except_table226
+- GCC_except_table230
+- GCC_except_table231
+- GCC_except_table232
+- GCC_except_table234
+- GCC_except_table235
+- GCC_except_table254
+- GCC_except_table271
+- GCC_except_table272
+- GCC_except_table276
+- GCC_except_table284
+- GCC_except_table292
+- GCC_except_table294
+- GCC_except_table41
+- GCC_except_table46
+- GCC_except_table47
+- GCC_except_table49
+- GCC_except_table51
+- GCC_except_table52
+- GCC_except_table54
+- GCC_except_table56
+- GCC_except_table59
+- GCC_except_table60
+- GCC_except_table61
+- GCC_except_table63
+- GCC_except_table65
+- GCC_except_table66
+- GCC_except_table71
+- GCC_except_table84
+- GCC_except_table85
+- GCC_except_table88
+- GCC_except_table89
+- GCC_except_table91
+- GCC_except_table92
+- GCC_except_table93
+- GCC_except_table94
+- GCC_except_table95
+- GCC_except_table96
+- GCC_except_table98
+- _CACurrentMediaTime
+- _CFAllocatorGetDefault
+- _HUDBarrierInsightCheck
+- _HUDBarrierInsightContextInit
+- _HUDCAMetalDrawablePresentCommon
+- _HUDCompilerInsightHandleCompilerStatistics
+- _HUDCompilerInsightsInit
+- _HUDCompilerStatisticsInit
+- _HUDGPOUTimeTrackerEndMTL4ComputeEncoder
+- _HUDGPOUTimeTrackerEndMTL4MLEncoder
+- _HUDGPOUTimeTrackerEndMTL4RenderEncoder
+- _HUDGPUTimeTrackerCanEnableGPUTimeSampling
+- _HUDGPUTimeTrackerCommandBufferCommit
+- _HUDGPUTimeTrackerCommandBufferCreate
+- _HUDGPUTimeTrackerCreateAccelerationStructureEncder
+- _HUDGPUTimeTrackerCreateBlitEncder
+- _HUDGPUTimeTrackerCreateComputeEncder
+- _HUDGPUTimeTrackerCreateMTL4ComputeEncoder
+- _HUDGPUTimeTrackerCreateMTL4MLEncoder
+- _HUDGPUTimeTrackerCreateMTL4RenderEncder
+- _HUDGPUTimeTrackerCreateRenderEncder
+- _HUDGPUTimeTrackerCreateResourceStateEncder
+- _HUDGPUTimeTrackerEnableEncoderGPUTimeSampling
+- _HUDGPUTimeTrackerEncoderTypeName
+- _HUDGPUTimeTrackerEncoderTypeName.names
+- _HUDGPUTimeTrackerEndEncoding
+- _HUDGPUTimeTrackerEnumerateCompilerStatistics
+- _HUDGPUTimeTrackerEnumerateTopCommandBufferRecords
+- _HUDGPUTimeTrackerEnumerateTopEncoderRecords
+- _HUDGPUTimeTrackerFramePresented
+- _HUDGPUTimeTrackerGetFrameCaptureScopeAndStartCapture
+- _HUDGPUTimeTrackerGetTargetRebindingInsightContext
+- _HUDGPUTimeTrackerGetTotalCompilerStatistics
+- _HUDGPUTimeTrackerInitGPUTimeSampling
+- _HUDGPUTimeTrackerMTL4CommandBufferBegin
+- _HUDGPUTimeTrackerMTL4CommandBufferCommit
+- _HUDGPUTimeTrackerMTL4CommandBufferCreate
+- _HUDGPUTimeTrackerMTL4CommandBufferEnd
+- _HUDGPUTimeTrackerMarkCommandBuffer
+- _HUDGPUTimeTrackerMarkEncoder
+- _HUDGPUTimeTrackerMarkFrameBoundary
+- _HUDGPUTimeTrackerSetFrameTimingSnapshotHandler
+- _HUDGPUTimeTrackerTopCommandBufferRecordsCount
+- _HUDGPUTimeTrackerTopEncoderRecordsCount
+- _HUDGPUTimelineGetCurrent
+- _HUDGPUTimelineGetCurrentTimeRange
+- _HUDGPUTimelineInit
+- _HUDGameModeInsightCheck
+- _HUDGameModeInsightCheck.lastReportTime
+- _HUDInsightsCreatePrototypes
+- _HUDInsightsCreatePrototypes.onceToken
+- _HUDInternalPerfMetricGPUTimeTrackerAdd
+- _HUDInterposeEnableCompilerStats
+- _HUDInvalidGPUTimeline
+- _HUDNextDrawableCommon
+- _HUDRegisterGlobalMetrics
+- _HUDTargetRebindingInsightContextBeginFrame
+- _HUDTargetRebindingInsightContextInit
+- _HUDTargetRebindingInsightContextNextFrame
+- _HUDTargetRebindingInsightContextProcessCommandBuffer
+- _HUDTargetRebindingInsightContextProcessEncoder
+- _HUDTargetRebindingInsightEncoderInitRender
+- _HUDTargetRebindingInsightEncoderInitRenderMTL4
+- _HUDTessellationInsightCheck
+- _HUDTessellationInsightContextInit
+- _HUD_MTLCompileTimeStatisticsKeyBinaryFunctions
+- _HUD_MTLCompileTimeStatisticsKeyDynamicLibraries
+- _HUD_MTLCompileTimeStatisticsKeyLibrariesFromSource
+- _HUD_MTLCompileTimeStatisticsKeyPipelines
+- _HUD_MTLCompileTimeStatisticsKeyPipelinesCompute
+- _HUD_MTLCompileTimeStatisticsKeyPipelinesRender
+- _IOReportChannelGetChannelID
+- _IOReportChannelGetChannelName
+- _IOReportCopyChannelsInGroup
+- _IOReportCreateAggregate
+- _IOReportCreateSamples
+- _IOReportCreateSubscription
+- _IOReportIterate
+- _IOReportMergeChannels
+- _IOReportPrune
+- _IOReportScaleValue
+- _IOReportSimpleGetIntegerValue
+- _IOReportStateGetCount
+- _IOReportStateGetNameForIndex
+- _IOReportStateGetResidency
+- _IOSurfaceGetDetachModeCode
+- _MTLCommonCounterSetTimestamp
+- _MTLCompileTimeStatisticsKeyCachedFunction
+- _MTLCompileTimeStatisticsKeyFunctionName
+- _MTLCompileTimeStatisticsKeyTotal
+- _MTLHUDGameModeEnabled
+- _MTLHUDGameModeEnabled.enabled
+- _MTLHUDGameModeEnabled.gameModeToken
+- _MTLHUDGameModeEnabled.onceToken
+- _MTLHUDGetGameModeKeyState
+- _MTLHUDGetGameModeKeyState.onceToken
+- _MTLHUDGetGameModeKeyState.state
+- _MTLHudIsVirtualDevice
+- _MTLHudIsVirtualDevice.onceToken
+- _MTLPipelinePerformanceKeyFragmentShader
+- _MTLPipelinePerformanceKeyMeshShader
+- _MTLPipelinePerformanceKeyObjectShader
+- _MTLPipelinePerformanceKeyTemporaryRegisterCount
+- _MTLPipelinePerformanceKeyVertexShader
+- _MobileGestalt_get_current_device
+- _MobileGestalt_get_isVirtualDevice
+- _OBJC_CLASS_$_CAMetalDisplayLinkUpdate
+- _OBJC_CLASS_$_CAMetalLayer
+- _OBJC_CLASS_$_HUDUserClientInsight
+- _OBJC_CLASS_$_HUDUserClientInsightGroup
+- _OBJC_CLASS_$_HUDUserClientInsightsWindow
+- _OBJC_CLASS_$_MTL4CommandBufferOptions
+- _OBJC_CLASS_$_MTL4CounterHeapDescriptor
+- _OBJC_CLASS_$_MTLAccelerationStructurePassDescriptor
+- _OBJC_CLASS_$_MTLBlitPassDescriptor
+- _OBJC_CLASS_$_MTLCaptureDescriptor
+- _OBJC_CLASS_$_MTLComputePassDescriptor
+- _OBJC_CLASS_$_MTLCounterSampleBufferDescriptor
+- _OBJC_CLASS_$_MTLResourceStatePassDescriptor
+- _OBJC_CLASS_$__CADeveloperHUDProperties
+- _OBJC_CLASS_$__MTLCommandEncoder
+- _OBJC_IVAR_$_HUDIOReport._energyChannels
+- _OBJC_IVAR_$_HUDIOReport._energySampleCount
+- _OBJC_IVAR_$_HUDIOReport._energySubscription
+- _OBJC_IVAR_$_HUDIOReport._previousSample
+- _OBJC_IVAR_$_HUDIOReport._sampleInterval
+- _OBJC_IVAR_$_HUDIOReport._samplePoints
+- _OBJC_IVAR_$_HUDIOReport._timebase
+- _OBJC_IVAR_$_HUDIOReport._timer
+- _OBJC_IVAR_$_HUDMTLLayerTracking._lastDrawableState
+- _OBJC_IVAR_$_HUDMTLLayerTracking._metalFXFrameInterpolatorWaitCounter
+- _OBJC_IVAR_$_HUDMTLLayerTracking._nextDrawableCout
+- _OBJC_IVAR_$_HUDUserClientInsight._component
+- _OBJC_IVAR_$_HUDUserClientInsight._descriptor
+- _OBJC_IVAR_$_HUDUserClientInsight._enabled
+- _OBJC_IVAR_$_HUDUserClientInsight._numInstances
+- _OBJC_IVAR_$_HUDUserClientInsight._timeCreated
+- _OBJC_IVAR_$_HUDUserClientInsight._timeOut
+- _OBJC_IVAR_$_HUDUserClientInsight._timeUpdated
+- _OBJC_IVAR_$_HUDUserClientInsightGroup._category
+- _OBJC_IVAR_$_HUDUserClientInsightGroup._enabled
+- _OBJC_IVAR_$_HUDUserClientInsightGroup._insights
+- _OBJC_IVAR_$_HUDUserClientInsightsWindow._currentInsightWindowHeight
+- _OBJC_IVAR_$_HUDUserClientInsightsWindow._insightGroupMap
+- _OBJC_IVAR_$_HUDUserClientInsightsWindow._insightGroups
+- _OBJC_IVAR_$_HUDUserClientInsightsWindow._insightMap
+- _OBJC_IVAR_$__CADeveloperHUDProperties._configExt
+- _OBJC_IVAR_$__CADeveloperHUDProperties._frameMarker
+- _OBJC_IVAR_$__CADeveloperHUDProperties._frameNumber
+- _OBJC_IVAR_$__CADeveloperHUDProperties._generatedReportURLs
+- _OBJC_IVAR_$__CADeveloperHUDProperties._graphicsAPI
+- _OBJC_IVAR_$__CADeveloperHUDProperties._hudWindow
+- _OBJC_IVAR_$__CADeveloperHUDProperties._identifierToMetric
+- _OBJC_IVAR_$__CADeveloperHUDProperties._knownGPTKMetrics
+- _OBJC_IVAR_$__CADeveloperHUDProperties._logHandler
+- _OBJC_IVAR_$__CADeveloperHUDProperties._numberFormatter
+- _OBJC_IVAR_$__CADeveloperHUDProperties._overiddenMetrics
+- _OBJC_IVAR_$__CADeveloperHUDProperties._progName
+- _OBJC_IVAR_$__CADeveloperHUDProperties._reportOutputURL
+- _OBJC_IVAR_$__CADeveloperHUDProperties._userClientFeatures
+- _OBJC_IVAR_$__CADeveloperHUDProperties._windows
+- _OBJC_METACLASS_$_HUDUserClientInsight
+- _OBJC_METACLASS_$_HUDUserClientInsightGroup
+- _OBJC_METACLASS_$_HUDUserClientInsightsWindow
+- _OBJC_METACLASS_$__CADeveloperHUDProperties
+- __HUDBarrierInsightReport
+- __HUDCompilerStatInsightReport
+- __HUDGameModeInsightReport
+- __HUDMetal3To4EfficientEncoderInsightReport
+- __HUDPersistancyGetDictForCurrentApp.dict
+- __HUDTargetBlitInsightReport
+- __HUDTargetRebindCheckRenderEncoderGroup
+- __HUDTargetRebindingInsightReport
+- __HUDTessellationInsightReport
+- __MTLCompileTimeStatistics
+- __MTLSetCompileTimeStatisticsEnabled
+- __OBJC_$_CLASS_METHODS__CADeveloperHUDProperties
+- __OBJC_$_INSTANCE_METHODS_HUDUserClientInsight
+- __OBJC_$_INSTANCE_METHODS_HUDUserClientInsightGroup
+- __OBJC_$_INSTANCE_METHODS_HUDUserClientInsightsWindow
+- __OBJC_$_INSTANCE_METHODS__CADeveloperHUDProperties
+- __OBJC_$_INSTANCE_VARIABLES_HUDUserClientInsight
+- __OBJC_$_INSTANCE_VARIABLES_HUDUserClientInsightGroup
+- __OBJC_$_INSTANCE_VARIABLES_HUDUserClientInsightsWindow
+- __OBJC_$_INSTANCE_VARIABLES__CADeveloperHUDProperties
+- __OBJC_$_PROP_LIST_HUDUserClientInsight
+- __OBJC_$_PROP_LIST_HUDUserClientInsightGroup
+- __OBJC_$_PROP_LIST_HUDUserClientInsightsWindow
+- __OBJC_$_PROP_LIST__CADeveloperHUDProperties
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLHUDService_FramePacing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MTLHUDService_MetricAccess
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MTLHUDService_FramePacing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MTLHUDService_MetricAccess
+- __OBJC_$_PROTOCOL_REFS_MTLHUDService_FramePacing
+- __OBJC_$_PROTOCOL_REFS_MTLHUDService_MetricAccess
+- __OBJC_CLASS_PROTOCOLS_$__CADeveloperHUDProperties
+- __OBJC_CLASS_RO_$_HUDUserClientInsight
+- __OBJC_CLASS_RO_$_HUDUserClientInsightGroup
+- __OBJC_CLASS_RO_$_HUDUserClientInsightsWindow
+- __OBJC_CLASS_RO_$__CADeveloperHUDProperties
+- __OBJC_LABEL_PROTOCOL_$_MTLHUDService_FramePacing
+- __OBJC_LABEL_PROTOCOL_$_MTLHUDService_MetricAccess
+- __OBJC_METACLASS_RO_$_HUDUserClientInsight
+- __OBJC_METACLASS_RO_$_HUDUserClientInsightGroup
+- __OBJC_METACLASS_RO_$_HUDUserClientInsightsWindow
+- __OBJC_METACLASS_RO_$__CADeveloperHUDProperties
+- __OBJC_PROTOCOL_$_MTLHUDService_FramePacing
+- __OBJC_PROTOCOL_$_MTLHUDService_MetricAccess
+- __Z15_HUDUIDrawFrameP12HUDUIOverlayPU27objcproto16MTLCommandBuffer11objc_objectPKPU21objcproto10MTLTexture11objc_objectiS4_13MTLLoadActionbmbPU18objcproto8MTLEvent11objc_objectS9_yU13block_pointerFvPU34objcproto23MTLRenderCommandEncoder11objc_objectEU13block_pointerFvvE
+- __Z20_HUDMTL4CounterSetupP17HUDGPUTimeTrackerPU19objcproto9MTLDevice11objc_object
+- __Z20_HUDTimeRangeComparePKvS0_
+- __Z25_HUDCompilerStatisticsAddP21HUDCompilerStatisticsS0_
+- __Z25_HUDIOReportDieAddCPUCoreP14HUDIOReportDiejjcj
+- __Z25_HUDInsightReportGeneratePK23HUDInsightReportContextPK16HUDMTLLayerStatePK24HUDMTLLayerDrawableState
+- __Z26_HUDGPUTimeTrackerAddLabelP17HUDGPUTimeTrackeryP8NSStringm27HUDGPUTimeTrackerObjectType
+- __Z27HUDGPUTimelineSnapshotFrameP14HUDGPUTimelineP32HUDGPUTimeTrackerFrameTimingData
+- __Z27_HUDCompilerStatisticsParsemP21HUDCompilerStatisticsP12NSDictionaryU13block_pointerFvP8NSStringP13HUDShaderInfoE
+- __Z28HUDUIOverlayGetPipelineStateP12HUDUIOverlayPU21objcproto10MTLTexture11objc_objectb
+- __Z28_HUDGPUTimeTrackerAddEncoderP17HUDGPUTimeTrackerPU27objcproto16MTLCommandBuffer11objc_objectPU28objcproto17MTLCommandEncoder11objc_object28HUDGPUTimeTrackerEncoderTypem
+- __Z28_HUDGPUTimeTrackerEndEncoderP17HUDGPUTimeTrackerPU28objcproto17MTLCommandEncoder11objc_object
+- __Z30_HUDGPUTimelineBuildUITimelineP14HUDGPUTimelineP19HUDGPUTimelineStore
+- __Z30_HUDIOReportSamplePointsAddDieP23HUDIOReportSamplePointsj
+- __Z31_HUDCompileStatisticsParseArrayP7NSArrayP8NSStringP21HUDCompilerStatisticsmmU13block_pointerFvS2_P13HUDShaderInfoE
+- __Z31_HUDCompilerStatisticsParseDictP12NSDictionaryP8NSStringP21HUDCompilerStatisticsU13block_pointerFvS2_P13HUDShaderInfoE
+- __Z32_HUDGPUTimeTrackerEndMTL4EncoderP17HUDGPUTimeTrackerP19_MTL4CommandEncoder
+- __Z32_HUDGPUTimeTrackerPurgeOldLabelsP17HUDGPUTimeTrackerm
+- __Z33_HUDInsightReportGenerateMetadataPK23HUDInsightReportContextP15NSMutableStringPK16HUDMTLLayerStatePK24HUDMTLLayerDrawableState
+- __Z34_HUDGPUTimeTrackerAddMTL4MLEncoderP17HUDGPUTimeTrackerPU28objcproto17MTL4CommandBuffer11objc_objectPU44objcproto33MTL4MachineLearningCommandEncoder11objc_object28HUDGPUTimeTrackerEncoderTypem
+- __Z34_HUDGPUTimeTrackerAddRenderEncoderP17HUDGPUTimeTrackerPU27objcproto16MTLCommandBuffer11objc_objectPU28objcproto17MTLCommandEncoder11objc_object28HUDGPUTimeTrackerEncoderTypemP23MTLRenderPassDescriptor
+- __Z34_HUDGPUTimetrackerHeapValueCompareRK35HUDGPUTimeTrackerTopObjectHeapValueS1_
+- __Z35_HUDGPUTimeTrackerPushTopObjectHeapP30HUDGPUTimeTrackerTopObjectHeapP35HUDGPUTimeTrackerTopObjectHeapValue
+- __Z36_HUDGPUTimeTrackerCanSampleASEncoderP17HUDGPUTimeTrackerP38MTLAccelerationStructurePassDescriptor
+- __Z36_HUDInsightReportGenerateFrameTimingPK23HUDInsightReportContextP15NSMutableStringP40HUDTargetRebindingInsightPerFrameContextP6NSDatam
+- __Z37_HUDCompileStatisticsParseRenderArrayP7NSArrayP21HUDCompilerStatisticsmmU13block_pointerFvP8NSStringP13HUDShaderInfoE
+- __Z37_HUDGPUTimeTrackerTopObjectHeapAssignP17HUDGPUTimeTrackerP30HUDGPUTimeTrackerTopObjectHeapPym
+- __Z38_HUDGPUTimeTrackerAddMTL4RenderEncoderP17HUDGPUTimeTrackerPU28objcproto17MTL4CommandBuffer11objc_objectPU35objcproto24MTL4RenderCommandEncoder11objc_object28HUDGPUTimeTrackerEncoderTypemP24MTL4RenderPassDescriptor
+- __Z38_HUDGPUTimeTrackerCanSampleBlitEncoderP17HUDGPUTimeTrackerP21MTLBlitPassDescriptor
+- __Z38_HUDGPUTimelineSnapshotFrameTimingDataP32HUDGPUTimeTrackerFrameTimingDataP19HUDGPUTimelineStore
+- __Z38_HUDInsightReportGenerateFrameEncodingPK23HUDInsightReportContextP15NSMutableStringP40HUDTargetRebindingInsightPerFrameContextP6NSDatam
+- __Z39_HUDGPUTimeTrackerAddMTL4ComputeEncoderP17HUDGPUTimeTrackerPU28objcproto17MTL4CommandBuffer11objc_objectPU36objcproto25MTL4ComputeCommandEncoder11objc_object28HUDGPUTimeTrackerEncoderTypem
+- __Z39_HUDGPUTimeTrackerCommandBufferCompleteP17HUDGPUTimeTrackerPU27objcproto16MTLCommandBuffer11objc_object
+- __Z39_HUDGPUTimeTrackerCommandBufferSnapshotP30HUDGPUTimeTrackerCommandBufferS0_
+- __Z39_HUDGPUTimeTrackerGetCommonObjectRecordP17HUDGPUTimeTrackery
+- __Z40_HUDGPUTimeTrackerCanSampleRenderEncoderP17HUDGPUTimeTrackerP23MTLRenderPassDescriptor
+- __Z40_HUDGPUTimeTrackerCommandBufferScheduledP17HUDGPUTimeTrackerPU27objcproto16MTLCommandBuffer11objc_object
+- __Z40_HUDGPUTimeTrackerPruneOldFramesUnlockedP17HUDGPUTimeTracker
+- __Z40_HUDInsightReportGenerateInsightsSectionPK23HUDInsightReportContextP15NSMutableStringP7NSArrayIP20HUDUserClientInsightE
+- __Z41_HUDGPUTimeTrackerCanSampleComputeEncoderP17HUDGPUTimeTrackerP24MTLComputePassDescriptor
+- __Z41_HUDGPUTimeTrackerPatchBlitPassDescriptorP17HUDGPUTimeTrackerP21MTLBlitPassDescriptor
+- __Z42_HUDInsightReportGenerateAdditionalContextPK23HUDInsightReportContextP15NSMutableStringP20HUDUserClientInsight
+- __Z42_HUDInsightReportGenerateShaderCompilationPK23HUDInsightReportContextP15NSMutableStringP21HUDCompilerStatistics
+- __Z43_HUDGPUTimeTrackerMTL4CommandBufferCompleteP17HUDGPUTimeTrackerPU29objcproto18MTL4CommitFeedback11objc_objectRKNSt3__16vectorI23MTL4CommandBufferCommitNS3_9allocatorIS5_EEEE
+- __Z43_HUDGPUTimeTrackerPatchRenderPassDescriptorP17HUDGPUTimeTrackerP23MTLRenderPassDescriptor
+- __Z44_HUDGPUTimeTrackerPatchComputePassDescriptorP17HUDGPUTimeTrackerP24MTLComputePassDescriptor
+- __Z46_HUDGPUTimeTrackerEnumerateCommonObjectRecordsP17HUDGPUTimeTracker27HUDGPUTimeTrackerObjectTypeU13block_pointerFvP8NSStringjP35HUDGPUTimeTrackerCommonObjectRecordE
+- __Z49_HUDGPUTimeTrackerWrapupFrameForPresentedDrawableP17HUDGPUTimeTrackermy
+- __Z51_HUDGPUTimeTrackerTopObjectAssignCommonObjectRecordP17HUDGPUTimeTrackerP35HUDGPUTimeTrackerTopObjectHeapValue
+- __Z58_HUDGPUTimeTrackerPatchAccelerationStructurePassDescriptorP17HUDGPUTimeTrackerP38MTLAccelerationStructurePassDescriptor
+- __ZGVZL23MTL4CommandBuffer_beginPFvvEP11objc_objectP13objc_selectorPU31objcproto20MTL4CommandAllocator11objc_objectE7options
+- __ZGVZL38_HUDGPUTimeTrackerGetMetricDescriptorsvE35_HUDGPUTimeTrackerMetricIdentifiers
+- __ZL13replaceMethodIU8__strongP11objc_objectJEEvP10objc_classP13objc_selectorPFT_PFvvES1_S6_DpT0_E
+- __ZL13replaceMethodIvJEEvP10objc_classP13objc_selectorPFT_PFvvEP11objc_objectS3_DpT0_E
+- __ZL17isCreatingEncoder
+- __ZL17isCreatingEncoder$tlv$init
+- __ZL21MTL4CommandBuffer_endPFvvEP11objc_objectP13objc_selector
+- __ZL21isCreatingBlitEncoder
+- __ZL21isCreatingBlitEncoder$tlv$init
+- __ZL23MTL4CommandBuffer_beginPFvvEP11objc_objectP13objc_selectorPU31objcproto20MTL4CommandAllocator11objc_object
+- __ZL23MTLCommandBuffer_commitPFvvEP11objc_objectP13objc_selector
+- __ZL23isCreatingRenderEncoder
+- __ZL23isCreatingRenderEncoder$tlv$init
+- __ZL25CAMetalLayer_nextDrawablePFvvEP11objc_objectP13objc_selector
+- __ZL25CAMetalLayer_shimDrawablePFvvEP11objc_objectP13objc_selectorPU26objcproto15CAMetalDrawable11objc_object
+- __ZL27MTL4CommandBuffer_mlEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL27MTL4Device_newCommandBufferPFvvEP11objc_objectP13objc_selector
+- __ZL27_HUDMTLLayerNextDrawableKey
+- __ZL29MTL4CommandQueue_commit_countPFvvEP11objc_objectP13objc_selectorPKPU28objcproto17MTL4CommandBuffer11objc_objectm
+- __ZL29MTLCommandEncoder_EndEncodingPFvvEP11objc_objectP13objc_selector
+- __ZL29MTLCommandQueue_commandBufferPFvvEP11objc_objectP13objc_selector
+- __ZL30isCreatingResourceStateEncoder
+- __ZL30isCreatingResourceStateEncoder$tlv$init
+- __ZL31MTL4CommandBuffer_begin_optionsPFvvEP11objc_objectP13objc_selectorPU31objcproto20MTL4CommandAllocator11objc_objectP24MTL4CommandBufferOptions
+- __ZL31isCreatingComputeEncoderEncoder
+- __ZL31isCreatingComputeEncoderEncoder$tlv$init
+- __ZL32MTL4MLCommandEncoder_EndEncodingPFvvEP11objc_objectP13objc_selector
+- __ZL33CAMetalDisplayLinkUpdate_drawablePFvvEP11objc_objectP13objc_selector
+- __ZL35MTLCommandBuffer_blitCommandEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL36MTL4RenderCommandEncoder_EndEncodingPFvvEP11objc_objectP13objc_selector
+- __ZL37MTL4CommandQueue_commit_count_optionsPFvvEP11objc_objectP13objc_selectorPKPU28objcproto17MTL4CommandBuffer11objc_objectmP17MTL4CommitOptions
+- __ZL37MTL4ComputeCommandEncoder_EndEncodingPFvvEP11objc_objectP13objc_selector
+- __ZL37MTLCommandBuffer_renderCommandEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL38MTLCommandBuffer_computeCommandEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL38_HUDGPUTimeTrackerGetMetricDescriptorsv
+- __ZL38isCreatingAccelerationStructureEncoder
+- __ZL38isCreatingAccelerationStructureEncoder$tlv$init
+- __ZL39MTL4CommandBuffer_computeCommandEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL43MTLCommandQueue_commandBufferWithDescriptorPFvvEP11objc_objectP13objc_selectorP26MTLCommandBufferDescriptor
+- __ZL44MTLCommandBuffer_resourceStateCommandEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL49MTLCommandBuffer_blitCommandEncoderWithDescriptorPFvvEP11objc_objectP13objc_selectorP21MTLBlitPassDescriptor
+- __ZL51MTLCommandBuffer_renderCommandEncoderWithDescriptorPFvvEP11objc_objectP13objc_selectorP23MTLRenderPassDescriptor
+- __ZL52MTL4CommandBuffer_renderCommandEncoderWithDescriptorPFvvEP11objc_objectP13objc_selectorP24MTL4RenderPassDescriptor
+- __ZL52MTLCommandBuffer_accelerationStructureCommandEncoderPFvvEP11objc_objectP13objc_selector
+- __ZL52MTLCommandBuffer_computeCommandEncoderWithDescriptorPFvvEP11objc_objectP13objc_selectorP24MTLComputePassDescriptor
+- __ZL53MTLCommandQueue_commandBufferWithUnretainedReferencesPFvvEP11objc_objectP13objc_selector
+- __ZL54MTLCommandBuffer_computeCommandEncoderWithDispatchTypePFvvEP11objc_objectP13objc_selector15MTLDispatchType
+- __ZL58MTLCommandBuffer_resourceStateCommandEncoderWithDescriptorPFvvEP11objc_objectP13objc_selectorP30MTLResourceStatePassDescriptor
+- __ZL60MTL4CommandBuffer_renderCommandEncoderWithDescriptor_optionsPFvvEP11objc_objectP13objc_selectorP24MTL4RenderPassDescriptorm
+- __ZL66MTLCommandBuffer_accelerationStructureCommandEncoderWithDescriptorPFvvEP11objc_objectP13objc_selectorP38MTLAccelerationStructurePassDescriptor
+- __ZN14HUDIOReportDie7ClusterD2Ev
+- __ZN14HUDIOReportDieD2Ev
+- __ZN20HUDInsightDescriptorD2Ev
+- __ZN30HUDGPUTimeTrackerCommandBufferD1Ev
+- __ZN30HUDGPUTimeTrackerCommandBufferaSERKS_
+- __ZN37HUDGPUTimeTrackerFrameTimingDataStoreD2Ev
+- __ZNKSt3__110__back_refIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__alternateIcE12__exec_splitEbRNS_7__stateIcEE
+- __ZNKSt3__111__alternateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__end_stateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__lookaheadIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__111__match_anyIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE16__match_at_startINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE21__match_at_start_ecmaINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE27__match_at_start_posix_subsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE29__match_at_start_posix_nosubsINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeEb
+- __ZNKSt3__111basic_regexIcNS_12regex_traitsIcEEE8__searchINS_9allocatorINS_9sub_matchIPKcEEEEEEbS8_S8_RNS_13match_resultsIS8_T_EENS_15regex_constants15match_flag_typeE
+- __ZNKSt3__112__match_charIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareB9nqe210106INS_17basic_string_viewIcS2_EELi0EEEiRKT_
+- __ZNKSt3__112regex_traitsIcE18__lookup_classnameIPKcEEjT_S5_bc
+- __ZNKSt3__112regex_traitsIcE19__transform_primaryINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_c
+- __ZNKSt3__112regex_traitsIcE19__transform_primaryIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c
+- __ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPKcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SB_c
+- __ZNKSt3__112regex_traitsIcE20__lookup_collatenameIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_c
+- __ZNKSt3__112regex_traitsIcE9transformINS_11__wrap_iterIPcEEEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SC_
+- __ZNKSt3__112regex_traitsIcE9transformIPcEENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET_SA_
+- __ZNKSt3__113__empty_stateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__115__word_boundaryIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__116__back_ref_icaseIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__117__repeat_one_loopIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__118__back_ref_collateIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__118__match_char_icaseIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__l_anchor_multilineIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__match_char_collateIcNS_12regex_traitsIcEEE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__r_anchor_multilineIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__120__shared_ptr_pointerIPNS_13__empty_stateIcEENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info
+- __ZNKSt3__121__empty_non_own_stateIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB9nqe210106EPKvm
+- __ZNKSt3__123__match_any_but_newlineIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__126__end_marked_subexpressionIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__128__begin_marked_subexpressionIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI11HUDUIWindowEEPS2_EclB9nqe210106Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI14HUDIOReportDieEEPS2_EclB9nqe210106Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI30HUDGPUTimeTrackerCommandBufferEEPS2_EclB9nqe210106Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN14HUDIOReportDie7ClusterEEEPS3_EclB9nqe210106Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_7__stateIcEEEEPS3_EclB9nqe210106Ev
+- __ZNKSt3__16__loopIcE12__exec_splitEbRNS_7__stateIcEE
+- __ZNKSt3__16__loopIcE13__init_repeatB9nqe210106ERNS_7__stateIcEE
+- __ZNKSt3__16__loopIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__16__nodeIcE12__exec_splitEbRNS_7__stateIcEE
+- __ZNKSt3__16__nodeIcE6__execERNS_7__stateIcEE
+- __ZNKSt3__16locale4nameEv
+- __ZNKSt3__16locale9use_facetERNS0_2idE
+- __ZNKSt9type_infoeqB9nqe210106ERKS_
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt12out_of_rangeC1B9nqe210106EPKc
+- __ZNSt12out_of_rangeD1Ev
+- __ZNSt3__110__back_refIcED0Ev
+- __ZNSt3__110__back_refIcED1Ev
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEE5resetB9nqe210106IS2_Li0EEEvPT_
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEEC2B9nqe210106IS2_Li0EEEPT_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIm19HUDUIStringInternalEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe210106Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIy22HUDGPUTimeTrackerLabelEEPvEENS_22__hash_node_destructorINS_9allocatorIS6_EEEEED1B9nqe210106Ev
+- __ZNSt3__111__alternateIcED0Ev
+- __ZNSt3__111__alternateIcED1Ev
+- __ZNSt3__111__end_stateIcED0Ev
+- __ZNSt3__111__end_stateIcED1Ev
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZ37_HUDGPUTimeTrackerTopObjectHeapAssignP17HUDGPUTimeTrackerP30HUDGPUTimeTrackerTopObjectHeapPymE3$_0P35HUDGPUTimeTrackerTopObjectHeapValueLb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZZ49_HUDGPUTimeTrackerWrapupFrameForPresentedDrawableP17HUDGPUTimeTrackermyEUb_E3$_1P30HUDGPUTimeTrackerCommandBufferLb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEEC1B9nqe210106ERKNS_11basic_regexIcS2_EEbPNS_6__nodeIcEEj
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEED0Ev
+- __ZNSt3__111__lookaheadIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__111__match_anyIcED0Ev
+- __ZNSt3__111__match_anyIcED1Ev
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_charEc
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE11__push_loopEmmPNS_16__owns_one_stateIcEEmmb
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_atomIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_grepIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE12__parse_termIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE13__parse_egrepIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__push_back_refEi
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE15__test_back_refEc
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE16__parse_ecma_expIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE16__push_lookaheadERKS3_bj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_DUP_COUNTIPKcEET_S7_S7_Ri
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_assertionIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE17__parse_simple_REIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_ERE_branchIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_awk_escapeIPKcEET_S7_S7_PNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__parse_nondupl_REIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE18__push_alternationEPNS_16__owns_one_stateIcEES6_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_QUOTED_CHARIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_atom_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_ORD_CHAR_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__parse_class_escapeIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE20__push_word_boundaryEb
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE21__parse_basic_reg_expIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE21__start_matching_listEb
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_ERE_expressionIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_RE_dupl_symbolIPKcEET_S7_S7_PNS_16__owns_one_stateIcEEjj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE22__parse_decimal_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_ERE_dupl_symbolIPKcEET_S7_S7_PNS_16__owns_one_stateIcEEjj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_QUOTED_CHAR_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_character_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE23__parse_expression_termIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_character_escapeIPKcEET_S7_S7_PNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_collating_symbolIPKcEET_S7_S7_RNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE24__parse_extended_reg_expIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_equivalence_classIPKcEET_S7_S7_PNS_20__bracket_expressionIcS2_EE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE25__parse_pattern_characterIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE26__parse_bracket_expressionIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE30__parse_character_class_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE31__push_end_marked_subexpressionEj
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE32__parse_one_char_or_coll_elem_REIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__parse_one_char_or_coll_elem_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__push_begin_marked_subexpressionEv
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE7__parseIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B9nqe210106EPKcNS_15regex_constants18syntax_option_typeE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEED1Ev
+- __ZNSt3__111regex_errorC1ENS_15regex_constants10error_typeE
+- __ZNSt3__111regex_errorD1Ev
+- __ZNSt3__112__destroy_atB9nqe210106INS_4pairIKm19HUDUIStringInternalEELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE21__construct_node_hashINS5_ImS2_EEJEEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSF_ISN_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsImJNS5_ImS2_EEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findImEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIm19HUDUIStringInternalEENS_22__unordered_map_hasherImNS_4pairIKmS2_EENS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS7_SB_S9_Lb1EEENS_9allocatorIS7_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy22HUDGPUTimeTrackerLabelEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy22HUDGPUTimeTrackerLabelEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy22HUDGPUTimeTrackerLabelEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy22HUDGPUTimeTrackerLabelEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy22HUDGPUTimeTrackerLabelEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE13__move_assignERSH_NS_17integral_constantIbLb1EEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEEEEvT_SP_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE15__emplace_multiIJRKS7_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE16__construct_nodeIJRKS7_EEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSF_ISO_EEEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE21__construct_node_hashINS5_IyS2_EEJEEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSF_ISN_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE21__construct_node_hashIRKS7_JEEENS_10unique_ptrINS_11__hash_nodeIS3_PvEENS_22__hash_node_destructorINSF_ISO_EEEEEEmOT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJNS5_IyS2_EEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJOyEEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRS6_EEENSM_IJEEEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJRKS7_EEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE27__node_insert_multi_performEPNS_11__hash_nodeIS3_PvEEPNS_16__hash_node_baseISL_EE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE27__node_insert_multi_prepareEmRS7_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEEC2EOSH_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy30HUDGPUTimeTrackerCommandBufferEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEED1Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJNS5_IyS2_EEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS3_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerCommonObjectRecordEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerTopObjectHeapValueEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerTopObjectHeapValueEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE25__emplace_unique_key_argsIyJNS5_IyS2_EEEEENS5_INS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerTopObjectHeapValueEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS3_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerTopObjectHeapValueEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIy35HUDGPUTimeTrackerTopObjectHeapValueEENS_22__unordered_map_hasherIyNS_4pairIKyS2_EENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS7_SB_S9_Lb1EEENS_9allocatorIS7_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE13__move_assignERSG_NS_17integral_constantIbLb1EEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEEEEvT_SO_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE15__emplace_multiIJRKS6_EEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEDpOT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJRKS6_EEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE27__node_insert_multi_performEPNS_11__hash_nodeIS2_PvEEPNS_16__hash_node_baseISK_EE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE27__node_insert_multi_prepareEmRS6_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE5clearEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb0EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEEC2EOSG_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIymEENS_22__unordered_map_hasherIyNS_4pairIKymEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE25__emplace_unique_key_argsIyJRKNS_21piecewise_construct_tENS_5tupleIJRS5_EEENSL_IJEEEEEENS4_INS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEERKT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS2_PvEEEE
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyyEENS_22__unordered_map_hasherIyNS_4pairIKyyEENS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS6_SA_S8_Lb1EEENS_9allocatorIS6_EEED2Ev
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE11__do_rehashILb0EEEvm
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE14__assign_multiINS_21__hash_const_iteratorIPNS_11__hash_nodeIyPvEEEEEEvT_SF_
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE15__emplace_multiIJRKyEEENS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEDpOT_
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE25__emplace_unique_key_argsIyJRKyEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE27__node_insert_multi_performEPNS_11__hash_nodeIyPvEEPNS_16__hash_node_baseISB_EE
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE27__node_insert_multi_prepareEmRy
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIyPvEEEERKT_
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE5clearEv
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIyPvEEEE
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIyPvEEEE
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE8__rehashILb0EEEvm
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableIyNS_4hashIyEENS_8equal_toIyEENS_9allocatorIyEEED2Ev
+- __ZNSt3__112__match_charIcED0Ev
+- __ZNSt3__112__match_charIcED1Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106INS_11__wrap_iterIPcEES9_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106IPKcS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB9nqe210106IPcS7_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSEc
+- __ZNSt3__112regex_traitsIcEC2Ev
+- __ZNSt3__113__empty_stateIcED0Ev
+- __ZNSt3__113__empty_stateIcED1Ev
+- __ZNSt3__113match_resultsIPKcNS_9allocatorINS_9sub_matchIS2_EEEEE6__initEjS2_S2_b
+- __ZNSt3__113unordered_mapIy30HUDGPUTimeTrackerCommandBufferNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS1_EEEEEC2ERKSB_
+- __ZNSt3__113unordered_mapIy30HUDGPUTimeTrackerCommandBufferNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS1_EEEEED1B9nqe210106Ev
+- __ZNSt3__113unordered_mapIymNS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKymEEEEEC2ERKSA_
+- __ZNSt3__114__split_bufferI11HUDUIWindowRNS_9allocatorIS1_EEE5clearB9nqe210106Ev
+- __ZNSt3__114__split_bufferI14HUDIOReportDieRNS_9allocatorIS1_EEE5clearB9nqe210106Ev
+- __ZNSt3__114__split_bufferI14HUDIOReportDieRNS_9allocatorIS1_EEED2Ev
+- __ZNSt3__114__split_bufferI30HUDGPUTimeTrackerCommandBufferRNS_9allocatorIS1_EEE17__destruct_at_endB9nqe210106EPS1_
+- __ZNSt3__114__split_bufferI30HUDGPUTimeTrackerCommandBufferRNS_9allocatorIS1_EEED2Ev
+- __ZNSt3__114__split_bufferIN14HUDIOReportDie7ClusterERNS_9allocatorIS2_EEE5clearB9nqe210106Ev
+- __ZNSt3__114__split_bufferIN14HUDIOReportDie7ClusterERNS_9allocatorIS2_EEED2Ev
+- __ZNSt3__114__split_bufferINS_12basic_string

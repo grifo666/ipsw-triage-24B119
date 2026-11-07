@@ -1,0 +1,2362 @@
+_unwind_info: 0x100
+-  __TEXT.__objc_classname: 0x19
+-  __TEXT.__objc_methname: 0x1c9
+-  __TEXT.__objc_methtype: 0x102
+   __TEXT.__objc_stubs: 0x100
+-  __DATA_CONST.__got: 0x60
++  __TEXT.__auth_stubs: 0x2e0
++  __TEXT.__objc_classname: 0x17
++  __TEXT.__objc_methname: 0x1ea
++  __TEXT.__objc_methtype: 0x102
+   __DATA_CONST.__const: 0x70
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa0
++  __DATA_CONST.__weak_got: 0x8
++  __DATA_CONST.__objc_selrefs: 0xa8
+   __DATA_CONST.__objc_superrefs: 0x8
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x188
++  __DATA_CONST.__got: 0x58
+   __AUTH_CONST.__cfstring: 0x200
+-  __AUTH_CONST.__objc_const: 0x110
++  __AUTH_CONST.__objc_const: 0x128
++  __AUTH_CONST.__weak_auth_got: 0x18
+   __AUTH_CONST.__objc_dictobj: 0x28
++  __AUTH_CONST.__auth_got: 0x168
+   __AUTH.__objc_data: 0x50
+   __DATA.__objc_ivar: 0xc
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 27
+-  Symbols:   130
++  Functions: 28
++  Symbols:   132
+   CStrings:  0
+ 
+Symbols:
++ +[AppleLatticeServiceRef serviceModuleName]
++ GCC_except_table12
++ GCC_except_table21
++ GCC_except_table24
++ GCC_except_table4
++ __OBJC_$_CLASS_METHODS_AppleLatticeServiceRef
++ __OBJC_$_CLASS_PROP_LIST_AppleLatticeServiceRef
++ __ZNSt12length_errorC1B9fqe220106EPKc
++ __ZNSt3__110unique_ptrIN12_GLOBAL__N_113LatticeClientENS_14default_deleteIS2_EEE5resetB9fqe220106EPS2_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9fqe220106Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE22__init_internal_bufferB9fqe220106Em
++ __ZNSt3__120__throw_length_errorB9fqe220106EPKc
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retain_x2
++ _objc_retain_x24
+- GCC_except_table0
+- GCC_except_table11
+- GCC_except_table20
+- GCC_except_table23
+- __ZNSt12length_errorC1B9nqe210106EPKc
+- __ZNSt3__110unique_ptrIN12_GLOBAL__N_113LatticeClientENS_14default_deleteIS2_EEE5resetB9nqe210106EPS2_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB9nqe210106Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B9nqe210106ILi0EEEPKc
+- __ZNSt3__120__throw_length_errorB9nqe210106EPKc
+- _memmove
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _objc_retain_x21
+- _strlen
+```
+
+
+
+</details>
+
+### AppOS
+
+#### 🆕 NEW
+
+- `/usr/libexec/guidedbrowsingd`
+
+
+#### ⬆️ Updated
+<details>
+  <summary><i>View Updated</i></summary>
+
+
+##### `CloudBookmarksAccountsNotifier`
+> `/System/Library/Accounts/Notification/CloudBookmarksAccountsNotifier.bundle/CloudBookmarksAccountsNotifier`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x3fc
++7625.2.8.10.7
++  __TEXT.__text: 0x388
+   __TEXT.__auth_stubs: 0x190
+   __TEXT.__objc_stubs: 0xa0
+   __TEXT.__objc_methlist: 0x19c
+   __TEXT.__const: 0x8
+-  __TEXT.__gcc_except_tab: 0x3c
++  __TEXT.__gcc_except_tab: 0x38
+   __TEXT.__objc_methname: 0x2d2
+   __TEXT.__oslogstring: 0x122
+-  __TEXT.__cstring: 0x6e
+-  __TEXT.__objc_classname: 0x47
++  __TEXT.__cstring: 0x70
++  __TEXT.__objc_classname: 0x45
+   __TEXT.__objc_methtype: 0x224
+-  __TEXT.__unwind_info: 0x80
+-  __DATA_CONST.__auth_got: 0xd8
+-  __DATA_CONST.__got: 0x28
++  __TEXT.__unwind_info: 0x88
+   __DATA_CONST.__const: 0x40
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_superrefs: 0x8
++  __DATA_CONST.__auth_got: 0xd8
++  __DATA_CONST.__got: 0x20
+   __DATA.__objc_const: 0x258
+   __DATA.__objc_selrefs: 0x118
+   __DATA.__objc_ivar: 0x4
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 6
+-  Symbols:   38
++  Symbols:   37
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _objc_autoreleaseReturnValue
+- _objc_retainAutoreleasedReturnValue
+```
+
+
+##### `Safari`
+> `/System/Library/Assistant/Plugins/Safari.assistantBundle/Safari`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x360
+-  __TEXT.__auth_stubs: 0x100
++7625.2.8.10.7
++  __TEXT.__text: 0x324
++  __TEXT.__auth_stubs: 0x120
+   __TEXT.__objc_stubs: 0x160
+   __TEXT.__objc_methlist: 0x15c
+   __TEXT.__const: 0x8
+
+   __TEXT.__objc_methname: 0x2c3
+   __TEXT.__objc_methtype: 0x1b7
+   __TEXT.__unwind_info: 0x68
+-  __DATA_CONST.__auth_got: 0x88
+-  __DATA_CONST.__got: 0x58
+   __DATA_CONST.__const: 0x28
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x98
++  __DATA_CONST.__got: 0x58
+   __DATA.__objc_const: 0x210
+   __DATA.__objc_selrefs: 0x118
+   __DATA.__objc_data: 0x50
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 3
+-  Symbols:   36
++  Symbols:   38
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x4
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+```
+
+
+##### `WebSearch`
+> `/System/Library/Assistant/Plugins/WebSearch.assistantBundle/WebSearch`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x43c
+-  __TEXT.__auth_stubs: 0xc0
++7625.2.8.10.7
++  __TEXT.__text: 0x3f4
++  __TEXT.__auth_stubs: 0xe0
+   __TEXT.__objc_stubs: 0x140
+   __TEXT.__objc_methlist: 0x16c
+   __TEXT.__cstring: 0xb1
+
+   __TEXT.__objc_methname: 0x280
+   __TEXT.__objc_methtype: 0x1a5
+   __TEXT.__unwind_info: 0x60
+-  __DATA_CONST.__auth_got: 0x68
+-  __DATA_CONST.__got: 0x70
+   __DATA_CONST.__cfstring: 0x160
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x78
++  __DATA_CONST.__got: 0x70
+   __DATA.__objc_const: 0x300
+   __DATA.__objc_selrefs: 0x110
+   __DATA.__objc_data: 0xa0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 3
+-  Symbols:   35
++  Symbols:   37
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retain_x3
+- _objc_retainAutoreleasedReturnValue
+```
+
+
+##### `CloudTabsMigrator`
+> `/System/Library/DataClassMigrators/CloudTabsMigrator.migrator/CloudTabsMigrator`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x218
+-  __TEXT.__auth_stubs: 0xa0
++7625.2.8.10.7
++  __TEXT.__text: 0x1e0
++  __TEXT.__auth_stubs: 0x90
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__objc_methlist: 0x20
+   __TEXT.__const: 0x8
+-  __TEXT.__cstring: 0x67b
++  __TEXT.__cstring: 0x668
+   __TEXT.__oslogstring: 0x77
+   __TEXT.__objc_classname: 0x12
+   __TEXT.__objc_methname: 0x98
+   __TEXT.__objc_methtype: 0x10
+   __TEXT.__unwind_info: 0x60
+-  __DATA_CONST.__auth_got: 0x58
+-  __DATA_CONST.__got: 0x28
+-  __DATA_CONST.__const: 0x1a8
+-  __DATA_CONST.__cfstring: 0x6e0
++  __DATA_CONST.__const: 0x1a0
++  __DATA_CONST.__cfstring: 0x6c0
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x50
++  __DATA_CONST.__got: 0x20
+   __DATA.__objc_const: 0x90
+   __DATA.__objc_selrefs: 0x48
+   __DATA.__objc_data: 0x50
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 2
+-  Symbols:   75
++  Symbols:   72
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _objc_retainAutoreleasedReturnValue
+- _showRecentSearchesDefaultsKey
+```
+
+
+##### `MobileSafari`
+> `/System/Library/DataClassMigrators/MobileSafari.migrator/MobileSafari`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x6370
+-  __TEXT.__auth_stubs: 0x420
+-  __TEXT.__objc_stubs: 0x14c0
+-  __TEXT.__objc_methlist: 0x3c0
+-  __TEXT.__const: 0x50
++7625.2.8.10.7
++  __TEXT.__text: 0x5e74
++  __TEXT.__auth_stubs: 0x450
++  __TEXT.__objc_stubs: 0x15a0
++  __TEXT.__objc_methlist: 0x3d0
++  __TEXT.__const: 0x58
+   __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__cstring: 0xd8a
+-  __TEXT.__oslogstring: 0x11bb
++  __TEXT.__cstring: 0xd77
++  __TEXT.__oslogstring: 0x120e
+   __TEXT.__objc_classname: 0x58
+-  __TEXT.__objc_methname: 0x14b4
++  __TEXT.__objc_methname: 0x158b
+   __TEXT.__objc_methtype: 0x19e
+-  __TEXT.__unwind_info: 0x198
+-  __DATA_CONST.__auth_got: 0x220
+-  __DATA_CONST.__got: 0x2b0
+-  __DATA_CONST.__const: 0x340
+-  __DATA_CONST.__cfstring: 0xfe0
++  __TEXT.__unwind_info: 0x208
++  __DATA_CONST.__const: 0x338
++  __DATA_CONST.__cfstring: 0xfc0
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_intobj: 0x108
+   __DATA_CONST.__objc_arraydata: 0x150
+   __DATA_CONST.__objc_arrayobj: 0x108
++  __DATA_CONST.__auth_got: 0x238
++  __DATA_CONST.__got: 0x2c0
+   __DATA.__objc_const: 0x2e8
+-  __DATA.__objc_selrefs: 0x638
++  __DATA.__objc_selrefs: 0x670
+   __DATA.__objc_ivar: 0x8
+   __DATA.__objc_data: 0xa0
+   __DATA.__data: 0xc0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 114
+-  Symbols:   217
++  Symbols:   220
+   CStrings:  0
+ 
+Symbols:
++ _OBJC_CLASS_$_SFDeviceUtilities
++ _SFSeedCloudTabsRestorationUUIDIfAbsent
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x2
++ _objc_retain_x3
++ _objc_retain_x8
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x22
+- _objc_retain_x26
+- _objc_retain_x27
+- _showRecentSearchesDefaultsKey
+```
+
+
+##### `MobileSafariSettings`
+> `/System/Library/PreferenceBundles/MobileSafariSettings.bundle/MobileSafariSettings`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_doubleobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x5a0f0
+-  __TEXT.__auth_stubs: 0x1000
+-  __TEXT.__objc_stubs: 0xcd80
+-  __TEXT.__objc_methlist: 0x44ec
+-  __TEXT.__objc_methname: 0x1199e
+-  __TEXT.__objc_classname: 0x1164
+-  __TEXT.__objc_methtype: 0x26de
+-  __TEXT.__const: 0x304
+-  __TEXT.__cstring: 0x55b6
+-  __TEXT.__ustring: 0x7dc
+-  __TEXT.__gcc_except_tab: 0x1f28
+-  __TEXT.__oslogstring: 0xa86
+-  __TEXT.__constg_swiftt: 0x128
+-  __TEXT.__swift5_typeref: 0x256
+-  __TEXT.__swift5_fieldmd: 0x80
+-  __TEXT.__swift5_reflstr: 0xa1
+-  __TEXT.__swift5_assocty: 0x30
+-  __TEXT.__swift5_capture: 0x70
+-  __TEXT.__swift5_proto: 0x8
+-  __TEXT.__swift5_types: 0x14
+-  __TEXT.__swift_as_entry: 0x4
+-  __TEXT.__unwind_info: 0x16b0
+-  __TEXT.__eh_frame: 0x108
+-  __DATA_CONST.__auth_got: 0x818
+-  __DATA_CONST.__got: 0xe58
+-  __DATA_CONST.__auth_ptr: 0xc8
+-  __DATA_CONST.__const: 0x2428
+-  __DATA_CONST.__cfstring: 0x4ce0
+-  __DATA_CONST.__objc_classlist: 0x2d0
++7625.2.8.10.7
++  __TEXT.__text: 0x6e350
++  __TEXT.__auth_stubs: 0x1e60
++  __TEXT.__objc_stubs: 0xd120
++  __TEXT.__objc_methlist: 0x4674
++  __TEXT.__objc_methname: 0x1210e
++  __TEXT.__objc_classname: 0x1244
++  __TEXT.__cstring: 0x5e8b
++  __TEXT.__objc_methtype: 0x26e1
++  __TEXT.__const: 0xd84
++  __TEXT.__ustring: 0x844
++  __TEXT.__gcc_except_tab: 0x1fb0
++  __TEXT.__oslogstring: 0xab0
++  __TEXT.__constg_swiftt: 0x4a4
++  __TEXT.__swift5_typeref: 0x2b70
++  __TEXT.__swift5_capture: 0x244
++  __TEXT.__swift_as_entry: 0x34
++  __TEXT.__swift_as_ret: 0x3c
++  __TEXT.__swift_as_cont: 0x64
++  __TEXT.__swift5_reflstr: 0x301
++  __TEXT.__swift5_assocty: 0x60
++  __TEXT.__swift5_fieldmd: 0x1bc
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__swift5_proto: 0x14
++  __TEXT.__swift5_types: 0x20
++  __TEXT.__unwind_info: 0x2198
++  __TEXT.__eh_frame: 0xa74
++  __DATA_CONST.__const: 0x2a20
++  __DATA_CONST.__cfstring: 0x4e00
++  __DATA_CONST.__objc_classlist: 0x2f8
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x138
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x210
+-  __DATA_CONST.__objc_intobj: 0x1c8
++  __DATA_CONST.__objc_intobj: 0x1f8
+   __DATA_CONST.__objc_doubleobj: 0x30
+   __DATA_CONST.__objc_arraydata: 0xa0
+   __DATA_CONST.__objc_arrayobj: 0xc0
+-  __DATA.__objc_const: 0x7678
+-  __DATA.__objc_selrefs: 0x4220
+-  __DATA.__objc_ivar: 0x4d0
+-  __DATA.__objc_data: 0x1c50
+-  __DATA.__data: 0x1098
+-  __DATA.__bss: 0x220
++  __DATA_CONST.__auth_got: 0xf48
++  __DATA_CONST.__got: 0x1128
++  __DATA_CONST.__auth_ptr: 0x3a0
++  __DATA.__objc_const: 0x7b20
++  __DATA.__objc_selrefs: 0x4318
++  __DATA.__objc_ivar: 0x4d8
++  __DATA.__objc_data: 0x1ef0
++  __DATA.__data: 0x1af0
++  __DATA.__bss: 0x408
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+   - /System/Library/Frameworks/BrowserKit.framework/BrowserKit
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+-  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+-  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 1593
+-  Symbols:   5251
++  Functions: 1990
++  Symbols:   5567
+   CStrings:  0
+ 
+Symbols:
++ -[CreateEditProfileViewController _popoverSourceInfoForOverflowButton:]
++ -[FrequentlyVisitedSitesController _updateFrequentlyVisitedSitesToDisplay:]
++ -[FrequentlyVisitedSitesController getPebbleFrequentlyVisitedSites:]
++ -[FrequentlyVisitedSitesController test_setFrequentlyVisitedSites:]
++ -[SafariPerSitePreferenceSettingsController _updateManagedSettingTableViewCellForSpecifierIfNeeded:value:]
++ -[SafariWebExtensionsPermissionsSettingsController _deleteButtonTapped]
++ -[SafariWebsiteDataDataSource _addDomainsForPebbleCookies:toArray:]
++ GCC_except_table44
++ GCC_except_table47
++ GCC_except_table49
++ GCC_except_table51
++ GCC_except_table59
++ GCC_except_table63
++ GCC_except_table70
++ GCC_except_table75
++ _OBJC_CLASS_$_NotifyMeWhenSettingsController
++ _OBJC_CLASS_$_PSSubtitleDisclosureTableCell
++ _OBJC_CLASS_$_PasswordOptionsViewControllerProvider
++ _OBJC_CLASS_$_SafariSettingsSubtitledListItemsController
++ _OBJC_CLASS_$_WBSManagedWebsiteSettingsController
++ _OBJC_CLASS_$_WBSRecentWebSearchesController
++ _OBJC_CLASS_$_WBSResumeBrowsingClusterManager
++ _OBJC_CLASS_$_WBSUsageRetentionDonationManager
++ _OBJC_CLASS_$_WBUHistory
++ _OBJC_CLASS_$_WKWebView
++ _OBJC_CLASS_$_WKWebsiteDataStore
++ _OBJC_CLASS_$__TtC20MobileSafariSettings40NotifyMeWhenAutomationSettingsController
++ _OBJC_IVAR_$_FrequentlyVisitedSitesController._cachedFrequentlyVisitedBookmarksForDisplay
++ _OBJC_IVAR_$_FrequentlyVisitedSitesController._cachedPebbleFrequentlyVisitedBookmarksForDisplay
++ _OBJC_METACLASS_$_NotifyMeWhenSettingsController
++ _OBJC_METACLASS_$_PasswordOptionsViewControllerProvider
++ _OBJC_METACLASS_$_SafariSettingsSubtitledListItemsController
++ _OBJC_METACLASS_$__TtC20MobileSafariSettings40NotifyMeWhenAutomationSettingsController
++ _SFDeletePebbleCookiesForHighLevelDomains
++ _SFDeletePebbleWebsiteData
++ _SFFetchPebbleCookies
++ _WBSDebugNotifyMeWhenVeryFrequentPollingEnabledKey
++ _WBSMagicExtensionWasDeletedDistributedNotification
++ _WBSMaximumNumberOfFrequentlyVisitedSitesForDisplay
++ __CLASS_METHODS_PasswordOptionsViewControllerProvider
++ __CLASS_METHODS_SafariSettingsSubtitledListItemsController
++ __DATA_NotifyMeWhenSettingsController
++ __DATA_PasswordOptionsViewControllerProvider
++ __DATA_SafariSettingsSubtitledListItemsController
++ __DATA__TtC20MobileSafariSettings39NotifyMeWhenAutomationSettingsViewModel
++ __DATA__TtC20MobileSafariSettings40NotifyMeWhenAutomationSettingsController
++ __INSTANCE_METHODS_NotifyMeWhenSettingsController
++ __INSTANCE_METHODS_PasswordOptionsViewControllerProvider
++ __INSTANCE_METHODS_SafariSettingsSubtitledListItemsController
++ __INSTANCE_METHODS__TtC20MobileSafariSettings40NotifyMeWhenAutomationSettingsController
++ __IVARS_NotifyMeWhenSettingsController
++ __IVARS__TtC20MobileSafariSettings39NotifyMeWhenAutomationSettingsViewModel
++ __IVARS__TtC20MobileSafariSettings40NotifyMeWhenAutomationSettingsController
++ __METACLASS_DATA_NotifyMeWhenSettingsController
++ __METACLASS_DATA_PasswordOptionsViewControllerProvider
++ __METACLASS_DATA_SafariSettingsSubtitledListItemsController
++ __METACLASS_DATA__TtC20MobileSafariSettings39NotifyMeWhenAutomationSettingsViewModel
++ __METACLASS_DATA__TtC20MobileSafariSettings40NotifyMeWhenAutomationSettingsController
++ __MergedGlobals
++ ___54-[SafariWebsiteDataDataSource deleteDataForSpecifier:]_block_invoke
++ ___67-[SafariWebsiteDataDataSource _addDomainsForPebbleCookies:toArray:]_block_invoke
++ ___67-[SafariWebsiteDataDataSource _addDomainsForPebbleCookies:toArray:]_block_invoke_2
++ ___68-[FrequentlyVisitedSitesController getPebbleFrequentlyVisitedSites:]_block_invoke
++ ___69-[SafariWebsiteDataDataSource createSpecifiersWithCompletionHandler:]_block_invoke_3
++ ___69-[SafariWebsiteDataDataSource createSpecifiersWithCompletionHandler:]_block_invoke_4
++ ___71-[SafariWebExtensionsPermissionsSettingsController _deleteButtonTapped]_block_invoke
++ ___71-[SafariWebExtensionsPermissionsSettingsController _deleteButtonTapped]_block_invoke_2
++ ___75-[FrequentlyVisitedSitesController _updateFrequentlyVisitedSitesToDisplay:]_block_invoke
++ ___75-[FrequentlyVisitedSitesController _updateFrequentlyVisitedSitesToDisplay:]_block_invoke_2
++ ___75-[FrequentlyVisitedSitesController _updateFrequentlyVisitedSitesToDisplay:]_block_invoke_3
++ ___block_descriptor_32_e22_16?0"NSHTTPCookie"8l
++ ___block_descriptor_40_e8_32s_e21_B16?0"WebBookmark"8ls32l8
++ ___block_descriptor_40_e8_32s_e29_v32?0"NSDictionary"8Q16^B24ls32l8
++ ___block_descriptor_48_e8_32s40bs_e15_v16?0"NSSet"8ls32l8s40l8
++ ___block_descriptor_48_e8_32s40r_e17_v16?0"NSArray"8lr40l8s32l8
++ ___block_descriptor_56_e8_32s40s48s_e23_v16?0"UIAlertAction"8ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48bs56r_e5_v8?0ls32l8r56l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48bs56r64w_e5_v8?0lw64l8s48l8s32l8r56l8s40l8
++ ___block_descriptor_72_e8_32s40s48bs56r64w_e5_v8?0lw64l8s48l8s32l8s40l8r56l8
++ ___isPlatformVersionAtLeast
++ ___swift__destructor
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_async_cont_functlets
++ ___swift_async_ret_functlets
++ ___swift_closure_destructor
++ ___swift_closure_destructorTm
++ __availability_version_check
++ __initializeAvailabilityCheck
++ _associated conformance 20MobileSafariSettings022NotifyMeWhenAutomationC4ViewV7SwiftUI0H0AA4BodyAdEP_AdE
++ _associated conformance 20MobileSafariSettings022NotifyMeWhenAutomationC9ViewModelC7Combine16ObservableObjectAA0L19WillChangePublisherAdEP_AD0O0
++ _bzero
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ListVys5NeverOAA05TupleD0VyAA7SectionVyAA4TextVACyAA6VStackVyACyACyACyACyAA4ViewPAAE14textFieldStyleyQrqd__AA0imN0Rd__lFQOyAA0iM0VyAMG_AA05PlainimN0VQo_AA14_PaddingLayoutVGAA19_BackgroundModifierVyAA06_ShapeK0VyAA7CapsuleVAA5ColorVGGGAA010_FixedSizeQ0VGAA010_FlexFrameQ0VGGA16_GAMSgG_AKyAA05EmptyK0VAOyAIyAM_AmCyACyAA6HStackVyAIyAM_AMQPGGAA022_EnvironmentKeyWritingS0VyAA4FontVSgGGAA011_ForegroundnS0VyAA012HierarchicaltN0VGGQPGGA23_GSgAKyA23_ACyAOyAIyACyACyAqAE06pickerN0yQrqd__AA06PickerN0Rd__lFQOyAA6PickerVyAM012SafariSharedB024WBSNotifyMeWhenFrequencyOAIyAqAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAM_A51_Qo__A54_A54_A54_A54_SgQPGG_AA010MenuPickerN0VQo_A29_yA8_SgGGA_G_AIyAA7DividerV_ACyAqAE010datePickerN0yQrqd__AA010DatePickerN0Rd__lFQOyAA10DatePickerVyAMG_AA017CompactDatePickerN0VQo_A62_GQPGSgQPGGA16_GA23_GAqAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQOyAKyA23_ACyAOyAA7ForEachVySnySiGSiAIyAqAE12onTapGesture5count7performQrSi_yyctFQOyACyACyACyACyA25_yAIyAM_AA6SpacerVACyAA5ImageVA36_yA8_GGSgQPGGA_GA16_GA16_GAA01_dtS0VyAA9RectangleVGG_Qo__A66_SgQPGGGA16_GA23_G_Qo_SgACyAKyA23_AA4GridVyA92_yA93_SiAA7GridRowVyA92_yA93_SiAIyAqAEA94_A95_A96_QrSi_yyctFQOyACyACyAOyAIyA116__ACyACyAMA_GA16_GA116_QPGGA113_GAA01_rnS0VyAA03AnytN0VGG_Qo__A25_yA66_GSgQPGGGGGA23_GAA013_TraitWritingS0VyAA0E17RowInsetsTraitKeyVGGSgACyAKyA23_ACyAA6ButtonVyAMGA16_GA23_GA152_GQPGGA16_GA134_yA8_GGAaPHPA163_AaPHPA162_AaPHPyHC_A16_AA0kS0HPyHCHC_A164_AAA166_HPyHCHC
++ _get_witness_table 8Settings05TupleA17ExperienceContentVyAA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQOyAA0A4PaneVy19PreferencesExtended0M14ControllerViewVG_Qo__A2sOy7SwiftUI0P0PAAE07bridgedA33FeatureDescriptionNavigationTitleyQrqd__SyRd__lFQOyAR_SSQo_GASQPGAaDHPyHC
++ _initializeAvailabilityCheck
++ _malloc
++ _memcpy
++ _objc_claimAutoreleasedReturnValue
++ _objc_msgSend$_addDomainsForPebbleCookies:toArray:
++ _objc_msgSend$_popoverSourceInfoForOverflowButton:
++ _objc_msgSend$_updateFrequentlyVisitedSitesToDisplay:
++ _objc_msgSend$_updateManagedSettingTableViewCellForSpecifierIfNeeded:value:
++ _objc_msgSend$clearDonatedEventsSinceDate:
++ _objc_msgSend$clearHiddenTopicsFromDefaults:forProfileIdentifier:
++ _objc_msgSend$clearHiddenTopicsFromDefaults:fromDate:toDate:forProfileIdentifier:
++ _objc_msgSend$clearPromptAcknowledgementSinceDate:
++ _objc_msgSend$clearRecentlyClosedTabsAddedAfterDate:beforeDate:forProfileWithIdentifier:
++ _objc_msgSend$emptyConfiguration
++ _objc_msgSend$getAllPebbleVisitHostsWithCompletionHandler:
++ _objc_msgSend$hasManagedDefaultForPreference:domain:
++ _objc_msgSend$importHistoryAgeLimitCutoff
++ _objc_msgSend$initWithCoder:
++ _objc_msgSend$initWithImage:style:target:action:
++ _objc_msgSend$initWithNibName:bundle:
++ _objc_msgSend$isActionsMenuRedesignEnabled
++ _objc_msgSend$isInternalInstall
++ _objc_msgSend$isNotifyMeWhenEnabled
++ _objc_msgSend$loadRequest:
++ _objc_msgSend$localizedManagedSettingSuggestedDefaultString
++ _objc_msgSend$nonPersistentDataStore
++ _objc_msgSend$postRemoteAppIntentsNotificationForSearchEngineChange
++ _objc_msgSend$removeExtension:deleteFromDisk:
++ _objc_msgSend$safari_highLevelDomainFromHost
++ _objc_msgSend$safari_isMagicExtension
++ _objc_msgSend$safari_prefixWithMaxLength:
++ _objc_msgSend$setObject:atIndexedSubscript:
++ _objc_msgSend$setPermittedArrowDirections:
++ _objc_msgSend$setSpecifiers:
++ _objc_msgSend$setStyle:
++ _objc_msgSend$setSubtitle:forValue:onSpecifier:
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x4
++ _objc_retain_x5
++ _objc_retain_x6
++ _objc_retain_x9
++ _rewind
++ _sscanf
++ _swift_allocBox
++ _swift_beginAccess
++ _swift_coroFrameAlloc
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getErrorValue
++ _swift_getKeyPath
++ _swift_getSingletonMetadata
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_release_x9
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_task_create
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_updateClassMetadata2
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrow
++ _symbolic $s20MobileSafariSettings022NotifyMeWhenAutomationC17ViewModelDelegateP
++ _symbolic $s7Combine16ObservableObjectP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic SDy_____SSG s11AnyHashableV
++ _symbolic SSSg
++ _symbolic SaySiG
++ _symbolic Say_____G 7SwiftUI20DatePickerComponentsV
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic Si
++ _symbolic SnySiG
++ _symbolic So15UIBarButtonItemCSg
++ _symbolic So16PSListControllerC
++ _symbolic So23UIActivityIndicatorViewCSg
++ _symbolic So29PSSubtitleDisclosureTableCellCm
++ _symbolic So30NotifyMeWhenSettingsControllerC
++ _symbolic So9WKWebViewC
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 14SafariSharedUI24WBSNotifyMeWhenFrequencyO
++ _symbolic _____ 14SafariSharedUI29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____ 20MobileSafariSettings022NotifyMeWhenAutomationC10ControllerC
++ _symbolic _____ 20MobileSafariSettings022NotifyMeWhenAutomationC4ViewV
++ _symbolic _____ 20MobileSafariSettings022NotifyMeWhenAutomationC9ViewModelC
++ _symbolic _____ 7Combine25ObservableObjectPublisherC
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____Sg 14SafariSharedUI25WBSNotifyMeWhenControllerC
++ _symbolic _____Sg 14SafariSharedUI29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____Sg 14SafariSharedUI33WBSNotifyMeWhenAutomationLogEntryV
++ _symbolic _____Sg 20MobileSafariSettings022NotifyMeWhenAutomationC9ViewModelC
++ _symbolic _____Sg 7SwiftUI10ButtonRoleV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4TextV
++ _symbolic _____Sg 7SwiftUI5ColorV
++ _symbolic _____Sg 7SwiftUI7DividerV
++ _symbolic _____Sg s11AnyHashableV
++ _symbolic _____SgXw 20MobileSafariSettings022NotifyMeWhenAutomationC10ControllerC
++ _symbolic _____SgXw 20MobileSafariSettings022NotifyMeWhenAutomationC9ViewModelC
++ _symbolic _____SgXwz_Xx 20MobileSafariSettings022NotifyMeWhenAutomationC10ControllerC
++ _symbolic _____SgXwz_Xx 20MobileSafariSettings022NotifyMeWhenAutomationC9ViewModelC
++ _symbolic _____Sg______yACy__________G_____GABt 7SwiftUI7DividerV AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameH0V
++ _symbolic ___________y_____y_____y_____G______Qo______y_____SgGGt 7SwiftUI7DividerV AA15ModifiedContentV AA4ViewPAAE15datePickerStyleyQrqd__AA04DatehI0Rd__lFQO AA0jH0V AA4TextV AA07CompactjhI0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic ______p s5ErrorP
++ _symbolic ______pSgXw 20MobileSafariSettings022NotifyMeWhenAutomationC17ViewModelDelegateP
++ _symbolic _____yAAyAAyAAy_____y_____y_____G______Qo______G_____y_____y__________GGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AA0iG0V AA0I0V AA05PlainigH0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeE0V AA7CapsuleV AA5ColorV AA010_FixedSizeL0V AA010_FlexFrameL0V
++ _symbolic _____yAAyAAyAAy_____y_____y___________AAy__________y_____GGSgQPGG_____G_____GAPG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameO0V AA01_d5ShapeL0V AA9RectangleV
++ _symbolic _____yAAyAAy_____y_____y_____G______Qo______G_____y_____y__________GGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AA0iG0V AA0I0V AA05PlainigH0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeE0V AA7CapsuleV AA5ColorV AA010_FixedSizeL0V
++ _symbolic _____yAAyAAy_____y_____y___________AAy__________y_____GGSgQPGG_____G_____GAPG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameO0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V
++ _symbolic _____yAAy_____y__________y_____y_____AAy_____yAAyAAyAAyAAy_____y_____yAFG______Qo______G_____y_____y__________GGG_____G_____GGAWGAFSgG_AEy_____AGyADyAF_AfAyAAy_____yADyAF_AFQPGG_____y_____SgGG_____y_____GGQPGGA1_GSgAEyA1_AAyAGyADyAAyAAy_____y_____yAF_____ADy_____yAF_A19_Qo__A20_A20_A20_A20_SgQPGG______Qo_A5_yAQSgGGALG_ADy______AAy_____y_____yAFG______Qo_A27_GQPGSgQPGGAWGA1_G_____yAEyA1_AAyAGy_____ySnySiGSiADy_____yAAyAAyAAyAAyA2_yADyAF______AAy_____A10_yAQGGSgQPGGALGAWGAWG_____y_____GG_Qo__A30_SgQPGGGAWGA1_G_Qo_SgAAyAEyA1______yA42_yA43_Si_____yA42_yA43_SiADy_____yAAyAAyAGyADyA59__AAyAAyAfLGAWGA59_QPGGA56_G_____y_____GG_Qo__A2_yA30_GSgQPGGGGGA1_G_____y_____GGSgAAyAEyA1_AAy_____yAFGAWGA1_GA89_GQPGGAWGA74_yAQGG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA4TextV AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA0imN0Rd__lFQO AA0iM0V AA05PlainimN0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeK0V AA7CapsuleV AA5ColorV AA010_FixedSizeQ0V AA010_FlexFrameQ0V AA05EmptyK0V AA6HStackV AA022_EnvironmentKeyWritingS0V AA4FontV AA011_ForegroundnS0V AA012HierarchicaltN0V AqAE06pickerN0yQrqd__AA06PickerN0Rd__lFQO AA6PickerV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AqAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA010MenuPickerN0V AA7DividerV AqAE010datePickerN0yQrqd__AA010DatePickerN0Rd__lFQO AA10DatePickerV AA017CompactDatePickerN0V AqAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7ForEachV AqAE12onTapGesture5count7performQrSi_yyctFQO AA6SpacerV AA5ImageV AA01_dtS0V AA9RectangleV AA4GridV AA7GridRowV AqAEA52_A53_A54_QrSi_yyctFQO AA01_rnS0V AA03AnytN0V AA013_TraitWritingS0V AA0E17RowInsetsTraitKeyV AA6ButtonV
++ _symbolic _____yAAy_____y_____y_____G______Qo______G_____y_____y__________GGG 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AA0iG0V AA0I0V AA05PlainigH0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeE0V AA7CapsuleV AA5ColorV
++ _symbolic _____yAAy_____y_____y_____Sg_AAyAAy__________G_____GAEQPGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA01_D13ShapeModifierV AA9RectangleV AA016_BackgroundStyleN0V AA03AnymQ0V
++ _symbolic _____yAAy_____y_____y______ADQPGG_____y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleK0V AA017HierarchicalShapeN0V
++ _symbolic _____yAAy_____y_____y___________AAy__________y_____GGSgQPGG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameO0V
++ _symbolic _____yAAy_____y_____y_______________y_____yAC_ADQo__A4FSgQPGG______Qo______y_____SgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AA05TupleD0V AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____y_______________y_____yAC_ADQo__A4FSgQPGG______Qo______y_____SgGG_____G_AEy______AAy_____y_____yACG______Qo_AOGQPGSgt 7SwiftUI15ModifiedContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AA05TupleD0V AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA7DividerV AeAE04datehG0yQrqd__AA04DatehG0Rd__lFQO AA04DateH0V AA011CompactDatehG0V
++ _symbolic _____ySSG 7Combine9PublishedV
++ _symbolic _____ySSSgG 7Combine9PublishedV
++ _symbolic _____ySSSg_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySS_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySaySiGG 7Combine9PublishedV
++ _symbolic _____ySaySiG_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySiG 7Combine9PublishedV
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_G 7Combine9PublishedV9PublisherV
++ _symbolic _____y_____G 7Combine9PublishedV 10Foundation4DateV
++ _symbolic _____y_____G 7Combine9PublishedV 14SafariSharedUI24WBSNotifyMeWhenFrequencyO
++ _symbolic _____y_____G 7Combine9PublishedV 14SafariSharedUI29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____y_____G 7SwiftUI10DatePickerV AA4TextV
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 20MobileSafariSettings022NotifyMeWhenAutomationG9ViewModelC
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 015PasswordManagerB021PMPasswordOptionsViewV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 20MobileSafariSettings022NotifyMeWhenAutomationG4ViewV
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA013ListRowInsetsC3KeyV
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA08AnyShapeD0V
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI24_TagTraitWritingModifierV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y_____G 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y_____G 7SwiftUI6HStackV AA7DividerV
++ _symbolic _____y_____G 7SwiftUI7BindingV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y_____G 7SwiftUI7BindingV 10Foundation4DateV
++ _symbolic _____y_____G 7SwiftUI9TextFieldV AA0C0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI20DatePickerComponentsV
++ _symbolic _____y_____GSg 7SwiftUI19UIHostingControllerC 20MobileSafariSettings022NotifyMeWhenAutomationG4ViewV
++ _symbolic _____y_____GSg 7SwiftUI6HStackV AA7DividerV
++ _symbolic _____y_____SSG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____y_____SgG 7Combine9PublishedV 14SafariSharedUI33WBSNotifyMeWhenAutomationLogEntryV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 14SafariSharedUI33WBSNotifyMeWhenAutomationLogEntryV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 10Foundation4DateV
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 14SafariSharedUI24WBSNotifyMeWhenFrequencyO
++ _symbolic _____y______G 7Combine9PublishedV9PublisherV 14SafariSharedUI29WBSNotifyMeWhenAutomationInfoV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA7CapsuleV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y___________G 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7DividerV
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y___________Qo_Sg 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y___________Qo__A4CSgt 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y_______________y_____yAB_ACQo__A4ESgQPGG 7SwiftUI6PickerV AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AA12TupleContentV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
++ _symbolic _____y___________yACyACyACy_____y_____y_____G______Qo______G_____y_____y__________GGG_____G_____GG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA15ModifiedContentV AA0D0PAAE14textFieldStyleyQrqd__AA04TextkL0Rd__lFQO AA0mK0V AA0M0V AA05PlainmkL0V AA08_PaddingG0V AA19_BackgroundModifierV AA06_ShapeD0V AA7CapsuleV AA5ColorV AA010_FixedSizeG0V AA010_FlexFrameG0V
++ _symbolic _____y___________ySnySiGSi_____yACyADSi_____y_____y_____yAGy_____yAFy_____Sg_AGyAGy__________G_____GAJQPGG_____y_____GG_____y_____GG_Qo_______yAIGSgQPGGGGG 7SwiftUI13_VariadicViewO4TreeV AA10GridLayoutV AA7ForEachV AA0F3RowV AA12TupleContentV AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedL0V AA6VStackV AA7DividerV AA4TextV AA08_PaddingG0V AA010_FlexFrameG0V AA01_L13ShapeModifierV AA9RectangleV AA016_BackgroundStyleZ0V AA03AnyY5StyleV AA6HStackV
++ _symbolic _____y___________ySnySiGSi_____y_____y_____yAFyAFyAFy_____yAEy___________AFy__________y_____GGSgQPGG_____G_____GATG_____y_____GG_Qo_______SgQPGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA12TupleContentV AA0D0PAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedK0V AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA08_PaddingG0V AA010_FlexFrameG0V AA01_k5ShapeX0V AA9RectangleV AA7DividerV
++ _symbolic _____y___________y_____Sg______yAFy__________G_____GAEQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA7DividerV AA08ModifiedI0V AA4TextV AA08_PaddingG0V AA010_FlexFrameG0V
++ _symbolic _____y___________y_____yADy_____y_____y__________ACy_____yAF_AGQo__A4HSgQPGG______Qo______y_____SgGG_____G_ACy______ADy_____y_____yAFG______Qo_AQGQPGSgQPGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA12TupleContentV AA08ModifiedI0V AA0D0PAAE11pickerStyleyQrqd__AA06PickerL0Rd__lFQO AA0M0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenumL0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08_PaddingG0V AA7DividerV AmAE04datemL0yQrqd__AA04DatemL0Rd__lFQO AA04DateM0V AA011CompactDatemL0V
++ _symbolic _____y___________y_____y_____y_____G______Qo______y_____SgGGQPG 7SwiftUI12TupleContentV AA7DividerV AA08ModifiedD0V AA4ViewPAAE15datePickerStyleyQrqd__AA04DateiJ0Rd__lFQO AA0kI0V AA4TextV AA07CompactkiJ0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y___________y_____y_____y_____G______Qo______y_____SgGGQPGSg 7SwiftUI12TupleContentV AA7DividerV AA08ModifiedD0V AA4ViewPAAE15datePickerStyleyQrqd__AA04DateiJ0Rd__lFQO AA0kI0V AA4TextV AA07CompactkiJ0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA24_TagTraitWritingModifierV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y__________y_____yACyACyACyACy_____y_____yABG______Qo______G_____y_____y__________GGG_____G_____GGATGABSgG 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA0djK0Rd__lFQO AA0dJ0V AA05PlaindjK0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeH0V AA7CapsuleV AA5ColorV AA010_FixedSizeN0V AA010_FlexFrameN0V
++ _symbolic _____y__________y_____yACyACyACyACy_____y_____yABG______Qo______G_____y_____y__________GGG_____G_____GGATGABSgG_AAy_____ADy_____yAB_AbCyACy_____yA_yAB_ABQPGG_____y_____SgGG_____y_____GGQPGGAZGSgAAyAzCyADyA_yACyACy_____y_____yAB_____A_y_____yAB_A17_Qo__A18_A18_A18_A18_SgQPGG______Qo_A3_yANSgGGAIG_A_y______ACy_____y_____yABG______Qo_A25_GQPGSgQPGGATGAZG_____yAAyAzCyADy_____ySnySiGSiA_y_____yACyACyACyACyA0_yA_yAB______ACy_____A8_yANGGSgQPGGAIGATGATG_____y_____GG_Qo__A28_SgQPGGGATGAZG_Qo_SgACyAAyAZ_____yA40_yA41_Si_____yA40_yA41_SiA_y_____yACyACyADyA_yA57__ACyACyAbIGATGA57_QPGGA54_G_____y_____GG_Qo__A0_yA28_GSgQPGGGGGAZG_____y_____GGSgACyAAyAzCy_____yABGATGAZGA87_Gt 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA0djK0Rd__lFQO AA0dJ0V AA05PlaindjK0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeH0V AA7CapsuleV AA5ColorV AA010_FixedSizeN0V AA010_FlexFrameN0V AA05EmptyH0V AA05TupleF0V AA6HStackV AA022_EnvironmentKeyWritingP0V AA4FontV AA011_ForegroundkP0V AA012HierarchicalqK0V AkAE06pickerK0yQrqd__AA06PickerK0Rd__lFQO AA6PickerV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AkAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA010MenuPickerK0V AA7DividerV AkAE010datePickerK0yQrqd__AA010DatePickerK0Rd__lFQO AA10DatePickerV AA017CompactDatePickerK0V AkAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7ForEachV AkAE12onTapGesture5count7performQrSi_yyctFQO AA6SpacerV AA5ImageV AA01_fqP0V AA9RectangleV AA4GridV AA7GridRowV AkAEA48_A49_A50_QrSi_yyctFQO AA01_okP0V AA03AnyqK0V AA013_TraitWritingP0V AA21ListRowInsetsTraitKeyV AA6ButtonV
++ _symbolic _____y__________y_____ySnySiGSi_____yADyAESi_____y_____y_____yAHy_____yAGy_____Sg_AHyAHy__________G_____GAKQPGG_____y_____GG_____y_____GG_Qo_______yAJGSgQPGGGGGABG 7SwiftUI7SectionV AA9EmptyViewV AA4GridV AA7ForEachV AA0F3RowV AA12TupleContentV AA0E0PAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedK0V AA6VStackV AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameV0V AA01_K13ShapeModifierV AA9RectangleV AA016_BackgroundStyleZ0V AA03AnyY5StyleV AA6HStackV
++ _symbolic _____y__________y_____y_____G_____GABG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA6ButtonV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y__________y_____y______AE_____yAFy_____yADyAE_AEQPGG_____y_____SgGG_____y_____GGQPGGABG 7SwiftUI7SectionV AA9EmptyViewV AA6VStackV AA12TupleContentV AA4TextV AA08ModifiedH0V AA6HStackV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V
++ _symbolic _____y__________y_____y______AE_____yAFy_____yADyAE_AEQPGG_____y_____SgGG_____y_____GGQPGGABGSg 7SwiftUI7SectionV AA9EmptyViewV AA6VStackV AA12TupleContentV AA4TextV AA08ModifiedH0V AA6HStackV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V
++ _symbolic _____y__________y_____y__________y_____yAFyAFyAFyAFy_____y_____yAEG______Qo______G_____y_____y__________GGG_____G_____GGAWGAESgG_ADy_____AGyACyAE_AeFyAFy_____yACyAE_AEQPGG_____y_____SgGG_____y_____GGQPGGA1_GSgADyA1_AFyAGyACyAFyAFy_____y_____yAE_____ACy_____yAE_A19_Qo__A20_A20_A20_A20_SgQPGG______Qo_A5_yAQSgGGALG_ACy______AFy_____y_____yAEG______Qo_A27_GQPGSgQPGGAWGA1_G_____yADyA1_AFyAGy_____ySnySiGSiACy_____yAFyAFyAFyAFyA2_yACyAE______AFy_____A10_yAQGGSgQPGGALGAWGAWG_____y_____GG_Qo__A30_SgQPGGGAWGA1_G_Qo_SgAFyADyA1______yA42_yA43_Si_____yA42_yA43_SiACy_____yAFyAFyAGyACyA59__AFyAFyAeLGAWGA59_QPGGA56_G_____y_____GG_Qo__A2_yA30_GSgQPGGGGGA1_G_____y_____GGSgAFyADyA1_AFy_____yAEGAWGA1_GA89_GQPGG 7SwiftUI4ListV s5NeverO AA12TupleContentV AA7SectionV AA4TextV AA08ModifiedF0V AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA0hmN0Rd__lFQO AA0hM0V AA05PlainhmN0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeK0V AA7CapsuleV AA5ColorV AA010_FixedSizeQ0V AA010_FlexFrameQ0V AA05EmptyK0V AA6HStackV AA022_EnvironmentKeyWritingS0V AA4FontV AA011_ForegroundnS0V AA012HierarchicaltN0V AqAE06pickerN0yQrqd__AA06PickerN0Rd__lFQO AA6PickerV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AqAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA010MenuPickerN0V AA7DividerV AqAE010datePickerN0yQrqd__AA010DatePickerN0Rd__lFQO AA10DatePickerV AA017CompactDatePickerN0V AqAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7ForEachV AqAE12onTapGesture5count7performQrSi_yyctFQO AA6SpacerV AA5ImageV AA01_ftS0V AA9RectangleV AA4GridV AA7GridRowV AqAEA52_A53_A54_QrSi_yyctFQO AA01_rnS0V AA03AnytN0V AA013_TraitWritingS0V AA0C17RowInsetsTraitKeyV AA6ButtonV
++ _symbolic _____y__________y_____y_____yACyACy_____y_____y__________AEy_____yAG_AHQo__A4ISgQPGG______Qo______y_____SgGG_____G_AEy______ACy_____y_____yAGG______Qo_ARGQPGSgQPGG_____GABG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA6VStackV AA05TupleG0V AA0E0PAAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenulK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA7DividerV AmAE04datelK0yQrqd__AA04DatelK0Rd__lFQO AA04DateL0V AA011CompactDatelK0V AA16_FlexFrameLayoutV
++ _symbolic _____y__________y_____y_____ySnySiGSi_____y_____yACyACyACyACy_____yAGy___________ACy__________y_____GGSgQPGG_____G_____GAUG_____y_____GG_Qo_______SgQPGGGAUGABG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleG0V AA0E0PAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameZ0V AA01_g5ShapeW0V AA9RectangleV AA7DividerV
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____y_____G______Qo______G_____y_____y__________GGG_____G_____GGASG 7SwiftUI15ModifiedContentV AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA04TexthI0Rd__lFQO AA0jH0V AA0J0V AA05PlainjhI0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeF0V AA7CapsuleV AA5ColorV AA010_FixedSizeM0V AA010_FlexFrameM0V
++ _symbolic _____y_____yAAyAAyAAy_____y_____y___________AAy__________y_____GGSgQPGG_____G_____GAPG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleJ0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameU0V AA01_j5ShapeR0V AA9RectangleV
++ _symbolic _____y_____yAAyAAyAAy_____y_____y___________AAy__________y_____GGSgQPGG_____G_____GAPG_____y_____GG_Qo_______Sgt 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6HStackV AA05TupleJ0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameU0V AA01_j5ShapeR0V AA9RectangleV AA7DividerV
++ _symbolic _____y_____yAAy_____y_____y_____Sg_AAyAAy__________G_____GAEQPGG_____y_____GG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6VStackV AA05TupleJ0V AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameP0V AA01_J13ShapeModifierV AA9RectangleV AA016_BackgroundStyleT0V AA03AnysW0V
++ _symbolic _____y_____yAAy_____y_____y_____Sg_AAyAAy__________G_____GAEQPGG_____y_____GG_____y_____GG_Qo_______yADGSgt 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA15ModifiedContentV AA6VStackV AA05TupleJ0V AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameP0V AA01_J13ShapeModifierV AA9RectangleV AA016_BackgroundStyleT0V AA03AnysW0V AA6HStackV
++ _symbolic _____y_____yAByAByABy_____y_____y_____G______Qo______G_____y_____y__________GGG_____G_____GG 7SwiftUI6VStackV AA15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TexthI0Rd__lFQO AA0jH0V AA0J0V AA05PlainjhI0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeF0V AA7CapsuleV AA5ColorV AA010_FixedSizeM0V AA010_FlexFrameM0V
++ _symbolic _____y_____ySnySiGSi_____yAByACSi_____y_____y_____yAFy_____yAEy_____Sg_AFyAFy__________G_____GAIQPGG_____y_____GG_____y_____GG_Qo_______yAHGSgQPGGGGG 7SwiftUI4GridV AA7ForEachV AA0C3RowV AA12TupleContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedH0V AA6VStackV AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameT0V AA01_H13ShapeModifierV AA9RectangleV AA016_BackgroundStyleX0V AA03AnyW5StyleV AA6HStackV
++ _symbolic _____y_____ySnySiGSi_____y_____y_____yAEyAEyAEy_____yADy___________AEy__________y_____GGSgQPGG_____G_____GASG_____y_____GG_Qo_______SgQPGGG 7SwiftUI6VStackV AA7ForEachV AA12TupleContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedG0V AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameX0V AA01_g5ShapeU0V AA9RectangleV AA7DividerV
++ _symbolic _____y_____ySnySiGSi_____y_____y_____yAEy_____yADy_____Sg_AEyAEy__________G_____GAHQPGG_____y_____GG_____y_____GG_Qo_______yAGGSgQPGGG 7SwiftUI7GridRowV AA7ForEachV AA12TupleContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedH0V AA6VStackV AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameT0V AA01_H13ShapeModifierV AA9RectangleV AA016_BackgroundStyleX0V AA03AnyW5StyleV AA6HStackV
++ _symbolic _____y_____y_____AAy_____y_____G_____GACG_____y_____GG 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA6ButtonV AA4TextV AA16_FlexFrameLayoutV AA21_TraitWritingModifierV AA013ListRowInsetsM3KeyV
++ _symbolic _____y_____y_____G_Qo__A2cAy_____yAB_SSQo_GACt 8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQO AA0A4PaneV 19PreferencesExtended0L14ControllerViewV 7SwiftUI0O0PAAE07bridgedA33FeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____Sg______yAEy__________G_____GADQPGG 7SwiftUI6VStackV AA12TupleContentV AA7DividerV AA08ModifiedE0V AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V
++ _symbolic _____y_____y______ACQPGG 7SwiftUI6HStackV AA12TupleContentV AA4TextV
++ _symbolic _____y_____y______AC_____yADy_____yAByAC_ACQPGG_____y_____SgGG_____y_____GGQPGG 7SwiftUI6VStackV AA12TupleContentV AA4TextV AA08ModifiedE0V AA6HStackV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V
++ _symbolic _____y_____y__________GG 7SwiftUI19_BackgroundModifierV AA10_ShapeViewV AA7CapsuleV AA5ColorV
++ _symbolic _____y_____y___________Qo__A4DSgQPG 7SwiftUI12TupleContentV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO
++ _symbolic _____y_____y________________y__________y_____GGSgQPGG 7SwiftUI6HStackV AA12TupleContentV AA4TextV AA6SpacerV AA08ModifiedE0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____y__________y_____yADyADyADyADy_____y_____yACG______Qo______G_____y_____y__________GGG_____G_____GGAUGACSgG_ABy_____AEyAAyAC_AcDyADy_____yAAyAC_ACQPGG_____y_____SgGG_____y_____GGQPGGA_GSgAByA_ADyAEyAAyADyADy_____y_____yAC_____AAy_____yAC_A17_Qo__A18_A18_A18_A18_SgQPGG______Qo_A3_yAOSgGGAJG_AAy______ADy_____y_____yACG______Qo_A25_GQPGSgQPGGAUGA_G_____yAByA_ADyAEy_____ySnySiGSiAAy_____yADyADyADyADyA0_yAAyAC______ADy_____A8_yAOGGSgQPGGAJGAUGAUG_____y_____GG_Qo__A28_SgQPGGGAUGA_G_Qo_SgADyAByA______yA40_yA41_Si_____yA40_yA41_SiAAy_____yADyADyAEyAAyA57__ADyADyAcJGAUGA57_QPGGA54_G_____y_____GG_Qo__A0_yA28_GSgQPGGGGGA_G_____y_____GGSgADyAByA_ADy_____yACGAUGA_GA87_GQPG 7SwiftUI12TupleContentV AA7SectionV AA4TextV AA08ModifiedD0V AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA0fkL0Rd__lFQO AA0fK0V AA05PlainfkL0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeI0V AA7CapsuleV AA5ColorV AA010_FixedSizeO0V AA010_FlexFrameO0V AA05EmptyI0V AA6HStackV AA022_EnvironmentKeyWritingQ0V AA4FontV AA011_ForegroundlQ0V AA012HierarchicalrL0V AmAE06pickerL0yQrqd__AA06PickerL0Rd__lFQO AA6PickerV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA010MenuPickerL0V AA7DividerV AmAE010datePickerL0yQrqd__AA010DatePickerL0Rd__lFQO AA10DatePickerV AA017CompactDatePickerL0V AmAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7ForEachV AmAE12onTapGesture5count7performQrSi_yyctFQO AA6SpacerV AA5ImageV AA01_drQ0V AA9RectangleV AA4GridV AA7GridRowV AmAEA48_A49_A50_QrSi_yyctFQO AA01_plQ0V AA03AnyrL0V AA013_TraitWritingQ0V AA21ListRowInsetsTraitKeyV AA6ButtonV
++ _symbolic _____y_____y__________y_____ySnySiGSi_____yAEyAFSi_____y_____yAAyAAy_____yAHy_____Sg_AAyAAy__________G_____GAKQPGG_____y_____GG_____y_____GG_Qo_______yAJGSgQPGGGGGACG_____y_____GG 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA4GridV AA7ForEachV AA0H3RowV AA05TupleD0V AA0G0PAAE12onTapGesture5count7performQrSi_yyctFQO AA6VStackV AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameV0V AA01_D13ShapeModifierV AA9RectangleV AA016_BackgroundStyleZ0V AA03AnyY5StyleV AA6HStackV AA013_TraitWritingZ0V AA04ListK14InsetsTraitKeyV
++ _symbolic _____y_____y__________y_____ySnySiGSi_____yAEyAFSi_____y_____yAAyAAy_____yAHy_____Sg_AAyAAy__________G_____GAKQPGG_____y_____GG_____y_____GG_Qo_______yAJGSgQPGGGGGACG_____y_____GGSg 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV AA4GridV AA7ForEachV AA0H3RowV AA05TupleD0V AA0G0PAAE12onTapGesture5count7performQrSi_yyctFQO AA6VStackV AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameV0V AA01_D13ShapeModifierV AA9RectangleV AA016_BackgroundStyleZ0V AA03AnyY5StyleV AA6HStackV AA013_TraitWritingZ0V AA04ListK14InsetsTraitKeyV
++ _symbolic _____y_____y__________y_____y_____AAy_____yAAyAAyAAyAAy_____y_____yAFG______Qo______G_____y_____y__________GGG_____G_____GGAWGAFSgG_AEy_____AGyADyAF_AfAyAAy_____yADyAF_AFQPGG_____y_____SgGG_____y_____GGQPGGA1_GSgAEyA1_AAyAGyADyAAyAAy_____y_____yAF_____ADy_____yAF_A19_Qo__A20_A20_A20_A20_SgQPGG______Qo_A5_yAQSgGGALG_ADy______AAy_____y_____yAFG______Qo_A27_GQPGSgQPGGAWGA1_G_____yAEyA1_AAyAGy_____ySnySiGSiADy_____yAAyAAyAAyAAyA2_yADyAF______AAy_____A10_yAQGGSgQPGGALGAWGAWG_____y_____GG_Qo__A30_SgQPGGGAWGA1_G_Qo_SgAAyAEyA1______yA42_yA43_Si_____yA42_yA43_SiADy_____yAAyAAyAGyADyA59__AAyAAyAfLGAWGA59_QPGGA56_G_____y_____GG_Qo__A2_yA30_GSgQPGGGGGA1_G_____y_____GGSgAAyAEyA1_AAy_____yAFGAWGA1_GA89_GQPGGAWG 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA05TupleD0V AA7SectionV AA4TextV AA6VStackV AA4ViewPAAE14textFieldStyleyQrqd__AA0imN0Rd__lFQO AA0iM0V AA05PlainimN0V AA14_PaddingLayoutV AA19_BackgroundModifierV AA06_ShapeK0V AA7CapsuleV AA5ColorV AA010_FixedSizeQ0V AA010_FlexFrameQ0V AA05EmptyK0V AA6HStackV AA022_EnvironmentKeyWritingS0V AA4FontV AA011_ForegroundnS0V AA012HierarchicaltN0V AqAE06pickerN0yQrqd__AA06PickerN0Rd__lFQO AA6PickerV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AqAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA010MenuPickerN0V AA7DividerV AqAE010datePickerN0yQrqd__AA010DatePickerN0Rd__lFQO AA10DatePickerV AA017CompactDatePickerN0V AqAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7ForEachV AqAE12onTapGesture5count7performQrSi_yyctFQO AA6SpacerV AA5ImageV AA01_dtS0V AA9RectangleV AA4GridV AA7GridRowV AqAEA52_A53_A54_QrSi_yyctFQO AA01_rnS0V AA03AnytN0V AA013_TraitWritingS0V AA0E17RowInsetsTraitKeyV AA6ButtonV
++ _symbolic _____y_____y__________y_____y_____ySnySiGSi_____y_____yACyACyACyACy_____yAGy___________ACy__________y_____GGSgQPGG_____G_____GAUG_____y_____GG_Qo_______SgQPGGGAUGABG_Qo_ 7SwiftUI4ViewPAAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7SectionV AA05EmptyC0V AA15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleO0V AcAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AA01_O13ShapeModifierV AA9RectangleV AA7DividerV
++ _symbolic _____y_____y__________y_____y_____ySnySiGSi_____y_____yACyACyACyACy_____yAGy___________ACy__________y_____GGSgQPGG_____G_____GAUG_____y_____GG_Qo_______SgQPGGGAUGABG_Qo_Sg 7SwiftUI4ViewPAAE13listRowInsetsyQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgtFQO AA7SectionV AA05EmptyC0V AA15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleO0V AcAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA16_FlexFrameLayoutV AA01_O13ShapeModifierV AA9RectangleV AA7DividerV
++ _symbolic _____y_____y_____yAAyAAy_____y_____y__________ACy_____yAE_AFQo__A4GSgQPGG______Qo______y_____SgGG_____G_ACy______AAy_____y_____yAEG______Qo_APGQPGSgQPGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA7DividerV AiAE04datejI0yQrqd__AA04DatejI0Rd__lFQO AA04DateJ0V AA011CompactDatejI0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____yAByAByABy_____yAAy___________ABy__________y_____GGSgQPGG_____G_____GAPG_____y_____GG_Qo_______SgQPG 7SwiftUI12TupleContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedD0V AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameU0V AA01_d5ShapeR0V AA9RectangleV AA7DividerV
++ _symbolic _____y_____y_____yABy_____yAAy_____Sg_AByABy__________G_____GAEQPGG_____y_____GG_____y_____GG_Qo_______yADGSgQPG 7SwiftUI12TupleContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA08ModifiedD0V AA6VStackV AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameP0V AA01_D13ShapeModifierV AA9RectangleV AA016_BackgroundStyleT0V AA03AnysW0V AA6HStackV
++ _symbolic _____y_____y_____yACy_____y_____y__________ABy_____yAE_AFQo__A4GSgQPGG______Qo______y_____SgGG_____G_ABy______ACy_____y_____yAEG______Qo_APGQPGSgQPGG 7SwiftUI6VStackV AA12TupleContentV AA08ModifiedE0V AA4ViewPAAE11pickerStyleyQrqd__AA06PickerI0Rd__lFQO AA0J0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenujI0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA14_PaddingLayoutV AA7DividerV AiAE04datejI0yQrqd__AA04DatejI0Rd__lFQO AA04DateJ0V AA011CompactDatejI0V
++ _symbolic _____y_____y_____ySnySiGSi_____y_____yAAyAAyAAyAAy_____yAEy___________AAy__________y_____GGSgQPGG_____G_____GASG_____y_____GG_Qo_______SgQPGGGASG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA05TupleD0V AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AA6HStackV AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV AA010_FlexFrameX0V AA01_d5ShapeU0V AA9RectangleV AA7DividerV
++ _symbolic _____y_____y_____y_____G_Qo__A2dBy_____yAC_SSQo_GADQPG 8Settings05TupleA17ExperienceContentV AA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQO AA0A4PaneV 19PreferencesExtended0M14ControllerViewV 7SwiftUI0P0PAAE07bridgedA33FeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO
++ _symbolic _____y_____y_____y_____G______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AA0iG0V AA0I0V AA05PlainigH0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____G______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE15datePickerStyleyQrqd__AA04DategH0Rd__lFQO AA0iG0V AA4TextV AA07CompactigH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____y_____y_____Sg_AAyAAy__________G_____GAEQPGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA05TupleD0V AA7DividerV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA01_D13ShapeModifierV AA9RectangleV
++ _symbolic _____y_____y_____y______ADQPGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y___________AAy__________y_____GGSgQPGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA05TupleD0V AA4TextV AA6SpacerV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_______________y_____yAC_ADQo__A4FSgQPGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV 012SafariSharedB024WBSNotifyMeWhenFrequencyO AA05TupleD0V AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA04MenuhG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic qd0__
++ _symbolic qd__
++ _symbolic ytIeAgHr_
++ _type_layout_string 20MobileSafariSettings022NotifyMeWhenAutomationC4ViewV
+- GCC_except_table241
+- GCC_except_table46
+- GCC_except_table50
+- GCC_except_table53
+- GCC_except_table60
+- GCC_except_table62
+- GCC_except_table64
+- GCC_except_table73
+- _CFAbsoluteTimeGetCurrent
+- _OBJC_CLASS_$_PMPasswordOptionsController
+- _OBJC_CLASS_$_WBSTrialManager
+- _OBJC_CLASS_$__SFRecentWebSearchesController
+- _OUTLINED_FUNCTION_5
+- _WBUHistoryDefaultItemAgeLimit
+- ___block_descriptor_56_e8_32s40bs48w_e5_v8?0lw48l8s40l8s32l8
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- __swift_FORCE_LOAD_$_swiftCoreMedia_$_MobileSafariSettings
+- __swift_FORCE_LOAD_$_swiftMapKit
+- __swift_FORCE_LOAD_$_swiftMapKit_$_MobileSafariSettings
+- __swift_FORCE_LOAD_$_swiftVideoToolbox
+- __swift_FORCE_LOAD_$_swiftVideoToolbox_$_MobileSafariSettings
+- _get_witness_table 8Settings05TupleA17ExperienceContentVyAA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQOyAA0A4PaneVy19PreferencesExtended0M14ControllerViewVG_Qo__A2sOy7SwiftUI0P0PAAE07bridgedA33FeatureDescriptionNavigationTitleyQrqd__SyRd__lFQOyAR_SSQo_GQPGAaDHPyHC
+- _objc_msgSend$isAllowFavoritesInFrequentlyVisitedEnabled
+- _objc_msgSend$searchConfiguration
+- _objc_msgSend$shared
+- _objc_release_x10
+- _symbolic _____y_____y_____G_Qo__A2cAy_____yAB_SSQo_Gt 8Settings0A17ExperienceContentPAAE02onaB7OpenURL7performQrAA0abE9URLActionV6ResultVAG5InputVYacn_tFQO AA0A4PaneV 19PreferencesExtended0L14ControllerViewV 7SwiftUI0O0PAAE07bridgedA33FeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO
+- _symbolic _____y_____y_____y_____G_Qo__A2dBy_____yAC_SSQo_GQPG 8Settings05TupleA17ExperienceContentV AA0acD0PAAE02onaC7OpenURL7performQrAA0acF9URLActionV6ResultVAI5InputVYacn_tFQO AA0A4PaneV 19PreferencesExtended0M14ControllerViewV 7SwiftUI0P0PAAE07bridgedA33FeatureDescriptionNavigationTitleyQrqd__SyRd__lFQO
+```
+
+
+##### `SafariUsageBundle`
+> `/System/Library/UsageBundles/SafariUsageBundle.bundle/SafariUsageBundle`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x2f2c
+-  __TEXT.__auth_stubs: 0x310
++7625.2.8.10.7
++  __TEXT.__text: 0x2bb4
++  __TEXT.__auth_stubs: 0x340
+   __TEXT.__objc_stubs: 0xa20
+   __TEXT.__objc_methlist: 0x33c
+   __TEXT.__const: 0x30
+   __TEXT.__gcc_except_tab: 0x64
+-  __TEXT.__cstring: 0x9a6
++  __TEXT.__cstring: 0x997
+   __TEXT.__objc_methname: 0xbbb
+-  __TEXT.__objc_classname: 0xa4
++  __TEXT.__objc_classname: 0x9f
+   __TEXT.__objc_methtype: 0x288
+   __TEXT.__oslogstring: 0xeb
+   __TEXT.__dlopen_cstrs: 0x56
+-  __TEXT.__unwind_info: 0x160
+-  __DATA_CONST.__auth_got: 0x198
+-  __DATA_CONST.__got: 0x108
+-  __DATA_CONST.__const: 0x3e8
+-  __DATA_CONST.__cfstring: 0x9e0
++  __TEXT.__unwind_info: 0x188
++  __DATA_CONST.__const: 0x3e0
++  __DATA_CONST.__cfstring: 0x9c0
+   __DATA_CONST.__objc_classlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   __DATA_CONST.__objc_arraydata: 0x70
+   __DATA_CONST.__objc_dictobj: 0x28
+   __DATA_CONST.__objc_arrayobj: 0x18
++  __DATA_CONST.__auth_got: 0x1b0
++  __DATA_CONST.__got: 0x118
+   __DATA.__objc_const: 0x4e0
+   __DATA.__objc_selrefs: 0x3a8
+   __DATA.__objc_ivar: 0x30
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   Functions: 61
+-  Symbols:   151
++  Symbols:   153
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x2
++ _objc_retain_x8
++ _objc_retain_x9
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x20
+- _objc_retain_x21
+- _showRecentSearchesDefaultsKey
+```
+
+
+##### `AuthenticationServicesAgent`
+> `/usr/libexec/AuthenticationServicesAgent`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__info_plist`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x22b7c
+-  __TEXT.__auth_stubs: 0x1580
+-  __TEXT.__objc_stubs: 0x23c0
+-  __TEXT.__objc_methlist: 0xa30
+-  __TEXT.__cstring: 0xa38
+-  __TEXT.__const: 0x5e2
+-  __TEXT.__objc_methname: 0x38cd
+-  __TEXT.__oslogstring: 0xa91
+-  __TEXT.__objc_classname: 0x181
+-  __TEXT.__objc_methtype: 0x12a9
+-  __TEXT.__gcc_except_tab: 0x13c
+-  __TEXT.__constg_swiftt: 0x90
+-  __TEXT.__swift5_typeref: 0x553
++7625.2.8.10.7
++  __TEXT.__text: 0x20744
++  __TEXT.__auth_stubs: 0x17e0
++  __TEXT.__objc_stubs: 0x2440
++  __TEXT.__objc_methlist: 0xa80
++  __TEXT.__cstring: 0xb0e
++  __TEXT.__const: 0x680
++  __TEXT.__objc_methname: 0x39f9
++  __TEXT.__oslogstring: 0xaf8
++  __TEXT.__objc_classname: 0x219
++  __TEXT.__objc_methtype: 0x1336
++  __TEXT.__gcc_except_tab: 0x14c
++  __TEXT.__constg_swiftt: 0xf8
++  __TEXT.__swift5_typeref: 0x5bf
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_proto: 0x18
+-  __TEXT.__swift5_types: 0xc
+-  __TEXT.__swift5_capture: 0x1b0
+-  __TEXT.__swift5_reflstr: 0xf
+-  __TEXT.__swift5_fieldmd: 0x1c
+-  __TEXT.__swift_as_entry: 0x40
+-  __TEXT.__swift_as_ret: 0x38
++  __TEXT.__swift5_types: 0x10
++  __TEXT.__swift5_capture: 0x270
++  __TEXT.__swift5_reflstr: 0x28
++  __TEXT.__swift5_fieldmd: 0x38
++  __TEXT.__swift_as_entry: 0x54
++  __TEXT.__swift_as_ret: 0x4c
++  __TEXT.__swift_as_cont: 0x98
+   __TEXT.__info_plist: 0x631
+-  __TEXT.__unwind_info: 0x6d8
+-  __TEXT.__eh_frame: 0xb40
+-  __DATA_CONST.__auth_got: 0xad0
+-  __DATA_CONST.__got: 0x4e0
+-  __DATA_CONST.__auth_ptr: 0x180
+-  __DATA_CONST.__const: 0xd00
++  __TEXT.__unwind_info: 0x8f8
++  __TEXT.__eh_frame: 0xcd0
++  __DATA_CONST.__const: 0x1028
+   __DATA_CONST.__cfstring: 0x200
+-  __DATA_CONST.__objc_classlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x60
++  __DATA_CONST.__objc_classlist: 0x30
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x28
++  __DATA_CONST.__objc_protorefs: 0x30
+   __DATA_CONST.__objc_superrefs: 0x10
+   __DATA_CONST.__objc_intobj: 0x18
+   __DATA_CONST.__objc_arraydata: 0x8
+   __DATA_CONST.__objc_arrayobj: 0x18
+-  __DATA.__objc_const: 0xc20
+-  __DATA.__objc_selrefs: 0xb40
++  __DATA_CONST.__auth_got: 0xc00
++  __DATA_CONST.__got: 0x508
++  __DATA_CONST.__auth_ptr: 0x190
++  __DATA.__objc_const: 0xd88
++  __DATA.__objc_selrefs: 0xb68
+   __DATA.__objc_ivar: 0x74
+-  __DATA.__objc_data: 0x180
+-  __DATA.__data: 0x640
+-  __DATA.__bss: 0x350
+-  __DATA.__common: 0x28
++  __DATA.__objc_data: 0x1f0
++  __DATA.__data: 0x770
++  __DATA.__bss: 0x360
++  __DATA.__common: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/FoundationModels.framework/FoundationModels
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+   - /System/Library/PrivateFrameworks/AuthenticationServicesCore.framework/AuthenticationServicesCore
+   - /System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary
++  - /System/Library/PrivateFrameworks/PrivateCloudCompute.framework/PrivateCloudCompute
+   - /System/Library/PrivateFrameworks/SafariCore.framework/SafariCore
+   - /System/Library/PrivateFrameworks/SafariFoundation.framework/SafariFoundation
++  - /System/Library/PrivateFrameworks/SafariShared.framework/SafariShared
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 503
+-  Symbols:   569
++  Functions: 544
++  Symbols:   617
+   CStrings:  0
+ 
+Symbols:
++ _$s10ObjectiveC8ObjCBoolVMn
++ _$s10SafariCore15WBSPasskeyStoreC18getCredRandomValue19passkeyCredentialID05groupK016creatingIfNeeded17inRecentlyDeleted9CryptoKit12SymmetricKeyVSg10Foundation4DataV_SSS2btKF
++ _$s16FoundationModels19SystemLanguageModelC12AvailabilityO17UnavailableReasonO10SafariCoreE17loggerDescriptionSSvg
++ _$s16FoundationModels19SystemLanguageModelC12AvailabilityO17UnavailableReasonOMa
++ _$s16FoundationModels19SystemLanguageModelC12AvailabilityOMa
++ _$s16FoundationModels19SystemLanguageModelC12availabilityAC12AvailabilityOvg
++ _$s16FoundationModels19SystemLanguageModelC7defaultACvgZ
++ _$s16FoundationModels19SystemLanguageModelCMa
++ _$s19PrivateCloudCompute07TrustedbC6ClientC13ConfigurationVAEycfC
++ _$s19PrivateCloudCompute07TrustedbC6ClientC13ConfigurationVMa
++ _$s19PrivateCloudCompute07TrustedbC6ClientC13configurationA2C13ConfigurationV_tKcfc
++ _$s19PrivateCloudCompute07TrustedbC6ClientC15knownRateLimits16bundleIdentifier07featureJ0SayAA0dbcG5LimitVGSSSg_AJtYaF
++ _$s19PrivateCloudCompute07TrustedbC6ClientC15knownRateLimits16bundleIdentifier07featureJ0SayAA0dbcG5LimitVGSSSg_AJtYaFTu
++ _$s19PrivateCloudCompute07TrustedbC6ClientCMa
++ _$s19PrivateCloudCompute07TrustedbC6ClientCMn
++ _$s19PrivateCloudCompute07TrustedbC9RateLimitV16loggedCountSoFarSuvg
++ _$s19PrivateCloudCompute07TrustedbC9RateLimitV18workloadParametersSayAC17WorkloadParameterVGvg
++ _$s19PrivateCloudCompute07TrustedbC9RateLimitV5countSuvg
++ _$s19PrivateCloudCompute07TrustedbC9RateLimitVMa
++ _$s19PrivateCloudCompute07TrustedbC9RateLimitVMn
++ _$s2os6LoggerV10SafariCoreE13authorizationACvgZ
++ _$s2os6LoggerV10SafariCoreE23automaticPasswordChangeACvgZ
++ _$sBoWV
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSo42WBSAutomaticPasswordChangePCCLimitCheckingP10SafariCoreE08numberOfcB8Requests18forPCCRequestLimitS2u_tF
++ _$sSo42WBSAutomaticPasswordChangePCCLimitCheckingP10SafariCoreE16isFeatureEnabledSbvg
++ _$sSo42WBSAutomaticPasswordChangePCCLimitCheckingP10SafariCoreE17featureIdentifierSSvgZ
++ _$sSo42WBSAutomaticPasswordChangePCCLimitCheckingP10SafariCoreE19numberOfPCCRequests20forAutomaticUpgradesS2u_tF
++ _$sSo42WBSAutomaticPasswordChangePCCLimitCheckingP10SafariCoreE22targetBundleIdentifierSSvgZ
++ _$sSo42WBSAutomaticPasswordChangePCCLimitCheckingP10SafariCoreE24maximumAutomaticUpgradesSuvg
++ _OBJC_CLASS_$_ASAgentVerificationCodesService
++ _OBJC_CLASS_$_NSMutableSet
++ _OBJC_CLASS_$_WBSBiomeDonationManager
++ _OBJC_CLASS_$_WBSFeatureAvailability
++ _OBJC_CLASS_$__ASAgentAutomaticSecurityUpgradeListener
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ _objc_claimAutoreleasedReturnValue
++ _objc_retain_x3
++ _objc_retain_x4
++ _swift_deallocClassInstance
++ _swift_deletedMethodError
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
+- _$s10SafariCore15WBSPasskeyStoreC07PasskeyD5ErrorOMn
+- _$s10SafariCore15WBSPasskeyStoreC18getCredRandomValue19passkeyCredentialID16creatingIfNeeded9CryptoKit12SymmetricKeyVSg10Foundation4DataV_SbtKF
+- _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
+- _$sSayxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
+- _$ss15CollectionOfOneVMn
+- _$ss15CollectionOfOneVyxG10Foundation15ContiguousBytesADs5UInt8VRszlMc
+- _swift_allocBox
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain_n
+- _swift_unknownObjectRelease_n
+```
+
+
+##### `SafariBookmarksSyncAgent`
+> `/usr/libexec/SafariBookmarksSyncAgent`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__info_plist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_doubleobj`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0xd27b8
+-  __TEXT.__auth_stubs: 0x9f0
+-  __TEXT.__objc_stubs: 0xfb60
+-  __TEXT.__objc_methlist: 0x60fc
+-  __TEXT.__objc_classname: 0xd95
+-  __TEXT.__objc_methname: 0x18b19
+-  __TEXT.__objc_methtype: 0x2939
+-  __TEXT.__const: 0x238
+-  __TEXT.__gcc_except_tab: 0x5138
+-  __TEXT.__cstring: 0x6fa3
+-  __TEXT.__oslogstring: 0x1a29e
++7625.2.8.10.7
++  __TEXT.__text: 0xfb194
++  __TEXT.__auth_stubs: 0x1de0
++  __TEXT.__objc_stubs: 0x10200
++  __TEXT.__objc_methlist: 0x638c
++  __TEXT.__const: 0x2162
++  __TEXT.__cstring: 0x8524
++  __TEXT.__objc_methname: 0x1955b
++  __TEXT.__oslogstring: 0x1988c
++  __TEXT.__objc_classname: 0xdab
++  __TEXT.__objc_methtype: 0x2a7c
++  __TEXT.__gcc_except_tab: 0x42c4
++  __TEXT.__swift5_typeref: 0xa0c
++  __TEXT.__swift5_capture: 0x4f0
++  __TEXT.__constg_swiftt: 0x1f8
++  __TEXT.__swift5_reflstr: 0x263
++  __TEXT.__swift5_fieldmd: 0x2f4
++  __TEXT.__swift5_assocty: 0x90
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_proto: 0x58
++  __TEXT.__swift5_types: 0x34
++  __TEXT.__swift_as_entry: 0x9c
++  __TEXT.__swift_as_ret: 0xcc
++  __TEXT.__swift_as_cont: 0x180
++  __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__info_plist: 0x5c1
+-  __TEXT.__unwind_info: 0x3618
+-  __DATA_CONST.__auth_got: 0x510
+-  __DATA_CONST.__got: 0x8e8
+-  __DATA_CONST.__const: 0x6290
+-  __DATA_CONST.__cfstring: 0x45e0
+-  __DATA_CONST.__objc_classlist: 0x250
++  __TEXT.__unwind_info: 0x4b20
++  __TEXT.__eh_frame: 0x19e8
++  __DATA_CONST.__const: 0x7c18
++  __DATA_CONST.__cfstring: 0x4760
++  __DATA_CONST.__objc_classlist: 0x268
+   __DATA_CONST.__objc_catlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0xf8
++  __DATA_CONST.__objc_protolist: 0x110
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x8
++  __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x1e8
++  __DATA_CONST.__objc_doubleobj: 0x50
+   __DATA_CONST.__objc_intobj: 0x2a0
+-  __DATA_CONST.__objc_arraydata: 0x360
+-  __DATA_CONST.__objc_arrayobj: 0x300
++  __DATA_CONST.__objc_arraydata: 0x380
++  __DATA_CONST.__objc_arrayobj: 0x2e8
+   __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA_CONST.__objc_doubleobj: 0x50
+-  __DATA.__objc_const: 0xcec8
+-  __DATA.__objc_selrefs: 0x4448
+-  __DATA.__objc_ivar: 0x864
+-  __DATA.__objc_data: 0x1720
+-  __DATA.__data: 0xba0
+-  __DATA.__bss: 0x270
++  __DATA_CONST.__auth_got: 0xf08
++  __DATA_CONST.__got: 0xbb0
++  __DATA_CONST.__auth_ptr: 0x298
++  __DATA.__objc_const: 0xd5d8
++  __DATA.__objc_selrefs: 0x4688
++  __DATA.__objc_ivar: 0x848
++  __DATA.__objc_data: 0x18d0
++  __DATA.__data: 0x1200
++  __DATA.__crash_info: 0x148
++  __DATA.__bss: 0xd70
++  __DATA.__common: 0x3c0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+   - /System/Library/Frameworks/SharedWithYou.framework/SharedWithYou
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/ApplePushService.framework/ApplePushService
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  Functions: 3739
+-  Symbols:   464
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  Functions: 4421
++  Symbols:   953
+   CStrings:  0
+ 
+Symbols:
++ _$s10Foundation10CocoaErrorV4CodeV14fileNoSuchFileAEvgZ
++ _$s10Foundation10CocoaErrorV4CodeVMa
++ _$s10Foundation10CocoaErrorV4CodeVSQAAMc
++ _$s10Foundation10CocoaErrorVAA21_BridgedStoredNSErrorAAMc
++ _$s10Foundation10CocoaErrorVMa
++ _$s10Foundation10CocoaErrorVs0C0AAMc
++ _$s10Foundation13CustomNSErrorMp
++ _$s10Foundation13CustomNSErrorP11errorDomainSSvgZTq
++ _$s10Foundation13CustomNSErrorP13errorUserInfoSDySSypGvgTq
++ _$s10Foundation13CustomNSErrorP9errorCodeSivgTq
++ _$s10Foundation13CustomNSErrorPs5ErrorTb
++ _$s10Foundation18_ErrorCodeProtocolMp
++ _$s10Foundation18_ErrorCodeProtocolP01_B4TypeAC_AA21_BridgedStoredNSErrorTn
++ _$s10Foundation18_ErrorCodeProtocolPSQTb
++ _$s10Foundation20PersonNameComponentsV19_bridgeToObjectiveCSo08NSPersoncD0CyF
++ _$s10Foundation20PersonNameComponentsV36_unconditionallyBridgeFromObjectiveCyACSo08NSPersoncD0CSgFZ
++ _$s10Foundation20PersonNameComponentsVMa
++ _$s10Foundation20PersonNameComponentsVMn
++ _$s10Foundation21_BridgedStoredNSErrorMp
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_8RawValueSYs17FixedWidthIntegerTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_AA06_ErrorE8ProtocolTn
++ _$s10Foundation21_BridgedStoredNSErrorP4CodeAC_SYTn
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorSo0D0CvgTq
++ _$s10Foundation21_BridgedStoredNSErrorP8_nsErrorxSo0D0C_tcfCTq
++ _$s10Foundation21_BridgedStoredNSErrorPAA06CustomD0Tb
++ _$s10Foundation21_BridgedStoredNSErrorPAA26_ObjectiveCBridgeableErrorTb
++ _$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC
++ _$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4code4CodeQzvg
++ _$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF
++ _$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg
++ _$s10Foundation21_BridgedStoredNSErrorPSHTb
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation26_ObjectiveCBridgeableErrorMp
++ _$s10Foundation26_ObjectiveCBridgeableErrorP15_bridgedNSErrorxSgSo0F0Ch_tcfCTq
++ _$s10Foundation26_ObjectiveCBridgeableErrorPs0D0Tb
++ _$s10Foundation3URLV13DirectoryHintO02isC0yA2EmFWC
++ _$s10Foundation3URLV13DirectoryHintO03notC0yA2EmFWC
++ _$s10Foundation3URLV13DirectoryHintOMa
++ _$s10Foundation3URLV14absoluteStringSSvg
++ _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
++ _$s10Foundation3URLV17lastPathComponentSSvg
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s10Foundation3URLV4pathSSvg
++ _$s10Foundation3URLV9appending4path13directoryHintACx_AC09DirectoryF0OtSyRzlF
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation4DataV10SafariCore17WBSSQLiteBindableADWP
++ _$s10Foundation4DataV10SafariCoreE9hexStringSSyF
++ _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DataVN
++ _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF
++ _$s10Foundation4DateV21timeIntervalSince1970Sdvg
++ _$s10Foundation4DateV36_unconditionallyBridgeFromObjectiveCyACSo6NSDateCSgFZ
++ _$s10Foundation4DateVMa
++ _$s10Foundation4DateVMn
++ _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
++ _$s10Foundation4UUIDV10uuidStringSSvg
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
++ _$s10Foundation6LocaleV10identifierACSS_tcfC
++ _$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF
++ _$s10Foundation6LocaleVMa
++ _$s10SafariCore14WBSRetryRunnerV3runyxxyYaKXEYaKlF
++ _$s10SafariCore14WBSRetryRunnerV3runyxxyYaKXEYaKlFTu
++ _$s10SafariCore14WBSRetryRunnerVMa
++ _$s10SafariCore14WBSRetryRunnerVyAcA0C8Strategy_pcfC
++ _$s10SafariCore17WBSSQLiteBindableMp
++ _$s10SafariCore20WBSAsyncSerialRunnerC3runyxxyYaYbKcYaKs8SendableRzlFTjTu
++ _$s10SafariCore20WBSAsyncSerialRunnerCACycfC
++ _$s10SafariCore20WBSAsyncSerialRunnerCMa
++ _$s10_ErrorType10Foundation01_A12CodeProtocolPTl
++ _$s12SafariShared17WBSMagicExtensionC11descriptionSSvgTj
++ _$s12SafariShared17WBSMagicExtensionC12creationDate10Foundation0F0Vvg
++ _$s12SafariShared17WBSMagicExtensionC12modifiedDate10Foundation0F0VvgTj
++ _$s12SafariShared17WBSMagicExtensionC13selectedColorAC0F0OvgTj
++ _$s12SafariShared17WBSMagicExtensionC14selectedSymbolSSvgTj
++ _$s12SafariShared17WBSMagicExtensionC2id10Foundation4UUIDVvg
++ _$s12SafariShared17WBSMagicExtensionC4nameSSvgTj
++ _$s12SafariShared17WBSMagicExtensionC5ColorO8rawValueAESgSS_tcfC
++ _$s12SafariShared17WBSMagicExtensionC5ColorO8rawValueSSvg
++ _$s12SafariShared17WBSMagicExtensionC5ColorOMa
++ _$s12SafariShared17WBSMagicExtensionC5ColorOMn
++ _$s12SafariShared17WBSMagicExtensionC6promptSSvgTj
++ _$s12SafariShared17WBSMagicExtensionC7baseURL10Foundation0F0Vvg
++ _$s12SafariShared17WBSMagicExtensionC7version2id12creationDate08modifiedH04name11description16usageDescription14selectedSymbol0N5Color6prompt7baseURLACSi_10Foundation4UUIDVAO0H0VASS4SAC0P0OSSAO0S0Vtcfc
++ _$s12SafariShared17WBSMagicExtensionC7versionSivg
++ _$s12SafariShared17WBSMagicExtensionCMa
++ _$s12SafariShared24WBSCloudKitRetryStrategyV011defaultBaseE8IntervalSdvgZ
++ _$s12SafariShared24WBSCloudKitRetryStrategyV0A4Core08WBSRetryF0AAMc
++ _$s12SafariShared24WBSCloudKitRetryStrategyV3log14operationGroup04baseE8Interval7timeoutAC2os6LoggerVSg_So011CKOperationI0CSgS2dtcfC
++ _$s12SafariShared24WBSCloudKitRetryStrategyV3log14operationGroup04baseE8Interval7timeoutAC2os6LoggerVSg_So011CKOperationI0CSgS2dtcfcfA2_
++ _$s12SafariShared24WBSCloudKitRetryStrategyVMa
++ _$s2os6LoggerV10SafariCoreE12intelligenceACvgZ
++ _$s2os6LoggerV10SafariCoreE19magicExtensionsSyncACvgZ
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerVMa
++ _$s2os6LoggerVMn
++ _$s4Code10Foundation21_BridgedStoredNSErrorPTl
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8RawValueSYTl
++ _$sBOWV
++ _$sBi64_WV
++ _$sSC11CKErrorCodeLeV8CloudKitE12clientRecordSo8CKRecordCSgvg
++ _$sSC11CKErrorCodeLeV8CloudKitE12serverRecordSo8CKRecordCSgvg
++ _$sSC11CKErrorCodeLeV8CloudKitE15underlyingErrorSC012CKUnderlyingfB0LeVSgvg
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTj
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS10SafariCore17WBSSQLiteBindableAAWP
++ _$sSS10describingSSx_tclufC
++ _$sSS10lowercasedSSyF
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS14_fromSubstringySSSshFZ
++ _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS5countSivg
++ _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
++ _$sSS6appendyySSF
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSS9hasPrefixySbSSF
++ _$sSS9hasSuffixySbSSF
++ _$sSSN
++ _$sSSSHsWP
++ _$sSSSysMc
++ _$sSSySsSnySS5IndexVGcig
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSayxGSKsMc
++ _$sSayxGSTsMc
++ _$sSayxGSlsMc
++ _$sSb10SafariCore17WBSSQLiteBindableAAWP
++ _$sSbN
++ _$sScA15unownedExecutorScevgTj
++ _$sScI4next7ElementQzSgyYaKFTj
++ _$sScI4next7ElementQzSgyYaKFTjTu
++ _$sScM6sharedScMvgZ
++ _$sScMMa
++ _$sScMScAsWP
++ _$sScP8rawValues5UInt8Vvg
++ _$sScPMa
++ _$sScT6cancelyyF
++ _$sScg4next9isolationxSgScA_pSgYi_tYaKF
++ _$sScg4next9isolationxSgScA_pSgYi_tYaKFTu
++ _$sScg7isEmptySbvg
++ _$sScs12ContinuationV11YieldResultOMn
++ _$sScs12ContinuationV13onTerminationyAB0C0Oyxq___GYbcSgvs
++ _$sScs12ContinuationV15BufferingPolicyO9unboundedyADyxq___GAFms5ErrorR_r0_lFWC
++ _$sScs12ContinuationV15BufferingPolicyOMn
++ _$sScs12ContinuationV5yieldyAB11YieldResultOyxq___GxnF
++ _$sScs12ContinuationV6finish8throwingyq_Sgn_tF
++ _$sScs12ContinuationVMn
++ _$sScs17makeAsyncIteratorScs0C0Vyxq__GyF
++ _$sScs8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKF
++ _$sScs8IteratorV4next9isolationxSgScA_pSgYi_tYaq_YKFTu
++ _$sScs8IteratorVMn
++ _$sScs_15bufferingPolicy_Scsyxs5Error_pGxm_Scs12ContinuationV09BufferingB0OyxsAB_p__GyAEyxsAB_p_GXEtcsAB_pRs_rlufC
++ _$sSd10SafariCore17WBSSQLiteBindableAAWP
++ _$sSdN
++ _$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF
++ _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
++ _$sSi10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSi10SafariCore17WBSSQLiteBindableAAWP
++ _$sSiN
++ _$sSis17FixedWidthIntegersMc
++ _$sSis23CustomStringConvertiblesWP
++ _$sSo10CKDatabaseC8CloudKitE13modifyRecords6saving8deleting10savePolicy10atomicallySDySo10CKRecordIDCs6ResultOySo0K0Cs5Error_pGG0H7Results_SDyAjLyytsAO_pGG06deleteO0tSayANG_SayAJGSo0k4SaveI0VSbtYaKF
++ _$sSo10CKDatabaseC8CloudKitE13modifyRecords6saving8deleting10savePolicy10atomicallySDySo10CKRecordIDCs6ResultOySo0K0Cs5Error_pGG0H7Results_SDyAjLyytsAO_pGG06deleteO0tSayANG_SayAJGSo0k4SaveI0VSbtYaKFTu
++ _$sSo10CKDatabaseC8CloudKitE14configuredWith13configuration5group4bodyxSo24CKOperationConfigurationCSg_So0I5GroupCSgxABYaKXEtYaKlF
++ _$sSo10CKDatabaseC8CloudKitE14configuredWith13configuration5group4bodyxSo24CKOperationConfigurationCSg_So0I5GroupCSgxABYaKXEtYaKlFTu
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationV6recordSo8CKRecordCvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationVMa
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO12ModificationVMn
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionV10recordTypeSSvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionV8recordIDSo08CKRecordI0Cvg
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionVMa
++ _$sSo10CKDatabaseC8CloudKitE16RecordZoneChangeO8DeletionVMn
++ _$sSo10CKDatabaseC8CloudKitE17modifyRecordZones6saving8deletingSDySo14CKRecordZoneIDCs6ResultOySo0iJ0Cs5Error_pGG11saveResults_SDyAhJyytsAM_pGG06deleteO0tSayALG_SayAHGtYaKF
++ _$sSo10CKDatabaseC8CloudKitE17modifyRecordZones6saving8deletingSDySo14CKRecordZoneIDCs6ResultOySo0iJ0Cs5Error_pGG11saveResults_SDyAhJyytsAM_pGG06deleteO0tSayALG_SayAHGtYaKFTu
++ _$sSo10CKDatabaseC8CloudKitE17recordZoneChanges02inE4With5since11desiredKeys12resultsLimitSDySo10CKRecordIDCs6ResultOyAbCE06RecordE6ChangeO12ModificationVs5Error_pGG021modificationResultsByO0_SayAN8DeletionVG9deletionsSo08CKServerR5TokenC11changeTokenSb10moreComingtSo0neO0C_AZSgSaySSGSgSiSgtYaKF
++ _$sSo10CKDatabaseC8CloudKitE17recordZoneChanges02inE4With5since11desiredKeys12resultsLimitSDySo10CKRecordIDCs6ResultOyAbCE06RecordE6ChangeO12ModificationVs5Error_pGG021modificationResultsByO0_SayAN8DeletionVG9deletionsSo08CKServerR5TokenC11changeTokenSb10moreComingtSo0neO0C_AZSgSaySSGSgSiSgtYaKFTu
++ _$sSo10CKRecordIDC8CloudKitE10recordName04zoneB0ABSS_So0a4ZoneB0CtcfC
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo14CKRecordZoneIDC8CloudKitE8zoneName05ownerG0ABSS_SStcfC
++ _$sSo17NSFileCoordinatorC10SafariCoreE10coordinate13readingItemAt7options07writinggH0AF10byAccessorx10Foundation3URLV_So0aB14ReadingOptionsVAKSo0ab7WritingP0VxAK_AKtYaKctYaKlF
++ _$sSo17NSFileCoordinatorC10SafariCoreE10coordinate13readingItemAt7options07writinggH0AF10byAccessorx10Foundation3URLV_So0aB14ReadingOptionsVAKSo0ab7WritingP0VxAK_AKtYaKctYaKlFTu
++ _$sSo17NSFileCoordinatorC10SafariCoreE10coordinate13readingItemAt7options10byAccessorx10Foundation3URLV_So0aB14ReadingOptionsVxAJYaKctYaKlF
++ _$sSo17NSFileCoordinatorC10SafariCoreE10coordinate13readingItemAt7options10byAccessorx10Foundation3URLV_So0aB14ReadingOptionsVxAJYaKctYaKlFTu
++ _$sSo17NSKeyedUnarchiverC10FoundationE16unarchivedObject7ofClass4fromxSgxm_AC4DataVtKSo8NSObjectCRbzSo8NSCodingRzlFZ
++ _$sSo17OS_dispatch_groupC8DispatchE4waityyF
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo17WBSCRDTGenerationC12SafariSharedE1loiySbAB_ABtFZ
++ _$sSo17WBSSQLiteDatabaseC10SafariCoreE10fetchQuery__10enumeratorySS_AC0A8Bindable_pSgdySo0A3RowCKXEtKF
++ _$sSo17WBSSQLiteDatabaseC10SafariCoreE12executeQueryyySS_AC0A8Bindable_pSgdtKF
++ _$sSo18CKShareParticipantC8CloudKitE13participantIDSSvg
++ _$sSo27CKFetchRecordZonesOperationC8CloudKitE03perB15ZoneResultBlockySo08CKRecordH2IDC_s0I0OySo0kH0Cs5Error_pGtcSgvs
++ _$sSo27CKFetchRecordZonesOperationC8CloudKitE05fetchbC11ResultBlockys0H0Oyyts5Error_pGcSgvs
++ _$sSo33CKFetchRecordZoneChangesOperationC8CloudKitE05fetchbcD11ResultBlockys0I0Oyyts5Error_pGcSgvs
++ _$sSo33CKFetchRecordZoneChangesOperationC8CloudKitE06recordC16FetchResultBlockySo08CKRecordC2IDC_s0J0OySo19CKServerChangeTokenC06serveroP0_10Foundation4DataVSg06clientopS0Sb10moreComingts5Error_pGtcSgvs
++ _$sSo33CKFetchRecordZoneChangesOperationC8CloudKitE06recordC3IDs016configurationsBybC2IDABSaySo08CKRecordcL0CGSg_SDyAGSo0abcD13ConfigurationCGSgtcfC
++ _$sSo33CKFetchRecordZoneChangesOperationC8CloudKitE21recordWasChangedBlockySo10CKRecordIDC_s6ResultOySo0L0Cs5Error_pGtcSgvs
++ _$sSo33CKFetchRecordZoneChangesOperationC8CloudKitE27recordWithIDWasDeletedBlockySo10CKRecordIDC_SStcSgvs
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeV11extensionID10Foundation4UUIDVvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeV14crdtGenerationSo17WBSCRDTGenerationCSgvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeV14magicExtensionAC0aJ0CSgvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeV14syncGenerations5Int64Vvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeV6recordSo8CKRecordCSgvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeV9syncStateAbCE0gJ0Ovg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeVMa
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE10SyncChangeVMn
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE12directoryURL10Foundation0H0Vvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE16extensionsToSync5sinceAbCE0I15ChangesSequenceVs5Int64V_tF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE19SyncChangesSequenceV13AsyncIteratorVMa
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE19SyncChangesSequenceV13AsyncIteratorVScIACMc
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE19SyncChangesSequenceV17makeAsyncIteratorAE0kL0VyF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE19SyncChangesSequenceVMa
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE20lastSyncedGenerations5Int64Vvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE20lastSyncedGenerations5Int64Vvs
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE21resetSyncDataIfNeeded14forAccountHashy10Foundation0I0V_tKF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE23deleteExtensionFromSync6withIDy10Foundation4UUIDV_tYaF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE23deleteExtensionFromSync6withIDy10Foundation4UUIDV_tYaFTu
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE25previousServerChangeTokenSo08CKServeriJ0CSgvg
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE25previousServerChangeTokenSo08CKServeriJ0CSgvs
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE27deleteAllProvisionalRecordsSay10Foundation4UUIDVGyYaF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE27deleteAllProvisionalRecordsSay10Foundation4UUIDVGyYaFTu
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE28addOrUpdateExtensionFromSync_14crdtGeneration8syncDatayAC0aJ0C_So17WBSCRDTGenerationCSg10Foundation0P0VSgtYaF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE28addOrUpdateExtensionFromSync_14crdtGeneration8syncDatayAC0aJ0C_So17WBSCRDTGenerationCSg10Foundation0P0VSgtYaFTu
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE28markAllExistingAsProvisionalyyYaF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE28markAllExistingAsProvisionalyyYaFTu
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE33resetSyncDataForMissingRecordZoneyyKF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE4openyyF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE5closeyyF
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE9SyncStateO11provisionalyA2EmFWC
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE9SyncStateO7deletedyA2EmFWC
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE9SyncStateO8existingyA2EmFWC
++ _$sSo36WBSMagicExtensionsDatabaseControllerC12SafariSharedE9SyncStateOMa
++ _$sSo7CKShareC8CloudKitE14SystemFieldKeyO18thumbnailImageDataSSvgZ
++ _$sSo7CKShareC8CloudKitE14SystemFieldKeyO5titleSSvgZ
++ _$sSo7CKShareC8CloudKitE14SystemFieldKeyO9shareTypeSSvgZ
++ _$sSo8CKRecordC8CloudKitE10SystemTypeO5shareSSvgZ
++ _$sSo8CKRecordC8CloudKitE10recordType0D2IDABSS_So0aF0CtcfC
++ _$sSo8CKRecordC8CloudKitE10recordTypeSSvg
++ _$sSo8CKRecordC8CloudKitE7allKeysSaySSGyF
++ _$sSo8CKRecordC8CloudKitEySo0A5Value_pSgSScig
++ _$sSo8CKRecordC8CloudKitEySo0A5Value_pSgSScis
++ _$sSo8NSObjectC10ObjectiveCE13_rawHashValue4seedS2i_tF
++ _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
++ _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
++ _$sSy10FoundationE22caseInsensitiveCompareySo18NSComparisonResultVqd__SyRd__lF
++ _$sSy10FoundationE8containsySbqd__SyRd__lF
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV4growyySiF
++ _$ss11_StringGutsVN
++ _$ss12_ArrayBufferV18_typeCheckSlowPathyySiF
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lF
++ _$ss13withTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_ScGyxGzYaXEtYas8SendableRzr0_lFTu
++ _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
++ _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
++ _$ss17__CocoaDictionaryV5countSivg
++ _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
++ _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss18_CocoaArrayWrapperVys12_SliceBufferVyyXlGSnySiGcig
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ _$ss20__StaticArrayStorageCN
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lF
++ _$ss21withThrowingTaskGroup2of9returning9isolation4bodyq_xm_q_mScA_pSgYiq_Scgyxs5Error_pGzYaKXEtYaKs8SendableRzr0_lFTu
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss28__ContiguousArrayStorageBaseCMa
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5ErrorMp
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE5_codeSivg
++ _$ss5ErrorP10FoundationAC13CustomNSErrorRzrlE7_domainSSvg
++ _$ss5ErrorP10SafariCoreE17loggerDescriptionSSyF
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss5ErrorWS
++ _$ss5Int64VMn
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss5UInt8VMn
++ _$ss5print_9separator10terminatoryypd_S2StF
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV8_combineyySuF
++ _$ss6HasherV9_finalizeSiyF
++ _$ss6ResultOMn
++ _$syXlN
++ _$sypN
++ _$sytN
++ _BookmarksPebblePinnedSuggestionsSpecialID
++ _CKUnderlyingErrorDomain
++ _NSCocoaErrorDomain
++ _NSPOSIXErrorDomain
++ _NSTemporaryDirectory
++ _OBJC_CLASS_$_CKFetchRecordZonesOperation
++ _OBJC_CLASS_$_CKShareParticipant
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSFileCoordinator
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_WBSMagicExtensionsDatabaseController
++ _OBJC_CLASS_$_WBSSQLiteMetadataTableHandler
++ _OBJC_CLASS_$_WBSSiriIntelligenceDonor
++ _WBSCKRecordZoneIDZoneNameBookmarks
++ _WBSCKRecordZoneIDZoneNameTabGroups
++ _WBSCloudBookmarkListRecordNamePinnedSuggestions
++ _WBSCloudExtensionSyncEnabledKey
++ _WBSCloudTabsOnStartPageConsentPreferenceKey
++ _WBSOSLogMagicExtensionsSync
++ _WBSOSLogSafariDeletion
++ _WBSOSLogSync
++ _WBSSafariBookmarksSyncAgentCloudTabsConsentWasUpdatedNotificationName
++ _WBSSafariBookmarksSyncAgentMagicExtensionsDidUpdateRemotelyNotificationName
++ _WBSafariContainerPath
++ _WBSafariDirectoryPath
++ __Block_copy
++ __Block_release
++ ___chkstk_darwin
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_stdlib_reportUnimplementedInitializer
++ _bzero
++ _malloc_size
++ _memcmp
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_claimAutoreleasedReturnValue
++ _objc_opt_self
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x10
++ _objc_retain_x5
++ _objc_retain_x6
++ _swift_allocBox
++ _swift_allocObject
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deallocPartialClassInstance
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_dynamicCastClass
++ _swift_dynamicCastObjCClass
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getDynamicType
++ _swift_getEnumCaseMultiPayload
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initStackObject
++ _swift_isEscapingClosureAtFileLocation
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x21
++ _swift_retain_x22
++ _swift_retain_x23
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x27
++ _swift_retain_x8
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_willThrow
++ _swift_willThrowTypedImpl
+- _OBJC_CLASS_$_CKFetchSubscriptionsOperation
+- _OBJC_CLASS_$_CKModifySubscriptionsOperation
+- _OBJC_CLASS_$_CKPrettyError
+- _OBJC_CLASS_$_CKRecordZoneSubscription
+- _objc_release_x10
+```
+
+
+##### `browserkitd`
+> `/usr/libexec/browserkitd`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__swift5_entry`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__cstring`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x10590
+-  __TEXT.__auth_stubs: 0xc30
++7625.2.8.10.7
++  __TEXT.__text: 0xf530
++  __TEXT.__auth_stubs: 0xd70
+   __TEXT.__objc_stubs: 0x720
+   __TEXT.__objc_methlist: 0x28c
+   __TEXT.__swift5_entry: 0x8
+   __TEXT.__objc_classname: 0x1b1
+   __TEXT.__objc_methname: 0xb7b
+   __TEXT.__objc_methtype: 0x39b
+-  __TEXT.__const: 0xb50
++  __TEXT.__const: 0xb60
+   __TEXT.__constg_swiftt: 0x3e0
+-  __TEXT.__swift5_typeref: 0x577
++  __TEXT.__swift5_typeref: 0x57d
+   __TEXT.__swift5_fieldmd: 0x170
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0x200
+   __TEXT.__swift5_assocty: 0x120
+   __TEXT.__swift5_proto: 0x70
+   __TEXT.__swift5_types: 0x24
+-  __TEXT.__swift5_capture: 0x134
++  __TEXT.__swift5_capture: 0x154
+   __TEXT.__cstring: 0x975
+   __TEXT.__swift_as_entry: 0x24
+   __TEXT.__swift_as_ret: 0x20
+-  __TEXT.__info_plist: 0x57f
+-  __TEXT.__unwind_info: 0x448
+-  __TEXT.__eh_frame: 0x9a0
+-  __DATA_CONST.__auth_got: 0x620
+-  __DATA_CONST.__got: 0x240
+-  __DATA_CONST.__auth_ptr: 0x338
+-  __DATA_CONST.__const: 0x448
++  __TEXT.__swift_as_cont: 0x64
++  __TEXT.__info_plist: 0x57d
++  __TEXT.__unwind_info: 0x500
++  __TEXT.__eh_frame: 0x990
++  __DATA_CONST.__const: 0x490
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x28
++  __DATA_CONST.__auth_got: 0x6c0
++  __DATA_CONST.__got: 0x248
++  __DATA_CONST.__auth_ptr: 0x340
+   __DATA.__objc_const: 0x640
+   __DATA.__objc_selrefs: 0x2d0
+   __DATA.__objc_data: 0x278
+-  __DATA.__data: 0x698
++  __DATA.__data: 0x6b0
+   __DATA.__common: 0x38
+   __DATA.__bss: 0xe00
+   - /System/Library/Frameworks/BrowserEngineCore.framework/BrowserEngineCore
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+-  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 308
+-  Symbols:   398
++  Functions: 305
++  Symbols:   419
+   CStrings:  0
+ 
+Symbols:
++ _$s10SafariCore16WBSOSTransactionVMn
++ _$s24StorageContainersPrivate9ContainerC16withScopedAccess8required_xSb_x6System8FilePathVKXEtKlF
++ _$s24StorageContainersPrivate9ContainerC16withScopedAccess8required_xSb_xyKXEtKlF
++ _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
++ _$ss5ErrorWS
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _OBJC_CLASS_$_BEBrowserData
++ _OBJC_CLASS_$_BEBrowserDataExportManager
++ _OBJC_CLASS_$_BEBrowserDataImportManager
++ _objc_retain_x25
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_release_x1
++ _swift_release_x19
++ _swift_release_x20
++ _swift_release_x21
++ _swift_release_x22
++ _swift_release_x23
++ _swift_release_x24
++ _swift_release_x25
++ _swift_release_x26
++ _swift_release_x27
++ _swift_release_x28
++ _swift_release_x8
++ _swift_retain_x1
++ _swift_retain_x19
++ _swift_retain_x2
++ _swift_retain_x20
++ _swift_retain_x22
++ _swift_retain_x24
++ _swift_retain_x25
++ _swift_retain_x26
++ _swift_retain_x28
++ _swift_retain_x8
+- _$s24StorageContainersPrivate9ContainerC16withScopedAccess8required_ySb_y6System8FilePathVKXEtKF
+- _$s24StorageContainersPrivate9ContainerC16withScopedAccess8required_ySb_yyKXEtKF
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSW10Foundation15ContiguousBytesAAWP
+- _$sSWN
+- _$sSo13BEBrowserDataCMa
+- _$sSo26BEBrowserDataExportManagerCMa
+- _$sSo26BEBrowserDataImportManagerCMa
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalF
+- _$ss23withCheckedContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5NeverOGXEtYalFTu
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
+- _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
+- __swift_FORCE_LOAD_$_swiftCoreMedia
+- _swift_runtimeSupportsNoncopyableTypes
+```
+
+
+##### `com.apple.Safari.History`
+> `/usr/libexec/com.apple.Safari.History`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__info_plist`
+- `__TEXT.__unwind_info`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x44
++7625.2.8.10.7
++  __TEXT.__text: 0x38
+   __TEXT.__auth_stubs: 0x30
+   __TEXT.__info_plist: 0x6f8
+-  __TEXT.SandboxProfile: 0x15ac
++  __TEXT.SandboxProfile: 0x15f4
+   __TEXT.__unwind_info: 0x58
+-  __DATA_CONST.__auth_got: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x18
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/SafariShared.framework/SafariShared
+   - /usr/lib/libSystem.B.dylib
+```
+
+
+##### `passwordbreachd`
+> `/usr/libexec/passwordbreachd`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__info_plist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__auth_got`
+- `__DATA_CONST.__got`
+- `__DATA_CONST.__cfstring`
+
+```diff
+
+-7624.5.1.10.3
++7625.2.8.10.7
+   __TEXT.__text: 0x84
+   __TEXT.__auth_stubs: 0x70
+   __TEXT.__cstring: 0x3c
+   __TEXT.__info_plist: 0x5dd
+   __TEXT.__unwind_info: 0x58
+-  __DATA_CONST.__auth_got: 0x38
+-  __DATA_CONST.__got: 0x10
+   __DATA_CONST.__cfstring: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x38
++  __DATA_CONST.__got: 0x10
+   __DATA.__bss: 0x10
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+```
+
+
+##### `safarifetcherd`
+> `/usr/libexec/safarifetcherd`
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_catlist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_doubleobj`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA.__objc_data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x9dc8
+-  __TEXT.__auth_stubs: 0x7c0
+-  __TEXT.__objc_stubs: 0x2480
+-  __TEXT.__objc_methlist: 0x1344
+-  __TEXT.__gcc_except_tab: 0xbc0
++7625.2.8.10.7
++  __TEXT.__text: 0x94c0
++  __TEXT.__auth_stubs: 0x800
++  __TEXT.__objc_stubs: 0x24c0
++  __TEXT.__objc_methlist: 0x14ac
++  __TEXT.__gcc_except_tab: 0xb30
+   __TEXT.__const: 0x98
+-  __TEXT.__objc_methname: 0x5338
+-  __TEXT.__cstring: 0x43f
+-  __TEXT.__objc_classname: 0x175
+-  __TEXT.__objc_methtype: 0x2456
++  __TEXT.__cstring: 0x451
++  __TEXT.__objc_methname: 0x580d
++  __TEXT.__objc_classname: 0x1a9
++  __TEXT.__objc_methtype: 0x2a60
+   __TEXT.__oslogstring: 0x1011
+   __TEXT.__dlopen_cstrs: 0x4e
+-  __TEXT.__info_plist: 0x588
+-  __TEXT.__unwind_info: 0x4a8
+-  __DATA_CONST.__auth_got: 0x3f8
+-  __DATA_CONST.__got: 0x2c8
+-  __DATA_CONST.__const: 0x328
++  __TEXT.__info_plist: 0x586
++  __TEXT.__unwind_info: 0x5d0
++  __DATA_CONST.__const: 0x348
+   __DATA_CONST.__cfstring: 0x480
+   __DATA_CONST.__objc_classlist: 0x28
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x48
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_superrefs: 0x28
+   __DATA_CONST.__objc_doubleobj: 0x10
+   __DATA_CONST.__objc_intobj: 0x18
+-  __DATA.__objc_const: 0x15f8
+-  __DATA.__objc_selrefs: 0x1158
++  __DATA_CONST.__auth_got: 0x418
++  __DATA_CONST.__got: 0x2f0
++  __DATA.__objc_const: 0x1770
++  __DATA.__objc_selrefs: 0x1218
+   __DATA.__objc_ivar: 0xf8
+   __DATA.__objc_data: 0x190
+-  __DATA.__data: 0x368
+-  __DATA.__bss: 0x40
++  __DATA.__data: 0x488
++  __DATA.__bss: 0x50
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 269
+-  Symbols:   226
++  Functions: 266
++  Symbols:   233
+   CStrings:  0
+ 
+Symbols:
++ _OBJC_CLASS_$_NSOperationQueue
++ _OBJC_CLASS_$_NSURLSession
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ _OBJC_CLASS_$__WKWebsiteDataStoreConfiguration
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x25
++ _objc_retain_x4
+- _OBJC_CLASS_$_NSURLConnection
+- _objc_retain_x26
+```
+
+
+##### `webbookmarksd`
+> `/usr/libexec/webbookmarksd`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__gcc_except_tab`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_superrefs`
+- `__DATA_CONST.__objc_intobj`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__objc_const`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x18c10
+-  __TEXT.__auth_stubs: 0xac0
+-  __TEXT.__objc_stubs: 0x3b40
+-  __TEXT.__objc_methlist: 0xd14
++7625.2.8.10.7
++  __TEXT.__text: 0x17b4c
++  __TEXT.__auth_stubs: 0xb30
++  __TEXT.__objc_stubs: 0x3c00
++  __TEXT.__objc_methlist: 0xd24
+   __TEXT.__const: 0xe0
+   __TEXT.__gcc_except_tab: 0x654
+-  __TEXT.__objc_methname: 0x4805
+-  __TEXT.__cstring: 0xf44
++  __TEXT.__objc_methname: 0x48ad
++  __TEXT.__cstring: 0xf8e
+   __TEXT.__oslogstring: 0x2325
+-  __TEXT.__objc_classname: 0x2be
++  __TEXT.__objc_classname: 0x2a9
+   __TEXT.__objc_methtype: 0x6a3
+-  __TEXT.__info_plist: 0x5b9
+-  __TEXT.__unwind_info: 0x6f8
+-  __DATA_CONST.__auth_got: 0x578
+-  __DATA_CONST.__got: 0x7f0
+-  __DATA_CONST.__const: 0x1210
++  __TEXT.__info_plist: 0x5b7
++  __TEXT.__unwind_info: 0x900
++  __DATA_CONST.__const: 0x1258
+   __DATA_CONST.__cfstring: 0x6e0
+   __DATA_CONST.__objc_classlist: 0x68
+   __DATA_CONST.__objc_protolist: 0x50
+
+   __DATA_CONST.__objc_intobj: 0x30
+   __DATA_CONST.__objc_arraydata: 0x10
+   __DATA_CONST.__objc_arrayobj: 0x18
++  __DATA_CONST.__auth_got: 0x5b0
++  __DATA_CONST.__got: 0x800
+   __DATA.__objc_const: 0x11f8
+-  __DATA.__objc_selrefs: 0x1160
++  __DATA.__objc_selrefs: 0x1198
+   __DATA.__objc_ivar: 0xa8
+   __DATA.__objc_data: 0x410
+   __DATA.__data: 0x3c8
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/liblockdown.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 506
+-  Symbols:   442
++  Functions: 503
++  Symbols:   451
+   CStrings:  0
+ 
+Symbols:
++ _OBJC_CLASS_$_WBSBiomeDonationManager
++ _OBJC_CLASS_$_WBSUsageRetentionDonationManager
++ _OBJC_CLASS_$_WBUHistory
++ _SFNotifyPebblePreferenceUpdated
++ _SFSeedCloudTabsRestorationUUIDIfAbsent
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _objc_retain_x1
++ _objc_retain_x4
++ _objc_retain_x5
++ _xpc_set_event
+- _WBUHistoryDefaultItemAgeLimit
+- _objc_retainAutoreleasedReturnValue
+```
+
+
+##### `webinspectord`
+> `/usr/libexec/webinspectord`
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__info_plist`
+- `__TEXT.__unwind_info`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_imageinfo`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__data`
+
+```diff
+
+-7624.5.1.10.3
+-  __TEXT.__text: 0x9e8
+-  __TEXT.__auth_stubs: 0x290
++7625.2.8.10.7
++  __TEXT.__text: 0x8c4
++  __TEXT.__auth_stubs: 0x280
+   __TEXT.__objc_stubs: 0xc0
+   __TEXT.__objc_methlist: 0x44
+   __TEXT.__cstring: 0x91
+
+   __TEXT.__swift5_types: 0x4
+   __TEXT.__info_plist: 0x528
+   __TEXT.__unwind_info: 0xb8
+-  __DATA_CONST.__auth_got: 0x150
+-  __DATA_CONST.__got: 0x38
+-  __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__const: 0x118
+   __DATA_CONST.__cfstring: 0x40
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__auth_got: 0x148
++  __DATA_CONST.__got: 0x30
++  __DATA_CONST.__auth_ptr: 0x18
+   __DATA.__objc_const: 0xd8
+   __DATA.__objc_selrefs: 0x40
+   __DATA.__objc_data: 0x100
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  Functions: 21
+-  Symbols:   77
++  Functions: 20
++  Symbols:   74
+   CStrings:  0
+ 
+Symbols:
++ _objc_claimAutoreleasedReturnValue
++ _objc_retainAutoreleaseReturnValue
++ _swift_bridgeObjectRetain
++ _swift_release_x20
++ _swift_retain_x20
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _objc_autoreleaseReturnValue
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x19
+- _swift_release
+- _swift_retain
+```
+
+
+##### `webpushd`
+> `/usr/libexec/webpushd`
+```diff
+
+-624.5.1.10.3
++625.2.8.10.7
+   __TEXT.__text: 0x1c
+   __TEXT.__auth_stubs: 0x10
+   __DATA_CONST.__auth_got: 0x8
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
++  - /usr/lib/swift/libswiftCore.dylib
+   Functions: 1
+   Symbols:   3
+   CStrings:  0
+```
+
+
+
+</details>
+
+### ExclaveOS
+
+#### 🆕 NEW
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/ACIExclaveProcKit.framework/ACIExclaveProcKit`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/AppleCameraSISP_EK_AlgoModels.framework/AppleCameraSISP_EK_AlgoModels`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioCourierComponent.framework/CoreAudioCourierComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioGraphComponent.framework/CoreAudioGraphComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioHistorianComponent.framework/CoreAudioHistorianComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioModulusComponent.framework/CoreAudioModulusComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioPolarisBridgeComponent.framework/CoreAudioPolarisBridgeComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/CoreAudioSiphonComponent.framework/CoreAudioSiphonComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/MockAudioPolarisBridgeClientComponent.framework/MockAudioPolarisBridgeClientComponent`
+
+- `/System/ExclaveKit/System/Library/PrivateFrameworks/MockCoreAudioDeviceComponent.framework/MockCoreAudioDeviceComponent`
+
+
+#### ❌ Removed
+
+- `/System/ExclaveKit/System/Library/Frameworks/T8150_IR_ISP_EK_Component.framework/T8150_IR_ISP_EK_Component_asan`
+
+- `/System/ExclaveKit/System/Library/Frameworks/T8150

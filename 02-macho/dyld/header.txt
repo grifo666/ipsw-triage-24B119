@@ -1,0 +1,5 @@
+Magic         = 64-bit MachO
+Type          = DYLINKER
+CPU           = AARCH64, ARM64e caps: USR00
+Commands      = 17 (Size: 2488)
+Flags         = NoUndefs, DyldLink, TwoLevel

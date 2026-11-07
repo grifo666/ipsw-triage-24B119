@@ -1,0 +1,1 @@
+decompilacao nao gerada: sem OPENAI_API_KEY e sem analyzeHeadless. Ver Limitacoes.

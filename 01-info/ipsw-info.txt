@@ -1,0 +1,27 @@
+
+[IPSW Info]
+===========
+Version        = 27.2
+BuildVersion   = 24B119
+OS Type        = Production
+FileSystem     = 141-10103-215.dmg.aea
+SystemOS       = 141-10617-227.dmg.aea
+AppOS          = 141-08824-244.dmg
+ExclaveOS      = 141-10120-237.dmg.aea
+RestoreRamDisk = [141-10399-240.dmg 141-09491-242.dmg]
+
+Devices
+-------
+
+iPhone 17 Pro Max
+ > iPhone18,2_V54AP_24B119
+   - TimeStamp: 13 Oct 2026 21:06:09 PDT
+   - KernelCache: kernelcache.release.v54
+   - CPU: A19 Pro (ARMv9.2-A), ID: t8150
+   - BootLoaders
+       * iBEC.v54.RELEASE.im4p
+       * iBoot.v54.RELEASE.im4p
+       * iBSS.v54.RELEASE.im4p
+       * LLB.v54.RELEASE.im4p
+       * sep-firmware.v54.RELEASE.im4p
+

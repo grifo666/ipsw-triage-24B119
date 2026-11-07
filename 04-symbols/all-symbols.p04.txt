@@ -1,0 +1,924 @@
+ingKeyENSK_18EqualObjCStringKeyEEERNS_12PrebuiltObjC18ObjCOptimizerImageE_block_invoke
+0000000180504f50 (__TEXT,__text) non-external ___Block_byref_object_copy_.99
+0000000180504f64 (__TEXT,__text) non-external ___Block_byref_object_dispose_.100
+0000000180504f68 (__TEXT,__text) non-external ____ZN5dyld4L30optimizeObjCProtocolReferencesERNS_12RuntimeStateEPKN4objc17ProtocolHashTableERN5dyld33MapItNSt3__14pairI9VMAddressPKNS_6LoaderEEENS_10HashUInt16ENS_11EqualUInt16EEERNS6_8MultiMapIN13prebuilt_objc13ObjCStringKeyENSK_18ObjCObjectLocationENSK_17HashObjCStringKeyENSK_18EqualObjCStringKeyEEERNS_12PrebuiltObjC18ObjCOptimizerImageE_block_invoke.101
+0000000180504fec (__TEXT,__text) non-external (was a private external) __ZN5dyld38MultiMapIN13prebuilt_objc13ObjCStringKeyENS1_18ObjCObjectLocationENS1_17HashObjCStringKeyENS1_18EqualObjCStringKeyEE4findERKS2_
+0000000180505108 (__TEXT,__text) non-external (was a private external) __ZNK5dyld312MultiMapBaseIN13prebuilt_objc19ObjCStringKeyOnDiskENS1_24ObjCObjectOnDiskLocationENS1_23HashObjCStringKeyOnDiskENS1_24EqualObjCStringKeyOnDiskEE12forEachEntryERKNS_5ArrayIyEERKNS7_INS6_10NodeEntryTEEEU13block_pointerFvRKS2_RKNS7_IPKS3_EEE
+0000000180505304 (__TEXT,__text) non-external (was a private external) __ZN5dyld37MapBaseIN13prebuilt_objc13ObjCStringKeyENS1_20ObjCSelectorLocationENS1_17HashObjCStringKeyENS1_18EqualObjCStringKeyEE4findIS2_EEPNS6_9NodeImplTILb0EEERKNS_5ArrayIjEERNSB_IS9_EEPvRKS2_
+00000001805053f0 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayIN5dyld412PrebuiltObjC18ObjCOptimizerImage10ObjCObjectELy4294967295EE6growToEy
+0000000180505500 (__TEXT,__text) non-external (was a private external) __ZN5dyld33MapI8VMOffsetjN5dyld412PrebuiltObjC18ObjCOptimizerImage12VMOffsetHashENS4_13VMOffsetEqualEE6insertEONS_7MapBaseIS1_jS5_S6_E9NodeImplTILb0EEE
+0000000180505774 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayINS_7MapBaseI8VMOffsetjN5dyld412PrebuiltObjC18ObjCOptimizerImage12VMOffsetHashENS5_13VMOffsetEqualEE9NodeImplTILb0EEELy4294967295EE9push_backEOSA_
+00000001805057d8 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayIN5dyld412PrebuiltObjC15ObjCImageFixupsELy4294967295EE6growToEy
+00000001805059b8 (__TEXT,__text) non-external (was a private external) __ZN5dyld33MapItNSt3__14pairI9VMAddressPKN5dyld46LoaderEEENS4_10HashUInt16ENS4_11EqualUInt16EEC2Ev
+0000000180505a50 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayINS_7MapBaseItNSt3__14pairI9VMAddressPKN5dyld46LoaderEEENS5_10HashUInt16ENS5_11EqualUInt16EE9NodeImplTILb0EEELy4294967295EE6growToEy
+0000000180505b7c (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayINS_7MapBaseItNSt3__14pairI9VMAddressPKN5dyld46LoaderEEENS5_10HashUInt16ENS5_11EqualUInt16EE9NodeImplTILb0EEELy4294967295EEixEy
+0000000180505be8 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayINS_7MapBaseItNSt3__14pairI9VMAddressPKN5dyld46LoaderEEENS5_10HashUInt16ENS5_11EqualUInt16EE9NodeImplTILb0EEELy4294967295EE9push_backEOSE_
+0000000180505c50 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayIN5dyld412PrebuiltObjC18ObjCOptimizerImageELy4294967295EE6growToEy
+0000000180505da8 (__TEXT,__text) non-external (was a private external) __ZN5dyld412PrebuiltObjC18ObjCOptimizerImageC2EOS1_
+0000000180506014 (__TEXT,__text) non-external (was a private external) __ZN5dyld413PrebuiltSwift24findProtocolConformancesER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE
+00000001805063a4 (__TEXT,__text) non-external ____ZN5dyld413PrebuiltSwift24findProtocolConformancesER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE_block_invoke
+00000001805063f8 (__TEXT,__text) non-external ____ZN5dyld413PrebuiltSwift24findProtocolConformancesER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE_block_invoke_2
+0000000180506564 (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000018050659c (__TEXT,__text) non-external ___Block_byref_object_dispose_
+00000001805065a0 (__TEXT,__text) non-external ____ZN5dyld413PrebuiltSwift24findProtocolConformancesER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE_block_invoke.6
+0000000180506bc8 (__TEXT,__text) non-external (was a private external) __ZN5dyld38MultiMapI50SwiftForeignTypeProtocolConformanceDiskLocationKey47SwiftForeignTypeProtocolConformanceDiskLocationN5dyld425HashForeignConformanceKeyENS3_26EqualForeignConformanceKeyEE6insertEONS_12MultiMapBaseIS1_S2_S4_S5_E5NodeTERb
+0000000180506f8c (__TEXT,__text) non-external (was a private external) __ZN5dyld38MultiMapI43SwiftTypeProtocolConformanceDiskLocationKey40SwiftTypeProtocolConformanceDiskLocationN5dyld422HashTypeConformanceKeyENS3_23EqualTypeConformanceKeyEE6insertEONS_12MultiMapBaseIS1_S2_S4_S5_E5NodeTERb
+0000000180507508 (__TEXT,__text) non-external ____ZN5dyld413PrebuiltSwift24findProtocolConformancesER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE_block_invoke_2.11
+00000001805075bc (__TEXT,__text) non-external (was a private external) __ZN5dyld38MultiMapI47SwiftMetadataProtocolConformanceDiskLocationKey44SwiftMetadataProtocolConformanceDiskLocationN5dyld426HashMetadataConformanceKeyENS3_27EqualMetadataConformanceKeyEE6insertEONS_12MultiMapBaseIS1_S2_S4_S5_E5NodeTERb
+000000018050797c (__TEXT,__text) non-external ____ZN5dyld413PrebuiltSwift24findProtocolConformancesER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE_block_invoke_3
+0000000180507afc (__TEXT,__text) non-external (was a private external) ___copy_helper_block_8_64c20_ZTSN6mach_o6PolicyE152c20_ZTSKN6mach_o5ImageE
+0000000180507b40 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_8_64152
+0000000180507b44 (__TEXT,__text) non-external (was a private external) __ZN5dyld413PrebuiltSwift4makeER11DiagnosticsRNS_12PrebuiltObjCERNS_12RuntimeStateE
+0000000180507b74 (__TEXT,__text) non-external (was a private external) __ZN5dyld317OverflowSafeArrayINS_12MultiMapBaseI50SwiftForeignTypeProtocolConformanceDiskLocationKey47SwiftForeignTypeProtocolConformanceDiskLocationN5dyld425HashForeignConformanceKeyENS4_26EqualForeignConformanceKeyEE10NodeEntryTELy4294967295EE9push_backEOS8_
+0000000180507bd8 (__TEXT,__text) non-external (was a private external) __ZNK5dyld312MultiMapBaseIN13prebuilt_objc13ObjCStringKeyENS1_18ObjCObjectLocationENS1_17HashObjCStringKeyENS1_18EqualObjCStringKeyEE12forEachEntryIS2_EEvRKNS_5ArrayIyEERKNS8_INS6_10NodeEntryTEEEPvRKT_U13block_pointerFvRKNS8_IPKS3_EEE
+0000000180507e30 (__TEXT,__text) non-external (was a private external) __ZN3lsl13MemoryManager12writeProtectEb
+0000000180507f04 (__TEXT,__text) non-external (was a private external) __ZN3lsl13MemoryManager26vmProtectCacheTPROMappingsEPvi
+0000000180507f9c (__TEXT,__text) non-external (was a private external) __ZN3lsl9Allocator24forEachVMAllocatedBufferEU13block_pointerFvRKNS_13MemoryManager6BufferEE
+0000000180508028 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager12writeProtectEb_block_invoke
+000000018050804c (__TEXT,__text) non-external ____ZN3lsl9Allocator24forEachVMAllocatedBufferEU13block_pointerFvRKNS_13MemoryManager6BufferEE_block_invoke
+0000000180508094 (__TEXT,__text) non-external (was a private external) __ZN3lsl14ProtectedStack24withNestedProtectedStackEU13block_pointerFvvE
+0000000180508168 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager26withWritableMemoryInternalIZNS0_4initEPPKcS4_PvE3$_0EEvT__block_invoke
+0000000180508170 (__TEXT,__text) non-external (was a private external) __ZN5dyld427RemoteNotificationResponder11sendMessageEijP17mach_msg_header_t
+00000001805082e8 (__TEXT,__text) non-external (was a private external) __ZN5dyld427RemoteNotificationResponder31notifyMonitorOfImageListChangesEbjPPK11mach_headerPPKcy
+0000000180508534 (__TEXT,__text) non-external (was a private external) __ZN5dyld427RemoteNotificationResponder25notifyMonitorOfMainCalledEv
+00000001805085ac (__TEXT,__text) non-external (was a private external) __ZN5dyld427RemoteNotificationResponder23blockOnSynchronousEventEj
+0000000180508604 (__TEXT,__text) non-external (was a private external) __ZN5dyld427RemoteNotificationResponder37notifyMonitorOfDyldBeforeInitializersEv
+000000018050865c (__TEXT,__text) non-external (was a private external) __ZN5dyld329deallocateExistingSharedCacheEv
+0000000180508690 (__TEXT,__text) non-external __ZN5dyld3L20mapSplitCachePrivateERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoE
+000000018050971c (__TEXT,__text) non-external __ZN5dyld3L23mapSplitCacheSystemWideERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoE
+0000000180509cb0 (__TEXT,__text) non-external __ZN5dyld3L22preflightMainCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEPcPNSt3__15arrayIA32_cLm128EEE
+0000000180509ec0 (__TEXT,__text) non-external __ZN5dyld3L21preflightSubCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEPcPKcPKS3_
+0000000180509fd0 (__TEXT,__text) non-external __ZN5dyld3L26verboseSharedCacheMappingsEPK15DyldSharedCache
+000000018050a054 (__TEXT,__text) non-external ____ZN5dyld3L20mapSplitCachePrivateERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoE_block_invoke
+000000018050a0a4 (__TEXT,__text) non-external ____ZN5dyld3L20mapSplitCachePrivateERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoE_block_invoke_2
+000000018050a0f4 (__TEXT,__text) non-external __ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_
+000000018050a6e0 (__TEXT,__text) non-external __ZN5dyld3L6openatEiPKc
+000000018050a754 (__TEXT,__text) non-external ____ZN5dyld3L26verboseSharedCacheMappingsEPK15DyldSharedCache_block_invoke
+000000018050a798 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager26withWritableMemoryInternalIZN5dyld3L20mapSplitCachePrivateERKNS2_18SharedCacheOptionsEPNS2_19SharedCacheLoadInfoEE3$_0EEvT__block_invoke
+000000018050a820 (__TEXT,__text) non-external __ZN5dyld3L17buildRootsBitmapsERKN5dyld413ProcessConfigEPN15DyldSharedCache13DynamicRegionEiRK17dyld_cache_headerbb
+000000018050ab88 (__TEXT,__text) non-external (was a private external) _amfi_load_trust_cache
+000000018050abe4 (__TEXT,__text) non-external (was a private external) _arc4random
+000000018050ad48 (__TEXT,__text) non-external _arc4_fetch
+000000018050ae20 (__TEXT,__text) non-external _arc4_stir
+000000018050af08 (__TEXT,__text) non-external _extract_next_subsystem_root_path
+000000018050af8c (__TEXT,__text) non-external (was a private external) _eligible_for_supplemental_cryptex
+000000018050afa4 (__TEXT,__text) non-external (was a private external) _cryptex_spec_iterate_select_default
+000000018050afa8 (__TEXT,__text) non-external (was a private external) _cryptex_graft_failure_exists
+000000018050aff4 (__TEXT,__text) non-external (was a private external) _cryptex_spec_next
+000000018050b068 (__TEXT,__text) non-external (was a private external) __graft_payload_check
+000000018050b070 (__TEXT,__text) non-external __graft_fire
+000000018050b304 (__TEXT,__text) non-external (was a private external) __hello_payload_check
+000000018050b30c (__TEXT,__text) non-external (was a private external) __goodbye_payload_check
+000000018050b314 (__TEXT,__text) non-external __cryptex_spec_iterate_select_app
+000000018050b3a8 (__TEXT,__text) non-external (was a private external) _cryptex_init
+000000018050b3dc (__TEXT,__text) non-external (was a private external) _cryptex_open
+000000018050bc50 (__TEXT,__text) non-external (was a private external) _cryptex_graft
+000000018050c0d8 (__TEXT,__text) non-external (was a private external) _cryptex_load_trust_cache
+000000018050c3a8 (__TEXT,__text) non-external (was a private external) _cryptex_destroy
+000000018050c40c (__TEXT,__text) non-external (was a private external) __graft_select_payload_check
+000000018050c414 (__TEXT,__text) non-external (was a private external) __graft_fetch_payload_check
+000000018050c41c (__TEXT,__text) non-external (was a private external) __preboot_payload_check
+000000018050c42c (__TEXT,__text) non-external __preboot_fire
+000000018050c794 (__TEXT,__text) non-external (was a private external) __cryptex1_sniff_payload_check
+000000018050c79c (__TEXT,__text) non-external __cryptex1_sniff_fire
+000000018050c880 (__TEXT,__text) non-external (was a private external) _object_derive_im4m_name
+000000018050c894 (__TEXT,__text) non-external __derive_ticket_name
+000000018050c95c (__TEXT,__text) non-external (was a private external) _object_derive_supplemental_im4m_name
+000000018050c970 (__TEXT,__text) non-external (was a private external) _object_absence_policy_default
+000000018050c978 (__TEXT,__text) non-external (was a private external) _object_absence_policy_optional
+000000018050c984 (__TEXT,__text) non-external (was a private external) _object_absence_policy_root_optional
+000000018050c998 (__TEXT,__text) non-external (was a private external) _object_setfd
+000000018050c9f4 (__TEXT,__text) non-external (was a private external) _object_fd_close
+000000018050ca34 (__TEXT,__text) non-external (was a private external) _object_getfd
+000000018050ca44 (__TEXT,__text) non-external (was a private external) _ignition_halt
+000000018050cb14 (__TEXT,__text) non-external (was a private external) _dupfd2
+000000018050cb98 (__TEXT,__text) non-external (was a private external) _sleep_ns
+000000018050cc84 (__TEXT,__text) non-external (was a private external) _fmount_90140467
+000000018050cd48 (__TEXT,__text) non-external (was a private external) _ignition_write_BRA_blob
+000000018050ce28 (__TEXT,__text) non-external (was a private external) _ignition_get_devnode_by_role
+000000018050cf5c (__TEXT,__text) non-external (was a private external) _ignition_get_mount_point_by_role
+000000018050d144 (__TEXT,__text) non-external __open_as
+000000018050d304 (__TEXT,__text) non-external (was a private external) _boot_get
+000000018050d304 (__TEXT,__text) non-external (was a private external) _boot_get_unsafe
+000000018050d310 (__TEXT,__text) non-external (was a private external) _boot_set_dylib_root
+000000018050d320 (__TEXT,__text) non-external (was a private external) _configuration_unsafe
+000000018050d32c (__TEXT,__text) non-external __cryptex_graft_failure_app_livefs
+000000018050d378 (__TEXT,__text) non-external (was a private external) _dyld_tolower_cstr
+000000018050d42c (__TEXT,__text) non-external (was a private external) _dyld_halt
+000000018050d4ac (__TEXT,__text) non-external (was a private external) _buff_get_length_uint32
+000000018050d4dc (__TEXT,__text) non-external (was a private external) _buff_map_fd_anon
+000000018050d5d4 (__TEXT,__text) non-external (was a private external) _os_log_simple_type_from_asl
+000000018050d5f4 (__TEXT,__text) non-external (was a private external) ___os_log_simple_offset
+000000018050d704 (__TEXT,__text) non-external (was a private external) __os_log_simple_send
+000000018050d87c (__TEXT,__text) non-external (was a private external) __simple_asl_get_fd
+000000018050d904 (__TEXT,__text) non-external __simple_asl_init_context
+000000018050d91c (__TEXT,__text) non-external (was a private external) __simple_vdprintf
+000000018050d978 (__TEXT,__text) non-external __flush_reset
+000000018050d9a8 (__TEXT,__text) non-external __flush
+000000018050da2c (__TEXT,__text) non-external (was a private external) __simple_dprintf
+000000018050da58 (__TEXT,__text) non-external __enlarge
+000000018050db94 (__TEXT,__text) non-external _dec
+000000018050dce0 (__TEXT,__text) non-external _oct
+000000018050ddc0 (__TEXT,__text) non-external _udec
+000000018050deb4 (__TEXT,__text) non-external _ydec
+000000018050dfcc (__TEXT,__text) non-external __os_unfair_lock_lock_slow
+000000018050e130 (__TEXT,__text) non-external (was a private external) _os_unfair_lock_lock_with_options
+000000018050e154 (__TEXT,__text) non-external (was a private external) _os_unfair_lock_unlock
+000000018050e170 (__TEXT,__text) non-external __os_unfair_lock_unlock_slow
+000000018050e21c (__TEXT,__text) non-external __os_once_gate_broadcast
+000000018050e2c8 (__TEXT,__text) non-external (was a private external) __os_once
+000000018050e328 (__TEXT,__text) non-external __os_once_callout
+000000018050e398 (__TEXT,__text) non-external __os_once_gate_wait
+000000018050e524 (__TEXT,__text) non-external (was a private external) __os_alloc_once
+000000018050e570 (__TEXT,__text) non-external __os_alloc
+000000018050e62c (__TEXT,__text) non-external __os_alloc_slow
+000000018050e764 (__TEXT,__text) non-external (was a private external) _strcpy
+000000018050e994 (__TEXT,__text) non-external __pthread_exit
+000000018050ea0c (__TEXT,__text) non-external __pthread_joiner_wake
+000000018050ea58 (__TEXT,__text) non-external (was a private external) _pthread_exit
+000000018050eae8 (__TEXT,__text) non-external __pthread_terminate_invoke
+000000018050eb44 (__TEXT,__text) non-external __pthread_terminate
+000000018050ed6c (__TEXT,__text) non-external __pthread_current_stack_address
+000000018050ed7c (__TEXT,__text) non-external __pthread_introspection_hook_callout_thread_terminate
+000000018050ee1c (__TEXT,__text) non-external __pthread_introspection_hook_callout_thread_destroy
+000000018050ee84 (__TEXT,__text) non-external (was a private external) __pthread_joiner_prepost_wake
+000000018050eee0 (__TEXT,__text) non-external _mutex_seq_atomic_cmpxchgv_relaxed
+000000018050ef00 (__TEXT,__text) non-external _mutex_seq_atomic_cmpxchgv_acquire
+000000018050ef20 (__TEXT,__text) non-external _mutex_seq_atomic_cmpxchgv_release
+000000018050ef40 (__TEXT,__text) non-external (was a private external) _rosetta_dyld_get_runtime_info
+000000018050ef74 (__TEXT,__text) non-external (was a private external) _rosetta_dyld_get_aot_size
+000000018050efb4 (__TEXT,__text) non-external (was a private external) _rosetta_dyld_map_aot
+000000018050eff0 (__TEXT,__text) non-external _sandbox_warn
+000000018050f074 (__TEXT,__text) non-external (was a private external) _mach_msg_overwrite
+000000018050f174 (__TEXT,__text) non-external (was a private external) _mig_dealloc_reply_port
+000000018050f1ec (__TEXT,__text) non-external (was a private external) _proc_pidinfo
+000000018050f224 (__TEXT,__text) non-external (was a private external) _chmod
+000000018050f320 (__TEXT,__text) non-external (was a private external) _fchmod
+000000018050f41c (__TEXT,__text) non-external _terminate_with_payload
+000000018050f420 (__TEXT,__text) non-external (was a private external) _ioctl
+000000018050f450 (__TEXT,__text) non-external (was a private external) _mach_timebase_info
+000000018050f4a8 (__TEXT,__text) non-external (was a private external) _unlink
+000000018050f4d4 (__TEXT,__text) non-external (was a private external) _rename
+000000018050f500 (__TEXT,__text) non-external (was a private external) _open_dprotected_np
+000000018050f560 (__TEXT,__text) non-external (was a private external) _mach_port_deallocate
+000000018050f69c (__TEXT,__text) non-external (was a private external) _thread_destruct_special_reply_port
+000000018050f6f8 (__TEXT,__text) non-external (was a private external) _mach_port_destruct
+000000018050f844 (__TEXT,__text) non-external (was a private external) _semaphore_destroy
+000000018050f960 (__TEXT,__text) non-external _ccsha384_vng_arm_compress
+000000018050f964 (__TEXT,__text) non-external _ccsha384_vng_arm_hw_compress
+000000018050f970 (__TEXT,__text) non-external K256
+000000018050fa70 (__TEXT,__text) non-external (was a private external) _AccelerateCrypto_SHA512_compress
+0000000180510edc (__TEXT,__text) non-external (was a private external) _ccsha1_di
+0000000180510ee8 (__TEXT,__text) non-external _ccsha1_vng_arm_compress
+0000000180510ef0 (__TEXT,__text) non-external K_XMM_AR
+0000000180510f30 (__TEXT,__text) non-external (was a private external) _AccelerateCrypto_SHA1_compress
+0000000180511334 (__TEXT,__text) non-external (was a private external) _ccsha512_final
+0000000180511524 (__TEXT,__text) non-external (was a private external) _ccsha384_di
+000000018051154c (__TEXT,__text) non-external (was a private external) __ZN6mach_o12ArchitectureC1EPK11fat_arch_64
+000000018051154c (__TEXT,__text) non-external (was a private external) __ZN6mach_o12ArchitectureC1EPK8fat_arch
+000000018051155c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12Architecture21usesArm64InstructionsEv
+0000000180511580 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12Architecture22usesx86_64InstructionsEv
+0000000180511598 (__TEXT,__text) non-external (was a private external) __ZN6mach_o11BindOpcodesC1ENSt3__14spanIKhLm18446744073709551615EEEb
+0000000180511598 (__TEXT,__text) non-external (was a private external) __ZN6mach_o11BindOpcodesC2ENSt3__14spanIKhLm18446744073709551615EEEb
+00000001805115d0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o11BindOpcodes19hasDoneBetweenBindsEv
+00000001805115d8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o11BindOpcodes22implicitLibraryOrdinalEv
+00000001805115e0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o11BindOpcodes5validENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEjbb
+0000000180511738 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000180511744 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+000000018051174c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o11BindOpcodes11forEachBindEU13block_pointerFv7CStringibhybiS1_bxbRbE
+0000000180511eb0 (__TEXT,__text) non-external ____ZNK6mach_o11BindOpcodes5validENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEjbb_block_invoke
+0000000180512170 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o11BindOpcodes17forEachBindTargetEU13block_pointerFvRKNS_5Fixup10BindTargetERbE
+0000000180512264 (__TEXT,__text) non-external ___Block_byref_object_copy_.23
+0000000180512270 (__TEXT,__text) non-external ___Block_byref_object_dispose_.24
+0000000180512274 (__TEXT,__text) non-external ____ZNK6mach_o11BindOpcodes17forEachBindTargetEU13block_pointerFvRKNS_5Fixup10BindTargetERbE_block_invoke
+00000001805123b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o11BindOpcodes19forEachBindLocationENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEjU13block_pointerFvRKNS_5FixupERbE
+00000001805124f8 (__TEXT,__text) non-external ____ZNK6mach_o11BindOpcodes19forEachBindLocationENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEjU13block_pointerFvRKNS_5FixupERbE_block_invoke
+0000000180512654 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o15LazyBindOpcodes19hasDoneBetweenBindsEv
+000000018051265c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o15WeakBindOpcodes22implicitLibraryOrdinalEv
+0000000180512668 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups30forEachFixupChainStartLocationENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEU13block_pointerFvPKvjjjRKNS0_13PointerFormatERbE
+00000001805127e0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups13pointerFormatEv
+0000000180512824 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups13validLinkeditEybNSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEb
+0000000180512ec8 (__TEXT,__text) non-external ____ZNK6mach_o13ChainedFixups13validLinkeditEybNSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEb_block_invoke
+0000000180512ecc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups18validStartsSectionENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180512f48 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups5validEyNSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEbbb
+0000000180512f68 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups13PointerFormat27forEachFixupLocationInChainEPKvyPKNS_13MappedSegmentENSt3__14spanIKyLm18446744073709551615EEEjjU13block_pointerFvRKNS_5FixupERbE
+000000018051308c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180513248 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V315writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+00000001805133f0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED12nextLocationEPKv
+0000000180513448 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED15parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+00000001805134a4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180513740 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13ChainedFixups13PointerFormat16ptrAlignmentSizeEv
+0000000180513748 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE5valueEv
+0000000180513750 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE4nameEv
+000000018051375c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE11descriptionEv
+0000000180513768 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e12supportsAuthEv
+0000000180513770 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e7minNextEv
+000000018051378c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e7maxNextEv
+00000001805137c4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE16ptrAlignmentSizeEv
+00000001805137cc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE21maxRebaseTargetOffsetEb
+00000001805137d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE13supportsBindsEv
+00000001805137dc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e23bindMaxEmbeddableAddendEb
+00000001805137ec (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e23bindMinEmbeddableAddendEb
+00000001805137fc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE12nextLocationEPKv
+0000000180513854 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE15parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+00000001805138b0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE12bindBitCountEv
+00000001805138b8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE6strideEv
+00000001805138c0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE20unauthRebaseIsVmAddrEv
+00000001805138c8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V35valueEv
+00000001805138d0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V34nameEv
+00000001805138dc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V311descriptionEv
+00000001805138e8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V316ptrAlignmentSizeEv
+00000001805138f0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V321maxRebaseTargetOffsetEb
+00000001805138f8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V313supportsBindsEv
+0000000180513900 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V312nextLocationEPKv
+0000000180513958 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V315parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+00000001805139ac (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V312bindBitCountEv
+00000001805139b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V36strideEv
+00000001805139bc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o53PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V320unauthRebaseIsVmAddrEv
+00000001805139c4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED5valueEv
+00000001805139cc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED4nameEv
+00000001805139d8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED11descriptionEv
+00000001805139e4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED4is64Ev
+00000001805139ec (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED21maxRebaseTargetOffsetEb
+00000001805139f4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED13supportsBindsEv
+00000001805139fc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED12bindBitCountEv
+0000000180513a04 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED6strideEv
+0000000180513a0c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o47PointerFormat_DYLD_CHAINED_PTR_ARM64E_SEGMENTED20unauthRebaseIsVmAddrEv
+0000000180513a14 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o37PointerFormat_DYLD_CHAINED_PTR_ARM64E5valueEv
+0000000180513a1c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o37PointerFormat_DYLD_CHAINED_PTR_ARM64E4nameEv
+0000000180513a28 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o37PointerFormat_DYLD_CHAINED_PTR_ARM64E11descriptionEv
+0000000180513a34 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o37PointerFormat_DYLD_CHAINED_PTR_ARM64E16ptrAlignmentSizeEv
+0000000180513a3c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e21maxRebaseTargetOffsetEb
+0000000180513a50 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e13supportsBindsEv
+0000000180513a58 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28PointerFormat_Generic_arm64e15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+000000018051409c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o37PointerFormat_DYLD_CHAINED_PTR_ARM64E6strideEv
+00000001805140a4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o37PointerFormat_DYLD_CHAINED_PTR_ARM64E20unauthRebaseIsVmAddrEv
+00000001805140ac (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_645valueEv
+00000001805140b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_644nameEv
+00000001805140c0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6411descriptionEv
+00000001805140cc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_644is64Ev
+00000001805140d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6412supportsAuthEv
+00000001805140dc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_647minNextEv
+00000001805140e4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_647maxNextEv
+00000001805140ec (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6421maxRebaseTargetOffsetEb
+00000001805140f4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6413supportsBindsEv
+00000001805140fc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6414maxBindOrdinalEb
+0000000180514104 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6423bindMaxEmbeddableAddendEb
+000000018051410c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6423bindMinEmbeddableAddendEb
+0000000180514114 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6412nextLocationEPKv
+0000000180514130 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6415parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+00000001805141d8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6415writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180514444 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_6420unauthRebaseIsVmAddrEv
+000000018051444c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_325valueEv
+0000000180514454 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_324nameEv
+0000000180514460 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3211descriptionEv
+000000018051446c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_324is64Ev
+0000000180514474 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3212supportsAuthEv
+000000018051447c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_327minNextEv
+0000000180514484 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_327maxNextEv
+000000018051448c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3221maxRebaseTargetOffsetEb
+0000000180514494 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3213supportsBindsEv
+000000018051449c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3214maxBindOrdinalEb
+00000001805144a4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3223bindMaxEmbeddableAddendEb
+00000001805144ac (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3223bindMinEmbeddableAddendEb
+00000001805144b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3212nextLocationEPKv
+00000001805144cc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3215parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+0000000180514510 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o33PointerFormat_DYLD_CHAINED_PTR_3215writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+00000001805146b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE5valueEv
+00000001805146bc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE4nameEv
+00000001805146c8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE11descriptionEv
+00000001805146d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE4is64Ev
+00000001805146dc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE12supportsAuthEv
+00000001805146e4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE7minNextEv
+00000001805146ec (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE7maxNextEv
+00000001805146f4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE21maxRebaseTargetOffsetEb
+00000001805146fc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE13supportsBindsEv
+0000000180514704 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE14maxBindOrdinalEb
+000000018051470c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE23bindMaxEmbeddableAddendEb
+0000000180514714 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE23bindMinEmbeddableAddendEb
+000000018051471c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE12nextLocationEPKv
+000000018051473c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE15parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+0000000180514758 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o39PointerFormat_DYLD_CHAINED_PTR_32_CACHE15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+000000018051484c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE5valueEv
+0000000180514854 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE4nameEv
+0000000180514860 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE11descriptionEv
+000000018051486c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE4is64Ev
+0000000180514874 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE12supportsAuthEv
+000000018051487c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE7minNextEv
+0000000180514884 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE7maxNextEv
+000000018051488c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE21maxRebaseTargetOffsetEb
+0000000180514894 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE13supportsBindsEv
+000000018051489c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE14maxBindOrdinalEb
+00000001805148a4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE23bindMaxEmbeddableAddendEb
+00000001805148ac (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE23bindMinEmbeddableAddendEb
+00000001805148b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE12nextLocationEPKv
+00000001805148d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE15parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+00000001805148f4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o42PointerFormat_DYLD_CHAINED_PTR_32_FIRMWARE15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+00000001805149e8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o40PointerFormat_DYLD_CHAINED_PTR_64_OFFSET5valueEv
+00000001805149f0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o40PointerFormat_DYLD_CHAINED_PTR_64_OFFSET4nameEv
+00000001805149fc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o40PointerFormat_DYLD_CHAINED_PTR_64_OFFSET11descriptionEv
+0000000180514a08 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o40PointerFormat_DYLD_CHAINED_PTR_64_OFFSET20unauthRebaseIsVmAddrEv
+0000000180514a10 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o44PointerFormat_DYLD_CHAINED_PTR_ARM64E_KERNEL5valueEv
+0000000180514a18 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o44PointerFormat_DYLD_CHAINED_PTR_ARM64E_KERNEL4nameEv
+0000000180514a24 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o44PointerFormat_DYLD_CHAINED_PTR_ARM64E_KERNEL11descriptionEv
+0000000180514a30 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o44PointerFormat_DYLD_CHAINED_PTR_ARM64E_KERNEL12bindBitCountEv
+0000000180514a38 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o44PointerFormat_DYLD_CHAINED_PTR_ARM64E_KERNEL6strideEv
+0000000180514a40 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o44PointerFormat_DYLD_CHAINED_PTR_ARM64E_KERNEL20unauthRebaseIsVmAddrEv
+0000000180514a48 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE5valueEv
+0000000180514a50 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE4nameEv
+0000000180514a5c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE11descriptionEv
+0000000180514a68 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE4is64Ev
+0000000180514a70 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE12supportsAuthEv
+0000000180514a78 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE7minNextEv
+0000000180514a80 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE7maxNextEv
+0000000180514a88 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE21maxRebaseTargetOffsetEb
+0000000180514a90 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE13supportsBindsEv
+0000000180514a98 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE14maxBindOrdinalEb
+0000000180514aa0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE23bindMaxEmbeddableAddendEb
+0000000180514aa8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE23bindMinEmbeddableAddendEb
+0000000180514ab0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE12nextLocationEPKv
+0000000180514acc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE15parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+0000000180514b1c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_64_KERNEL_CACHE15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180514c50 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND5valueEv
+0000000180514c58 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND4nameEv
+0000000180514c64 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND11descriptionEv
+0000000180514c70 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND16ptrAlignmentSizeEv
+0000000180514c78 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND20unauthRebaseIsVmAddrEv
+0000000180514c80 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE5valueEv
+0000000180514c88 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE4nameEv
+0000000180514c94 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE11descriptionEv
+0000000180514ca0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE4is64Ev
+0000000180514ca8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE12bindBitCountEv
+0000000180514cb0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE6strideEv
+0000000180514cb8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_ARM64E_FIRMWARE20unauthRebaseIsVmAddrEv
+0000000180514cc0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE5valueEv
+0000000180514cc8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE4nameEv
+0000000180514cd4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE11descriptionEv
+0000000180514ce0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE4is64Ev
+0000000180514ce8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE12supportsAuthEv
+0000000180514cf0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE7minNextEv
+0000000180514cf8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE7maxNextEv
+0000000180514d00 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE21maxRebaseTargetOffsetEb
+0000000180514d08 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE13supportsBindsEv
+0000000180514d10 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE14maxBindOrdinalEb
+0000000180514d18 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE23bindMaxEmbeddableAddendEb
+0000000180514d20 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE23bindMinEmbeddableAddendEb
+0000000180514d28 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE12nextLocationEPKv
+0000000180514d40 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE15parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+0000000180514d90 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o50PointerFormat_DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE15writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180514e78 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o48PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND245valueEv
+0000000180514e80 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o48PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND244nameEv
+0000000180514e8c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o48PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND2411descriptionEv
+0000000180514e98 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o48PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND2416ptrAlignmentSizeEv
+0000000180514ea0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o48PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND246strideEv
+0000000180514ea8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o48PointerFormat_DYLD_CHAINED_PTR_ARM64E_USERLAND2420unauthRebaseIsVmAddrEv
+0000000180514eb0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V25valueEv
+0000000180514eb8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V24nameEv
+0000000180514ec4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V211descriptionEv
+0000000180514ed0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V24is64Ev
+0000000180514ed8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V212supportsAuthEv
+0000000180514ee0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V27minNextEv
+0000000180514ee8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V27maxNextEv
+0000000180514ef0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V221maxRebaseTargetOffsetEb
+0000000180514ef8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V213supportsBindsEv
+0000000180514f00 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V214maxBindOrdinalEb
+0000000180514f08 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V223bindMaxEmbeddableAddendEb
+0000000180514f10 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V223bindMinEmbeddableAddendEb
+0000000180514f18 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V212nextLocationEPKv
+0000000180514f34 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V215parseChainEntryEPKvPKNS_13MappedSegmentEyNSt3__14spanIKyLm18446744073709551615EEE
+0000000180514f50 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o46PointerFormat_DYLD_CHAINED_PTR_SHARED_CACHE_V215writeChainEntryERKNS_5FixupEPKvyNSt3__14spanIPKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180515080 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Error15messageContainsEPKc
+0000000180515144 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000180515150 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000180515158 (__TEXT,__text) non-external ___Block_byref_object_copy_.11
+0000000180515164 (__TEXT,__text) non-external ___Block_byref_object_dispose_.12
+000000018051516c (__TEXT,__text) non-external (was a private external) __ZN20CStringBuilderBufferILi4096EEC2ERKS0_
+00000001805151d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o15PointerMetaData7keyNameEv
+00000001805151f4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o28FunctionVariantsRuntimeTable5validEm
+00000001805152d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o16FunctionVariants5validEv
+00000001805154a4 (__TEXT,__text) non-external (was a private external) __ZN6mach_o21FunctionVariantFixupsC1ENSt3__14spanIKhLm18446744073709551615EEE
+00000001805154bc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o21FunctionVariantFixups5validENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEE
+0000000180515574 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o21FunctionVariantFixups12forEachFixupEU13block_pointerFvNS0_13InternalFixupEE
+00000001805155c4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o19GradedArchitectures8bestArchENSt3__14spanIKNS_12ArchitectureELm18446744073709551615EEE
+0000000180515658 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o19GradedArchitectures9archNamesER14CStringBuilder
+0000000180515748 (__TEXT,__text) non-external ____ZNK6mach_o19GradedArchitectures9archNamesER14CStringBuilder_block_invoke
+00000001805157d0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header11pointerSizeEv
+0000000180515804 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header6isArchE7CString
+0000000180515850 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header19isDynamicExecutableEv
+00000001805158a0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header12usesWeakDefsEv
+00000001805158c0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header17mayHaveTextFixupsEv
+0000000180515904 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header18validSemanticsMainERKNS_6PolicyE
+0000000180515c50 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000180515c5c (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000180515c64 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header27parse_linker_option_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180515ddc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header29parse_encryption_info_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180515e44 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header32parse_encryption_info_64_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180515eac (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header23parse_dyld_info_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180515fd0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header25parse_entry_point_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180516040 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header20parse_thread_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180516218 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header21parse_segment_commandILb0EEENS0_11SegmentInfoERKNS0_15LoadCommandInfoEtU13block_pointerFvRKS2_RKNS0_11SectionInfoEEPNS_5ErrorE
+0000000180516434 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header27parse_fileset_entry_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+00000001805164c4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header22parse_routines_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+00000001805165d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header17builtForSimulatorEv
+0000000180516600 (__TEXT,__text) non-external ___Block_byref_object_copy_.63
+000000018051660c (__TEXT,__text) non-external ___Block_byref_object_dispose_.64
+0000000180516610 (__TEXT,__text) non-external ___Block_byref_object_copy_.69
+000000018051661c (__TEXT,__text) non-external ___Block_byref_object_dispose_.70
+0000000180516620 (__TEXT,__text) non-external ___Block_byref_object_copy_.75
+0000000180516658 (__TEXT,__text) non-external ___Block_byref_object_dispose_.76
+0000000180516680 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header27validSemanticsSingleSegmentILb0EEENS_5ErrorERKNS_6PolicyEyNSt3__14spanIKhLm18446744073709551615EEE
+0000000180517028 (__TEXT,__text) non-external ____ZNK6mach_o6Header18validSemanticsMainERKNS_6PolicyE_block_invoke
+0000000180517134 (__TEXT,__text) non-external ____ZNK6mach_o6Header22validStructureLinkeditERKNS_6PolicyEy_block_invoke
+0000000180517170 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Header27linkEditContentKindAsStringENS0_19LinkEditContentKindE
+00000001805171a8 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Header15loadCommandNameEj
+00000001805174d0 (__TEXT,__text) non-external ___Block_byref_object_copy_.183
+00000001805174ec (__TEXT,__text) non-external ___Block_byref_object_dispose_.184
+00000001805174f0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_8_40c22_ZTSN6mach_o8PlatformE
+0000000180517504 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_8_40
+0000000180517508 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header23allowsAlternatePlatformEv
+00000001805176cc (__TEXT,__text) non-external ____ZNK6mach_o6Header23allowsAlternatePlatformEv_block_invoke
+0000000180517760 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header22parse_dylinker_commandERKNS0_15LoadCommandInfoEPNS_5ErrorE
+0000000180517810 (__TEXT,__text) non-external ___Block_byref_object_copy_.230
+0000000180517824 (__TEXT,__text) non-external ___Block_byref_object_dispose_.231
+0000000180517828 (__TEXT,__text) non-external ___Block_byref_object_copy_.250
+000000018051783c (__TEXT,__text) non-external ___Block_byref_object_dispose_.251
+0000000180517840 (__TEXT,__text) non-external ___Block_byref_object_copy_.255
+0000000180517854 (__TEXT,__text) non-external ___Block_byref_object_dispose_.256
+0000000180517858 (__TEXT,__text) non-external ____ZNK6mach_o6Header11exportsTrieEv_block_invoke
+00000001805178c0 (__TEXT,__text) non-external ___Block_byref_object_copy_.262
+00000001805178d4 (__TEXT,__text) non-external ___Block_byref_object_dispose_.263
+00000001805178d8 (__TEXT,__text) non-external ___Block_byref_object_copy_.265
+00000001805178fc (__TEXT,__text) non-external ___Block_byref_object_dispose_.266
+0000000180517900 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header8dyldInfoEv
+00000001805179fc (__TEXT,__text) non-external ___Block_byref_object_copy_.268
+0000000180517a20 (__TEXT,__text) non-external ___Block_byref_object_dispose_.269
+0000000180517a24 (__TEXT,__text) non-external ____ZNK6mach_o6Header8dyldInfoEv_block_invoke
+0000000180517aac (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header21functionsVariantTableEv
+0000000180517acc (__TEXT,__text) non-external __ZNKSt3__16ranges8__any_ofclB9nqn220106IRA6_K7CStringNS_8identityEZNK6mach_o6Header19loadableIntoProcessENS8_8PlatformES3_bE3$_0EEbOT_T1_T0_
+0000000180517b4c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header24hasObjCMessageReferencesEv
+0000000180517b84 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header19findObjCDataSectionE7CStringRyS2_
+0000000180517d64 (__TEXT,__text) non-external ____ZNK6mach_o6Header19findObjCDataSectionE7CStringRyS2__block_invoke
+0000000180517df8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header13segmentVmSizeEj
+0000000180517fdc (__TEXT,__text) non-external ____ZNK6mach_o6Header13segmentVmSizeEj_block_invoke
+0000000180518024 (__TEXT,__text) non-external ____ZNK6mach_o6Header14forEachSectionEU13block_pointerFvRKNS0_11SectionInfoERbE_block_invoke_3
+000000018051804c (__TEXT,__text) non-external ____ZNK6mach_o6Header14forEachSectionEU13block_pointerFvRKNS0_11SegmentInfoERKNS0_11SectionInfoERbE_block_invoke_2
+000000018051806c (__TEXT,__text) non-external ____ZNK6mach_o6Header14forEachSectionEU13block_pointerFvRKNS0_11SegmentInfoERKNS0_11SectionInfoERbE_block_invoke_3
+000000018051808c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Header15hasOpcodeFixupsEv
+00000001805180d8 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE6growToEy
+00000001805180d8 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIZNK6mach_o6Header22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE6growToEy
+00000001805181e8 (__TEXT,__text) non-external ___Block_byref_object_copy_
+00000001805181f4 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+00000001805181f8 (__TEXT,__text) non-external (was a private external) __ZN6mach_o5Image18makeFromDyldMappedERKNS_6HeaderE
+000000018051835c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image13rebaseOpcodesEv
+00000001805183e4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image11bindOpcodesEv
+0000000180518498 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image15lazyBindOpcodesEv
+000000018051854c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image15weakBindOpcodesEv
+0000000180518600 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image14sectionContentE7CStringS1_
+00000001805186e4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image16functionVariantsEv
+0000000180518750 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image13codeSignatureEv
+00000001805187a8 (__TEXT,__text) non-external ___Block_byref_object_copy_.21
+00000001805187b4 (__TEXT,__text) non-external ___Block_byref_object_dispose_.22
+00000001805187bc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image15hasOpcodeFixupsEv
+0000000180518814 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image27forEachUserlandChainedFixupERKNS_13ChainedFixupsEU13block_pointerFvRKNS_5FixupERbE
+00000001805188a8 (__TEXT,__text) non-external ____ZNK6mach_o5Image27forEachUserlandChainedFixupERKNS_13ChainedFixupsEU13block_pointerFvRKNS_5FixupERbE_block_invoke
+0000000180518924 (__TEXT,__text) non-external ____ZNK6mach_o5Image27forEachUserlandChainedFixupERKNS_13ChainedFixupsEU13block_pointerFvRKNS_5FixupERbE_block_invoke_2
+0000000180518974 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image18forEachOpcodeFixupEU13block_pointerFvRKNS_5FixupERbE
+00000001805189fc (__TEXT,__text) non-external ____ZNK6mach_o5Image18forEachOpcodeFixupEU13block_pointerFvRKNS_5FixupERbE_block_invoke
+0000000180518b0c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image12forEachFixupEU13block_pointerFvRKNS_5FixupERbE
+0000000180518b78 (__TEXT,__text) non-external ____ZNK6mach_o5Image12forEachFixupEU13block_pointerFvRKNS_5FixupERbE_block_invoke
+0000000180518b84 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image12forEachFixupENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEU13block_pointerFvRKNS_5FixupERbE
+0000000180519080 (__TEXT,__text) non-external ___Block_byref_object_copy_.30
+00000001805190b8 (__TEXT,__text) non-external ___Block_byref_object_dispose_.31
+00000001805190e0 (__TEXT,__text) non-external ____ZNK6mach_o5Image12forEachFixupENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEU13block_pointerFvRKNS_5FixupERbE_block_invoke
+0000000180519138 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image26firmwareSectionChainStartsEv
+0000000180519298 (__TEXT,__text) non-external ____ZNK6mach_o5Image12forEachFixupENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEU13block_pointerFvRKNS_5FixupERbE_block_invoke_2
+000000018051934c (__TEXT,__text) non-external ____ZNK6mach_o5Image12forEachFixupENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEU13block_pointerFvRKNS_5FixupERbE_block_invoke_3
+0000000180519410 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image19maxAuthRebaseOffsetEv
+0000000180519520 (__TEXT,__text) non-external ____ZNK6mach_o5Image19maxAuthRebaseOffsetEv_block_invoke
+00000001805195d8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image11sectionInfoE7CStringS1_
+00000001805196d8 (__TEXT,__text) non-external ___Block_byref_object_copy_.42
+0000000180519714 (__TEXT,__text) non-external ___Block_byref_object_dispose_.43
+0000000180519718 (__TEXT,__text) non-external ____ZNK6mach_o5Image11sectionInfoE7CStringS1__block_invoke
+00000001805197fc (__TEXT,__text) non-external ___Block_byref_object_copy_.45
+0000000180519810 (__TEXT,__text) non-external ___Block_byref_object_dispose_.46
+0000000180519814 (__TEXT,__text) non-external ____ZNK6mach_o5Image14sectionContentE7CStringS1__block_invoke
+00000001805198b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image29forEachRebasePointerInSectionENSt3__14spanIKhLm18446744073709551615EEEbU13block_pointerFvjE
+0000000180519980 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image31readRebasePointerTargetVmOffsetEPKvy
+00000001805199fc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image15hasInitializersEv
+0000000180519b20 (__TEXT,__text) non-external ____ZNK6mach_o5Image15hasInitializersEv_block_invoke
+0000000180519b40 (__TEXT,__text) non-external ____ZNK6mach_o5Image15hasInitializersEv_block_invoke_2
+0000000180519b60 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image24forEachClassicTerminatorEU13block_pointerFvjE
+0000000180519bcc (__TEXT,__text) non-external ____ZNK6mach_o5Image24forEachClassicTerminatorEU13block_pointerFvjE_block_invoke
+0000000180519c30 (__TEXT,__text) non-external ___Block_byref_object_copy_.55
+0000000180519c44 (__TEXT,__text) non-external ___Block_byref_object_dispose_.56
+0000000180519c48 (__TEXT,__text) non-external __ZN6mach_oL24hash_rank_watchOS_dylibsENSt3__14spanIKhLm18446744073709551615EEE
+0000000180519c90 (__TEXT,__text) non-external __ZN6mach_oL9hash_rankENSt3__14spanIKhLm18446744073709551615EEE
+0000000180519cd8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image28forEachCDHashOfCodeSignatureEU13block_pointerFvNSt3__14spanIKhLm20EEEE
+0000000180519d44 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o5Image33forEachObjCDuplicateClassToIgnoreEU13block_pointerFv7CStringE
+0000000180519d74 (__TEXT,__text) non-external (was a private external) __ZN6mach_o7warningEPKvPKcz
+0000000180519db0 (__TEXT,__text) non-external (was a private external) __ZN6mach_o12read_sleb128ENSt3__14spanIKhLm18446744073709551615EEERmRb
+0000000180519e48 (__TEXT,__text) non-external (was a private external) __ZN6mach_o16NListSymbolTableC1EjPK5nlistjPKcjjjj
+0000000180519e68 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o16NListSymbolTable13forEachSymbolEjjU13block_pointerFvPKcS2_yhhtjRbE
+0000000180519fbc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o16NListSymbolTable21forEachExportedSymbolEU13block_pointerFvRKNS_6SymbolEjRbE
+000000018051a0e0 (__TEXT,__text) non-external ____ZNK6mach_o16NListSymbolTable21forEachExportedSymbolEU13block_pointerFvRKNS_6SymbolEjRbE_block_invoke
+000000018051a178 (__TEXT,__text) non-external ____ZNK6mach_o16NListSymbolTable21forEachExportedSymbolEU13block_pointerFvRKNS_6SymbolEjRbE_block_invoke_2
+000000018051a210 (__TEXT,__text) non-external ____ZNK6mach_o16NListSymbolTable13forEachSymbolEU13block_pointerFvPKcS2_yhhtjRbE_block_invoke
+000000018051a220 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o17DebugNoteFileInfo4dumpEv
+000000018051a320 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o8Platform4nameEv
+000000018051a358 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o8Platform11isSimulatorEv
+000000018051a36c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o8Platform13isExclaveCoreEv
+000000018051a380 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o8Platform11isKernelKitEv
+000000018051a394 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o8Platform12libSystemDirEv
+000000018051a438 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o18PlatformInfo_macOS14yearForVersionENS_9Version32ERtRb
+000000018051a494 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o18PlatformInfo_macOS21minorVersionForSpringEt
+000000018051a4a4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o21PlatformInfo_bridgeOS21minorVersionForSpringEt
+000000018051a4b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o21PlatformInfo_firmware14yearForVersionENS_9Version32ERtRb
+000000018051a4c4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o18PlatformInfo_sepOS14yearForVersionENS_9Version32ERtRb
+000000018051a4d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o21PlatformInfo_visionOS21minorVersionForSpringEt
+000000018051a4e4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy31enforceLinkeditContentAlignmentEv
+000000018051a550 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy34enforceLinkeditAlignmentStringPoolEv
+000000018051a57c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy23enforceOneFixupEncodingEv
+000000018051a594 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy14enforceHasUUIDEv
+000000018051a5d4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy23enforceMainFlagsCorrectEv
+000000018051a5ec (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy34enforceDataConstSegmentPermissionsEv
+000000018051a614 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Policy26enforceNoZeroSwiftMetadataEv
+000000018051a62c (__TEXT,__text) non-external (was a private external) __ZN6mach_o13RebaseOpcodesC1ENSt3__14spanIKhLm18446744073709551615EEEb
+000000018051a648 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13RebaseOpcodes5validENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEbb
+000000018051a790 (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000018051a79c (__TEXT,__text) non-external ___Block_byref_object_dispose_
+000000018051a7a4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13RebaseOpcodes13forEachRebaseEU13block_pointerFv7CStringibhyRbE
+000000018051ad00 (__TEXT,__text) non-external ____ZNK6mach_o13RebaseOpcodes5validENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEbb_block_invoke
+000000018051aeb4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o13RebaseOpcodes21forEachRebaseLocationENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEyU13block_pointerFvRKNS_5FixupERbE
+000000018051af3c (__TEXT,__text) non-external ____ZNK6mach_o13RebaseOpcodes21forEachRebaseLocationENSt3__14spanIKNS_13MappedSegmentELm18446744073709551615EEEyU13block_pointerFvRKNS_5FixupERbE_block_invoke
+000000018051afb8 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol17makeRegularHiddenE7CStringyhbbb
+000000018051b004 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol19makeWeakDefAutoHideE7CStringyhbbb
+000000018051b050 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol17makeWeakDefHiddenE7CStringyhbbb
+000000018051b09c (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol12makeAltEntryE7CStringyhNS0_5ScopeEbbbb
+000000018051b0ec (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol25makeFunctionVariantExportE7CStringhyj
+000000018051b114 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol21makeThreadLocalExportE7CStringyhbbb
+000000018051b15c (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol13makeUndefinedE7CStringib
+000000018051b184 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol16makeTentativeDefE7CStringyhbb
+000000018051b1c8 (__TEXT,__text) non-external (was a private external) __ZN6mach_o6Symbol22makeHiddenTentativeDefE7CStringyhbb
+000000018051b20c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o6Symbol10isAltEntryERy
+000000018051b22c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Universal5validEy
+000000018051b5f4 (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000018051b600 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+000000018051b608 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Universal12forEachSliceEU13block_pointerFvNS_12ArchitectureEyyhRbE
+000000018051b818 (__TEXT,__text) non-external ____ZNK6mach_o9Universal5validEy_block_invoke
+000000018051b9c0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Universal10validSliceENS_12ArchitectureEyy
+000000018051bb48 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Universal12forEachSliceEU13block_pointerFvNS0_5SliceERbE
+000000018051bbb4 (__TEXT,__text) non-external ____ZNK6mach_o9Universal12forEachSliceEU13block_pointerFvNS0_5SliceERbE_block_invoke
+000000018051bc00 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Universal9archNamesER14CStringBuilder
+000000018051bcc0 (__TEXT,__text) non-external ____ZNK6mach_o9Universal9archNamesER14CStringBuilder_block_invoke
+000000018051bd48 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Universal9bestSliceERKNS_19GradedArchitecturesERNS0_5SliceE
+000000018051beec (__TEXT,__text) non-external ____ZNK6mach_o9Universal9bestSliceERKNS_19GradedArchitecturesERNS0_5SliceE_block_invoke
+000000018051bf40 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader12uses16KPagesEv
+000000018051bf88 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader12isObjectFileEv
+000000018051bf98 (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000018051bfb4 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+000000018051bfb8 (__TEXT,__text) non-external ___Block_byref_object_copy_.14
+000000018051bfc4 (__TEXT,__text) non-external ___Block_byref_object_dispose_.15
+000000018051bfcc (__TEXT,__text) non-external (was a private external) __ZN6mach_o12UnsafeHeader21isValidMachOStructureENSt3__14spanIKhLm18446744073709551615EEE
+000000018051c04c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader17builtForSimulatorEv
+000000018051c078 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader19validSemanticsRPathERKNS_6PolicyE_block_invoke
+000000018051c178 (__TEXT,__text) non-external ___Block_byref_object_copy_.58
+000000018051c1b0 (__TEXT,__text) non-external ___Block_byref_object_dispose_.59
+000000018051c1d8 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader12validSegmentI15segment_command7sectionEENS_5ErrorERKNS_6PolicyEyPKT_
+000000018051c534 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader22entryAddrFromThreadCmdEPK14thread_commandRy
+000000018051c5e0 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader19linkedDylibLoadPathEj
+000000018051c6b0 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader19linkedDylibLoadPathEj_block_invoke
+000000018051c724 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader15hasSplitSegInfoERb
+000000018051c7d4 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader15hasSplitSegInfoERb_block_invoke
+000000018051c80c (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader24hasFunctionsVariantTableERy_block_invoke
+000000018051c834 (__TEXT,__text) non-external (was a private external) __ZN6mach_o12UnsafeHeader27isSimulatorSupportDylibPathE7CString
+000000018051c8b4 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader21forEachSingletonPatchEU13block_pointerFvyE
+000000018051c960 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader21forEachSingletonPatchEU13block_pointerFvyE_block_invoke
+000000018051ca34 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader11segmentNameEj
+000000018051cb2c (__TEXT,__text) non-external ___Block_byref_object_copy_.282
+000000018051cb38 (__TEXT,__text) non-external ___Block_byref_object_dispose_.283
+000000018051cb3c (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader11segmentNameEj_block_invoke
+000000018051cb84 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader13segmentVmAddrEj
+000000018051cc48 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader13segmentVmAddrEj_block_invoke
+000000018051cc90 (__TEXT,__text) non-external ___Block_byref_object_copy_.292
+000000018051cc9c (__TEXT,__text) non-external ___Block_byref_object_dispose_.293
+000000018051cca0 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader23zerofillExpansionAmountEv_block_invoke
+000000018051cd94 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader20hasInterposingTuplesEv
+000000018051ce38 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader20hasInterposingTuplesEv_block_invoke
+000000018051ce50 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader25headerAndLoadCommandsSizeEv
+000000018051ce78 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader8fileSizeEv
+000000018051cf9c (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader8fileSizeEv_block_invoke
+000000018051cfc8 (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader8fileSizeEv_block_invoke_2
+000000018051d004 (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader21hasFirmwareRebaseRunsEv
+000000018051d00c (__TEXT,__text) non-external (was a private external) __ZNK6mach_o12UnsafeHeader25forEachFirmwareRebaseRunsEU13block_pointerFvjRbE
+000000018051d20c (__TEXT,__text) non-external ____ZNK6mach_o12UnsafeHeader25forEachFirmwareRebaseRunsEU13block_pointerFvjRbE_block_invoke
+000000018051d2cc (__TEXT,__text) non-external (was a private external) __ZNK6mach_o9Version328toStringER14CStringBuilder
+000000018051d350 (__TEXT,__text) non-external __ZNK10AAREncoder10encodeFileERKNS_4FileER10ByteStream.cold.1
+000000018051d38c (__TEXT,__text) non-external __ZNK10AAREncoder10encodeFileERKNS_4FileER10ByteStream.cold.2
+000000018051d3c8 (__TEXT,__text) non-external __ZNK10AAREncoder10encodeFileERKNS_4FileER10ByteStream.cold.3
+000000018051d3f4 (__TEXT,__text) non-external __ZN3lsl6VectorISt4byteE6resizeEy.cold.1
+000000018051d470 (__TEXT,__text) non-external __ZNK5dyld413ProcessConfig13PathOverrides23getFrameworkPartialPathE7CString.cold.1
+000000018051d470 (__TEXT,__text) non-external __ZNK5dyld413ProcessConfig13PathOverrides23getFrameworkPartialPathE7CString.cold.2
+000000018051d470 (__TEXT,__text) non-external __ZNK7CString6substrEm.cold.1
+000000018051d480 (__TEXT,__text) non-external __ZN14CStringBuilder33ifGrowableEnsureSpaceForAppendingEm.cold.1
+000000018051d4ac (__TEXT,__text) non-external __ZN14CStringBuilder33ifGrowableEnsureSpaceForAppendingEm.cold.2
+000000018051d4d8 (__TEXT,__text) non-external __ZN14CStringBuilder5truncEm.cold.1
+000000018051d504 (__TEXT,__text) non-external __ZN11Diagnostics5errorEPKc12va_list_wrap.cold.1
+000000018051d530 (__TEXT,__text) non-external __ZN11Diagnostics5errorEPKc12va_list_wrap.cold.2
+000000018051d55c (__TEXT,__text) non-external __ZN11Diagnostics5errorEPKc12va_list_wrap.cold.3
+000000018051d588 (__TEXT,__text) non-external __ZN11Diagnostics5errorEPKc12va_list_wrap.cold.4
+000000018051d5b4 (__TEXT,__text) non-external __ZN11Diagnostics11appendErrorEPKcz.cold.1
+000000018051d5e0 (__TEXT,__text) non-external __ZN11Diagnostics11appendErrorEPKcz.cold.2
+000000018051d60c (__TEXT,__text) non-external __ZN11Diagnostics11appendErrorEPKcz.cold.3
+000000018051d638 (__TEXT,__text) non-external __ZN11Diagnostics11appendErrorEPKcz.cold.4
+000000018051d664 (__TEXT,__text) non-external __ZNK15DyldSharedCache34forEachPatchableUseOfExportInImageEjjjU13block_pointerFvjN6mach_o15PointerMetaDataEybE.cold.1
+000000018051d690 (__TEXT,__text) non-external __ZNK15DyldSharedCache34forEachPatchableUseOfExportInImageEjjjU13block_pointerFvjN6mach_o15PointerMetaDataEybE.cold.2
+000000018051d6bc (__TEXT,__text) non-external __ZNK15DyldSharedCache34forEachPatchableUseOfExportInImageEjjjU13block_pointerFvjN6mach_o15PointerMetaDataEybE.cold.3
+000000018051d6e8 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIZNK6mach_o12UnsafeHeader22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE6growToEy.cold.1
+000000018051d6e8 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIZNK6mach_o6Header22validSemanticsSegmentsERKNS1_6PolicyEyE8SegRangeLy4294967295EE6growToEy.cold.1
+000000018051d6e8 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIjLy4294967295EE6growToEy.cold.1
+000000018051d6e8 (__TEXT,__text) non-external ____ZNK15DyldSharedCache34forEachPatchableUseOfExportInImageEjjjU13block_pointerFvjN6mach_o15PointerMetaDataEybE_block_invoke_2.cold.1
+000000018051d754 (__TEXT,__text) non-external __ZN15DyldSharedCache13DynamicRegion12setCachePathEPKc.cold.1
+000000018051d780 (__TEXT,__text) non-external __ZN15DyldSharedCache13DynamicRegion12setCachePathEPKc.cold.2
+000000018051d7ac (__TEXT,__text) non-external __ZN15DyldSharedCache13DynamicRegion12setCachePathEPKc.cold.3
+000000018051d7d8 (__TEXT,__text) non-external __ZN15DyldSharedCache13DynamicRegion12setCachePathEPKc.cold.4
+000000018051d804 (__TEXT,__text) non-external __ZNK15DyldSharedCache13DynamicRegion13isImageRootedEj.cold.1
+000000018051d830 (__TEXT,__text) non-external __ZNK15DyldSharedCache13DynamicRegion20isImageCryptexRootedEj.cold.1
+000000018051d85c (__TEXT,__text) non-external __ZNK15DyldSharedCache13DynamicRegion15hasMarzipanRootEv.cold.1
+000000018051d888 (__TEXT,__text) non-external __ZNK15DyldSharedCache13DynamicRegion14anyImageRootedEv.cold.1
+000000018051d8b4 (__TEXT,__text) non-external ____ZNK5dyld313MachOAnalyzer15withChainStartsER11DiagnosticsyU13block_pointerFvPK28dyld_chained_starts_in_imageE_block_invoke.cold.1
+000000018051d8e0 (__TEXT,__text) non-external ____ZNK5dyld313MachOAnalyzer15withChainStartsER11DiagnosticsyU13block_pointerFvPK28dyld_chained_starts_in_imageE_block_invoke.cold.2
+000000018051d90c (__TEXT,__text) non-external ____ZNK5dyld313MachOAnalyzer15withChainStartsER11DiagnosticsyU13block_pointerFvPK28dyld_chained_starts_in_imageE_block_invoke.cold.3
+000000018051d938 (__TEXT,__text) non-external __ZNK6mach_o25ChainedFixupPointerOnDisk6Arm64e12unpackTargetEv.cold.1
+000000018051d964 (__TEXT,__text) non-external __ZNK6mach_o25ChainedFixupPointerOnDisk6Arm64e12unpackTargetEv.cold.2
+000000018051d990 (__TEXT,__text) non-external __ZNK6mach_o25ChainedFixupPointerOnDisk6Arm64e18signExtendedAddendEv.cold.1
+000000018051d9bc (__TEXT,__text) non-external __ZNK6mach_o25ChainedFixupPointerOnDisk6Arm64e18signExtendedAddendEv.cold.2
+000000018051d9e8 (__TEXT,__text) non-external __ZN6mach_o25ChainedFixupPointerOnDisk6Arm64e11signPointerEyPvbth.cold.1
+000000018051da14 (__TEXT,__text) non-external __ZN6mach_o25ChainedFixupPointerOnDisk10strideSizeEt.cold.1
+000000018051da40 (__TEXT,__text) non-external __ZNK12objc_visitor10MethodList10numMethodsEv.cold.1
+000000018051da68 (__TEXT,__text) non-external __ZNK12objc_visitor10MethodList19usesRelativeOffsetsEv.cold.1
+000000018051da90 (__TEXT,__text) non-external __ZN12objc_visitor10MethodList12setIsUniquedEv.cold.1
+000000018051dab8 (__TEXT,__text) non-external __ZNK12objc_visitor10MethodList9getMethodERKNS_7VisitorEj.cold.1
+000000018051dae4 (__TEXT,__text) non-external __ZNK12objc_visitor10MethodList9getMethodERKNS_7VisitorEj.cold.2
+000000018051db0c (__TEXT,__text) non-external __ZNK12objc_visitor6Method12getNameFieldERKNS_7VisitorE.cold.1
+000000018051db34 (__TEXT,__text) non-external __ZNK12objc_visitor6Method12getNameFieldERKNS_7VisitorE.cold.2
+000000018051db5c (__TEXT,__text) non-external __ZNK12objc_visitor6Method12getNameFieldERKNS_7VisitorE.cold.3
+000000018051db84 (__TEXT,__text) non-external __ZNK12objc_visitor6Method7getNameERKNS_7VisitorE.cold.1
+000000018051dbac (__TEXT,__text) non-external __ZNK12objc_visitor6Method13getNameVMAddrERKNS_7VisitorE.cold.1
+000000018051dbd4 (__TEXT,__text) non-external __ZNK12objc_visitor6Method19getNameSelRefVMAddrERKNS_7VisitorE.cold.1
+000000018051dbfc (__TEXT,__text) non-external __ZNK12objc_visitor6Method19getNameSelRefVMAddrERKNS_7VisitorE.cold.2
+000000018051dc24 (__TEXT,__text) non-external __ZNK12objc_visitor6Method19getNameSelRefVMAddrERKNS_7VisitorE.cold.3
+000000018051dc4c (__TEXT,__text) non-external __ZNK12objc_visitor12ProtocolList12numProtocolsERKNS_7VisitorE.cold.1
+000000018051dc78 (__TEXT,__text) non-external __ZNK12objc_visitor12ProtocolList16getProtocolFieldERKNS_7VisitorEy.cold.1
+000000018051dca4 (__TEXT,__text) non-external __ZNK12objc_visitor12ProtocolList16getProtocolFieldERKNS_7VisitorEy.cold.2
+000000018051dcd0 (__TEXT,__text) non-external __ZNK12objc_visitor12ProtocolList16getProtocolFieldERKNS_7VisitorEy.cold.3
+000000018051dcfc (__TEXT,__text) non-external __ZN12objc_visitor7Visitor12forEachClassEbRKNS0_7SectionEU13block_pointerFvRNS_5ClassEbRbE.cold.1
+000000018051dd28 (__TEXT,__text) non-external __ZN12objc_visitor7Visitor15forEachCategoryEU13block_pointerFvRKNS_8CategoryERbE.cold.1
+000000018051dd54 (__TEXT,__text) non-external __ZN12objc_visitor7Visitor15forEachProtocolEU13block_pointerFvRKNS_8ProtocolERbE.cold.1
+000000018051dd80 (__TEXT,__text) non-external __ZNK12objc_visitor7Visitor24forEachSelectorReferenceEU13block_pointerFvRN16metadata_visitor13ResolvedValueEE.cold.1
+000000018051ddac (__TEXT,__text) non-external __ZN12objc_visitor7Visitor24forEachProtocolReferenceEU13block_pointerFvRN16metadata_visitor13ResolvedValueEE.cold.1
+000000018051ddd8 (__TEXT,__text) non-external (was a private external) __ZN3lsl6VectorItE12reserveExactEy
+000000018051dfb8 (__TEXT,__text) non-external __ZN12PropertyList6Bitmap6setBitEy.cold.1
+000000018051dfe4 (__TEXT,__text) non-external __ZN3lsl6VectorIN5dyld422InterposeTupleSpecificEE7reserveEy.cold.1
+000000018051dfe4 (__TEXT,__text) non-external __ZN3lsl6VectorItE7reserveEy.cold.1
+000000018051dff0 (__TEXT,__text) non-external __ZN3lsl6VectorI18AuthenticatedValueIPKN5dyld46LoaderEEE6resizeEy.cold.1
+000000018051dff0 (__TEXT,__text) non-external __ZN3lsl6VectorIPKcE6resizeEy.cold.1
+000000018051dff0 (__TEXT,__text) non-external __ZN3lsl6VectorIyE6resizeEy.cold.1
+000000018051e064 (__TEXT,__text) non-external __ZNK16metadata_visitor12SwiftVisitor20getSwiftConformancesEv.cold.1
+000000018051e090 (__TEXT,__text) non-external __ZNK16metadata_visitor16SwiftConformance19SwiftTypeRefPointer12getClassNameERKNS_12SwiftVisitorE.cold.1
+000000018051e0bc (__TEXT,__text) non-external __Z11signPointeryPvbt11ptrauth_key.cold.1
+000000018051e0e8 (__TEXT,__text) non-external __ZZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEvENKUlvE0_clEv
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld412RuntimeState10notifyLoadERKNSt3__14spanIPKNS_6LoaderELm18446744073709551615EEE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld412RuntimeState19addDynamicReferenceEPKNS_6LoaderES3_.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld412RuntimeState19addDynamicReferenceEPKNS_6LoaderES3_.cold.4
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld44APIs11dlopen_fromEPKciPv.cold.3
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld44APIs19_libdyld_initializeEv.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld44APIs33_dyld_register_func_for_add_imageENS_16ReadOnlyCallbackIPFvPK11mach_headerlEEE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld44APIs35_dyld_register_for_bulk_image_loadsENS_16ReadOnlyCallbackIPFvjPPK11mach_headerPPKcEEE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld44APIs36_dyld_call_with_writable_tpro_memoryEPFvPvES1_.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZN5dyld44APIs36_dyld_register_func_for_remove_imageENS_16ReadOnlyCallbackIPFvPK11mach_headerlEEE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZNK5dyld423LibSystemHelpersWrapper11malloc_sizeEPKv.cold.1
+000000018051e160 (__TEXT,__text) non-external __ZNK5dyld423LibSystemHelpersWrapper19pthread_getspecificEm.cold.1
+000000018051e160 (__TEXT,__text) non-external __ZNK5dyld46Loader17hasExportedSymbolER11DiagnosticsRNS_12RuntimeStateEPKcNS0_18ExportedSymbolModeENS0_12ResolverModeEPNS0_14ResolvedSymbolEbPN5dyld35ArrayIPKS0_EE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZNK5dyld46Loader38runInitializersBottomUpPlusUpwardLinksERNS_12RuntimeStateE.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEv.cold.2
+000000018051e160 (__TEXT,__text) non-external __ZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEv.cold.6
+000000018051e160 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager22withReadOnlyTPROMemoryIZNK5dyld423LibSystemHelpersWrapper11malloc_sizeEPKvEUlvE_EEN13callback_impl11return_typeIDTadsrT_onclEE4typeES9__block_invoke.cold.1
+000000018051e160 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager22withReadOnlyTPROMemoryIZNK5dyld423LibSystemHelpersWrapper17setUpThreadLocalsEPK15DyldSharedCachePK11mach_headerEUlvE_EEN13callback_impl11return_typeIDTadsrT_onclEE4typeESD__block_invoke.cold.1
+000000018051e160 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager22withReadOnlyTPROMemoryIZNK5dyld423LibSystemHelpersWrapper19pthread_getspecificEmEUlvE_EEN13callback_impl11return_typeIDTadsrT_onclEE4typeES7__block_invoke.cold.1
+000000018051e160 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager22withReadOnlyTPROMemoryIZNK5dyld423LibSystemHelpersWrapper19pthread_setspecificEmPKvEUlvE_EEN13callback_impl11return_typeIDTadsrT_onclEE4typeES9__block_invoke.cold.1
+000000018051e160 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager22withReadOnlyTPROMemoryIZNK5dyld423LibSystemHelpersWrapper4freeEPvEUlvE_EEN13callback_impl11return_typeIDTadsrT_onclEE4typeES8__block_invoke.cold.1
+000000018051e160 (__TEXT,__text) non-external ____ZN3lsl13MemoryManager22withReadOnlyTPROMemoryIZNK5dyld423LibSystemHelpersWrapper6mallocEmEUlvE_EEN13callback_impl11return_typeIDTadsrT_onclEE4typeES7__block_invoke.cold.1
+000000018051e170 (__TEXT,__text) non-external __ZN5dyld44APIs27getImagePlatformAndVersionsEPKN6mach_o12UnsafeHeaderE.cold.1
+000000018051e20c (__TEXT,__text) non-external __ZN5dyld44APIs33_dyld_register_func_for_add_imageENS_16ReadOnlyCallbackIPFvPK11mach_headerlEEE.cold.3
+000000018051e20c (__TEXT,__text) non-external __ZN5dyld44APIs35_dyld_register_for_bulk_image_loadsENS_16ReadOnlyCallbackIPFvjPPK11mach_headerPPKcEEE.cold.3
+000000018051e20c (__TEXT,__text) non-external __ZN5dyld44APIs36_dyld_register_func_for_remove_imageENS_16ReadOnlyCallbackIPFvPK11mach_headerlEEE.cold.3
+000000018051e278 (__TEXT,__text) non-external __ZN5dyld44APIs29_dyld_objc_register_callbacksEPKNS_13ObjCCallbacksE.cold.1
+000000018051e294 (__TEXT,__text) non-external __ZN5dyld44APIs29_dyld_objc_register_callbacksEPKNS_13ObjCCallbacksE.cold.2
+000000018051e2b0 (__TEXT,__text) non-external __ZNK5dyld423LibSystemHelpersWrapper19pthread_setspecificEmPKv.cold.1
+000000018051e3f4 (__TEXT,__text) non-external __ZNK5dyld423LibSystemHelpersWrapper4freeEPv.cold.1
+000000018051e414 (__TEXT,__text) non-external __ZNK5dyld423LibSystemHelpersWrapper4freeEPv.cold.2
+000000018051e5b0 (__TEXT,__text) non-external __ZNK5dyld423LibSystemHelpersWrapper6mallocEm.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState21initializeClosureModeEv.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState21initializeClosureModeEv.cold.2
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState21initializeClosureModeEv.cold.3
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState21initializeClosureModeEv.cold.4
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld44APIs11dlopen_fromEPKciPv.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld44APIs39_dyld_find_protocol_conformance_on_diskEPKvS2_S2_j.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld44APIs39_dyld_find_protocol_conformance_on_diskEPKvS2_S2_j.cold.2
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld44APIs50_dyld_has_preoptimized_swift_protocol_conformancesEPK11mach_header.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld44APIs52_dyld_find_foreign_type_protocol_conformance_on_diskEPKvPKcmj.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZN5dyld46Loader21indexOfUnzipperedTwinERKNS_12RuntimeStateEt.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZNK5dyld412RuntimeState18findPrebuiltLoaderEPKc.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZNK5dyld46Loader9LoaderRef6loaderERKNS_12RuntimeStateE.cold.1
+000000018051e6f4 (__TEXT,__text) non-external __ZNK5dyld46Loader9LoaderRef6loaderERKNS_12RuntimeStateE.cold.2
+000000018051e704 (__TEXT,__text) non-external __ZN5dyld4L16handleFromLoaderEPKNS_6LoaderEb.cold.1
+000000018051e730 (__TEXT,__text) non-external __ZN5dyld44APIs16dlopen_preflightEPKc.cold.1
+000000018051e798 (__TEXT,__text) non-external __ZN5dyld44APIs5dlsymEPvPKc.cold.1
+000000018051e81c (__TEXT,__text) non-external __ZNK5dyld44APIs22addressLookupsDisabledEPKc.cold.1
+000000018051e850 (__TEXT,__text) non-external __ZNK4objc19objc_headeropt_rw_t8isLoadedEj.cold.1
+000000018051e850 (__TEXT,__text) non-external ____ZN5dyld44APIs25_dyld_for_each_objc_classEPKcNS_16ReadOnlyCallbackIU13block_pointerFvPvbPbEEE_block_invoke_2.cold.1
+000000018051e850 (__TEXT,__text) non-external ____ZN5dyld44APIs28_dyld_for_each_objc_protocolEPKcNS_16ReadOnlyCallbackIU13block_pointerFvPvbPbEEE_block_invoke_2.cold.1
+000000018051e860 (__TEXT,__text) non-external __ZNK5dyld419objc_headeropt_rw_t8isLoadedEj.cold.1
+000000018051e860 (__TEXT,__text) non-external __ZNK5dyld44APIs31_dyld_find_protocol_conformanceEPKvS2_S2_.cold.4
+000000018051e860 (__TEXT,__text) non-external __ZNK5dyld44APIs31_dyld_find_protocol_conformanceEPKvS2_S2_.cold.5
+000000018051e860 (__TEXT,__text) non-external __ZNK5dyld44APIs31_dyld_find_protocol_conformanceEPKvS2_S2_.cold.6
+000000018051e870 (__TEXT,__text) non-external __ZN5dyld429EqualTypeConformanceLookupKey5equalERK43SwiftTypeProtocolConformanceDiskLocationKeyyyPNS_12RuntimeStateE.cold.1
+000000018051e89c (__TEXT,__text) non-external __ZN5dyld44APIs26_dyld_pseudodylib_registerEPvmP34_dyld_pseudodylib_callbacks_opaqueS1_.cold.1
+000000018051e8c8 (__TEXT,__text) non-external __ZNK5dyld416ReadOnlyCallbackIPFvPKcEEclIJRS2_EEEvDpOT_.cold.1
+000000018051ea34 (__TEXT,__text) non-external __ZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEv.cold.4
+000000018051ea94 (__TEXT,__text) non-external __ZL24__stackAllocatorInternalPvy.cold.1
+000000018051eab4 (__TEXT,__text) non-external __ZL24__stackAllocatorInternalPvy.cold.2
+000000018051ead4 (__TEXT,__text) non-external __ZL24__stackAllocatorInternalPvy.cold.3
+000000018051eaf4 (__TEXT,__text) non-external __ZZN5dyld412RuntimeLocks37withLoadersWriteLockAndProtectedStackIZZNS_4APIs11dlopen_fromEPKciPvENK3$_0clEvEUlvE0_EEvT_ENKUlvE_clEv.cold.1
+000000018051eaf4 (__TEXT,__text) non-external __ZZN5dyld412RuntimeLocks37withLoadersWriteLockAndProtectedStackIZZNS_4APIs11dlopen_fromEPKciPvENK3$_0clEvEUlvE_EEvT_ENKUlvE_clEv.cold.1
+000000018051eb04 (__TEXT,__text) non-external __ZZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEvENKUlvE_clEv.cold.1
+000000018051eb58 (__TEXT,__text) non-external __ZZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEvENKUlvE_clEv.cold.2
+000000018051eb7c (__TEXT,__text) non-external __ZZZN5dyld44APIs11dlopen_fromEPKciPvENK3$_0clEvENKUlvE_clEv.cold.3
+000000018051ebf0 (__TEXT,__text) non-external __ZN3lsl6VectorINSt3__14pairIPKN5dyld46LoaderEPKcEEE12reserveExactEy.cold.1
+000000018051ec3c (__TEXT,__text) non-external __ZN3lsl6VectorI18AuthenticatedValueIPKN5dyld46LoaderEEE8pop_backEv.cold.1
+000000018051ec3c (__TEXT,__text) non-external __ZN3lsl6VectorIN5dyld417InterposeTupleAllEE8pop_backEv.cold.1
+000000018051ec4c (__TEXT,__text) non-external __ZN3lsl6VectorINSt3__14pairIPKN5dyld46LoaderEPKcEEE6resizeEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayI13__cxa_range_tLy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld412PrebuiltObjC15ObjCImageFixupsELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld412PrebuiltObjC18ObjCOptimizerImage10ObjCObjectELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld412PrebuiltObjC18ObjCOptimizerImageELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld412RuntimeState15HiddenCacheAddrELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld412RuntimeState15PermanentRanges5RangeELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld414PrebuiltLoader13BindTargetRefELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld417PrebuiltLoaderSet10CachePatchELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld418PageInLinkingRangeELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIN5dyld46Loader21MissingFlatLazySymbolELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_12MultiMapBaseI43SwiftTypeProtocolConformanceDiskLocationKey40SwiftTypeProtocolConformanceDiskLocationN5dyld422HashTypeConformanceKeyENS4_23EqualTypeConformanceKeyEE10NodeEntryTELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_12MultiMapBaseI47SwiftMetadataProtocolConformanceDiskLocationKey44SwiftMetadataProtocolConformanceDiskLocationN5dyld426HashMetadataConformanceKeyENS4_27EqualMetadataConformanceKeyEE10NodeEntryTELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_12MultiMapBaseI50SwiftForeignTypeProtocolConformanceDiskLocationKey47SwiftForeignTypeProtocolConformanceDiskLocationN5dyld425HashForeignConformanceKeyENS4_26EqualForeignConformanceKeyEE10NodeEntryTELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_12MultiMapBaseIN13prebuilt_objc13ObjCStringKeyENS2_18ObjCObjectLocationENS2_17HashObjCStringKeyENS2_18EqualObjCStringKeyEE10NodeEntryTELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseI8VMOffsetjN5dyld412PrebuiltObjC18ObjCOptimizerImage12VMOffsetHashENS5_13VMOffsetEqualEE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseIN13prebuilt_objc13ObjCStringKeyENS2_20ObjCSelectorLocationENS2_17HashObjCStringKeyENS2_18EqualObjCStringKeyEE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseIPKcN5dyld415WeakDefMapValueENS_11HashCStringENS_12EqualCStringEE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseIPKcN5dyld46Loader10BindTargetENS_11HashCStringENS_12EqualCStringEE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseIPKcbNS_11HashCStringENS_12EqualCStringEE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseIPKvbN5dyld411HashPointerENS4_12EqualPointerEE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayINS_7MapBaseItNSt3__14pairI9VMAddressPKN5dyld46LoaderEEENS5_10HashUInt16ENS5_11EqualUInt16EE9NodeImplTILb0EEELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIPKN5dyld414PrebuiltLoaderELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIPKN5dyld46LoaderELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIPKcLy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIPKvLy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIPN5dyld46LoaderELy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIbLy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIhLy4294967295EE6growToEy.cold.1
+000000018051ecc0 (__TEXT,__text) non-external __ZN5dyld317OverflowSafeArrayIyLy4294967295EE6growToEy.cold.1
+000000018051ece0 (__TEXT,__text) non-external __ZNK5dyld415SyscallDelegate15mapFileReadOnlyER11DiagnosticsPKcPiPmPNS_6FileIDEPc.cold.1
+000000018051ed58 (__TEXT,__text) non-external __ZNK5dyld415SyscallDelegate15mapFileReadOnlyER11DiagnosticsPKcPiPmPNS_6FileIDEPc.cold.2
+000000018051edec (__TEXT,__text) non-external __ZNK5dyld415SyscallDelegate16getFileAttributeEPKcS2_RN5dyld35ArrayIhEE.cold.1
+000000018051ee18 (__TEXT,__text) non-external __ZN5dyld35ArrayIN5dyld46Loader6RegionEE9push_backERKS3_.cold.1
+000000018051ee18 (__TEXT,__text) non-external __ZN5dyld417PrebuiltLoaderSet13makeLaunchSetER11DiagnosticsRNS_12RuntimeStateERKNS_12MissingPathsE.cold.1
+000000018051ee18 (__TEXT,__text) non-external ____ZN5dyld4L17handleDyldInCacheERN3lsl9AllocatorEPKN6mach_o12UnsafeHeaderEPKNS_10KernelArgsES6_y_block_invoke.cold.1
+000000018051ee44 (__TEXT,__text) non-external ____ZN5dyld4L7prepareERNS_4APIsEPKN6mach_o12UnsafeHeaderE_block_invoke.cold.1
+000000018051ee5c (__TEXT,__text) non-external (was a private external) __Z17hexStringToUInt647CStringRm
+000000018051ef08 (__TEXT,__text) non-external (was a private external) __ZNK5dyld413ProcessConfig9DyldCache19getIndexedImagePathEj
+000000018051ef10 (__TEXT,__text) non-external __ZN5dyld413ProcessConfigC2EPKNS_10KernelArgsERNS_15SyscallDelegateERN3lsl9AllocatorE.cold.1
+000000018051ef3c (__TEXT,__text) non-external ____ZN5dyld413ProcessConfigC2EPKNS_10KernelArgsERNS_15SyscallDelegateERN3lsl9AllocatorE_block_invoke.cold.1
+000000018051ef68 (__TEXT,__text) non-external __ZN5dyld413ProcessConfig7Process15getMainPlatformEv.cold.1
+000000018051efec (__TEXT,__text) non-external __ZN5dyld413ProcessConfig8SecurityC2ERNS0_7ProcessERNS_15SyscallDelegateE.cold.1
+000000018051f02c (__TEXT,__text) non-external __ZN5dyld411CacheFinderC2ERKNS_13ProcessConfig7ProcessERKNS1_7LoggingERNS_15SyscallDelegateE.cold.1
+000000018051f0cc (__TEXT,__text) non-external __ZN5dyld411CacheFinderD2Ev.cold.1
+000000018051f0e4 (__TEXT,__text) non-external __ZN5dyld413ProcessConfig9DyldCacheC2ERNS0_7ProcessERKNS0_8SecurityERKNS0_7LoggingERNS_15SyscallDelegateERN3lsl9AllocatorERKS0_.cold.1
+000000018051f100 (__TEXT,__text) non-external __ZN5dyld413ProcessConfig9DyldCacheC2ERNS0_7ProcessERKNS0_8SecurityERKNS0_7LoggingERNS_15SyscallDelegateERN3lsl9AllocatorERKS0_.cold.2
+000000018051f11c (__TEXT,__text) non-external __ZN5dyld411PseudoDylib6createERN3lsl9AllocatorEPKcPvmPNS_20PseudoDylibCallbacksES6_.cold.1
+000000018051f148 (__TEXT,__text) non-external __ZN5dyld411PseudoDylib6createERN3lsl9AllocatorEPKcPvmPNS_20PseudoDylibCallbacksES6_.cold.2
+000000018051f174 (__TEXT,__text) non-external __ZN5dyld411PseudoDylib6createERN3lsl9AllocatorEPKcPvmPNS_20PseudoDylibCallbacksES6_.cold.3
+000000018051f1a0 (__TEXT,__text) non-external __ZNK5dyld411PseudoDylib13lookupSymbolsENSt3__14spanIPKcLm18446744073709551615EEENS2_IPvLm18446744073709551615EEENS2_IyLm18446744073709551615EEE.cold.1
+000000018051f1cc (__TEXT,__text) non-external __ZNK5dyld411PseudoDylib13lookupSymbolsENSt3__14spanIPKcLm18446744073709551615EEENS2_IPvLm18446744073709551615EEENS2_IyLm18446744073709551615EEE.cold.2
+000000018051f1f8 (__TEXT,__text) non-external __ZNK5dyld411PseudoDylib18findUnwindSectionsEPKvPbP20dyld_unwind_sections.cold.1
+000000018051f224 (__TEXT,__text) non-external __ZNK5dyld411PseudoDylib18findUnwindSectionsEPKvPbP20dyld_unwind_sections.cold.2
+000000018051f250 (__TEXT,__text) non-external __ZNK5dyld412RuntimeState14appLoadAddressEt.cold.1
+000000018051f27c (__TEXT,__text) non-external __ZNK5dyld412RuntimeState14appLoadAddressEt.cold.2
+000000018051f2a8 (__TEXT,__text) non-external __ZN5dyld412RuntimeState17setAppLoadAddressEtPKN6mach_o12UnsafeHeaderE.cold.1
+000000018051f2d4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState17setAppLoadAddressEtPKN6mach_o12UnsafeHeaderE.cold.2
+000000018051f300 (__TEXT,__text) non-external __ZNK5dyld412RuntimeState22cachedDylibLoadAddressEt.cold.1
+000000018051f32c (__TEXT,__text) non-external __ZN5dyld412RuntimeState3addEPKNS_6LoaderE.cold.1
+000000018051f3c8 (__TEXT,__text) non-external __ZN5dyld412RuntimeState23recursiveMarkNonDelayedEPKNS_6LoaderEPNS1_14LinksWithChainES5_.cold.1
+000000018051f428 (__TEXT,__text) non-external __ZN5dyld412RuntimeState4vlogEPKcPc.cold.1
+000000018051f4b4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState4vlogEPKcPc.cold.2
+000000018051f5ac (__TEXT,__text) non-external __ZNK5dyld416AccountingBitmap11getBitCountEv.cold.1
+000000018051f5d8 (__TEXT,__text) non-external __ZN5dyld416AccountingBitmap6setBitEm.cold.1
+000000018051f604 (__TEXT,__text) non-external __ZN5dyld35ArrayIN5dyld46Reaper12LoaderAndUseEE9push_backERKS3_.cold.1
+000000018051f604 (__TEXT,__text) non-external __ZN5dyld35ArrayIhE9push_backERKh.cold.1
+000000018051f604 (__TEXT,__text) non-external __ZN5dyld412RuntimeState20notifyDebuggerUnloadERKNSt3__14spanIPKNS_6LoaderELm18446744073709551615EEE.cold.1
+000000018051f604 (__TEXT,__text) non-external __ZN5dyld412RuntimeState23appendInterposingTuplesEPKNS_6LoaderEPKhj.cold.1
+000000018051f604 (__TEXT,__text) non-external __ZN5dyld4L25setUpPageInLinkingRegionsERNS_12RuntimeStateEPKNS_6LoaderEmttbRKN5dyld35ArrayINS_18PageInLinkingRangeEEERKNS6_IPKvEE.cold.2
+000000018051f604 (__TEXT,__text) non-external __ZNK5dyld46Loader17hasExportedSymbolER11DiagnosticsRNS_12RuntimeStateEPKcNS0_18ExportedSymbolModeENS0_12ResolverModeEPNS0_14ResolvedSymbolEbPN5dyld35ArrayIPKS0_EE.cold.1
+000000018051f604 (__TEXT,__text) non-external ____ZN13prebuilt_objc12forEachClassEPKvU13block_pointerFvRKN5dyld414PrebuiltLoader13BindTargetRefERKN5dyld35ArrayIPS5_EEE_block_invoke.cold.1
+000000018051f604 (__TEXT,__text) non-external ____ZN13prebuilt_objc12forEachClassEPN5dyld412RuntimeStateERKN5dyld312MultiMapViewINS_19ObjCStringKeyOnDiskENS_24ObjCObjectOnDiskLocationENS_23HashObjCStringKeyOnDiskENS_24EqualObjCStringKeyOnDiskEEEPKcU13block_pointerFvRKNS3_5ArrayIPKNS0_14PrebuiltLoader13BindTargetRefEEEE_block_invoke.cold.1
+000000018051f604 (__TEXT,__text) non-external ____ZN13prebuilt_objc15forEachProtocolEPN5dyld412RuntimeStateERKN5dyld312MultiMapViewINS_19ObjCStringKeyOnDiskENS_24ObjCObjectOnDiskLocationENS_23HashObjCStringKeyOnDiskENS_24EqualObjCStringKeyOnDiskEEEPKcU13block_pointerFvRKNS3_5ArrayIPKNS0_14PrebuiltLoader13BindTargetRefEEEE_block_invoke.cold.1
+000000018051f604 (__TEXT,__text) non-external ____ZNK5dyld46Loader13resolveSymbolER11DiagnosticsRNS_12RuntimeStateEiPKcbbU13block_pointerFvjjRKNS0_14ResolvedSymbolEEb_block_invoke_2.cold.2
+000000018051f604 (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEEENK3$_0clEv_block_invoke.cold.1
+000000018051f604 (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEEENK3$_0clEv_block_invoke.cold.2
+000000018051f604 (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEEENK3$_0clEv_block_invoke.cold.3
+000000018051f614 (__TEXT,__text) non-external __ZN5dyld33MapIPKcN5dyld415WeakDefMapValueENS_11HashCStringENS_12EqualCStringEE6insertEONS_7MapBaseIS2_S4_S5_S6_E9NodeImplTILb0EEE.cold.1
+000000018051f614 (__TEXT,__text) non-external __ZN5dyld33MapIPKcbNS_11HashCStringENS_12EqualCStringEE6insertEONS_7MapBaseIS2_bS3_S4_E9NodeImplTILb0EEE.cold.1
+000000018051f614 (__TEXT,__text) non-external __ZN5dyld33MapIPKvbN5dyld411HashPointerENS3_12EqualPointerEE6insertEONS_7MapBaseIS2_bS4_S5_E9NodeImplTILb0EEE.cold.1
+000000018051f614 (__TEXT,__text) non-external ____ZN5dyld412RuntimeState23appendInterposingTuplesEPKNS_6LoaderEPKhj_block_invoke.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseI8VMOffsetjN5dyld412PrebuiltObjC18ObjCOptimizerImage12VMOffsetHashENS4_13VMOffsetEqualEE4findIS1_EEPNS7_9NodeImplTILb0EEERKNS_5ArrayIjEERNSC_ISA_EEPvRKS1_.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseI8VMOffsetjN5dyld412PrebuiltObjC18ObjCOptimizerImage12VMOffsetHashENS4_13VMOffsetEqualEE4findIS1_EEPNS7_9NodeImplTILb0EEERKNS_5ArrayIjEERNSC_ISA_EEPvRKS1_.cold.2
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseIN13prebuilt_objc13ObjCStringKeyENS1_20ObjCSelectorLocationENS1_17HashObjCStringKeyENS1_18EqualObjCStringKeyEE4findIS2_EEPNS6_9NodeImplTILb0EEERKNS_5ArrayIjEERNSB_IS9_EEPvRKS2_.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseIPKcN5dyld46Loader10BindTargetENS_11HashCStringENS_12EqualCStringEE4findIS2_EEPNS8_9NodeImplTILb0EEERKNS_5ArrayIjEERNSD_ISB_EEPvRKS2_.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseIPKvbN5dyld411HashPointerENS3_12EqualPointerEE4findIPhEEPNS6_9NodeImplTILb0EEERKNS_5ArrayIjEERNSC_ISA_EEPvRKS2_.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseIPKvbN5dyld411HashPointerENS3_12EqualPointerEE4findIS2_EEPNS6_9NodeImplTILb0EEERKNS_5ArrayIjEERNSB_IS9_EEPvRKS2_.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld37MapBaseItNSt3__14pairI9VMAddressPKN5dyld46LoaderEEENS4_10HashUInt16ENS4_11EqualUInt16EE4findItEEPNSB_9NodeImplTILb0EEERKNS_5ArrayIjEERNSG_ISE_EEPvRKt.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld412RuntimeState20notifyDebuggerUnloadERKNSt3__14spanIPKNS_6LoaderELm18446744073709551615EEE.cold.2
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld4L32generateClassOrProtocolHashTableENS_12PrebuiltObjC14ObjCStructKindERN5dyld35ArrayINS0_18ObjCOptimizerImageEEERKNS2_3MapIPKcNS_6Loader10BindTargetENS2_11HashCStringENS2_12EqualCStringEEERNS2_8MultiMapIN13prebuilt_objc13ObjCStringKeyENSI_18ObjCObjectLocationENSI_17HashObjCStringKeyENSI_18EqualObjCStringKeyEEERb.cold.1
+000000018051f640 (__TEXT,__text) non-external __ZN5dyld4L32generateClassOrProtocolHashTableENS_12PrebuiltObjC14ObjCStructKindERN5dyld35ArrayINS0_18ObjCOptimizerImageEEERKNS2_3MapIPKcNS_6Loader10BindTargetENS2_11HashCStringENS2_12EqualCStringEEERNS2_8MultiMapIN13prebuilt_objc13ObjCStringKeyENSI_18ObjCObjectLocationENSI_17HashObjCStringKeyENSI_18EqualObjCStringKeyEEERb.cold.2
+000000018051f640 (__TEXT,__text) non-external ____ZN5dyld412RuntimeState23appendInterposingTuplesEPKNS_6LoaderEPKhj_block_invoke_2.cold.1
+000000018051f640 (__TEXT,__text) non-external ____ZN5dyld412RuntimeState23appendInterposingTuplesEPKNS_6LoaderEPKhj_block_invoke_2.cold.2
+000000018051f640 (__TEXT,__text) non-external ____ZN5dyld412RuntimeState23appendInterposingTuplesEPKNS_6LoaderEPKhj_block_invoke_2.cold.3
+000000018051f640 (__TEXT,__text) non-external ____ZN5dyld412RuntimeState23appendInterposingTuplesEPKNS_6LoaderEPKhj_block_invoke_2.cold.4
+000000018051f640 (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEEENK3$_0clEv_block_invoke.cold.4
+000000018051f640 (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEEENK3$_0clEv_block_invoke.cold.5
+000000018051f650 (__TEXT,__text) non-external __ZN3lsl6VectorIN5dyld423ExternallyViewableState9ImageInfoEE12reserveExactEy.cold.1
+000000018051f6ac (__TEXT,__text) non-external __ZN5dyld412RuntimeState10notifyLoadERKNSt3__14spanIPKNS_6LoaderELm18446744073709551615EEE.cold.3
+000000018051f898 (__TEXT,__text) non-external __ZN5dyld412RuntimeState19doSingletonPatchingERNS_34DyldCacheDataConstLazyScopedWriterE.cold.1
+000000018051f9a4 (__TEXT,__text) non-external __ZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEE.cold.3
+000000018051fa38 (__TEXT,__text) non-external __ZN5dyld412RuntimeState10initializeEv.cold.1
+000000018051fa90 (__TEXT,__text) non-external __ZN5dyld412RuntimeState29buildAppPrebuiltLoaderSetPathEb.cold.1
+000000018051faec (__TEXT,__text) non-external __ZN5dyld412RuntimeState29buildAppPrebuiltLoaderSetPathEb.cold.2
+000000018051fb30 (__TEXT,__text) non-external __ZN5dyld412RuntimeState29buildAppPrebuiltLoaderSetPathEb.cold.3
+000000018051fc18 (__TEXT,__text) non-external __ZN5dyld412RuntimeState24loadAppPrebuiltLoaderSetEv.cold.1
+000000018051fcb0 (__TEXT,__text) non-external __ZNK7CString9endsubstrEm.cold.1
+000000018051fcdc (__TEXT,__text) non-external __ZZN5dyld412RuntimeLocks37withLoadersWriteLockAndProtectedStackIZNS_12RuntimeState13decDlRefCountEPKNS_6LoaderEE3$_0EEvT_ENKUlvE_clEv.cold.1
+000000018051fd08 (__TEXT,__text) non-external __ZN3lsl6VectorIN5dyld423ExternallyViewableState9ImageInfoEE6resizeEy.cold.1
+000000018051fd80 (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState10notifyLoadERKNSt3__14spanIPKNS_6LoaderELm18446744073709551615EEEENK3$_0clEv_block_invoke.cold.1
+000000018051fdac (__TEXT,__text) non-external ____ZZN5dyld412RuntimeState16setObjCNotifiersENS_16ReadOnlyCallbackIPFvPKcPK11mach_headerEEENS1_IPFvS6_PvS6_PKvEEENS1_IPFvPK29_dyld_objc_notify_mapped_infoEEENS1_IPFvjSI_U13block_pointerFvjEEEEENK3$_0clEv_block_invoke.199.cold.1
+000000018051fdd8 (__TEXT,__text) non-external __ZN5dyld423ExternallyViewableState17createMinimalInfoERN3lsl9AllocatorEyPKcyS5_PK15DyldSharedCache.cold.1
+000000018051fdf4 (__TEXT,__text) non-external __ZN5dyld423ExternallyViewableState31prepareInCacheDyldAllImageInfosEPK11mach_header.cold.1
+000000018051fe74 (__TEXT,__text) non-external __ZN3lsl6VectorI15dyld_image_infoE6resizeEy.cold.1
+000000018051feec (__TEXT,__text) non-external (was a private external) _abort
+000000018051ff08 (__TEXT,__text) non-external ___guard_setup.cold.1
+000000018051ff40 (__TEXT,__text) non-external __Block_object_dispose.cold.1
+000000018051ff5c (__TEXT,__text) non-external __ZNK5dyld416JustInTimeLoader14makePatchTableERNS_12RuntimeStateEj.cold.1
+000000018051ff88 (__TEXT,__text) non-external __ZN5dyld416JustInTimeLoader14loadDependentsER11DiagnosticsRNS_12RuntimeStateERKNS_6Loader11LoadOptionsE.cold.2
+000000018052000c (__TEXT,__text) non-external __ZN5dyld416JustInTimeLoader14dependentAttrsEj.cold.1
+0000000180520038 (__TEXT,__text) non-external __ZN5dyld416JustInTimeLoader14dependentAttrsEj.cold.2
+0000000180520064 (__TEXT,__text) non-external __ZNK5dyld416JustInTimeLoader9dependentERKNS_12RuntimeStateEjPN6mach_o21LinkedDylibAttributesE.cold.1
+0000000180520090 (__TEXT,__text) non-external __ZNK5dyld416JustInTimeLoader5unmapERNS_12RuntimeStateEb.cold.1
+00000001805200bc (__TEXT,__text) non-external ____ZN5dyld416JustInTimeLoader21parseSectionLocationsEPKN6mach_o12UnsafeHeaderERNS_16SectionLocationsE_block_invoke_2.cold.1
+0000000180520154 (__TEXT,__text) non-external ____ZN5dyld416JustInTimeLoader21parseSectionLocationsEPKN6mach_o12UnsafeHeaderERNS_16SectionLocationsE_block_invoke_2.cold.3
+00000001805201d0 (__TEXT,__text) non-external (was a private external) __ZN5dyld46Loader13appendHexByteEhRPc
+0000000180520220 (__TEXT,__text) non-external __ZNK5dyld46Loader11installNameERKNS_12RuntimeStateE.cold.1
+0000000180520248 (__TEXT,__text) non-external __ZNK5dyld46Loader6fileIDERKNS_12RuntimeStateE.cold.1
+0000000180520248 (__TEXT,__text) non-external ____ZN5dyld46Loader9getLoaderER11DiagnosticsRNS_12RuntimeStateEPKcRKNS0_11LoadOptionsEb_block_invoke.cold.4
+0000000180520270 (__TEXT,__text) non-external __ZNK5dyld46Loader13resolveSymbolER11DiagnosticsRNS_12RuntimeStateEiPKcbbU13block_pointerFvjjRKNS0_14ResolvedSymbolEEb.cold.1
+0000000180520270 (__TEXT,__text) non-external __ZNK5dyld46Loader14dependentCountEv.cold.1
+0000000180520270 (__TEXT,__text) non-external __ZNK5dyld46Loader17hasExportedSymbolER11DiagnosticsRNS_12RuntimeStateEPKcNS0_18ExportedSymbolModeENS0_12ResolverModeEPNS0_14ResolvedSymbolEbPN5dyld35ArrayIPKS0_EE.cold.7
+0000000180520270 (__TEXT,__text) non-external __ZNK5dyld46Loader23runInitializersBottomUpERNS_12RuntimeStateERN3lsl6VectorI18AuthenticatedValueIPKS0_EEESA_.cold.3
+0000000180520270 (__TEXT,__text) non-external __ZNK5dyld46Loader30recursivelyLogChainToLinksWithERNS_12RuntimeStateEPKcPKS0_PNS0_14LinksWithChainES8_RN5dyld35ArrayIS6_EE.cold.1
+0000000180520280 (__TEXT,__text) non-external __ZN5dyld46Loader14loadDependentsER11DiagnosticsRNS_12RuntimeStateERKNS0_11LoadOptionsE.cold.1
+00000001805202a8 (__TEXT,__text) non-external __ZNK5dyld46Loader14getExportsTrieERyRj.cold.1
+00000001805202d0 (__TEXT,__text) non-external __ZNK5dyld46Loader14hiddenFromFlatEb.cold.1
+00000001805202d0 (__TEXT,__text) non-external ____ZNK5dyld46Loader13resolveSymbolER11DiagnosticsRNS_12RuntimeStateEiPKcbbU13block_pointerFvjjRKNS0_14ResolvedSymbolEEb_block_invoke_2.cold.1
+00000001805202f8 (__TEXT,__text) non-external __ZNK5dyld46Loader19getSectionLocationsEv.cold.1
+0000000180520320 (__TEXT,__text) non-external __ZNK5dyld46Loader5unmapERNS_12RuntimeStateEb.cold.1
+0000000180520348 (__TEXT,__text) non-external __ZNK5dyld46Loader14hasBeenFixedUpERNS_12RuntimeStateE.cold.1
+0000000180520370 (__TEXT,__text) non-external __ZNK5dyld46Loader15runInitializersERNS_12RuntimeStateE.cold.1
+0000000180520370 (__TEXT,__text) non-external __ZNK5dyld46Loader23runInitializersBottomUpERNS_12RuntimeStateERN3lsl6VectorI18AuthenticatedValueIPKS0_EEESA_.cold.5
+0000000180520398 (__TEXT,__text) non-external ____ZN5dyld46Loader9getLoaderER11DiagnosticsRNS_12RuntimeStateEPKcRKNS0_11LoadOptionsEb_block_invoke.cold.2
+00000001805203c0 (__TEXT,__text) non-external __ZNK5dyld46Loader18applyFixupsGenericER11DiagnosticsRNS_12RuntimeStateEyRKN5dyld35ArrayIPKvEESB_bRKNS6_INS0_21MissingFlatLazySymbolEEE.cold.1
+0000000180520428 (__TEXT,__text) non-external __ZN5dyld46Loader21overriddenCacheHeaderERNS_12RuntimeStateEPKN6mach_o12UnsafeHeaderE.cold.1
+0000000180520428 (__TEXT,__text) non-external __ZNK5dyld46Loader13resolveSymbolER11DiagnosticsRNS_12RuntimeStateEiPKcbbU13block_pointerFvjjRKNS0_14ResolvedSymbolEEb.cold.4
+0000000180520428 (__TEXT,__text) non-external __ZNK5dyld46Loader17applyCachePatchesERNS_12RuntimeStateERNS_34DyldCacheDataConstLazyScopedWriterE.cold.1
+0000000180520428 (__TEXT,__text) non-external __ZNK5dyld46Loader18applyFixupsGenericER11DiagnosticsRNS_12RuntimeStateEyRKN5dyld35ArrayIPKvEESB_bRKNS6_INS0_21MissingFlatLazySymbolEEE.cold.2
+0000000180520428 (__TEXT,__text) non-external __ZNK5dyld46Loader19applyCachePatchesToERNS_12RuntimeStateEPKS0_RNS_34DyldCacheDataConstLazyScopedWriterE.cold.1
+0000000180520438 (__TEXT,__text) non-external __ZNK5dyld46Loader13resolveSymbolER11DiagnosticsRNS_12RuntimeStateEiPKcbbU13block_pointerFvjjRKNS0_14ResolvedSymbolEEb.cold.2
+0000000180520438 (__TEXT,__text) non-external __ZNK5dyld46Loader17hasExportedSymbolER11DiagnosticsRNS_12RuntimeStateEPKcNS0_18ExportedSymbolModeENS0_12ResolverModeEPNS0_14ResolvedSymbolEbPN5dyld35ArrayIPKS0_EE.cold.8
+0000000180520438 (__TEXT,__text) non-external __ZNK5dyld46Loader23runInitializersBottomUpERNS_12RuntimeStateERN3lsl6VectorI18AuthenticatedValueIPKS0_EEESA_.cold.4
+0000000180520448 (__TEXT,__text) non-external __ZNK5dyld46Loader13resolveSymbolER11DiagnosticsRNS_12RuntimeStateEiPKcbbU13block_pointerFvjjRKNS0_14ResolvedSymbolEEb.cold.3
+0000000180520474 (__TEXT,__text) non-external __ZNK5dyld46Loader25findAndRunAllInitializersERNS_12RuntimeStateE.cold.3
+0000000180520508 (__TEXT,__text) non-external __ZNK5dyld46Loader23runInitializersBottomUpERNS_12RuntimeStateERN3lsl6VectorI18AuthenticatedValueIPKS0_EEESA_.cold.2
+0000000180520530 (__TEXT,__text) non-external __ZNK5dyld46Loader17hasExportedSymbolER11DiagnosticsRNS_12RuntimeStateEPKcNS0_18ExportedSymbolModeENS0_12ResolverModeEPNS0_14ResolvedSymbolEbPN5dyld35ArrayIPKS0_EE.cold.6
+00000001805205ac (__TEXT,__text) non-external __ZNK5dyld46Loader27applyCachePatchesToOverrideERNS_12RuntimeStateEPKS0_tPKNS0_10DylibPatchERNS_34DyldCacheDataConstLazyScopedWriterE.cold.2
+00000001805205d8 (__TEXT,__text) non-external __ZNK5dyld46Loader27applyCachePatchesToOverrideERNS_12RuntimeStateEPKS0_tPKNS0_10DylibPatchERNS_34DyldCacheDataConstLazyScopedWriterE.cold.3
+0000000180520604 (__TEXT,__text) non-external __ZNK5dyld46Loader17applyCachePatchesERNS_12RuntimeStateERNS_34DyldCacheDataConstLazyScopedWriterE.cold.2
+0000000180520630 (__TEXT,__text) non-external __ZN5dyld4L24dyld_map_with_linking_npEPK10mwl_regionjPK12mwl_info_hdrj.cold.1
+000000018052065c (__TEXT,__text) non-external __ZN5dyld37MapBaseIPKcN5dyld415WeakDefMapValueENS_11HashCStringENS_12EqualCStringEE4findIS2_EEPNS7_9NodeImplTILb0EEERKNS_5ArrayIjEERNSC_ISA_EEPvRKS2_.cold.1
+000000018052065c (__TEXT,__text) non-external __ZN5dyld37MapBaseIPKcbNS_11HashCStringENS_12EqualCStringEE4findIS2_EEPNS5_9NodeImplTILb0EEERKNS_5ArrayIjEERNSA

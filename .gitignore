@@ -1,0 +1,15 @@
+# firmware e binarios
+*.ipsw
+*.zip
+*.dmg
+*.bin
+*.o
+*.a2s
+
+# temporarios de extracao
+_tmp/
+tmp/
+*.log
+
+# ruido de macOS
+.DS_Store

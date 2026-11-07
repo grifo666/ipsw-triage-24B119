@@ -1,0 +1,83 @@
+name: extract
+
+on:
+  workflow_dispatch:
+    inputs:
+      componente:
+        description: kernel | dyld | binario
+        required: true
+        default: dyld
+      device:
+        description: identificador do device
+        required: true
+        default: iPhone18,2
+      build:
+        description: build alvo
+        required: true
+        default: 24B119
+      baseline_build:
+        description: build de baseline para o diff
+        required: false
+        default: 23G83
+      target_symbol:
+        description: simbolo alvo
+        required: false
+        default: indefinido
+      dyld_path:
+        description: caminho da dylib dentro do cache
+        required: false
+        default: /System/Library/Caches/com.apple.dyld/dyld_shared_cache_arm64e
+      kext_bundle_id:
+        description: bundle id do kext (so componente kernel)
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: extract
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: macos-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: instalar ipsw
+        run: brew install blacktop/tap/ipsw
+
+      - name: extrair
+        env:
+          COMPONENTE: ${{ inputs.componente }}
+          DEVICE: ${{ inputs.device }}
+          BUILD: ${{ inputs.build }}
+          BASELINE_BUILD: ${{ inputs.baseline_build }}
+          TARGET_SYMBOL: ${{ inputs.target_symbol }}
+          DYLD_PATH: ${{ inputs.dyld_path }}
+          KEXT_BUNDLE_ID: ${{ inputs.kext_bundle_id }}
+          RUN_TMP: ${{ runner.temp }}/_tmp
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: ./extract.sh
+
+      - name: commitar texto
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "nada a commitar"
+          else
+            git commit -m "feat(extract): ${{ inputs.build }} ${{ inputs.componente }}"
+            git push
+          fi
+
+      - name: artifact de binarios
+        uses: actions/upload-artifact@v4
+        with:
+          name: binaries-${{ inputs.build }}
+          path: ${{ runner.temp }}/_tmp
+          retention-days: 14
+          if-no-files-found: error

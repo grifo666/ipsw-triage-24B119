@@ -1,0 +1,34 @@
+Parse kernelcache
+
+Usage:
+  ipsw kernel [flags]
+  ipsw kernel [command]
+
+Aliases:
+  kernel, k
+
+Available Commands:
+  cpp           Discover C++ classes from kernelcache
+  ctfdump       Dump CTF info
+  dec           Decompress a kernelcache
+  dwarf         🚧 Dump DWARF debug information
+  extract       Extract KEXT(s) from kernelcache
+  ida           🚧 Analyze kernelcache in IDA Pro
+  kexts         List kernel extensions
+  mach          Dump kernelcache mach_traps
+  mig           Dump kernelcache mig subsystem
+  symbolicate   Symbolicate kernelcache
+  symbolsets    Dump kernel symbolsets
+  syscall       Dump kernelcache syscalls
+  version       Dump kernelcache version
+
+Flags:
+  -h, --help   help for kernel
+
+Global Flags:
+      --color           colorize output
+      --config string   config file (default is $HOME/.config/ipsw/config.yaml)
+      --no-color        disable colorize output
+  -V, --verbose         verbose output
+
+Use "ipsw kernel [command] --help" for more information about a command.

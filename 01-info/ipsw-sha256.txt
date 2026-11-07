@@ -1,0 +1,1 @@
+12b7447945c5219c4d6b807c30be04e58eff4693b999b1f7e744bdd5bc9cb09d  /Volumes/XcodeBuild/ipsw/iPhone18,2_27.2_24B119_Restore.ipsw

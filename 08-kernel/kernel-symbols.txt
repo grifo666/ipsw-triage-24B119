@@ -1,0 +1,1 @@
+componente dyld nao usa kernel

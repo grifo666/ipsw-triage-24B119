@@ -1,0 +1,52 @@
+Magic         = 64-bit MachO
+Type          = DYLINKER
+CPU           = AARCH64, ARM64e caps: USR00
+Commands      = 17 (Size: 2488)
+Flags         = NoUndefs, DyldLink, TwoLevel
+000: LC_SEGMENT_64 sz=0x000b8000 off=0x00000000-0x000b8000 addr=0x180483000-0x18053b000 r-x/r-x   __TEXT            
+	sz=0x0009ee60 off=0x00001000-0x0009fe60 addr=0x180484000-0x180522e60               __TEXT.__text            PureInstructions|SomeInstructions 
+	sz=0x00001998 off=0x0009fe60-0x000a17f8 addr=0x180522e60-0x1805247f8               __TEXT.__const            
+	sz=0x0001263d off=0x000a17f8-0x000b3e35 addr=0x1805247f8-0x180536e35               __TEXT.__cstring          (CstringLiterals)
+	sz=0x000004eb off=0x000b3e35-0x000b4320 addr=0x180536e35-0x180537320               __TEXT.__info_plist       
+	sz=0x000035b8 off=0x000b4320-0x000b78d8 addr=0x180537320-0x18053a8d8               __TEXT.__unwind_info      
+001: LC_SEGMENT_64 sz=0x00008000 off=0x000b8000-0x000c0000 addr=0x1e01874d8-0x1e018f4d8 rw-/rw-   __DATA_CONST      ReadOnly
+	sz=0x00005618 off=0x000b8000-0x000bd618 addr=0x1e01874d8-0x1e018caf0         __DATA_CONST.__const            
+002: LC_SEGMENT_64 sz=0x00004000 off=0x000c0000-0x000c4000 addr=0x1e1f95b00-0x1e1f99b00 rw-/rw-   __AUTH_CONST      
+	sz=0x00002760 off=0x000c0000-0x000c2760 addr=0x1e1f95b00-0x1e1f98260         __AUTH_CONST.__const            
+	sz=0x00000098 off=0x000c2760-0x000c27f8 addr=0x1e1f98260-0x1e1f982f8         __AUTH_CONST.__auth_ptr         
+003: LC_SEGMENT_64 sz=0x00004000 off=0x000c4000-0x000c8000 addr=0x1eaf94b80-0x1eaf98b80 rw-/rw-   __DATA            
+	sz=0x000001c0 off=0x000c4000-0x000c41c0 addr=0x1eaf94b80-0x1eaf94d40               __DATA.__data             
+	sz=0x00000148 off=0x000c41c0-0x000c4308 addr=0x1eaf94d40-0x1eaf94e88               __DATA.__crash_info       
+	sz=0x000008f0 off=0x00000000-0x000008f0 addr=0x1eaf94ec0-0x1eaf957b0               __DATA.__common           (Zerofill)
+	sz=0x00000508 off=0x00000000-0x00000508 addr=0x1eaf957b0-0x1eaf95cb8               __DATA.__bss              (Zerofill)
+004: LC_SEGMENT_64 sz=0x00004000 off=0x000c8000-0x000cc000 addr=0x1edde2600-0x1edde6600 rw-/rw-   __DATA_DIRTY      
+	sz=0x00000170 off=0x000c8000-0x000c8170 addr=0x1edde2600-0x1edde2770         __DATA_DIRTY.__all_image_info   
+	sz=0x00000064 off=0x000c8170-0x000c81d4 addr=0x1edde2770-0x1edde27d4         __DATA_DIRTY.__data             
+	sz=0x00001160 off=0x00000000-0x00001160 addr=0x1edde2800-0x1edde3960         __DATA_DIRTY.__common           (Zerofill)
+	sz=0x00001bc0 off=0x00000000-0x00001bc0 addr=0x1edde3960-0x1edde5520         __DATA_DIRTY.__bss              (Zerofill)
+005: LC_SEGMENT_64 sz=0x00024000 off=0x000cc000-0x000f0000 addr=0x1eda5c0c0-0x1eda800c0 rw-/rw-   __TPRO_CONST      NoReLoc
+	sz=0x000000e1 off=0x000cc000-0x000cc0e1 addr=0x1eda5c0c0-0x1eda5c1a1         __TPRO_CONST.__data             
+	sz=0x00020000 off=0x000cc0f0-0x000ec0f0 addr=0x1eda5c1b0-0x1eda7c1b0         __TPRO_CONST.__allocator        
+006: LC_SEGMENT_64 sz=0x0005d9c0 off=0x000f0000-0x0014d9c0 addr=0x2e6940000-0x2e69a0000 r--/r--   __LINKEDIT        
+007: LC_DYLD_EXPORTS_TRIE        offset=0x0000f0000 size=0x58
+008: LC_SYMTAB                   Symbol offset=0x000F12F8, Num Syms: 4686, String offset=0x001037D8-0x0014D9C0
+009: LC_DYSYMTAB                 
+	             Local Syms: 4683 at 0
+	          External Syms: 3 at 4683
+	         Undefined Syms: 0 at 4686
+	                    TOC: No
+	                 Modtab: No
+	External symtab Entries: None
+	Indirect symtab Entries: None
+	 External Reloc Entries: None
+	    Local Reloc Entries: None
+010: LC_ID_DYLINKER              /usr/lib/dyld
+011: LC_UUID                     17F02809-E0E1-32F4-862E-FACDE862B8DE
+012: LC_BUILD_VERSION            Platform: iOS, MinOS: 27.2, SDK: 27.2, Tool: ld (27106)
+013: LC_SOURCE_VERSION           27104.0.0.0.0
+014: LC_UNIXTHREAD               Threads: 1
+       ARM_THREAD_STATE64 Entry: 0x00000001804889f0
+015: LC_FUNCTION_STARTS          offset=0x0000f0058 size=0x12a0
+016: LC_DATA_IN_CODE             offset=0x000f0058-0x000f0058 size=    0 entries=0
+
+
