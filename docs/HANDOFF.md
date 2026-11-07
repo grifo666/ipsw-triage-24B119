@@ -59,11 +59,9 @@ Modelo: deepseek-v4-1-flash-uncensored.
 Harness: crush -y run "tarefa", com provider venice-local já configurado.
 
 ESTADO ATUAL
-HEAD a54b1fa, árvore limpa, sincronizada com origin/main.
-AGENTS.md commitado em bed2d8e com regras, ambiente, achados e pendências.
-queue.txt rastreado em 6cc71aa, com 15 símbolos.
-O run em lote 42422644608 falhou no símbolo 12. Como agora há commit por símbolo e if: always(), os símbolos 1 a 11 devem ter sobrevivido no main — isso NÃO foi verificado.
-O patch do proxy está commitado em e7943ca, no repo do fork.
+O run 42426887404 (disparado pelo push de 40a76e3) terminou em failure SEM log e SEM jobs, com a mensagem "This run likely failed because of a workflow file issue". Não deixou nada em origin.
+Causa: o commit 40a76e3 adicionou um bloco permissions no topo, mas já existia um bloco permissions na linha 42. Chave YAML duplicada invalida o arquivo inteiro, e o GitHub recusa o workflow antes de qualquer job. Nada do laço, do commit por símbolo nem do push rodou.
+Correção: bloco permissions duplicado removido (commit 0564a67), YAML validado. Só há 4 .c na árvore (preflightCacheFile, preflightSubCacheFile, preflightMainCacheFile, mapSplitCacheSystemWide); o resto da fila ainda não foi produzido.
 
 PRIMEIRA AÇÃO, nesta ordem
 1. gh run view 42422644608 --json status,conclusion
