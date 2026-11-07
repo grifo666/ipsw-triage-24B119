@@ -94,7 +94,11 @@ jobs:
           RUN_TMP: ${{ runner.temp }}/_tmp
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ETAPA: decomp
-        run: mkdir -p "$HOME/.ghidra"; GHIDRA_HOME="$HOME/ghidra_12.0_PUBLIC" GHIDRA_JAVA_HOME="${JAVA_HOME:-}" ETAPA=decomp ./extract.sh
+        run: |
+          mkdir -p "$HOME/.ghidra"
+          echo "JAVA_HOME=${JAVA_HOME:-<vazio>}"
+          "${JAVA_HOME:-/usr}/bin/java" -version 2>&1 || true
+          GHIDRA_HOME="$HOME/ghidra_12.0_PUBLIC" ETAPA=decomp ./extract.sh
 
       - name: commitar texto
         run: |

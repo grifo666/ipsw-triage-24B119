@@ -19,6 +19,7 @@ cd "$ROOT"
 
 ETAPA="${ETAPA:-all}"
 case "$ETAPA" in all|disasm|decomp) ;; *) echo "ERRO: ETAPA invalida: $ETAPA" >&2; exit 1 ;; esac
+DEC_FALHOU=0
 
 RUN_TMP="${RUN_TMP:-$ROOT/_tmp}"
 mkdir -p "$RUN_TMP"
@@ -215,7 +216,7 @@ if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
   if [ "$ETAPA" != "decomp" ]; then
   ALVO_DIS="05-disasm/$(basename "$BIN")/$SIMBOLO.txt"
   if "$IPSW_BIN" macho disass --arch arm64e --symbol "$SIMBOLO" "$BIN" 2>&1 \
-       | strip_ansi > "$ALVO_DIS"; then
+       | strip_ansi > "$ALVO_DIS" && [ -s "$ALVO_DIS" ]; then
     dividir "$ALVO_DIS"
   else
     rm -f "$ALVO_DIS"
@@ -227,17 +228,24 @@ if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
   ALVO_DEC="06-decomp/$(basename "$BIN")/$SIMBOLO.c"
   DEC_OK=0
   DEC_BACKEND=""
+  # zera saida e lapide de tentativa anterior antes de reescrever
+  rm -f "$ALVO_DEC" "${ALVO_DEC%.c}.backend.txt"
 
   GHIDRA_HEADLESS="${ANALYZE_HEADLESS:-}"
   if [ -z "$GHIDRA_HEADLESS" ] && [ -n "${GHIDRA_HOME:-}" ]; then
     GHIDRA_HEADLESS="$GHIDRA_HOME/support/analyzeHeadless"
   fi
-  [ -x "${GHIDRA_HEADLESS:-/nonexistent}" ] || \
+  if [ -z "$GHIDRA_HEADLESS" ]; then
+    GHIDRA_HEADLESS="$(command -v analyzeHeadless 2>/dev/null || true)"
+  fi
+  if [ -n "$GHIDRA_HEADLESS" ] && [ ! -x "$GHIDRA_HEADLESS" ]; then
+    echo "AVISO: analyzeHeadless nao executavel: $GHIDRA_HEADLESS" >&2
+    GHIDRA_HEADLESS=""
+  fi
   if [ -n "${GHIDRA_JAVA_HOME:-}" ] && [ ! -d "$GHIDRA_JAVA_HOME" ]; then
     echo "AVISO: GHIDRA_JAVA_HOME inexistente, usando JAVA_HOME do ambiente: $GHIDRA_JAVA_HOME" >&2
     GHIDRA_JAVA_HOME=""
   fi
-    GHIDRA_HEADLESS="$(command -v analyzeHeadless 2>/dev/null || true)"
 
   # backend 1: ipsw --dec (LLM; sem OPENAI_API_KEY falha rapido e cai no proximo)
   if "$IPSW_BIN" macho disass --arch arm64e --symbol "$SIMBOLO" --dec \
@@ -268,7 +276,9 @@ if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
     printf 'backend: %s\n' "$DEC_BACKEND" > "${ALVO_DEC%.c}.backend.txt"
     dividir "$ALVO_DEC"
   else
-    rm -f "$ALVO_DEC"
+    rm -f "$ALVO_DEC" "${ALVO_DEC%.c}.backend.txt"
+    DEC_FALHOU=1
+    echo "ERRO: decompilacao de $SIMBOLO nao produzida por nenhum backend" >&2
     registrar_limite "decompilacao de \`$SIMBOLO\` pulada: nenhum backend produziu saida (--dec exige OPENAI_API_KEY no ambiente, Ghidra exige GHIDRA_HOME ou ANALYZE_HEADLESS)"
   fi
   fi
@@ -277,8 +287,17 @@ else
 fi
 
 if [ -n "${BASELINE_BUILD:-}" ] && [ -n "${BASE_IPSW:-}" ] && [ -f "${BASE_IPSW:-}" ]; then
+  # ipsw diff extrai GBs em $TMPDIR e grava cache SQLite em ~/Library/Caches/ipsw.
+  # Ambos vao para DIFF_TMP, fora de $RUN_TMP (que pode estar no disco interno).
+  DIFF_TMP="${DIFF_TMP:-$RUN_TMP/diff-tmp}"
+  DIFF_MIN_GIB="${DIFF_MIN_GIB:-20}"
+  mkdir -p "$DIFF_TMP/cache"
+  LIVRE_GIB="$(df -g "$DIFF_TMP" | awk 'NR==2 {print $4}')"
   DIFF_RAW="$RUN_TMP/diff-${BASELINE_BUILD}-${BUILD}.txt"
-  if "$IPSW_BIN" diff "$BASE_IPSW" "$IPSW" 2>&1 | strip_ansi > "$DIFF_RAW"; then
+  if [ "${LIVRE_GIB:-0}" -lt "$DIFF_MIN_GIB" ]; then
+    registrar_limite "\`ipsw diff\` pulado: $DIFF_TMP tem ${LIVRE_GIB}GiB, minimo ${DIFF_MIN_GIB}GiB"
+  elif TMPDIR="$DIFF_TMP" "$IPSW_BIN" diff --cache-dir "$DIFF_TMP/cache" \
+       "$BASE_IPSW" "$IPSW" 2>&1 | strip_ansi > "$DIFF_RAW"; then
     head -310 "$DIFF_RAW" > "09-diff/summary.md"
     awk '/^## DSC$/{d=1} d && /^#### /{exit} d' "$DIFF_RAW" >> "09-diff/summary.md"
     awk '/^##### `/ { b = ($0 == "##### `dyld`") } b' "$DIFF_RAW" \
@@ -296,7 +315,9 @@ fi
 
 # secoes que nao podem ficar vazias
 DECOMP_DIR="06-decomp/$(basename "$BIN")"
-if ! compgen -G "$DECOMP_DIR/*.c" >/dev/null; then
+if compgen -G "$DECOMP_DIR/*.c" >/dev/null; then
+  rm -f "$DECOMP_DIR/nao-gerado.txt"
+else
   echo "decompilacao nao gerada para ${TARGET_SYMBOL:-alvo}: ver Limitacoes" > "$DECOMP_DIR/nao-gerado.txt"
 fi
 [ -s 08-kernel/kexts.txt ] || echo "componente $COMPONENTE nao usa kernel" \
@@ -311,3 +332,7 @@ fi
 
 ./gen-index.sh || { registrar_limite "gen-index.sh falhou"; exit 1; }
 echo "FIM"
+if [ "$ETAPA" = "decomp" ] && [ "$DEC_FALHOU" -eq 1 ]; then
+  echo "ERRO: etapa decomp nao gerou decompilacao; step marcado como falho" >&2
+  exit 1
+fi

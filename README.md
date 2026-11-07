@@ -25,7 +25,7 @@ consumíveis por um modelo de linguagem que lê URL crua e não executa nada.
 
 ## Símbolo alvo
 
-`__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_` — VA `0x18050a0f4`. Disassembly em `05-disasm/dyld/`; decompilação não gerada.
+`__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_` — VA `0x18050a0f4`. Disassembly em `05-disasm/dyld/`; decompilação em `06-decomp/dyld/`.
 
 ## Hipótese
 
@@ -51,9 +51,10 @@ aberto
 
 ## Limitações
 
-- **Decompilação.** O ramo é `LLM → Ghidra headless → pulo`. Sem `analyzeHeadless` no `PATH` o passo é pulado e registrado aqui. Nada verifica que o decompilado corresponde ao endereço esperado além do nome do símbolo.
-- **Decompilação pulada nesta build.** Sem `OPENAI_API_KEY` e sem `analyzeHeadless`; `06-decomp/dyld/nao-gerado.txt` registra o pulo.
-- **Ramo Ghidra nunca executado.** Ghidra não está instalado na máquina do operador. O script Java foi escrito e revisado, mas nunca rodou.
+- **Decompilação.** O ramo é `LLM → Ghidra headless → falha`. Sem `OPENAI_API_KEY` o backend `--dec` falha rápido; o backend Ghidra exige `analyzeHeadless` executável, derivado de `ANALYZE_HEADLESS`, de `GHIDRA_HOME` ou do `PATH`. Sem nenhum dos dois a etapa apaga `.c` e `.backend.txt`, registra aqui e o step fica vermelho sob `continue-on-error`.
+- **Decompilação por LLM não exercitada.** O backend `--dec` nunca produziu saída: não há `OPENAI_API_KEY` no repositório nem nos secrets.
+- **Sem verificação de endereço.** Nada confere que o decompilado corresponde à VA `0x18050a0f4` além do nome do símbolo.
+- **Versões divergentes entre local e CI.** O artefato local saiu de Ghidra 12.2 e `ipsw` 3.1.741; o CI fixa Ghidra 12.0 e instala o `ipsw` corrente (3.1.743 no run 42400073162). 12.1+ não publica nativos macOS e `buildNatives` exigiria JDK 25 e Xcode.
 - **`uuid` via JSON.** O UUID sai de `ipsw macho info --header`, não de `otool`. Se a CLI mudar o formato do JSON, o campo vira string vazia sem erro.
 - **Falha não aborta o run.** Cada subcomando tem o código de saída capturado e vira um bullet aqui. O `INDEX.json` não tem campo `status`: o que denuncia falha é a lista de limitações.
 - **Sem assinatura.** Nada é assinado nem verificado criptograficamente. O SHA-256 no índice detecta corrupção de transporte, não origem.
@@ -65,7 +66,7 @@ aberto
 
 ## Como reproduzir
 
-Edite `params.env` com `BUILD`, `DEVICE`, `IPSW_URL` e `SYMBOL`, depois:
+Edite `params.env` com `BUILD`, `DEVICE`, `IPSW_LOCAL` e `TARGET_SYMBOL`, depois:
 
 ~~~sh
 git clone https://github.com/grifo666/ipsw-triage-24B119
@@ -80,7 +81,7 @@ Com o IPSW já em disco, sem rede:
 IPSW_LOCAL=/Volumes/XcodeBuild/ipsw/iPhone18,2_27.2_24B119_Restore.ipsw ./extract.sh
 ~~~
 
-Pela web: Actions → extract → Run workflow → informe `build` e `symbol`. O artifact sai como `binaries-24B119`.
+Pela web: Actions → extract → Run workflow → informe `build` e `target_symbol`. O artifact sai como `binaries-24B119`.
 
 ## Baseline
 
@@ -97,6 +98,12 @@ O diff é contra `iPhone18,2_26.6.1_23G83_Restore.ipsw`. Sem a baseline o `extra
 - [x] README com todas as seções preenchidas
 - [x] `docs/00-cve.md` com o advisory (sem identificador atribuído)
 - [x] Artefatos legíveis em URL crua
+## Registro de execução
+
+Os bullets abaixo são anexados pelo `extract.sh` via `registrar_limite` e descrevem a execução que os produziu.
+
 - arquivo dividido por exceder 120 KB: 04-symbols/all-symbols.txt
 - diff pulado: BASE_IPSW nao fornecido
 - decompilacao de `__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_` pulada: nenhum backend produziu saida (--dec exige OPENAI_API_KEY no ambiente, Ghidra exige GHIDRA_HOME ou ANALYZE_HEADLESS)
+- `ipsw diff` falhou
+- gen-index.sh falhou
