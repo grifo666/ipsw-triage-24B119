@@ -102,6 +102,8 @@ jobs:
           echo "JAVA_HOME=${JAVA_HOME:-<vazio>}"
           "${JAVA_HOME:-/usr}/bin/java" -version 2>&1 || true
           export GHIDRA_HOME="$HOME/ghidra_12.0_PUBLIC"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           LIST="${{ inputs.target_symbols }}"
           [ -z "$LIST" ] && LIST="${{ inputs.target_symbol }}"
           fail=0
@@ -109,11 +111,14 @@ jobs:
             [ -z "$sym" ] && continue
             echo "::group::decomp $sym"
             TARGET_SYMBOL="$sym" ETAPA=decomp ./extract.sh || fail=1
+            git add -A
+            git diff --cached --quiet || git commit -q -m "feat(decomp): $sym"
             echo "::endgroup::"
           done <<< "$LIST"
           exit $fail
 
       - name: commitar texto
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -126,6 +131,7 @@ jobs:
           fi
 
       - name: artifact de binarios
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: binaries-${{ inputs.build }}
