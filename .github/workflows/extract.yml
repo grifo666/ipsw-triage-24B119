@@ -82,7 +82,6 @@ jobs:
         run: ./extract.sh
 
       - name: decompilacao
-        continue-on-error: true
         env:
           COMPONENTE: ${{ inputs.componente }}
           DEVICE: ${{ inputs.device }}

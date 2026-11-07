@@ -263,10 +263,11 @@ if [ -n "$SIMBOLO" ] && [ "$SIMBOLO" != "indefinido" ]; then
          "$RUN_TMP/ghidra" triage -import "$BIN" \
          -scriptPath "$ROOT/ghidra_scripts" \
          -postScript DecompileSymbol.java "$SIMBOLO" "$ALVO_DEC" \
-         -noanalysis -deleteProject \
-         2>&1 | strip_ansi > "$RUN_TMP/ghidra.log" && [ -s "$ALVO_DEC" ]; then
+         -analysisTimeoutPerFile 1800 -deleteProject \
+         2>&1 | strip_ansi > "${ALVO_DEC%.c}.ghidra.log" && [ -s "$ALVO_DEC" ]; then
       DEC_OK=1
       DEC_BACKEND="ghidra-headless"
+      dividir "${ALVO_DEC%.c}.ghidra.log" 2>/dev/null || true
     else
       rm -f "$ALVO_DEC"
     fi
@@ -315,10 +316,16 @@ fi
 
 # secoes que nao podem ficar vazias
 DECOMP_DIR="06-decomp/$(basename "$BIN")"
-if compgen -G "$DECOMP_DIR/*.c" >/dev/null; then
+if [ -n "${TARGET_SYMBOL:-}" ] && [ "$TARGET_SYMBOL" != "indefinido" ]; then
+  if [ -f "$DECOMP_DIR/$TARGET_SYMBOL.c" ]; then
+    rm -f "$DECOMP_DIR/nao-gerado.txt"
+  else
+    echo "decompilacao nao gerada para $TARGET_SYMBOL: ver Limitacoes" > "$DECOMP_DIR/nao-gerado.txt"
+  fi
+elif compgen -G "$DECOMP_DIR/*.c" >/dev/null; then
   rm -f "$DECOMP_DIR/nao-gerado.txt"
 else
-  echo "decompilacao nao gerada para ${TARGET_SYMBOL:-alvo}: ver Limitacoes" > "$DECOMP_DIR/nao-gerado.txt"
+  echo "decompilacao nao gerada: ver Limitacoes" > "$DECOMP_DIR/nao-gerado.txt"
 fi
 [ -s 08-kernel/kexts.txt ] || echo "componente $COMPONENTE nao usa kernel" \
   > 08-kernel/kexts.txt
