@@ -25,7 +25,7 @@ consumíveis por um modelo de linguagem que lê URL crua e não executa nada.
 
 ## Símbolo alvo
 
-`indefinido` — `05-disasm` e `06-decomp` ficam vazios até um símbolo ser definido.
+`__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_` — VA `0x18050a0f4`. Disassembly em `05-disasm/dyld/`; decompilação não gerada.
 
 ## Hipótese
 
@@ -51,16 +51,20 @@ aberto
 
 ## Limitações
 
+- **Unidade de 120 KB.** Aplicada como 120 KiB = 122 880 bytes, valor identico ao de `split -b` e do `LIMIT` do `gen-index.sh`. Nenhum arquivo publicado passa disso.
+
 - **Decompilação.** O ramo é `LLM → Ghidra headless → pulo`. Sem `analyzeHeadless` no `PATH`, o passo é marcado como pulo e o `INDEX.json` grava `decompiled: false`. Nada verifica que o decompilado corresponde ao endereço esperado além do nome do símbolo.
 - **Ramo Ghidra nunca executado.** Ghidra não está instalado na máquina do operador. O script Java foi escrito e revisado, mas nunca rodou. A primeira execução é material não validado.
 - **`uuid` via JSON.** O UUID sai de `ipsw macho info --header`, não de `otool`. Se a CLI mudar o formato do JSON, o campo vira string vazia sem erro.
-- **Falha não aborta o run.** Cada subcomando roda com o código de saída capturado. Um passo quebrado não derruba o workflow: aparece no `INDEX.json` com `status: failed`. É intencional para triagem e é por isso que o verde do workflow não substitui a leitura do índice.
+- **Falha não aborta o run.** Cada subcomando tem o código de saída capturado e vira um bullet aqui. O `INDEX.json` não tem campo `status`: o que denuncia falha é a lista de limitações.
 - **Sem assinatura.** Nada é assinado nem verificado criptograficamente. O SHA-256 no índice detecta corrupção de transporte, não origem.
 - **Escopo.** O diff é do IPSW inteiro; do relatório só o bloco do `dyld` é publicado e o restante é descartado.
 - **Decompilacao pulada.** sem OPENAI_API_KEY e sem analyzeHeadless.
 - **Arquivo dividido.** Excedeu 120 KB: `04-symbols/all-symbols.txt`.
 - **Diff incompleto por disco.** O volume SystemOS não montou: `no space left on device` em `/var/folders/...`. A seção MachOs do relatório é parcial e está publicada truncada em `09-diff/machos-partial.p*.txt`. Kernel, DSC e dyld saíram completos.
 - **Decompilação não gerada nesta build.** `06-decomp/dyld/nao-gerado.txt` registra o pulo.
+
+- **Diff nao roda no CI.** `BASE_IPSW` em `params.env` aponta para caminho local. No runner o passo e pulado e o bullet acima e regravado. O `09-diff` versionado veio de execucao local.
 
 ## Como reproduzir
 
