@@ -249,7 +249,7 @@ fi
 if [ -n "${BASELINE_BUILD:-}" ] && [ -n "${BASE_IPSW:-}" ] && [ -f "${BASE_IPSW:-}" ]; then
   DIFF_RAW="$RUN_TMP/diff-${BASELINE_BUILD}-${BUILD}.txt"
   if "$IPSW_BIN" diff "$BASE_IPSW" "$IPSW" 2>&1 | strip_ansi > "$DIFF_RAW"; then
-    head -60 "$DIFF_RAW" > "09-diff/summary.md"
+    head -310 "$DIFF_RAW" > "09-diff/summary.md"
     awk '/^## DSC$/{d=1} d && /^#### /{exit} d' "$DIFF_RAW" >> "09-diff/summary.md"
     awk '/^##### `/ { b = ($0 == "##### `dyld`") } b' "$DIFF_RAW" \
       > "09-diff/dyld-${BASELINE_BUILD}-${BUILD}.txt"

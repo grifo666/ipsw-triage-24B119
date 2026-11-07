@@ -40,7 +40,7 @@
   {"path":"09-diff/machos-partial.paad.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":117760,"sha256":"49a781a4765e37f74ce203efd0e261a07c378435fec2c5f5ff7c59697e582668"},
   {"path":"09-diff/machos-partial.paae.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":117760,"sha256":"9f0fc5c7153056ed4e36f33265cc11325304c2b91f44de28ed71064efd0e8cea"},
   {"path":"09-diff/machos-partial.paaf.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":60541,"sha256":"7f0e28e224ee941db37544fcb14dddbe2f49f482223b819ce0a6c4557881ad86"},
-  {"path":"09-diff/summary.md","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":3482,"sha256":"de7f03a5bf18d227716ab6bc0d3d5eac8629a67114f881ddefe0e84b7dae8f35"},
+  {"path":"09-diff/summary.md","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":3472,"sha256":"3cef17b0969c0620aca5e1d4f63dd5fe53c4c9a76a591cd3c26596e840e9d6e0"},
   {"path":"checksums.txt.sha1","kind":"info","symbol":"","purpose":"checksum sha1 do IPSW","bytes":108,"sha256":"e1e51ae4470838b097253bb591214d2fa8cf10ad6d0d3693a087b6d428e54d9b"},
   {"path":"ghidra_scripts/DecompileSymbol.java","kind":"info","symbol":"","purpose":"outro","bytes":1601,"sha256":"b43f9e3d29b885fbcfc0007f15af86a8a6ddc023de7c783dbbb08b6a329e7cb5"}
 ]
