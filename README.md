@@ -43,11 +43,11 @@ aberto
 | `extract.sh` | Extrai o IPSW, isola o componente, coleta o binário e as strings, gera o diff contra a baseline. |
 | `gen-index.sh` | Varre a árvore e produz `INDEX.json` (limite 120 KB) com metadados e SHA-256 dos artefatos. |
 | `ghidra_scripts/DecompileSymbol.java` | Post-script headless do Ghidra: resolve o símbolo por nome e descompila a função. |
-| `.github/workflows/triage.yml` | Orquestra no runner macOS via `workflow_dispatch`, sobe o artifact `binaries-<build>` com retenção de 14 dias. |
+| `.github/workflows/extract.yml` | Orquestra no runner macOS via `workflow_dispatch`, sobe o artifact `binaries-<build>` com retenção de 14 dias. |
 | `docs/00-cve.md` | Ficha do CVE e mapeamento para o componente. |
 | `docs/01-hipotese.md` | Hipótese falsificável e critério de refutação. |
 | `_tmp/` | Área de trabalho da extração: binário alvo e cache do diff. Não versionada. |
-| `cache/` | IPSW baixado. Não versionado. |
+| IPSW | Baixado para `_tmp/` e apagado ao fim. Nunca versionado. |
 
 ## Limitações
 
@@ -79,7 +79,7 @@ Com o IPSW já em disco, sem rede:
 IPSW_LOCAL=/Volumes/XcodeBuild/ipsw/iPhone18,2_27.2_24B119_Restore.ipsw ./extract.sh
 ~~~
 
-Pela web: Actions → triage → Run workflow → informe `build` e `symbol`. O artifact sai como `binaries-24B119`.
+Pela web: Actions → extract → Run workflow → informe `build` e `symbol`. O artifact sai como `binaries-24B119`.
 
 ## Baseline
 

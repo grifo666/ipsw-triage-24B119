@@ -1,4 +1,5 @@
 [
+  {"path":".github/workflows/extract.yml","kind":"info","symbol":"","purpose":"outro","bytes":2386,"sha256":"ef41eb101e46e9b4f673467395c0d27e22d93e4b051eb88d4b48e7c203b230e7"},
   {"path":"01-info/dsc-info.txt","kind":"info","symbol":"","purpose":"metadados de firmware e da ferramenta","bytes":45808,"sha256":"153faed95d7e7474170f5ab20eca546bf95709eaad07b1f922c02d8e6977f1b5"},
   {"path":"01-info/ipsw-help-dyld.txt","kind":"info","symbol":"","purpose":"metadados de firmware e da ferramenta","bytes":1688,"sha256":"a900e3990d79e5442990e3923d069c5c3553526d476e3d1eab4662c5b9920372"},
   {"path":"01-info/ipsw-help-kernel.txt","kind":"info","symbol":"","purpose":"metadados de firmware e da ferramenta","bytes":1018,"sha256":"219b573651ce9da36767f34fe0c39141d378725c991c10037b0c073e7c0212b6"},
@@ -23,16 +24,6 @@
   {"path":"04-symbols/all-symbols.p0008.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"3f3c21ee251f63f52159bdb9362127b937b0ac911f6518be731357adf81bcb8e"},
   {"path":"04-symbols/all-symbols.p0009.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"160ea8a201dc7891406e4b127fe80b47e0d922b2530d0c6e4e10b47b28b211f8"},
   {"path":"04-symbols/all-symbols.p0010.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":51038,"sha256":"c92ad57852a795a49c74780438b56a78ad5fc85abe608bd788d3eec1529a0a82"},
-  {"path":"04-symbols/all-symbols.p01.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"3b561ebc0ef199e90bfc22e1af6c24ab68224b250b5a532a3f7f65ca124be08a"},
-  {"path":"04-symbols/all-symbols.p02.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"f8964d5dd5890440bd5a7ea9fb7c359fac0c18a78582356208bc0986510d53ef"},
-  {"path":"04-symbols/all-symbols.p03.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"ae923cb8a775806cceca5e9ea56d490d3cd90db67023bebb0a12ec398687fb32"},
-  {"path":"04-symbols/all-symbols.p04.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"39f5585bb0b4012e2929c353c6a178731c5fb9adbeededcda29785b0e4c9973c"},
-  {"path":"04-symbols/all-symbols.p05.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"5679656c2bdbe9bcdc2e38e4663635003674c9c9926e2ff21802df7b1428bb55"},
-  {"path":"04-symbols/all-symbols.p06.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"d00393cfa969224226e6e850f8e64e9ae7b23930ff329aad21b6c51c53a46a2f"},
-  {"path":"04-symbols/all-symbols.p07.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"afbf312dbb99b2be81ba52c051ab16b51d3f39ada23ab57ba0aa4ddb299241bb"},
-  {"path":"04-symbols/all-symbols.p08.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"3f3c21ee251f63f52159bdb9362127b937b0ac911f6518be731357adf81bcb8e"},
-  {"path":"04-symbols/all-symbols.p09.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":122880,"sha256":"160ea8a201dc7891406e4b127fe80b47e0d922b2530d0c6e4e10b47b28b211f8"},
-  {"path":"04-symbols/all-symbols.p10.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":51038,"sha256":"c92ad57852a795a49c74780438b56a78ad5fc85abe608bd788d3eec1529a0a82"},
   {"path":"04-symbols/exports.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":113,"sha256":"8fc5f9417baba6dd44ac228829d3615304be031df756321edbd1434774b7e085"},
   {"path":"04-symbols/imports.txt","kind":"symbols","symbol":"","purpose":"tabela de simbolos","bytes":45,"sha256":"5aac283208a1891ab5774e2e3c9fed050a76df4b690a76a9c336bf67e2e51364"},
   {"path":"05-disasm/dyld/__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_.txt","kind":"disasm","symbol":"__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_","purpose":"disassembly da funcao","bytes":21069,"sha256":"1085d51c9df3c9336fa66072b91461f888f8c6cee4450940050df0fa2a5d7b97"},
@@ -49,5 +40,7 @@
   {"path":"09-diff/machos-partial.paad.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":117760,"sha256":"49a781a4765e37f74ce203efd0e261a07c378435fec2c5f5ff7c59697e582668"},
   {"path":"09-diff/machos-partial.paae.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":117760,"sha256":"9f0fc5c7153056ed4e36f33265cc11325304c2b91f44de28ed71064efd0e8cea"},
   {"path":"09-diff/machos-partial.paaf.txt","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":60541,"sha256":"7f0e28e224ee941db37544fcb14dddbe2f49f482223b819ce0a6c4557881ad86"},
-  {"path":"09-diff/summary.md","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":3482,"sha256":"de7f03a5bf18d227716ab6bc0d3d5eac8629a67114f881ddefe0e84b7dae8f35"}
+  {"path":"09-diff/summary.md","kind":"diff","symbol":"","purpose":"diff entre builds","bytes":3482,"sha256":"de7f03a5bf18d227716ab6bc0d3d5eac8629a67114f881ddefe0e84b7dae8f35"},
+  {"path":"checksums.txt.sha1","kind":"info","symbol":"","purpose":"checksum sha1 do IPSW","bytes":108,"sha256":"e1e51ae4470838b097253bb591214d2fa8cf10ad6d0d3693a087b6d428e54d9b"},
+  {"path":"ghidra_scripts/DecompileSymbol.java","kind":"info","symbol":"","purpose":"outro","bytes":1601,"sha256":"b43f9e3d29b885fbcfc0007f15af86a8a6ddc023de7c783dbbb08b6a329e7cb5"}
 ]

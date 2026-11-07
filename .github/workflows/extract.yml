@@ -78,6 +78,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: binaries-${{ inputs.build }}
-          path: ${{ runner.temp }}/_tmp
+          path: |
+            ${{ runner.temp }}/_tmp/bin
+            ${{ runner.temp }}/_tmp/kexts
           retention-days: 14
           if-no-files-found: error

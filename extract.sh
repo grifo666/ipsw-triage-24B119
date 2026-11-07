@@ -35,6 +35,7 @@ dividir() {
   sz=$(wc -c < "$f")
   if [ "$sz" -le "$LIMIT" ]; then return 0; fi
   local base="${f%.txt}" n=1 part
+  rm -f "${base}".p[0-9]*
   split -b "$LIMIT" -d -a 4 "$f" "${base}.p"
   rm -f "$f"
   for part in "${base}".p[0-9][0-9][0-9][0-9]; do

@@ -20,7 +20,7 @@ tipo_de() {
     07-strings/*)        echo strings ;;
     08-kernel/*)         echo kernel ;;
     09-diff/*)           echo diff ;;
-    *)                   echo "" ;;
+    *)                   echo "info" ;;
   esac
 }
 
@@ -49,6 +49,7 @@ proposito_de() {
     07-strings/*)                  echo "strings filtradas" ;;
     08-kernel/*)                   echo "artefatos de kernelcache" ;;
     09-diff/*)                     echo "diff entre builds" ;;
+    checksums.txt.sha1)            echo "checksum sha1 do IPSW" ;;
     *)                             echo "outro" ;;
   esac
 }
@@ -73,6 +74,7 @@ while IFS= read -r f; do
   printf '  {"path":"%s","kind":"%s","symbol":"%s","purpose":"%s","bytes":%s,"sha256":"%s"}' \
     "$rel" "$kind" "$sym" "$purpose" "$bytes" "$sha" >> "$TMP"
 done < <(find . -type f \
+  -not -path './_tmp/*' \
   -not -path './.git/*' -not -path './docs/*' \
   -not -name 'INDEX.json' -not -name '*.sh' \
   -not -name 'README.md' -not -name 'params.env' \
