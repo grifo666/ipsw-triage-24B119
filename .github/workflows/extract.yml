@@ -1,5 +1,8 @@
 name: extract
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -47,6 +50,8 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: instalar ipsw
         run: brew install blacktop/tap/ipsw
@@ -113,6 +118,8 @@ jobs:
             TARGET_SYMBOL="$sym" ETAPA=decomp ./extract.sh || fail=1
             git add -A
             git diff --cached --quiet || git commit -q -m "feat(decomp): $sym"
+            git pull --rebase -q || fail=1
+            git push -q || fail=1
             echo "::endgroup::"
           done <<< "$LIST"
           exit $fail
@@ -123,12 +130,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          if git diff --cached --quiet; then
-            echo "nada a commitar"
-          else
-            git commit -m "feat(extract): ${{ inputs.build }} ${{ inputs.componente }}"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "feat(extract): ${{ inputs.build }} ${{ inputs.componente }}"
+          git pull --rebase
+          git push
 
       - name: artifact de binarios
         if: always()
