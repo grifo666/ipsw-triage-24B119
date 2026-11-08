@@ -1,21 +1,21 @@
 
 [IPSW Info]
 ===========
-Version        = 27.2
-BuildVersion   = 24B119
+Version        = 26.6.1
+BuildVersion   = 23G83
 OS Type        = Production
-FileSystem     = 141-10103-215.dmg.aea
-SystemOS       = 141-10617-227.dmg.aea
-AppOS          = 141-08824-244.dmg
-ExclaveOS      = 141-10120-237.dmg.aea
-RestoreRamDisk = [141-10399-240.dmg 141-09491-242.dmg]
+FileSystem     = 094-95330-089.dmg.aea
+SystemOS       = 094-97204-089.dmg.aea
+AppOS          = 094-96441-093.dmg
+ExclaveOS      = 094-96435-093.dmg.aea
+RestoreRamDisk = [094-95379-093.dmg 094-96961-092.dmg]
 
 Devices
 -------
 
 iPhone 17 Pro Max
- > iPhone18,2_V54AP_24B119
-   - TimeStamp: 14 Oct 2026 04:06:09 UTC
+ > iPhone18,2_V54AP_23G83
+   - TimeStamp: 30 Jul 2026 11:48:03 PDT
    - KernelCache: kernelcache.release.v54
    - CPU: A19 Pro (ARMv9.2-A), ID: t8150
    - BootLoaders
