@@ -51,7 +51,7 @@ Defeitos já corrigidos, todos verificados por run verde:
 
 ## Pendências
 
-- Ler os `.c` do run em lote 42422644608 e avaliar `mapSplitCachePrivate`, `validMagic`, `buildRootsBitmaps`.
+- Triagem dos 16 `.c` concluída; veredito em `docs/findings/INDEX.md`. Bug real: `preflightCacheFile`, `mapSplitCacheSystemWide`, `mapSplitCachePrivate`. Provar no aparelho o header forjado de `preflightCacheFile` (count==1 + fileOffset!=0 + slide).
 - Repetir a decompilação de `validSemanticsSegments`, `validStructureLoadCommands`, `lockdownDyldDataConst` (falharam).
 - Template em `docs/findings/`, fila `SYMBOLS` no `params.env`, diff de decomp entre builds, script Ghidra enumerando funções dyld3.
 - Achar o GIST do produto.
@@ -72,14 +72,8 @@ Defeitos já corrigidos, todos verificados por run verde:
 
 ## Current state (2026-11-07)
 
-- HEAD 6cc71aa; este arquivo entrou em bed2d8e; o patch DSML do proxy e e7943ca.
-- O run 42422644608 falhou no simbolo 12. Commit por simbolo e if: always() significa que 1..11 devem ter sobrevivido: verificar, nao assumir.
-- Fila restante, queue.txt linhas 12 a 15, disparar so estas:
-
-__ZN15DyldSharedCache13DynamicRegion15setRootsBitmapsEjNSt3__14spanIKhLm18446744073709551615EEES4_h
-__ZN5dyld46Loader11mapSegmentsER11DiagnosticsRNS_12RuntimeStateEPKciyRKNS0_19CodeSignatureInFileEbNSt3__14spanIKNS0_6RegionELm18446744073709551615EEEbbRKNS0_18FileValidationInfoE
-__ZN5dyld4L21lockdownDyldDataConstEPKN6mach_o12UnsafeHeaderE
-__ZN5dyld422restartWithDyldInCacheEPKNS_10KernelArgsEPKN6mach_o12UnsafeHeaderEPK15DyldSharedCacheyPv
-
-- Primeira acao: gh run view 42422644608 --json status,conclusion; git log --oneline -20; git log --diff-filter=A --name-only -20 -- *.c
+- HEAD 0db4c9b; triagem dos 16 `.c` concluida e indexada em `docs/findings/INDEX.md`.
+- 16 `.c` presentes em `06-decomp/dyld/`, 16 findings, veredito em INDEX.md. Bug real: preflightCacheFile, mapSplitCacheSystemWide, mapSplitCachePrivate. Ponto fraco: trap de hash_rank, fd dos dois preflight.
+- Unico simbolo ainda sem `.c`: `__ZN5dyld4L21lockdownDyldDataConstEPKN6mach_o12UnsafeHeaderE` (falhou na decomp). Redisparar so ele.
+- Prova no aparelho pendente: header de cache forjado com mappingOffset grande (ou mappingWithSlideOffset) e count 1..8; caso count==1 com fileOffset!=0 + slide para o throw.
 - Harness no ar: proxy em 127.0.0.1:3456, crush com provider venice-local, modelo deepseek-v4-1-flash-uncensored.
