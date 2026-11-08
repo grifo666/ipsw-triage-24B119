@@ -107,3 +107,4 @@ Os bullets abaixo são anexados pelo `extract.sh` via `registrar_limite` e descr
 - decompilacao de `__ZN5dyld3L18preflightCacheFileERKNS_18SharedCacheOptionsEPNS_19SharedCacheLoadInfoEPNS_9CacheInfoEiPNSt3__15arrayIA32_cLm128EEEPKS3_` pulada: nenhum backend produziu saida (--dec exige OPENAI_API_KEY no ambiente, Ghidra exige GHIDRA_HOME ou ANALYZE_HEADLESS)
 - `ipsw diff` falhou
 - gen-index.sh falhou
+- TARGET_SYMBOL indefinido; 05-disasm e 06-decomp vazios
