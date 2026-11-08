@@ -4,6 +4,8 @@ Leia isto antes de qualquer coisa. É o estado acumulado do trabalho; não reder
 
 ## Regras de trabalho
 
+- Escrever entrada em docs/DIARIO.md a cada passo relevante, nao so no fim.
+
 - Comando de execucao roda sempre ao vivo, sem `| tail`, sem `| head` e sem esconder a saida. O usuario precisa ver progresso na tela. Nada de comando que deixa a janela parada.
 
 - O usuario tem ansiedade: antes de qualquer sequencia de comandos, listar os passos numerados (passo 1/N, 2/N...) e o que cada um busca. Dar estimativa de tempo quando o passo for demorado. Nunca emendar comandos sem avisar o plano.
