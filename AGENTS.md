@@ -52,7 +52,7 @@ Defeitos já corrigidos, todos verificados por run verde:
 ## Pendências
 
 - Triagem dos 16 `.c` concluída; veredito em `docs/findings/INDEX.md`. Bug real: `preflightCacheFile`, `mapSplitCacheSystemWide`, `mapSplitCachePrivate`. Provar no aparelho o header forjado de `preflightCacheFile` (count==1 + fileOffset!=0 + slide).
-- Repetir a decompilação de `validSemanticsSegments`, `validStructureLoadCommands`, `lockdownDyldDataConst` (falharam).
+- Os tres simbolos que falharam foram recuperados e triados: `validSemanticsSegments`, `validStructureLoadCommands` (ambos com `__ZNK` no lugar do `__ZN` errado) e `lockdownDyldDataConst` (corpo inlineado; so o `_block_invoke` tem simbolo). Todos robustos. Proximo passo, se preciso: decompilar `handleDyldInCache` (tambem sem simbolo proprio) para a logica completa de lockdown.
 - Template em `docs/findings/`, fila `SYMBOLS` no `params.env`, diff de decomp entre builds, script Ghidra enumerando funções dyld3.
 - Achar o GIST do produto.
 - Opcional: volume `TRIAGE` com quota e diff completo lá.

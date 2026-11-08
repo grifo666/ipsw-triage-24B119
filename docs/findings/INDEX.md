@@ -32,3 +32,6 @@ Triagem estatica do dyld shared cache iOS 27.2 (24B119) contra 26.6.1 (23G83), a
 | loadDyldCache | [loadDyldCache](loadDyldCache.md) |
 | forEachCDHashOfCodeSignature | [forEachCDHashOfCodeSignature](forEachCDHashOfCodeSignature.md) |
 | restartWithDyldInCache | [restartWithDyldInCache](restartWithDyldInCache.md) |
+| validSemanticsSegments | [validSemanticsSegments](validSemanticsSegments.md) |
+| validStructureLoadCommands | [validStructureLoadCommands](validStructureLoadCommands.md) |
+| lockdownDyldDataConst | [lockdownDyldDataConst](lockdownDyldDataConst.md) |
