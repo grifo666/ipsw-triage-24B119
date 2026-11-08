@@ -77,15 +77,28 @@ O segundo array baseia-se em `buffer + mappingWithSlideOffset`, entao o mesmo pr
 228:                      std::__throw_bad_optional_access_abi_nqn220106_();
 ```
 
-`bVar8` e posto true em LAB_18050a2f8 (linha 128), alcancado quando `local_405c >= 2`; e false em LAB_18050a308 (linha 119), alcancado quando `local_405c < 2`, isto e, **count == 1** (0 ja foi rejeitado). Como o range check aceita 1..8, count==1 passa e chega em bVar8=false. Mas o laco inteiro, e o throw com ele, esta dentro de `if (*(long *)(lVar17 + 0x10) == 0)`, isto e, so roda quando nenhuma string de erro foi gravada. Com count==1 isso exige que o primeiro mapping tenha `fileOffset == 0` (senao a linha 107 grava text file offset is invalid e o laco e pulado), que o tamanho da assinatura feche com st_size e que as permissoes sejam 5 (senao a linha 121 grava text permissions are invalid). Atendidas as tres, o laco roda uma vez e, se o valor de slide em mappingWithSlide[0] for diferente de zero, o throw dispara.
+`bVar8` e posto true em LAB_18050a2f8 (linha 128), alcancado quando `local_405c >= 2`; e false em LAB_18050a308 (linha 119), alcancado quando `local_405c < 2`, isto e, **count == 1** (0 ja foi rejeitado). Como o range check aceita 1..8, count==1 passa e chega em bVar8=false.
 
-Ou seja: **um cache de 1 mapping com fileOffset de texto invalido e slide mapping derruba o processo com excecao**, mesmo havendo a string de erro "shared cache text file offset is invalid" ja setada. O throw **nao** e inalcancavel. A premissa de que o piso de 9 (na verdade teto) tornaria o throw morto esta errada porque o throw depende de count<2, nao de count<9.
+Mas bVar8=false sozinho nao basta. O throw exige cinco condicoes simultaneas:
+
+1. `mappingCount == 1`.
+2. `mapping[0].fileOffset == 0` (linha 107 le o campo; a string sai na 123), senao "shared cache text file offset is invalid".
+3. faixa de assinatura igual a `st_size` (linha 108), senao "shared cache code signature size is invalid" (linha 109).
+4. permissoes iguais a 5 (linha 131), senao "shared cache text permissions are invalid" (linha 132).
+5. o primeiro campo da entrada de linkedit do mapping diferente de zero (linha 225,
+   `lVar7`, calculado na linha 192 sobre `alStack_4050 + linkeditOffset + idx*0x38`).
+
+As condicoes 2 a 4 existem porque o laco inteiro, e o throw com ele, esta dentro de `if (*(long *)(lVar17 + 0x10) == 0)` (linha 134), ou seja, so roda quando nenhuma string de erro foi gravada. A condicao 5 e o `if (lVar7 != 0)` que envolve o throw.
+
+Falta ainda um sexto cuidado, e a condicao e mais estreita do que parece: o mapping so e descartado quando o bit 7 (`uVar14 >> 7 & 1`, linha 212) esta ligado **e** o flag de auth GOT esta **desligado**. A linha 212 desvia para a copia quando o bit 7 esta limpo; o `else` (linha 239) so faz `goto` para a copia se `SVar25 & 1` (linha 240), e `SVar25` vem de `param_6[0x19]` (linha 180). Ou seja, com o flag desligado um mapping de auth GOT pula a copia e o throw nao e alcancado; com o flag ligado ele e copiado e o throw dispara normalmente.
+
+Atendidas todas, o laco roda uma vez e o throw dispara logo depois de copiar o mapping para o `CacheInfo` (linha 215). Ou seja: **um cache de 1 mapping com fileOffset 0, assinatura e permissoes coerentes e linkedit nao-vazio derruba o processo com excecao**, sem nenhuma string de erro setada. O throw **nao** e inalcancavel. A premissa de que o piso de 9 (na verdade teto) tornaria o throw morto esta errada porque o throw depende de count<2, nao de count<9.
 
 ## Classificacao final
 
 - Ponto 1 (mappingOffset sem faixa): bug real de robustez, leitura fora do buffer.
 - Ponto 2 (count): **corrigido** — ha teto 8, slots nao transbordam.
 - Ponto 3 (mappingWithSlideOffset/Count): bug real, mesmo vetor do Ponto 1 e sem teto.
-- Ponto 4 (throw): **corrigido** — alcancavel apenas com count==1, fileOffset==0, assinatura e permissoes coerentes e slide!=0; crash por excecao nao tratada.
+- Ponto 4 (throw): **corrigido** — alcancavel com count==1, fileOffset==0, assinatura e permissoes coerentes, linkedit[0] != 0 e mapping fora de auth GOT; crash por excecao nao tratada.
 
-Candidato a validacao no aparelho: forjar um header de cache com `mappingOffset` grande (ou `mappingWithSlideOffset` grande) mantendo `mappingCount` em 1..8, e um caso count==1 com `mappingOffset` apontando para um mapping de fileOffset != 0 mais slide, para exercitar o throw.
+Candidato a validacao no aparelho: forjar um header de cache com `mappingOffset` grande (ou `mappingWithSlideOffset` grande) mantendo `mappingCount` em 1..8, e um caso count==1 com fileOffset 0, assinatura e permissoes coerentes e linkedit preenchido, para exercitar o throw.

@@ -116,8 +116,8 @@ encadeado igual ao fileOffset), so que sem o bloco intermediario. Tambem
 
 ## 6. Filtro de mapping de auth GOT (novo no alvo)
 
-O alvo pula mappings marcados com `uVar14 >> 7 & 1` quando o flag de auth GOT esta
-ligado, com log:
+O alvo pula mappings marcados com `uVar14 >> 7 & 1` (linha 212) quando o flag de auth
+GOT esta ligado, com log:
 
 ```
 242:                      dyld4::console("  including auth GOT mapping\n");
@@ -128,24 +128,63 @@ E o `count` gravado em `param_3+0x180` passa a ser o contador do laco (`iVar10`,
 incrementado so nos mappings copiados), escrito depois do laco:
 
 ```
-alvo 253:            *(int *)(param_3 + 0x180) = iVar10;
-base  253 (equiv):   *(uint *)(param_3 + 0x180) = local_405c;  // antes do laco
+alvo 253:            *(int *)(param_3 + 0x180) = iVar10;   // apos o laco, so copiados
+base 144:            *(uint *)(param_3 + 0x180) = local_405c;  // antes do laco, todos
 ```
 
-Coerente: o `count` reflete o array filtrado. Mas se todos os mappings forem de auth
-GOT, o resultado e `count == 0` com o array intocado e `preflightCacheFile` retorna
-sucesso, entregando `CacheInfo` vazio ao chamador.
+A base grava o total de mappings de forma incondicional (linha 144) e so entra no laco
+com `local_405c != 0`; como nao ha filtro, `count` e sempre o total e o array so fica
+intocado quando o total ja era zero. O alvo conta apenas o que copiou.
+
+O filtro so descarta quando o flag esta **desligado**. O teste da linha 240 e
+`if (((byte)SVar25 & 1) != 0)` e, quando verdadeiro, faz `goto LAB_18050a544`, isto e,
+inclui o mapping normalmente; o `else` (linha 244) e que so loga "skipping auth GOT
+mapping" e nao copia. `SVar25` vem da linha 177 e e sobrescrito por `param_6[0x19]` na
+180, ou seja, e o byte de decisao do cache principal, o mesmo que o `preflightSubCacheFile`
+herda.
+
+Consequencia nova: no alvo, com `local_405c > 0`, todos os mappings com o bit 7 ligado e
+o flag desligado, todos caem no `else` da linha 239, nada e copiado, e a linha 253 grava
+`count == 0` mesmo havendo mappings. O array nao e zerado antes do laco (nenhum
+`bzero`/`memset` em nenhuma das duas builds), mas como nada foi escrito o chamador
+recebe `CacheInfo` com zero entradas. A funcao retorna sucesso.
+
+Isso e diferente do caso do item 7: ali o throw interrompe antes da linha 253, entao
+`param_3+0x180` nem chega a ser gravado.
 
 ## 7. Throw `bad_optional_access` mantido
 
-O throw sobrevive no alvo, na mesma condicao (`bVar8 == false`, so com count==1):
+O throw sobrevive no alvo, na mesma condicao:
 
 ```
 alvo 228:                      std::__throw_bad_optional_access_abi_nqn220106_();
 ```
 
-So muda o sufixo ABI (`nqn210106` na base, `nqn220106` no alvo). O caminho de crash do
-finding principal continua valido no 27.2.
+Pre-condicoes exatas, identicas nas duas builds (na base o throw esta na linha 201, com
+`lVar13` no lugar de `lVar7`):
+
+1. `bVar8 == false`, o que so acontece quando `local_405c <= 1`: com `1 < local_405c`
+   o fluxo salta para `LAB_18050a2f8` (linha 127) e liga `bVar8 = true` (linha 128).
+   `bVar8 = false` fica na linha 119, sob o rotulo `LAB_18050a308` (linha 118). Na
+   pratica, `mappingCount == 1`.
+2. `mapping[0].fileOffset == 0` (o campo e lido na linha 106 e testado na 107), senao a
+   string de erro sai na 123 e o laco nao roda.
+3. faixa de assinatura igual a `st_size` (linha 108).
+4. permissoes iguais a 5 (linha 131).
+5. `lVar7 != 0` (linha 225), sendo `lVar7` o primeiro campo da entrada de linkedit: o
+   indice sai na linha 192 e o campo e carregado na 207 a partir de `alStack_4050`. O
+   header precisa apontar um linkedit de tamanho nao-zero.
+
+As condicoes 2 a 4 valem porque o laco esta dentro de `if (*(long *)(lVar17 + 0x10) == 0)`
+(linha 134). Falta ainda uma sexta: o mapping nao pode ser de auth GOT com o flag
+**desligado**. A linha 212 desvia para a copia quando `uVar14 >> 7 & 1` esta limpo; com o
+bit 7 ligado o fluxo cai no `else` da linha 239, e ali a linha 240 testa `SVar25 & 1`:
+ligado faz `goto` para a copia (throw preservado), desligado so loga "skipping" e nao
+copia. `SVar25` e o `param_6[0x19]` da linha 180.
+
+Atendidas todas, o throw dispara logo apos copiar o mapping (linha 215). So muda o
+sufixo ABI (`nqn210106` na base, `nqn220106` no alvo). O caminho de crash do finding
+principal continua valido no 27.2.
 
 ## Classificacao do diff
 

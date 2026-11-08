@@ -6,7 +6,7 @@ Triagem estatica do dyld shared cache iOS 27.2 (24B119) contra 26.6.1 (23G83), a
 
 | Simbolo | Finding | Nota |
 |---|---|---|
-| preflightCacheFile | [preflightCacheFile](preflightCacheFile.md) | `mappingOffset` sem faixa; throw `bad_optional_access` alcancavel com count==1. Candidato mais forte |
+| preflightCacheFile | [preflightCacheFile](preflightCacheFile.md) | `mappingOffset` sem faixa; throw `bad_optional_access` alcancavel com count==1, 5 condicoes de header e mapping sem bit 7 ou com flag de auth GOT ligado; `count == 0` com array intocado quando todo mapping tem bit 7 e o flag esta desligado. Candidato mais forte |
 | mapSplitCacheSystemWide | [mapSplitCacheSystemWide](mapSplitCacheSystemWide.md) | vaza fds no erro de subcache; 6o argumento e `loadInfo`, tipo correto |
 | mapSplitCachePrivate | [mapSplitCachePrivate](mapSplitCachePrivate.md) | vaza fd no erro de subcache |
 
