@@ -30,6 +30,12 @@ Repo: `~/triage` = `grifo666/ipsw-triage-24B119`, branch `main`.
 - Artefato `binaries-24B119` do Actions expira em 21/11.
 - `OPENAI_API_KEY` vazio → `ipsw --dec` falha rápido; a decompilação usa Ghidra.
 
+## Diretório temporário é por build (regra)
+
+Tudo que é gerado por execução leva o build no caminho: binário em `_tmp/bin/<BUILD>/`, projeto do Ghidra `ghidra<BUILD>`, saída prefixada com `<BUILD>__`. Nunca reaproveitar `_tmp/bin/dyld` de outra build.
+
+O caso real: a execução do 23G83 reaproveitou o `dyld` do 24B119 e só não deu resultado errado porque o nome mangled difere entre as builds (o alvo tem o 6º parâmetro `PKS3_`). Se os nomes coincidissem, o Ghidra teria decompilado o binário errado e o diff sairia sem sentido, sem nenhum aviso.
+
 ## Armadilha já diagnosticada (não repetir)
 
 `ipsw diff` ficou 1h23 em estado `UN`. Não era disco nem filesystem: spindump mostrou `wait4` no `aea` bloqueado por krwlock do `diskimagesiod`. Correção: matar `aea`, `ipsw` e `diskimagesiod`, e remontar o sparse bundle. O cache daquela execução era um DB vazio de 4KB — irrecuperável.
