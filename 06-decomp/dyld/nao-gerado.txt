@@ -1,1 +1,0 @@
-decompilacao nao gerada para __ZN5dyld4L21lockdownDyldDataConstEPKN6mach_o12UnsafeHeaderE: ver Limitacoes
