@@ -77,7 +77,7 @@ O segundo array baseia-se em `buffer + mappingWithSlideOffset`, entao o mesmo pr
 228:                      std::__throw_bad_optional_access_abi_nqn220106_();
 ```
 
-`bVar8` e posto true em LAB_18050a2f8 (linha 128), alcancado quando `local_405c >= 2`; e false em LAB_18050a308 (linha 119), alcancado quando `local_405c < 2`, isto e, **count == 1** (0 ja foi rejeitado). Como o range check aceita 1..8, count==1 passa e chega em bVar8=false. Se o primeiro mapping tiver `fileOffset != 0` (linha 107 → 123 → 126) e o valor de slide `lVar7 != 0`, o throw dispara.
+`bVar8` e posto true em LAB_18050a2f8 (linha 128), alcancado quando `local_405c >= 2`; e false em LAB_18050a308 (linha 119), alcancado quando `local_405c < 2`, isto e, **count == 1** (0 ja foi rejeitado). Como o range check aceita 1..8, count==1 passa e chega em bVar8=false. Mas o laco inteiro, e o throw com ele, esta dentro de `if (*(long *)(lVar17 + 0x10) == 0)`, isto e, so roda quando nenhuma string de erro foi gravada. Com count==1 isso exige que o primeiro mapping tenha `fileOffset == 0` (senao a linha 107 grava text file offset is invalid e o laco e pulado), que o tamanho da assinatura feche com st_size e que as permissoes sejam 5 (senao a linha 121 grava text permissions are invalid). Atendidas as tres, o laco roda uma vez e, se o valor de slide em mappingWithSlide[0] for diferente de zero, o throw dispara.
 
 Ou seja: **um cache de 1 mapping com fileOffset de texto invalido e slide mapping derruba o processo com excecao**, mesmo havendo a string de erro "shared cache text file offset is invalid" ja setada. O throw **nao** e inalcancavel. A premissa de que o piso de 9 (na verdade teto) tornaria o throw morto esta errada porque o throw depende de count<2, nao de count<9.
 
@@ -86,6 +86,6 @@ Ou seja: **um cache de 1 mapping com fileOffset de texto invalido e slide mappin
 - Ponto 1 (mappingOffset sem faixa): bug real de robustez, leitura fora do buffer.
 - Ponto 2 (count): **corrigido** — ha teto 8, slots nao transbordam.
 - Ponto 3 (mappingWithSlideOffset/Count): bug real, mesmo vetor do Ponto 1 e sem teto.
-- Ponto 4 (throw): **corrigido** — alcancavel com count==1 + fileOffset!=0 + slide!=0, resulta em crash por excecao nao tratada.
+- Ponto 4 (throw): **corrigido** — alcancavel apenas com count==1, fileOffset==0, assinatura e permissoes coerentes e slide!=0; crash por excecao nao tratada.
 
 Candidato a validacao no aparelho: forjar um header de cache com `mappingOffset` grande (ou `mappingWithSlideOffset` grande) mantendo `mappingCount` em 1..8, e um caso count==1 com `mappingOffset` apontando para um mapping de fileOffset != 0 mais slide, para exercitar o throw.
