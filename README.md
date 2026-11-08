@@ -108,3 +108,4 @@ Os bullets abaixo são anexados pelo `extract.sh` via `registrar_limite` e descr
 - `ipsw diff` falhou
 - gen-index.sh falhou
 - TARGET_SYMBOL indefinido; 05-disasm e 06-decomp vazios
+- decompilacao de `__ZN6mach_o6Header22validSemanticsSegmentsERKNS_6PolicyEy` pulada: nenhum backend produziu saida (--dec exige OPENAI_API_KEY no ambiente, Ghidra exige GHIDRA_HOME ou ANALYZE_HEADLESS)
