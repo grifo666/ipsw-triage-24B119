@@ -4,6 +4,8 @@ Leia isto antes de qualquer coisa. É o estado acumulado do trabalho; não reder
 
 ## Regras de trabalho
 
+- Falar com o usuario em linguagem simples, sem jargao. Termo tecnico so quando inevitavel, explicado na mesma frase.
+
 - Shell é **zsh**, não bash. Gerenciador de pacotes é **MacPorts**, não brew.
 - **Um prompt de shell por turno** (o usuário cola e devolve a saída).
 - Sem emoji nas respostas.
