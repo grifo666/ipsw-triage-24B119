@@ -52,7 +52,7 @@ Defeitos já corrigidos, todos verificados por run verde:
 - `preflightCacheFile`: `mappingOffset` não é validado contra o buffer de 0x4000; flag herdada de `options+0x19`; caminho com `mappingCount == 1` chega em `std::bad_optional_access`. Candidato mais forte.
 - `preflightSubCacheFile`: 5º argumento NULL para subcache, 6º argumento passthrough puro.
 - `preflightMainCacheFile`: 6º argumento NULL e lógica de seleção `.development`.
-- `mapSplitCacheSystemWide`: o loop passa `loadInfo` no 6º argumento (incompatível com `SharedCacheOptions*`) e vaza fds quando o subcache falha.
+- `mapSplitCacheSystemWide`: o loop passa `loadInfo` no 6º argumento (tipo correto, `SharedCacheLoadInfo*`) e vaza fds quando o subcache falha.
 - Base: `validMagic`, `buildRootsBitmaps`, `DynamicRegion`, `hash_rank`, `mapSplitCachePrivate`, `loadDyldCache`.
 
 ## Pendências
@@ -83,3 +83,29 @@ Defeitos já corrigidos, todos verificados por run verde:
 - Unico simbolo ainda sem `.c`: `__ZN5dyld4L21lockdownDyldDataConstEPKN6mach_o12UnsafeHeaderE` (falhou na decomp). Redisparar so ele.
 - Prova no aparelho pendente: header de cache forjado com mappingOffset grande (ou mappingWithSlideOffset) e count 1..8; caso count==1 com fileOffset!=0 + slide para o throw.
 - Harness no ar: proxy em 127.0.0.1:3456, crush com provider venice-local, modelo deepseek-v4-1-flash-uncensored.
+
+## Pendencia imediata (2026-11-08)
+
+A decompilacao de preflightCacheFile no 23G83 falhou: binario correto extraido do cache 23G83, mas nenhum backend produziu o .c. Antes de concluir qualquer coisa, ler o ghidra.log em /Volumes/WABACKUP/_triage-tmp/23G83 e verificar se o simbolo existe no dyld do 26.6.1 (`ipsw dyld symaddr` ou nm). Se o mangled mudou, localizar o equivalentecd ~/triage && cat > docs/DIARIO.md <<'EOF'
+# Diario de sessao
+
+Append-only. Uma entrada por passo, com hora. O que foi tentado, o que funcionou, o que foi descartado e por que. Commitar a cada entrada: e isto que faz a memoria sobreviver.
+
+## 2026-11-07
+- Push por simbolo quebrado: o push estava dentro do else de "nada a commitar". Movido para dentro do laco. 40a76e3.
+- Workflow rejeitado por chave YAML duplicada (permissions). Bloco velho removido.
+- Batch de 15 simbolos redisparado; os 15 chegaram em origin.
+- Triagem dos 16 .c concluida, 19 findings escritos.
+- Premissa corrigida: mappingCount aceita 1..8, rejeita 0 e >=9. CacheInfo 0x1c0, array de 8 slots, sem transbordo.
+- Premissa corrigida: o throw exige fileOffset==0, nao !=0; o laco esta sob o teste de string de erro.
+- Achados reais: offset sem validacao, throw alcancavel, vazamento de fd nos dois mappers.
+- Regras novas: linguagem simples, passos numerados, execucao ao vivo sem tail.
+
+## 2026-11-08
+- Decompilacao do 26.6.1 saiu identica ao 27.2: o script preferiu o cache do 27.2 e reaproveitou o binario.
+- Repetida com DSC_LOCAL do 23G83 e RUN_TMP proprio: binario correto criado, mas o Ghidra nao produziu o .c. Causa desconhecida, suspeita de nome mangled diferente no 26.6.1 (assinatura mudou) ou simbolo ausente.
+- Criado atalho ~/Desktop/Crush Triage.command que sobe o proxy e abre o crush no repo.
+
+## Pendencia imediata (2026-11-08)
+
+A decompilacao de preflightCacheFile no 23G83 falhou: binario correto extraido do cache 23G83, mas nenhum backend produziu o .c. Antes de concluir qualquer coisa, ler o ghidra.log em /Volumes/WABACKUP/_triage-tmp/23G83 e verificar se o simbolo existe no dyld do 26.6.1 (`ipsw dyld symaddr` ou nm). Se o mangled mudou, localizar o equivalente

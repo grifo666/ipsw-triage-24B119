@@ -1,10 +1,8 @@
-@yIy9x
-zjxl%
+@y*y9x
         0x%08llX->0x%08llX init=%x, max=%x %s
       dlopen(%s) => %p
       dlopen(%s) => NULL, '%s'
       dlopen_preflight(%s) => %d
-      dlopen_preflight(%s) => 1
      dlsym("%s") => %p
      dlsym("%s") => NULL
      dlsym("%s") => NULL (blocked)
@@ -21,7 +19,7 @@
    no pseudo-dylibs matched
   Expected as weak-def export from some loaded dylib
   Expected in:     <%s> %s
-  LC_RPATH "%s" from "%s"
+  LC_RPATH '%s' from '%s'
   Protocol[%lld]: vmAddr 0x%llx at %p
   Reason: %s
   Referenced from: <%s> %s
@@ -30,10 +28,10 @@
   found %s in map, using impl from %s
   found existing image by install name: "%s"
   found use of '%s' in cache, need to override: %s
-  found: already-loaded-by-dylib-index: "%s" -> "%s"
+  found: already-loaded-by-dylib-index: "%s" -> %s
   found: already-loaded-by-inode-mtime: "%s"
   found: already-loaded-by-path: "%s"
-  found: already-loaded-by-rpath: "%s"
+  found: already-loaded-by-rpath: %s
   found: dylib-from-cache-error: "%s" => "%s"
   found: dylib-from-cache: (0x%04X) "%s"
   found: dylib-from-disk-error: "%s" => "%s"
@@ -42,15 +40,13 @@
   found: dylib-from-disk: "%s"
   found: prebuilt-dylib-from-cache: (0x%04X) "%s"
   found: prebuilt-loader-dylib matching path
+  found: pseduo-dylib: "%s"
   found: pseudo-dylib-error: "%s" => "%s"
-  found: pseudo-dylib: "%s"
-  including auth GOT mapping
   interpose replaced 0x%08lX with 0x%08lX in %s
   not found: "%s"
   not found: weak-linked and pre-built-as-missing dylib
   possible path(%s): "%s"
-  skipping auth GOT mapping
-  switch to canonical cache path: "%s"
+  switch to canonical cache path: %s
   switch to realpath: "%s"
   using '%s' in %s
   using non-weak '%s' in %s
@@ -61,38 +57,22 @@
  => '%s'
  => 0x%lX
  => NULL
+ @9) @9
+ bytes, vm_allocate returned: 0x
  objc-mapped: %p %s
-!F9hn@
+!<arch>
+!E9hf@
 !allocated()
 !dataRanges.empty()
 !diag.hasError()
+!leaf() && "Leaf nodes do not contain children"
+!leaf() && "Leaf nodes do not have children to split"
 !memoryManager._protectedStack->onStackInAnyFrameInThisThread()
+!newChild->full() && !child->full() && "After split the child nodes should be full"
 !onStackInCurrentFrame()
 !sMemoryManagerInitialized
 !this->allDepsAreNormal
-"@y)=P
-"@y)}P
-"@yI=`
-%.*s has library ordinal too large (%d) max (%d)
-%.*s has unknown library special ordinal (%d)
-%.*s missing preceding BIND_OPCODE_SET_DYLIB_ORDINAL
-%.*s missing preceding BIND_OPCODE_SET_SEGMENT_AND_OFFSET_ULEB
-%.*s missing preceding BIND_OPCODE_SET_SYMBOL_TRAILING_FLAGS_IMM
-%.*s missing preceding REBASE_OPCODE_SET_SEGMENT_AND_OFFSET_ULEB
-%.*s pointer bind is in executable segment '%.*s'
-%.*s pointer bind is in non-writable segment '%.*s'
-%.*s pointer rebase is in executable segment '%.*s'
-%.*s pointer rebase is in non-writable segment '%.*s'
-%.*s segment index %d too large
-%.*s segment offset 0x%08llX beyond segment '%.*s' size (0x%08llX)
-%.*s text bind is in non-executable segment
-%.*s text bind is in writable segment
-%.*s text binds not supported for architecture
-%.*s text rebase is in non-executable segment '%.*s'
-%.*s text rebase is in writable segment '%.*s'
-%.*s text rebase not supported for architecture
-%.*s unknown bind type %d
-%.*s unknown rebase type %d
+#$@xC$
 %14.*s (%c%c%c) 0x%012lX->0x%012lX
 %14.*s (%c%c%c) 0x%012llX->0x%012llX 
 %14.*s (%c%c%c) 0x%012llX->0x%012llX (fileOffset=0x%0llX, size=%lluKB)
@@ -105,8 +85,7 @@
 %s slice extends beyond end of file
 %s: %s
 %s__TPRO_CONST,__allocator = 0x%llx - 0x%llx
-%u.%u.%u
-' built for platform 
+' or '
 '%s' (blocked by sandbox)%s
 '%s' (cannot override a protected system dylib)%s
 '%s' (errno=%d%s)
@@ -115,47 +94,53 @@
 '%s' not compatible with '%s'
 '%s' segment vm range wraps
 (((uintptr_t)ldr) & 1) == 0
+((uint64_t)addr + size) <= mapping.address + mapping.size
 (X@y(!
-(_kind != Kind::reExport) && (_kind != Kind::absolute)
 (actualSize + 1) == expectedSize
-(categoryListSection->sectSize % sizeof(uint64_t)) == 0
-(classListSection.sectSize % sizeof(uint64_t)) == 0
+(categoryListSection->sectSize % pointerSize) == 0
+(classListSection.sectSize % pointerSize) == 0
 (null)
 (offset() == bindTarget.runtimeOffset) && "large offset not support"
 (offset() == targetSymbol.targetRuntimeOffset) && "large offset not support"
 (patchVersion == 2) || (patchVersion == 3) || (patchVersion == 4)
 (protoListSection->sectSize % 4) == 0
-(protocolListSection->sectSize % sizeof(uint64_t)) == 0
-(protocolRefsSection->sectSize % sizeof(uint64_t)) == 0
-(selRefsSection->sectSize % sizeof(uint64_t)) == 0
+(protocolListSection->sectSize % pointerSize) == 0
+(protocolRefsSection->sectSize % pointerSize) == 0
+(selRefsSection->sectSize % pointerSize) == 0
 (uint64_t)result != (uint64_t)this
 (uint8_t*)(&curSeg->page_start[curSeg->page_count]) < bufferEnd
 (uint8_t*)(&curSeg->page_start[pageIndex]) < bufferEnd
 (uint8_t*)_usageEnd + reqSize <= (uint8_t*)_vmAllocationStart + _vmAllocationSize
 (uint8_t*)curSeg < bufferEnd
 (uintptr_t)_bitmap%8 == 0
-* @yL=`
-*BAI*#-G
+*@y)=P
+*@y)}P
+*@yI=`
+*A9i*A9
+*Li+8
+*Y@yJy
+*i == file.volume()
 *unknown*
-+ @yl=^
++ih8Lih8
++ih8Lih8,i(8Ki(8
 , '%s' (%s)
 , '%s' (relative path not allowed in hardened program)
 , (security policy does not allow @ path expansion)
 , no dyld cache
 , not in dyld cache
-, on-disk file '%s' overrides dyld cache but could not be loaded (%s)
+-init does not point within __TEXT segment
 .development
 .dyld4
 .dylib
 .framework
 .framework/
+.im8mym
 /AppleInternal/
 /Library/Caches/com.apple.dyld/
-/Library/Caches/com.apple.xbs/D7728C0C-85BC-4366-BAC1-B72A91F6BB66/TemporaryDirectory.8DSmCz/Binaries/libignition/install/Symbols/ignition_core
+/Library/Caches/com.apple.xbs/441AF0FF-A3F7-4112-9834-D4D2628A9B7B/TemporaryDirectory.1vClUD/Binaries/libignition/install/Symbols/ignition_core
 /Library/Frameworks
 /System/
 /System/Cryptexes/OS
-/System/Cryptexes/Rosetta/
 /System/DriverKit/
 /System/DriverKit/System/Library/dyld/
 /System/DriverKit/usr/lib/libSystem.B.dylib
@@ -163,7 +148,6 @@
 /System/DriverKit/usr/lib/system/
 /System/DriverKit/usr/lib/system/libdyld.dylib
 /System/ExclaveKit/usr/lib/libSystem.dylib
-/System/ExclaveKit/usr/lib/libobjc.A.dylib
 /System/ExclaveKit/usr/lib/system/
 /System/Library/
 /System/Library/Caches/com.apple.dyld/
@@ -175,7 +159,6 @@
 /System/iOSSupport/
 /System/iOSSupport/System/Library/
 /System/iOSSupport/usr/lib/
-/System/x86Support/System/Library/dyld/
 /cdhash/
 /dev/console
 /dev/dtracehelper
@@ -191,7 +174,7 @@
 /usr/lib/libSystem.B.dylib
 /usr/lib/libSystem.dylib
 /usr/lib/libobjc.A.dylib
-/usr/lib/libsharedcache.dylib
+/usr/lib/libodmodule.dylib
 /usr/lib/log/liblog_odtypes.dylib
 /usr/lib/system/
 /usr/lib/system/host/liblaunch_sim.dylib
@@ -203,6 +186,9 @@
 /usr/lib/system/libsystem_platform_debug.dylib
 /usr/lib/system/libsystem_pthread.dylib
 /usr/lib/system/libsystem_pthread_debug.dylib
+/usr/lib/system/libsystem_sandbox.dylib
+/usr/lib/system/libsystem_secinit.dylib
+/usr/libexec/adid
 /usr/libexec/fairplaydeviceidentityd
 /usr/local/lib
 /usr/sbin/fairplayd
@@ -212,36 +198,39 @@
 0 && "Invalid data blob size"
 0 && "invalid signing key"
 0 && "not a dylib load command"
-0 && "unknown arch"
 0 && "unsupported pointer chain format"
 0 && "vm_allocate failed"
 0123456789ABCDEF
 0123456789abcdef
+0io80i-8.i/8J
 1-byte stride, for x86_64 kernel cache
-16777228--2147483636
+1ip81i.8/i08J
 2@y)}`
 2d_noSuper_education
-4('D)(
 4(Y@yH
-5(+@ys
-6hB@9H
-6hB@9h
-7K!@9K
-87W+@7S0
-9?i*8s
+6hb@9H
+6hb@9h
+7h+@y9
+7hB@yi
+7hR@9h
+7hV@yH
+8.5 (Berkeley) 2/7/95
+9h.B)(
+9iJ@9)
+9jJ@9J
 : dlopen(
 <%d>%s[%d]: 
 <%s/bind#%llu(variant-table#%d)> -> %p
 <%s/bind#%llu> -> %p
-<%s/bind#%llu> -> %p (%s)
 <%s/bind#%llu> -> %p (%s+0x%08llX)
+<%s/bind#%llu> -> %p (%s/%s)
 <%s/bind#%llu> -> %p <%s/%s>)
 <%s/bind#%llu> -> %p <%s/variant-table#%d('%s')>)
 <%s/bind#%llu> -> missing-weak-bind
-<%s/obind#%llu> -> %p (%s/%s)
-<%s/obind#%llu> -> missing-weak-bind (%s)
+<%s/bind#%llu> -> missing-weak-bind (%s)
 <%s> %s
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict>
+<B9)<B9
 <internal>
 <key>CFBundleDisplayName</key>
 <key>CFBundleExecutable</key>
@@ -264,30 +253,29 @@
 <none>
 <string>1.0.0</string>
 <string>14.0</string>
+<string>17E6107</string>
 <string>23A344017</string>
-<string>24B112</string>
-<string>27.2</string>
-<string>2700</string>
-<string>27A225b</string>
+<string>26.6</string>
+<string>2630</string>
+<string>58</string>
 <string>6.0</string>
-<string>64</string>
+<string></string>
 <string>Copyright 2021-2022 Apple Inc. All rights reserved.</string></dict></plist>
 <string>Darwin Ignition Sequence</string>
 <string>RELEASE</string>
 <string>com.apple.compilers.llvm.clang.1_0</string>
 <string>com.apple.darwin.ignition</string>
 <string>ignition_core</string>
-<string>iphoneos27.2.internal</string>
+<string>iphoneos26.6.internal</string>
 <string>iphoneos</string>
 <string>libignition_core.a</string>
 = ((^v
 = ((^v$
 = ((^v4
-@(#)PROGRAM:dyld  PROJECT:dyld-27104
-@(#)VERSION:Darwin Ignition Sequence Version 1.0.0: Tue Oct 13 20:59:49 PDT 2026; root:libignition-64~29988/libignition_core/RELEASE_ARM64E
-@9(/07
+@(#)PROGRAM:dyld  PROJECT:dyld-1387
+@(#)VERSION:Darwin Ignition Sequence Version 1.0.0: Thu Jul 30 11:49:13 PDT 2026; root:libignition-58~38604/libignition_core/RELEASE_ARM64E
+@(#)getcwd.c
 @9) @9 
-@9nj+8k
 @executable_path
 @executable_path expansion
 @executable_path/
@@ -296,7 +284,6 @@
 @loader_path/
 @path expansion
 @rpath/
-@yO(@y
 AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE
 AAREncoder.cpp
 AIP-Viewer
@@ -314,13 +301,12 @@ Assertion failed: (%s), file %s, line %d.
 Assertion failed: (%s), function %s, file %s, line %d.
 AzureMobile.iOS
 B16@?0r^v8
-B56@?0{CString=*Q}8Q24Q32Q40^B48
 BIND_OPCODE_DO_BIND
 BIND_OPCODE_DO_BIND_ADD_ADDR_IMM_SCALED
 BIND_OPCODE_DO_BIND_ADD_ADDR_ULEB
 BIND_OPCODE_DO_BIND_ULEB_TIMES_SKIPPING_ULEB
 BIND_SUBOPCODE_THREADED_SET_BIND_ORDINAL_TABLE_SIZE_ULEB size too large
-BIND_SYMBOL_FLAGS_NON_WEAK_DEFINITION
+BTree.h
 BUG IN CLIENT OF LIBPLATFORM: Assertion failed: Lock unexpectedly not owned by current thread
 BUG IN CLIENT OF LIBPLATFORM: Assertion failed: Lock unexpectedly owned by current thread
 BUG IN CLIENT OF LIBPLATFORM: Destroying semaphore failed
@@ -351,15 +337,13 @@ BingAdsMobile
 BingDic
 BingPlaces.iOS.app
 BingSports
+Bitmap.h
 BookMyShow
 Bookings
 Boomerang
 Business Central
 CMT3Mobile.iOS
 CRMPSAFindWorkiOS
-CString
-CString.cpp
-CString.h
 CTRIP_WIRELESS
 Cannot handle message refs
 Cannot handle relative method list pointing outside of __objc_selrefs
@@ -370,7 +354,7 @@ Class %s is implemented in both %s (%p) and %s (%p). One of the two will be used
 Company Portal
 Connected Store
 Could not find protocol '%s'
-Could not vm_allocate 
+Could not vm_allocate 0x
 Could not vm_allocate dynamic config memory
 CreditTracker
 Cryptexes/App
@@ -392,10 +376,9 @@ DYLD_CHAINED_PTR_ARM64E_KERNEL
 DYLD_CHAINED_PTR_ARM64E_SEGMENTED
 DYLD_CHAINED_PTR_ARM64E_USERLAND
 DYLD_CHAINED_PTR_ARM64E_USERLAND24
-DYLD_CHAINED_PTR_SHARED_CACHE_V2
 DYLD_CHAINED_PTR_X86_64_KERNEL_CACHE
 DYLD_CLOSURE_DIR
-DYLD_DLSYM_RESULT
+DYLD_DLSYM_RESULT=
 DYLD_FALLBACK_FRAMEWORK_PATH
 DYLD_FALLBACK_LIBRARY_PATH
 DYLD_FORCE_PLATFORM
@@ -431,7 +414,7 @@ DYLD_USE_CLOSURES
 DYLD_VERSIONED_FRAMEWORK/LIBRARY_PATH
 DYLD_VERSIONED_FRAMEWORK_PATH
 DYLD_VERSIONED_LIBRARY_PATH
-Darwin Ignition Sequence Version 1.0.0: Tue Oct 13 20:59:49 PDT 2026; root:libignition-64~29988/libignition_core/RELEASE_ARM64E
+Darwin Ignition Sequence Version 1.0.0: Thu Jul 30 11:49:13 PDT 2026; root:libignition-58~38604/libignition_core/RELEASE_ARM64E
 DiFo Galerie
 Diagnostics.cpp
 DigiCard_prod_HockeyApp
@@ -452,103 +435,53 @@ FaceMagic
 FamilySafetyiOS
 FetchMobile.iOS
 FieldServices
+FileManager.cpp
 Finance and Operations
 FinanceApp
-FunctionVariantFixups segIndex=%d exceeds number of segments (%lu)
-FunctionVariantFixups segOffset=0x%08X exceeds segment size (0x%llX)
-FunctionVariants is too small
-FunctionVariants tableCount=%u is too large for size=%lu
 GamePass
 GearsPOP
 GeometryDashMeltdown
 GlobalStartupDirectory
-GradedArchitectures.cpp
 Gravity
+H@yb&@
 Halo Channel
 HalseyAssistant
 HblMobile_newDesign
-Header.cpp
 Health Partners Mobile
 HealthVault
 Hummingbird
 IT Showcase
-IY@y)y
 IkesLove
 Illegal TPRO memory access
-Image.cpp
+Invalid objc class section size
 Invalid objc pointer section size
 Jabber
 JustInTimeLoader.cpp
+KY@yky
 Kaizala
 Kernel mapped %s
+Kih8ljh8
+Kii8hi8
 Kuwait Mobile ID
-LC_???
-LC_ATOM_INFO
-LC_BUILD_VERSION
 LC_BUILD_VERSION load command size wrong
-LC_CODE_SIGNATURE
 LC_CODE_SIGNATURE load command size wrong
-LC_DATA_IN_CODE
 LC_DATA_IN_CODE load command size wrong
-LC_DYLD_CHAINED_FIXUPS
 LC_DYLD_CHAINED_FIXUPS load command size wrong
-LC_DYLD_ENVIRONMENT
-LC_DYLD_EXPORTS_TRIE
 LC_DYLD_EXPORTS_TRIE load command size wrong
-LC_DYLD_INFO
 LC_DYLD_INFO load command size wrong
-LC_DYLD_INFO not allowed in .o files
-LC_DYLD_INFO_ONLY
-LC_DYSYMTAB
 LC_DYSYMTAB but no LC_SYMTAB load command
 LC_DYSYMTAB load command size wrong
-LC_ENCRYPTION_INFO
 LC_ENCRYPTION_INFO found in 64-bit mach-o
 LC_ENCRYPTION_INFO load command size wrong
-LC_ENCRYPTION_INFO_64
 LC_ENCRYPTION_INFO_64 found in 32-bit mach-o
 LC_ENCRYPTION_INFO_64 load command size wrong
-LC_FILESET_ENTRY
-LC_FUNCTION_STARTS
 LC_FUNCTION_STARTS load command size wrong
-LC_FUNCTION_VARIANTS
-LC_FUNCTION_VARIANT_FIXUPS
-LC_ID_DYLIB
-LC_ID_DYLINKER
-LC_LINKER_OPTION
-LC_LINKER_OPTION found in non-object file
-LC_LINKER_OPTION has count=%d, only 1 or 2 is valid
-LC_LOAD_DYLIB
-LC_LOAD_DYLINKER
-LC_LOAD_UPWARD_DYLIB
-LC_LOAD_WEAK_DYLIB
-LC_MAIN
 LC_MAIN not allowed for driverkit
-LC_MAIN not allowed in .o files
-LC_REEXPORT_DYLIB
-LC_RPATH
-LC_SEGMENT
-LC_SEGMENT_64
-LC_SEGMENT_SPLIT_INFO
 LC_SEGMENT_SPLIT_INFO load command size wrong
-LC_SUB_CLIENT
-LC_SUB_FRAMEWORK
-LC_SUB_LIBRARY
-LC_SUB_UMBRELLA
-LC_SYMTAB
 LC_SYMTAB load command size wrong
-LC_TARGET_TRIPLE
-LC_UNIXTHREAD
-LC_UUID
 LC_UUID load command size wrong
 LC_VERSION_* load command size wrong
-LC_VERSION_MIN_IPHONEOS
-LC_VERSION_MIN_MACOSX
-LC_VERSION_MIN_TVOS
-LC_VERSION_MIN_WATCHOS
 LIBPLATFORM_NO_OVERREAD
-LINKEDIT content '%s' extends beyond end of segment
-LINKEDIT overlap of %s and %s
 Library not loaded: %s
 Loader.cpp
 MH_DYLIB is missing LC_ID_DYLIB
@@ -559,6 +492,7 @@ MSGovtCloudForum
 MTE:  %s
 MVPiOS
 Mac Catalyst
+MachO header exceeds file length
 MachOAnalyzer.cpp
 MachOLayout.cpp
 Mahjong
@@ -568,6 +502,7 @@ Mapping %s (slice offset=0x%llX)
 Mapping the shared cache system wide
 Master Lock Vault Home
 MeituanMovie
+Mi,8<B9
 Microfans
 Microsoft Authenticator
 Microsoft Defender ATP
@@ -609,13 +544,13 @@ OneNote
 OptimizerObjC.h
 Outlook-iOS
 OverflowSafeArray failed to allocate %llu bytes, vm_allocate returned: %d
+OverflowSafeArray failed to allocate 0x
 PCDBank
 PFChangs
 Planner
 Platform
 Platform.cpp
 PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE
-PointerFormat_DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE_V3
 Portal
 Power Automate
 Power BI
@@ -637,27 +572,31 @@ PrebuiltLoaders cannot be used with unsigned or old format programs
 PrebuiltLoaders not being used because DYLD_ env vars are set
 PrebuiltLoaders not being used because there is no dyld shared cache
 PrebuiltObjC.cpp
+ProcessAtlas.cpp
 ProcessConfig
 ProcessConfig_block_invoke
 PropertyList.cpp
 Protocol ISA must be null
 Protocol conformance exceeded name length of 16-bits
 Protocol list (count %lld): vmAddr 0x%llx at %p
+QIi8i
 Q12@?0I8
 QuickChek
-R)+@y*
+R)hi8?
 REBASE_OPCODE_DO_REBASE_ADD_ADDR_ULEB
 REBASE_OPCODE_DO_REBASE_IMM_TIMES
 REBASE_OPCODE_DO_REBASE_ULEB_TIMES
 REBASE_OPCODE_DO_REBASE_ULEB_TIMES_SKIPPING_ULEB
 RELEASE
+RIh(8Hhw
 RMS sharing
 ROSETTA
-Requested allgnment: 
-Requested size: 
-Requested target allgnment: 
-Requested target size: 
+Requested allgnment: 0x
+Requested size: 0x
+Requested target allgnment: 0x
+Requested target size: 0x
 Reveille
+Riji8?
 RoomBox
 RubyBrowser
 Runner
@@ -667,6 +606,7 @@ Setting up kernel page-in linking for %s
 Setting up kernel page-in linking for subcache %d
 SharePoint
 Shared Cache 
+SharedCache
 SharedCacheRuntime.cpp
 SingPass
 Skipped optimizing Swift protocols due to missing objc class optimisations
@@ -684,22 +624,19 @@ Stream
 Study Portal
 SwiftVisitor.cpp
 Symbol not found: %s
-Symbol.cpp
 System/Cryptexes/App
 System/Cryptexes/OS
 System/Cryptexes/Supplemental
-T($@xh$
-T($B)(
-T)ix8+
+T(wC9h
 T)ix8,
-T*a@9J
+T)i{8-
 TEALSPulseiOS
-TH@D9H
+TJ5C9_
 TPRO: %s
 Taobao4iPad
 TeamSpaceApp
 Teamwire
-Th&B))
+Thb@9(
 TickTick
 Translator
 True Skate
@@ -710,7 +647,6 @@ UnsafeHeader.cpp
 UrWeather
 Using mapping in dyld cache for %s
 Utilities.cpp
-Vector.h
 WeChat
 WeRead
 Webex for Intune
@@ -725,16 +661,13 @@ Yammer
 Yogurtland
 YoukuHD
 Youkui4Phone
-Ztxh;@
-ZyxH;@
+Z@y)-|
 [zxh;@
 _Block_object_dispose()
 _DYLD_PRINT_PROTETED_MEMORY_STATUS
 _NSGetExecutablePath(%p, %p)
-_ZN5dyld44APIs6dlopenEPKci
 __AUTH
 __AUTH_CONST
-__AUTH_CONST_GOT
 __AUTH_DIRTY
 __AUTH_TPRO_CONST
 __DATA
@@ -745,8 +678,6 @@ __DATA_CONST segment permissions is not 'rw-'
 __DATA_DIRTY
 __LINKEDIT
 __LINKEDIT segment permissions is not 'r--'
-__PRELINK_INFO
-__PRELINK_TEXT
 __READ_ONLY
 __RESTRICT
 __TEXT
@@ -777,10 +708,9 @@ __ZnwmSt11align_val_t
 __ZnwmSt11align_val_tRKSt9nothrow_t
 __ZnwmSt19__type_descriptor_t
 __all_image_info
-__chain_fixups
-__chain_starts
 __dso_handle
 __dyld_apis
+__eh_frame
 __helper
 __map_with_linking_np(%s) failed, falling back to linking in-process
 __map_with_linking_np(subcache %d) failed, falling back to linking in-process
@@ -804,14 +734,12 @@ __playground
 __protocol
 __restrict
 __stackAllocatorInternal
-__swift5_acfuncs
 __swift5_proto
-__swift5_replac2
 __swift5_replace
-__thread_starts
-_baseRootsBitmapSize == 0 && _cryptexRootsBitmapSize == 0
-_cachePathSize == 0
+__unwind_info
+_cachePathOffset == 0
 _currentPool == nullptr
+_depth == _btree->_depth && "prepareForInsertion only works on iterators leaf nodes"
 _dyld_deregister_pseudodylib(<handle for "%s">)
 _dyld_deregister_pseudodylib(<handle for "%s">): no registered pseudo-dylib for handle
 _dyld_find_pointer_hash_table_entry(%p, %p, %lu, %p)
@@ -835,8 +763,6 @@ _dyld_get_image_name(%u) => %s
 _dyld_get_image_slide(%p)
 _dyld_get_image_uuid(%p, %p)
 _dyld_get_image_vmaddr_slide(%u) => 0x%lX
-_dyld_get_lib_msg_send_offsets()
-_dyld_get_lib_msg_send_offsets() => %u
 _dyld_get_objc_class(%s)
 _dyld_get_objc_protocol(%s)
 _dyld_get_objc_selector(%s) => %s
@@ -861,7 +787,9 @@ _dyld_lazy_load(%p, %p)
 _dyld_objc_class_count()
 _dyld_objc_notify_register is unsupported
 _dyld_objc_register_callbacks unknown version
-_dyld_objc_register_callbacks unsupported version (v1-v3)
+_dyld_objc_register_callbacks v1 is no longer supported
+_dyld_objc_register_callbacks v2 is no longer supported
+_dyld_objc_register_callbacks v3 is no longer supported
 _dyld_objc_register_callbacks(%lu, %p, %p, %p, %p)
 _dyld_pseudodylib_deregister_callbacks(): blocked by security policy
 _dyld_pseudodylib_find_unwind_sections(%p, %p) returned error: %s
@@ -869,7 +797,6 @@ _dyld_pseudodylib_register
 _dyld_pseudodylib_register() => nullptr: blocked by security policy
 _dyld_pseudodylib_register_callbacks(%p): callbacks struct version not recognized
 _dyld_pseudodylib_register_callbacks() => nullptr: blocked by security policy
-_dyld_register_dlsym_notifier_with_handle() blocked by security policy
 _dyld_register_driverkit_main(%p)
 _dyld_register_driverkit_main() can only be called in DriverKit processes
 _dyld_register_driverkit_main() may only be called once
@@ -887,30 +814,31 @@ _dyld_shared_cache_optimized() => %d
 _dyld_shared_cache_real_path(%s) => '%s'
 _dyld_visit_objc_classes()
 _firstPool == nullptr
+_flatMapping == nullptr
 _funcVariant.fvTableOffset == fvTableOffset && "zerofill padding placed function variants table too far from mach_header"
 _funcVariant.variantIndex == targetSymbol.variantIndex && "too many function variants in image"
 _h(8Hhw
+_i,8<B9
 _lastFreeMetadata->pool() == this
-_objc_msgSend_thunk
+_mapper
 _processPrebuiltLoaderSet != nullptr
 _regular.kind != Kind::absolute
 _runtimeState != nullptr
-_size > 0
 _usedCount < _allocCount
 _usedCount > 0
+`@9)`@9
 abcdefghijklmnopqrstuvwx
 abort-allow:
 actualSize >= 0
 add bulk notifier %p called with %d images
 add notifier %p called with mh=%p
+addSharedCacheImage
 addend (%lld) cannot fit in fixup at %.*s+0x%0lX
 addr && "addr cannot be null"
 aligned_alloc
 aligned_alloc_best_fit
-allocStart != 0
 allocated()
 allow:
-anyImageRooted
 app cryptex
 app graft point
 app hyper dmg
@@ -932,8 +860,6 @@ argc
 arguments        
 arguments already initialized
 arguments not initialized
-arm64.x1
-arm64.x2
 arm64_32
 arm64e
 arm64e shared cache, 8-byte stride, target vmoffset
@@ -942,12 +868,6 @@ arm64e.kernel.v1
 arm64e.kernel.v2
 arm64e.old
 arm64e.v1
-arm64e.x1
-arm64e.x1.kernel
-arm64e.x1.old
-arm64e.x2
-arm64e.x2.kernel
-arm64e_x1
 armv4t
 armv6m
 armv7em
@@ -967,11 +887,9 @@ authenticated arm64e, 8-byte stride, target vmoffset
 bad BIND_OPCODE_THREADED sub-opcode 0x%02X
 bad bind opcode 0x%02X
 bad lazy bind opcode 0x%02X
-bad or unknown fileoffset/size for LINKEDIT
 bad_optional_access was thrown in -fno-exceptions mode
 beginInitializers
 big endian mach-o file
-bind opcodes
 bind ordinal (%u) too large in fixup at %.*s+0x%0lX
 bind table extends past blob, blobSize=%d, offset=%d, count=%d
 bit < _size
@@ -986,11 +904,10 @@ boot-arg forced rootfs fallback
 bplist00
 bridgeOS
 bridgeOS-kernelKit
-buffer does not start with MH_MAGIC[_64]
 buffer length not expressible as unsigned 32-bit integer: %lu
-buffer too small
 building PrebuiltLoaderSet for main executable
 bulk notifier %p called with %d images
+cBA9d&@
 cache GOT fixup: *0x%010lX = 0x%016lX (*cache+0x%010lX = %s+0x%016lX)
 cache GOT fixup: *0x%010lX = 0x%016lX (*cache+0x%010lX = %s+0x%016lX) (JOP: diversity=0x%04X, addr-div=%d, key=%s)
 cache fixup: *0x%010lX = 0x%016lX (*%s+0x%010lX = %s+0x%010lX) (JOP: diversity=0x%04X, addr-div=%d, key=%s)
@@ -1014,48 +931,22 @@ cannot make PrebuiltLoader for dylib that overrides dylib in dyld cache (%s)
 cannot make PrebuiltLoaderSet for program that has missing flat lazy symbols
 cannot make PrebuiltLoaderSet for program that uses DYLD_* env vars
 cannot make PrebuiltLoaderSet for program that uses interposing
-canonfd
 canonical app cryptex
 canonical cryptex
 canonical os cryptex
 canonical root
 canonical supplemental cryptex
+cbA9d*@
 ceair_iOS_branch
-chain overflow index out of range %d (max=%d) in segment #%d
-chained fixups
-chained fixups, different max_valid_pointer values seen in different segments
-chained fixups, dyld_chained_starts_in_segment for segment #%d overruns imports table
-chained fixups, dyld_chained_starts_in_segment[%d].segment_offset does match actual segment offset
-chained fixups, imports array overlaps symbols
-chained fixups, imports_count (%d) exceeds max of %d
-chained fixups, imports_offset exceeds LC_DYLD_CHAINED_FIXUPS size
-chained fixups, in segment #%d overflow page_start[%d]=0x%04X exceeds page size
-chained fixups, in segment #%d overflow page_start[%d]=0x%04X is before previous at 0x%04X
-chained fixups, in segment #%d page_start[%d]=0x%04X exceeds page size
-chained fixups, in segment #%d page_start[%d]=0x%04X multi-start chains not supported in 64-bit archs
-chained fixups, max_valid_pointer (0x%x) too small for image last vm address 0x%llx
-chained fixups, page_size not 4KB or 16KB in segment #%d
-chained fixups, page_start array overflows size
-chained fixups, pointer_format not same for all segments %d and %d
-chained fixups, pointer_format=%d in segment #%d does not match pointer size
-chained fixups, seg_count does not match number of segments
-chained fixups, seg_count exceeds number of segments
-chained fixups, seg_info_offset for segment #%d exceeds LINKEDIT size
-chained fixups, starts_offset exceeds LC_DYLD_CHAINED_FIXUPS size
-chained fixups, symbols_format unknown (%d)
-chained fixups, unknown header version (%d)
-chained fixups, unknown imports_format (%d)
-chained fixups, unknown pointer_format (%d)
-chained fixups, unknown pointer_format in segment #%d
-chainedFixusp.has_value()
+chainedPointerFormat
+children
+children()[index]->full() && "The child being split must be full"
 chosen im4m
 close() failed, errno=%d
-code signature
 code signature does not cover entire file up to signature in <%s> '%s' (signed 0x%08llX, expected 0x%08X) for '%s'
 code signature does not cover entire shared cache file
 code signature in <%s> '%s' not valid for use in process: %s
 code signature invalid in <%s> '%s' (errno=%d) sliceOffset=0x%08llX, codeBlobOffset=0x%08X, codeBlobSize=0x%08X
-code signature not 16-byte aligned, fileOffset=0x%08X
 code signature registration for shared cache failed
 code signing blocked mmap() of '%s'
 com.apple.dyld
@@ -1077,6 +968,8 @@ could not register fairplay decryption, mremap_encrypted() => %d
 could not save PrebuiltLoaderSet because main executable is not codesigned
 count <= _allocCount
 covered graft point
+cpu subtype in slice (0x%08X) does not match fat header (0x%08X)
+cpu type in slice (0x%08X) does not match fat header (0x%08X)
 cpu type/subtype in slice (%s) does not match fat header (%s)
 create
 cryptex
@@ -1086,21 +979,18 @@ cryptex1
 cryptex1 sniff
 cryptex1/current
 csops() failure
-customer
-data in code
 dd-national-ios-Apple-Pay
 deallocate
 default fallback
 deleting existing out of date PrebuiltLoaderSet file '%s'
 dep->isPrebuilt
 depAttrs[depIndex].weakLink
-depIndex < depCount && "no reserved dependent slot for the lib shared cache builder"
 depIndex < this->depCount
 dependent
+dependent dylib %lld not found for re-exported symbol %s
 dependentAttrs
 dependentCount
 detecting cryptex1 directory
-development
 device tree fstab buffer not large enough: actual = %lu, expected >= %lu, required DEVICE_TREE_FSTAB_COUNT >= %lu
 diagnostics
 did not look for saved PrebuiltLoaderSet because $DYLD_CLOSURE_DIR and $HOME are not set
@@ -1116,7 +1006,6 @@ dladdr(%p, %p)
 dlclose(%p)
 dlclose(%p): invalid handle
 dlerror()
-dlopen
 dlopen("%s", 0x%08X)
 dlopen(%s, 0x%04X): %s
 dlopen() within libSystem's initializer, so skipping initialization of %s
@@ -1142,22 +1031,18 @@ dycash
 dyld cache '%s' not loaded: %s
 dyld cache function variant already using: *%p = %p <%s/function-variant-table#%u>
 dyld cache function variant patching:      *%p = %p <%s/function-variant-table#%u>
-dyld cache info
-dyld cache mapped system-wide: %s, auth GOTs: %s
 dyld cache uses of '%s/%s' will be patched to use %p
 dyld calling abort()
 dyld config: 
 dyld must have a UUID
 dyld private shared cache could not be found
 dyld shared region dynamic config data was not set
-dyld-internal
-dyld:    1 root(s) overriding dyld cache
 dyld: PrebuiltLoaderSet expected but not found
-dyldCache.addr != nullptr
 dyldDoesObjCFixups
+dyldMA->hasChainedFixups()
 dyldMain.cpp
 dyld[%d]: 
-dyld_data    v4
+dyld_data    v3
 dyld_file
 dyld_flags
 dyld_get_active_platform() => %d
@@ -1170,7 +1055,6 @@ dyld_get_program_sdk_watch_os_version() => 0x%08X
 dyld_get_sdk_version(%p) => 0x%08X
 dyld_has_inserted_or_interposing_libraries() => %d
 dyld_hw_tpro
-dyld_hw_tpro=1
 dyld_hw_tpro_pagers
 dyld_image_header_containing_address(%p) =>%p
 dyld_image_path_containing_address(%p) => '%s'
@@ -1179,25 +1063,21 @@ dyld_minos_at_least(%p, <%d,0x%08X>) => %d
 dyld_need_closure()
 dyld_process_is_restricted()
 dyld_sdk_at_least(%p, <%d,0x%08X>) => %d
-dyld_shared_cache_
+dyld_shared_cache_arm64e
 dyld_shared_cache_file_path() => %s
 dyld_shared_cache_find_iterate_text()
 dyld_shared_cache_iterate_text()
 dyld_shared_cache_some_image_overridden() => %d
 dyld_v1
 dyld_v1  arm64e
-dyld_v1arm64ex1
 dylib cache
 dylib cache path
 dylib cache path not a directory
 dylib_cache
-e@9`b@
 ecid               
+emitMappedFileInfo
 enabled()
 encodeFile
-endsubstr
-entry %d extends to 0x%08X which beyond total size 0x%08lX
-err.noError()
 errno unset, wrong return value being checked?: %s = %lld
 error fixing up shared cache
 error not set to valid posix code: %d
@@ -1210,8 +1090,6 @@ executable_path
 existing PrebuiltLoaderSet file not used because boot-token differs
 existing shared cache in memory is not compatible
 expectedSize >= 0
-exports trie
-external relocations
 failed to allocate stack
 failed to close %s [optional]: fd = %d: %d
 failed to close %s: fd = %d: %d
@@ -1222,7 +1100,7 @@ failed to make directory for PrebuiltLoaderSet
 failed to mmap 
 failed to mprotect shared cache due to: %d
 failed to open /dev/null for fallback: %d
-failed to open canonical cryptex: path = %s: %d
+failed to open canonical cryptex location: root = %s, subpath = %s: %d
 failed to open covered graft point: %d
 failed to open root directory: %s: %d
 failed to protect guard page
@@ -1243,14 +1121,18 @@ fallback root
 fat file has too many slices (%d)
 fat file too short
 fat file, but missing compatible architecture (have '%s', need '%s')
+fat header malformed, architecture slices extend beyond end of file
+fat header too large: %u entries
 fchmod(S_IRUSR) failed, errno=%d
 fcntl(fd, F_ADDFILESIGS_RETURN) failed with errno=%d in <%s> '%s', sliceOffset=0x%08llX, codeBlobOffset=0x%08X, codeBlobSize=0x%08X
 fetch os cryptex graft
 fetching os cryptex graft
 file cdHash not as expected '%s'
 file does not start with FAT_MAGIC
+file does not start with MH_MAGIC[_64]
 file does not start with MH_MAGIC[_64]: 0x%08X 0x%08X
 file inode changed from 0x%llX to 0x%llX since Loader was built for '%s'
+file is static library
 file is too small (length=%llu)
 file mtime changed from 0x%llX to 0x%lX since Loader was built for '%s'
 file range of segment '%s' overlaps segment '%s'
@@ -1273,26 +1155,29 @@ first page of mmap()ed shared cache not valid
 first page of shared cache not mmap()able
 fixup chain entry (%p) off end of page ending at %p
 fixup chain entry (%p) off end of page starting at %p
-fixup.isBind && "lazy load GOT entry not a bind"
-fixup: %s/*0x%010lX (skipping missing weak bind) <%s/obind#%u>
-fixup: %s/*0x%010lX = 0x%016lX
-fixup: %s/*0x%010lX = 0x%016lX <%s/%s#%u>
-fixup: %s/*0x%010lX = 0x%016lX <rebase>
-fixup: *0x%012lX <mark method list uniqued>
+fixup: *0x%010lX (skipping missing weak bind) <%s/weak-bind#%u>
+fixup: *0x%010lX = 0x%016lX
+fixup: *0x%010lX = 0x%016lX <%s/bind#%u>
+fixup: *0x%010lX = 0x%016lX <%s/weak-bind#%u>
+fixup: *0x%010lX = 0x%016lX <rebase>
 fixup: *0x%012lX = 0x%012lX <%s>
 fixup: *0x%012lX = 0x%012lX <function-variant-table#%u>
+fixup: *0x%012lX = 0x%012lX <mark method list uniqued>
 fixup: *0x%012lX = 0x%012lX <mark swift stable>
+fixup: *0x%012lX = 0x%012lX <objc-info preoptimized>
 fixup: *0x%012lX = 0x%012lX <objc-protocol>
 fixup: *0x%012lX = 0x%012lX <objc-selector '%s'>
 fixupInfo.variantIndex < fvs.count()
 fixupPage
 fixups.protocolISAFixups.count() == fixups.binaryInfo.protocolListCount
+forEachBindTarget_block_invoke_2
+forEachBindTarget_block_invoke_3
 forEachCategory
 forEachClass
-forEachLazyLoadDylibSymbol_block_invoke
 forEachPatchableUseOfExportInImage
 forEachProtocol
 forEachProtocolReference
+forEachRebase_Opcodes
 forEachSelectorReference
 forEachSelectorReferenceToUnique
 force dylib root 
@@ -1301,17 +1186,13 @@ found && "found cannot be null"
 found '%s' which invalidates PrebuiltLoader for '%s'
 found '%s' with different inode/mtime than PrebuiltLoader for '%s'
 found LC_ID_DYLIB found in non-MH_DYLIB
-found dylib at '%s' with install name '%s' and security level requires its leaf name to match requested '%s'
 foundCompactTproMapping == true
 free standing
 free()
 fsetxattr(%s) failed, errno=%d
 ftruncate(%lu) failed, errno=%d
-function starts
-function variant fixups
 function variant index %u too large for '%s'
 function variant table missing for '%s'
-function variants
 future
 fvunlock
 generateClassOrProtocolHashTable
@@ -1336,7 +1217,7 @@ graft point
 grafting boot cryptexes
 group dir
 growTo
-hV@ydB
+h!HJ?@)
 hactivateFileAllocator
 hactivateRegion
 halosticker
@@ -1348,7 +1229,6 @@ hardware target string too long: actual = %lu, expected < %lu
 hardwareexp
 has interposing tuples so cannot be delayed: %s
 hasBeenFixedUp
-hasMarzipanRoot
 has_sec_transition
 hc8!hc8
 hc8%hc8
@@ -1356,10 +1236,13 @@ headerInfoRO != nullptr
 headerInfoRW != nullptr
 hi >= begin && hi < end
 hiddenFromFlat
-hinfoRW->entsize == sizeof(header_info_rw)
+hinfoRW->entsize == sizeof(header_info_rw<PointerType>)
 hw.optional.arm.caps
 hw.osenvironment
 hw.target
+i != _fsUUIDMap->end()
+i != _volumeUUIDs.end()
+i != images.end()
 i < count
 i < this->numProtocols(objcVisitor)
 iOS-exclaveCore
@@ -1368,7 +1251,6 @@ iOS-kernelKit
 iOS-simulator
 identifier > addr && (identifier - size) < addr && "identifier is not embedded within image?"
 idx < _usedCount
-ifGrowableEnsureSpaceForAppending
 ignite() returned %d
 ignition disabled
 ignition failed
@@ -1379,50 +1261,56 @@ ignition_force_dylib_root
 ignition_halt_after
 ignition_level
 ignition_live_app_graft
-ih8hyh
+ik8.hk8
+im8mj*8J
 image does not use chained fixups
 image4 manifest
 imeituan
-implOffset
 incompatible platforms: %s - %s
+index != capacity()
 index < _processPrebuiltLoaderSet->loaderCount()
 index < this->config.dyldCache.dylibCount
-indirect symbol table
 info && "info cannot be null"
 initializeCachePlatformOSVersion(): libdyld.dylib not found for OS version info
+initializer 0x%08X is not an offset to an executable segment
+initializer 0x%0X does not point within executable segment
+initializer 0x%0llX does not point within executable segment
+initializer offsets section %.*s/%.*s has bad size
+initializer offsets section %.*s/%.*s is not 4-byte aligned
+initializer offsets section %.*s/%.*s must be in read-only segment
+initializer section %.*s/%.*s has bad size
+initializer section %.*s/%.*s is not pointer aligned
 initproc           
 insert
-installName
 interpose: *%p = %p (JOP: diversity 0x%04X, addr-div=%d, key=%s)
 interpose: *%p = 0x%0llX (dyld cache patch) to %s
-invalid FunctionVariantsRuntimeTable length %lu for count=%u
 invalid LC_UNIXTHREAD
-invalid arm flavor,count (%d,%d), expected 6,68 in LC_UNIXTHREAD
-invalid arm64 flavor,count (%d,%d), expected 6,68 in LC_UNIXTHREAD
-invalid bindOrdinal (%d) out of range (max=%d)
-invalid i386 flavor,count (%d,%d), expected 6,68 in LC_UNIXTHREAD
 invalid offset: %lld
 invalid slide info in cache file
-invalid x86_64 flavor,count (%d,%d), expected 6,68 in LC_UNIXTHREAD
 iokit-open
 iokit-open-user-client
+isBind
 isDelayInit
-isImageCryptexRooted
-isImageRooted
-jY@yJy
+isRebase
+j"B9a"
+j)8H{{
+jh89yh
 jitLoader.ref.app
+jj8mij8
 jl->ref.app
-kern return: 
+kern return: 0x
 kern.bootargs
 kern.dyld_flags
-kr == 0
+keyBits < 4
+keyName
+kh8+ih8_
+ki8`{|
 kr == KERN_SUCCESS
-last entry in FunctionVariantsRuntimeTable entries is not 'default'
-lazy bind opcodes
 lazy load fixup: *0x%010lX = 0x%lX
 lazy load of '%s' failed to find symbol '%s'
 lazy load of '%s' failed: %s
 ldrState == State::fixedUp
+leInfo.dyldInfo != nullptr
 leaf name using rpath
 les Talks d'Umanis
 libPath:     %s
@@ -1451,7 +1339,6 @@ libignition: %d: %12s: %s: grafted cryptex: dmg = %s, graft point = %s, ignored 
 libignition: %d: %12s: %s: grafting: method = syscall, dmg = %s, seal = %s, graft point = %s, im4m = %s
 libignition: %d: %12s: %s: ignition level insufficient: operation = load trust cache, actual = %llu, required >= %llu
 libignition: %d: %12s: %s: loaded cryptex trust cache
-libignition: %d: %12s: %s: no canonical cryptex present: path = %s
 libignition: %d: %12s: %s: no root xattr present
 libignition: %d: %12s: %s: object absence permitted: name = %s, type = %s, xattr path = %s
 libignition: %d: %12s: %s: object not present: name = %s, type = %s
@@ -1502,68 +1389,41 @@ libignition: %d: ignition blob not available
 libignition: %d: ignition boot failed: %d
 libignition: %d: livefs boot; skipping app cryptex
 libxpc.dylib
-lil8Jyl
-linkeditBytes
-linkeditFileOffset != 0 && "LINKEDIT segment not found"
-linker optimization hints
 livefs
-load command #%d %.*s name offset too small
-load command #%d %.*s not a dylib load command
-load command #%d %.*s not supported in .o files
-load command #%d %.*s path offset too small
-load command #%d %.*s size too small
-load command #%d LC_?? size is wrong
 load command #%d LC_ATOM_INFO size wrong
 load command #%d LC_BUILD_VERSION size wrong
 load command #%d LC_DYLD_CHAINED_FIXUPS size wrong
 load command #%d LC_DYLD_EXPORTS_TRIE size wrong
-load command #%d LC_DYLD_INFO size wrong
 load command #%d LC_DYLD_INFO_ONLY size wrong
 load command #%d LC_DYSYMTAB size wrong
 load command #%d LC_ENCRYPTION_INFO size wrong
 load command #%d LC_ENCRYPTION_INFO_64 size wrong
-load command #%d LC_FILESET_ENTRY size too small
 load command #%d LC_FUNCTION_STARTS size wrong
 load command #%d LC_FUNCTION_VARIANTS size wrong
 load command #%d LC_FUNCTION_VARIANT_FIXUPS size wrong
-load command #%d LC_LINKER_OPTION size too small
 load command #%d LC_MAIN size wrong
-load command #%d LC_ROUTINES not support in 64-bit mach-o
-load command #%d LC_ROUTINES size too small
-load command #%d LC_ROUTINES_64 not support in 32-bit mach-o
-load command #%d LC_ROUTINES_64 size too small
-load command #%d LC_SEGMENT fileoff (%lu) too large
-load command #%d LC_SEGMENT filesize (%lu) too large
-load command #%d LC_SEGMENT size (%lu) does not match section count (%u)
 load command #%d LC_SEGMENT size does not match number of sections
-load command #%d LC_SEGMENT[_64] size too small
 load command #%d LC_SEGMENT_64 size does not match number of sections
 load command #%d LC_SEGMENT_SPLIT_INFO size wrong
 load command #%d LC_SYMTAB size wrong
 load command #%d LC_UUID size wrong
 load command #%d LC_VERSION_MIN_* size wrong
-load command #%d has too few strings (%d) expected (%d)
 load command #%d string extends beyond end of load command
-load command #%d string offset (%u) outside cmd size (%lu)
 load command #%d string offset (%u) outside its size (%u)
-load command #%d string start offset too small
 load command #%d unknown required load command 0x%08X
 load commands do not fit in __TEXT segment filesize
 load commands do not fit in __TEXT segment vmsize
+load commands exceed length of first segment
 load commands length (%llu) exceeds length of file (%llu)
 loadAddress
 loadCommandToDylibKind
 loadDependents
-loadableFrom
 loaderIndex < loadersArrayCount
 loaderRef
-loc->bind == 0
-local relocations
 log fd           
 logging not yet initialized
 looking for weak-def symbol '%s':
 lookupSymbols
-lsl::Vector iterator invalidated: mutation during iteration
 mAbfrage
 macCatalyst
 macOS-exclaveCore
@@ -1574,17 +1434,12 @@ mach-o file (%s), but incompatible platform (have '%s', need '%s')
 mach-o file, but is an incompatible architecture (have '%s', need '%s')
 mach_port_construct for mig_get_reply_port failed
 mach_timebase_info: 0x%x
-main executable '
 main executable has no entry point
-makeFromRawSlice
+main executable is missing LC_MAIN
 makePatchTable
 malformed LC_LINKER_OPTION command
 malformed import table
-malformed import table, imports[%d].name_offset (%d) out of range
-malformed import table, imports_offset too large
 malformed import table, string overflow
-malformed import table, symbols_offset too large
-malformed import table, unknown imports_format=%d
 malformed load command #%u of %u at %p with mh=%p, extends past sizeofcmds
 malformed load command #%u of %u at %p with mh=%p, size (0x%X) is too large, load commands end at %p
 malformed load command #%u of %u at %p with mh=%p, size (0x%X) not multiple of 4
@@ -1592,35 +1447,12 @@ malformed load command #%u of %u at %p with mh=%p, size (0x%X) too small
 malformed load command (%d of %d) at %p with mh=%p, off end of load commands
 malformed load command (%d of %d) at %p with mh=%p, size (0x%X) is too large, load commands end at %p
 malformed load command (%d of %d) at %p with mh=%p, size (0x%X) too small
-malformed load command (%d of %d) at offset=0x%lX with mh=%p, cmdsize=0x%X is not pointer sized
-malformed load command (%d of %d) at offset=0x%lX with mh=%p, off end of load commands
-malformed load command (%d of %d) at offset=0x%lX with mh=%p, size (0x%X) is too large, load commands end at offset 0x%lX
-malformed load command (%d of %d) at offset=0x%lX with mh=%p, size (0x%X) too small
-malformed mach-o contains LC_DYLD_CHAINED_FIXUPS and external relocations
-malformed mach-o contains LC_DYLD_CHAINED_FIXUPS and local relocations
-malformed mach-o contains LC_DYLD_INFO and LC_DYLD_CHAINED_FIXUPS
-malformed mach-o contains LC_DYLD_INFO_ONLY and external relocations
-malformed mach-o contains LC_DYLD_INFO_ONLY and local relocations
-malformed mach-o has no LINKEDIT
-malformed mach-o image: indirect symbol table iextdefsym != nlocalsym
-malformed mach-o image: indirect symbol table ilocalsym != 0
-malformed mach-o image: indirect symbol table iundefsym != iextdefsym+nextdefsym
-malformed mach-o image: indirect symbol table too large
-malformed mach-o image: symbol table too large
 malformed sleb128
-malformed trie node, child node name extends beyond trie data
-malformed trie, childNodeOffset==0
-malformed trie, node offset=0x%04lX past end=0x%04lX
-malformed trie, terminalSize extends beyond trie data at offset=0x%04lX
+malformed trie child, cycle to nodeOffset=0x%llX
+malformed trie child, nodeOffset=0x%llX out of range
+malformed trie node, child node extends past end of trie
 malformed uleb128
-malformed uleb128 for child node offset at 0x%04lX
-malformed uleb128 for terminal payload size at offset=0x%04lX
-malformed uleb128 in flags for %.*s
-malformed uleb128 in function variants payload for %.*s
-malformed uleb128 in resolvers payload for %.*s
-malformed uleb128 in value payload for %.*s
 mapSplitCachePrivate
-mapped
 mapped cache does not contain dynamic config data
 mapped dyld cache file private to process (%s):
 mapped dyld cache file system wide
@@ -1628,17 +1460,14 @@ markAllocated
 marking shared cache range 0x%x permissions: 0x%09lX -> 0x%09lX
 matchesPath
 memoryManager
-mergeable dylib info
 methodList != nullptr
 methodListPos.has_value()
-mh.sizeofcmds extends beyond buffer size
-mh.sizeofcmds too large
+mh->flags & MH_DYLIB_IN_CACHE
 migration
-mis-aligned LINKEDIT content '%s', fileOffset=0x%08X
-mis-aligned LINKEDIT string pool, fileOffset=0x%08X
 missing LC_LOAD_DYLIB (must link with at least libSystem.dylib)
 missing LC_MAIN or LC_UNIXTHREAD in main executable
 missing LC_UUID load command
+missing REBASE_OPCODE_SET_SEGMENT_AND_OFFSET_ULEB
 missing __TEXT segment
 missing code signature in <%s> '%s'
 missing lazy symbol called
@@ -1657,39 +1486,23 @@ mprotect 0x%012lX->0x%012lX to read-only (%s)
 mprotect 0x%012lX->0x%012lX to read-write (%s)
 mscrmapp
 mscrmappiPad
-multiple LC_ATOM_INFO load commands found
 multiple LC_CODE_SIGNATURE load commands
 multiple LC_DATA_IN_CODE load commands
 multiple LC_DYLD_CHAINED_FIXUPS load commands
-multiple LC_DYLD_CHAINED_FIXUPS load commands found
 multiple LC_DYLD_EXPORTS_TRIE load commands
-multiple LC_DYLD_EXPORTS_TRIE load commands found
 multiple LC_DYLD_INFO load commands
-multiple LC_DYLD_INFO load commands found
 multiple LC_DYSYMTAB load commands
-multiple LC_DYSYMTAB load commands found
 multiple LC_ENCRYPTION_INFO load commands
 multiple LC_ENCRYPTION_INFO_64 load commands
-multiple LC_ENCRYPTION_INFO_64 load commands found
 multiple LC_FUNCTION_STARTS load commands
-multiple LC_FUNCTION_STARTS load commands found
-multiple LC_FUNCTION_VARIANTS load commands found
-multiple LC_FUNCTION_VARIANT_FIXUPS load commands found
 multiple LC_ID_DYLIB found
-multiple LC_ID_DYLIB load commands found
 multiple LC_MAIN load commands
-multiple LC_MAIN or LC_UNIXTHREAD load commands found
-multiple LC_ROUTINES[_64] load commands found
 multiple LC_SEGMENT_SPLIT_INFO load commands
-multiple LC_SEGMENT_SPLIT_INFO load commands found
 multiple LC_SYMTAB load commands
-multiple LC_SYMTAB load commands found
-multiple LC_TARGET_TRIPLE load commands found
 multiple LC_UNIXTHREAD load commands
 multiple LC_UUID load commands
 multiple LC_VERSION_MIN_* load commands
 mymicrosoft
-n <= _usedCount
 name             
 names.size() == addrs.size() && "array sizes should match"
 names.size() == flags.size() && "array sizes should match"
@@ -1698,6 +1511,7 @@ newAllocationAddr != 0
 no LC_RPATH's found
 no LC_RPATH's used.  They may be invalid, eg, not start with '@loader_path' or '@executable_path'
 no dylib cache directory
+no exeutable segments
 no longer delayed(
 no path to save PrebuiltLoaderSet file
 no shared cache available
@@ -1707,8 +1521,7 @@ no shared cache subcache indices
 no such file
 no value
 non-integral fstab buffer returned; possible mismatch between kernel and userspace structs: total = %lu, expected element size = %lu
-not a mach-o '%s'
-not a mach-o file
+not a fat file
 not a mach-o file (start is no MH_MAGIC[_64])
 not delayed at launch(
 not using PrebuiltLoaderSet %p because cache UUID does not match
@@ -1734,17 +1547,14 @@ objcImageIndex < loadersWithObjC
 object
 object directory
 obsolete dyld API called
-offset + pathSize <= size()
-offset <= UINT32_MAX && pathSize <= UINT32_MAX
-old arm64e bind opcodes not supported
+obsolete dyld SPI called
 old root
-on-disk file '%s' overrides dyld cache but could not be loaded (%s)
 onStackInCurrentFrame()
 onedrivefileprovider
-only dylibs can be dlopen()ed from dyld cache
 open("%s", O_RDONLY) failed with errno=%d
 open() failed with errno=%d
 open/open_dprotected_np(%s) failed, errno=%d
+operator()
 operator()_block_invoke
 operator[]
 optional
@@ -1767,6 +1577,7 @@ osee2unifiedRelease
 out of range bind ordinal %d (max %llu)
 out of range bind ordinal %u (max %u)
 overlapping slices
+overrideBindTargetIndex == info.targetIndex
 overridesDylibInCache
 p->bindTargetRefsCount != 0 && "bindTargetRefsCount overflow"
 p->bindTargetRefsOffset == off && "uint16_t bindTargetRefsOffset overflow"
@@ -1782,15 +1593,17 @@ pbobjdir
 pipe write end
 pivot src          
 platform         
-platformAndVersions_block_invoke
 pointer_format is different in different segments
-pop_back
 post-initproc
 preboot
 preboot group directory
 preboot mount
 preboot volume
+prepareForInsertion
 prereboot os graft point
+private
+process.cinfo
+process.dyldHdr->preferredLoadAddress() == 0
 process.plist
 program            
 program does not link with libSystem.B.dylib
@@ -1803,15 +1616,11 @@ ptrauth_disabled
 push_back
 ramdisk
 ramobile
-range.fileOffset >= _linkeditFileOffset
-range.fileOffset+range.size <= _linkeditFileOffset+_linkeditContent.size()
 rd                 
-re-export libOrdinal %d in %s out of range for '%s'
-re-export name change not nul terminated
+re-export ordinal %lld in %s out of range for %s
+re-export ordinal %lld out of range for %s
 re-using existing shared cache (%s):
-rebase opcodes
-rebase opcodes terminated early at offset %zu of %zu
-rebase out of range
+rebase opcodes terminated early at offset %d of %d
 rebaseSelf
 recoveryos
 recursiveMarkBeingValidated
@@ -1829,8 +1638,6 @@ restore
 restore            
 result
 result == nullptr && "Existing pseudo-dylib, but result set anyway?"
-result from check_np() is ENOMEM: 0x%llx and 0x%llx
-result from check_np(): %d, errno %d
 riscv32
 root device info   
 root object directory does not exist: %s
@@ -1838,8 +1645,7 @@ root ramdisk
 rootdmg-ramdisk
 rootfs
 rootfs mount flags 
-rootsBitmapsValid()
-rosetta graft point
+rootmnt
 rp                 
 runInitializers
 running initializer %p in %s
@@ -1851,32 +1657,18 @@ se_memory_inline_jit
 seal im4p
 searching %llu pseudo-dylibs:
 section '%s' end address 0x%lX is beyond containing segment's end address 0x%0lX
-section '%s' has an empty segment name
-section '%s' segment name '%s' does not match containing segment's name '%s'
 section '%s' size too large 0x%lX
 section '%s' start address 0x%lX is before containing segment's address 0x%0lX
-section '%s/%s' align field (1 << %d) does not match address (0x%llX)
-section '%s/%s' align field (1 << %d) that is too large for VM to support
-section '%s/%s' has a non-zero nreloc field
-section '%s/%s' has a non-zero reloff field
-section '%s/%s' has a zero-fill section type, but offset field is not zero
-section '%s/%s' has offset=0 but is not a zero-fill section type
-section '%s/%s' start address overlaps previous section
-section '%s/%s' start offset overlaps previous section
-section in segment '%s' has an empty section name
 secure boot level  
 security.mac.img4.ignition_blob
 security.mac.img4.ignition_failure_blob
 security.mac.lockdown_mode_state
 segIndex (%d) and segOffset (0x%0llX) cannot fit in fixup at %.*s+0x%0lX
 segInfo != nullptr
-segment '%s' content (fileOffset: 0x%lX -> 0x%lX) extends beyond end of file (length: 0x%llX)
 segment '%s' file offset out of order
-segment '%s' filesize (0x%lX) exceeds vmsize (0x%lX)
 segment '%s' filesize exceeds vmsize
 segment '%s' load command content extends beyond end of file
 segment '%s' vm address out of order
-segment load command has an empty segment name
 select os cryptex path
 selecting os cryptex path
 serialize
@@ -1888,7 +1680,6 @@ setBit
 setCachePath
 setDelayInit
 setInitialPool
-setIsUniqued
 setLoadAddress
 setPoolHint
 shared cache
@@ -1903,20 +1694,24 @@ shared cache file pread() failed, could not read subcache entries
 shared cache file stat() failed
 shared cache file subcache count exceeds limit
 shared cache fixup formate does not support binds
+shared cache is too old, missing subcache suffixes
 shared cache linkedit permissions are invalid
 shared cache mappings overlap
-shared cache slide v2 does not support binds
 shared cache text file offset is invalid
 shared cache text permissions are invalid
 signExtendedAddend
 signPointer
 simulator prefix
 single user        
+size() != capacity()
+size() < capacity() && "There must be room in this node for an additional child"
 skipping duplicate inserted dylib '%s'
+slice %d extends beyond end of file
 slice headers extend beyond end of file
 slice is not page aligned
 slice is not valid mach-o file
 slideInfoHeader->version == 5
+splitChild
 stack buffer overrun
 stack_guard=
 stage count      
@@ -1926,7 +1721,6 @@ stat() failed with errno=%d
 state != nullptr
 statfs failed: %d
 std::popcount(alignment) == 1
-str.data() == nullptr || *(str.data() + str.size()) == 0
 strideSize
 subsystem_root_path
 sudoku
@@ -1947,43 +1741,35 @@ symbol '%s' missing from root that overrides %s. The shared GOT use of that symb
 symbol '%s' missing from root that overrides %s. Use of that symbol in %s is being set to 0xBAD4007.
 symbol address lookup (dlsym) disabled in process
 symbol not found in flat namespace '%s'
-symbol strings
-symbol table
 syscall to map cache into shared region failed
 syscall-unix
 system volume
-tableOffsets[%d]=0x%08X which is > total size 0x%08lX
 tailNode.isDuplicateTail
 target vm address not in any segment
+targetIndex == info.targetIndex
 targetSymbol.targetLoader != nullptr
 tentacles
 terminating because inserted dylib '%s' could not be loaded: %s
+terminator 0x%0X does not point within executable segment
+terminator 0x%0llX does not point within executable segment
+terminator section %.*s/%.*s has bad size
+terminator section %.*s/%.*s is not pointer aligned
+this->auth.auth == 1
 this->authBind.auth == 0
 this->authBind.auth == 1
 this->authBind.bind == 0
 this->authBind.bind == 1
+this->cputype == CPU_TYPE_ARM64 && (this->maskedCpuSubtype() == CPU_SUBTYPE_ARM64E) && "chainedPointerFormat() called on non-chained binary"
 this->kind == SwiftProtocolConformanceFlags::TypeReferenceKind::directObjCClassName
 this->magic == kMagic
 this->nextRegularStackAddr == nullptr
 this->nextTPROStackAddr == this->topOfStack
 this->protocolListPos.has_value()
 this->ref.app && "shared cache addresses are fixed"
-this->size() >= length
+this->regular.auth == 0
 this->threadId == nullptr
-thumbv6m
-thumbv7
-thumbv7em
-thumbv7k
-thumbv7m
-thumbv7s
-thumbv8.1m.main
-thumbv8m.main
-too many LC_RPATHs
 too many LC_UUID load commands
-too many linked dylibs
 too many segments %llu (max 255)
-trie cycle at node offset=0x%04llX
-trie too deep > 255
 tried but failed (%s) to write PrebuiltLoaderSet to file '%s'
 tried: 
 tried: '%s' (%s)
@@ -2000,15 +1786,10 @@ uncovered graft point
 unencodeable absolute value (0x%llx) for symbol '%s'
 unexpected dylib ordinal in weak_bind
 unknown
-unknown FunctionVariantsRuntimeTable::Kind (%d)
-unknown bind opcode 0x%02X
-unknown cpu type in LC_UNIXTHREAD
-unknown exports flag bits in value payload for %.*s
 unknown filetype %d
 unknown imports format
 unknown library ordinal %d in %s when binding '%s'
 unknown mach-o filetype (%u)
-unknown mh.filetype %d
 unknown platform
 unknown pointer format 0x%04X
 unknown proc
@@ -2016,11 +1797,11 @@ unknown rebase opcode 0x%02X
 unknownap
 unloadable mach-o file type %d '%s'
 unlock
-unmapped
 unmapped 0x%012lX->0x%012lX for %s
 unpackAbsoluteValue() == absoluteValue && "unencodeable absolute symbol value"
 unpackTarget
 unreachable
+unsupported exported symbol kind. flags=%llu at node offset=0x%0lX
 unsupported parameter struct version: 0x%x
 unsupported payload version: 0x%x
 unsupported payload version: actual = %u, expected <= %u
@@ -2034,9 +1815,12 @@ usesRelativeOffsets
 using DYLD_CLOSURE_DIR to find loaders
 using JustInTimeLoader %p for %s
 using PrebuiltLoader %p for %s
+v100@?0r*8r^{LinkEditInfo=^{dyld_info_command}^{linkedit_data_command}^{linkedit_data_command}^{symtab_command}^{dysymtab_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}{LayoutInfo=QQQIIII}}16r^v24B32B36I40i44I48C52Q56C64r*68B76B80Q84^B92
 v104@?0r*8r^{LinkEditInfo=^{dyld_info_command}^{linkedit_data_command}^{linkedit_data_command}^{symtab_command}^{dysymtab_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}{LayoutInfo=QQQIIII}}16r^v24B32B36I40i44I48C52Q56C64r*68B76B80Q84B92^B96
 v12@?0I8
+v16@?0I8I12
 v16@?0Q8
+v16@?0[20C]8
 v16@?0^v8
 v16@?0r*8
 v16@?0r^v8
@@ -2046,82 +1830,72 @@ v16@?0r^{Pool=^{Allocator}^{Pool}^{Pool}^{AllocationMetadata}{Buffer=^vQ}^vBBB}8
 v16@?0r^{dyld_chained_starts_in_image=I[1I]}8
 v16@?0{Architecture=ii}8
 v16@?0{InternalFixup=Ib4b8b1b1b2b16}8
-v16@?0{span<const unsigned char, 20UL>=*}8
-v20@?0I8^B12
 v20@?0I8r^v12
-v20@?0{LinkEditRange=IIi}8
+v24@?0I8I12^B16
 v24@?0I8I12r^{ResolvedSymbol=^{Loader}*QQiBBBBBS}16
 v24@?0I8r*12I20
+v24@?0Q8^B16
 v24@?0^(ChainedFixupPointerOnDisk=Q(Arm64e={dyld_chained_ptr_arm64e_auth_rebase=b32b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_auth_bind=b16b16b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_rebase=b43b8b11b1b1}{dyld_chained_ptr_arm64e_bind=b16b16b19b11b1b1}{dyld_chained_ptr_arm64e_bind24=b24b8b19b11b1b1}{dyld_chained_ptr_arm64e_auth_bind24=b24b8b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_segmented_rebase=b28b4b19b12b1}{dyld_chained_ptr_arm64e_auth_segmented_rebase=b28b4b16b1b2b12b1})(Generic64={dyld_chained_ptr_64_rebase=b36b8b7b12b1}{dyld_chained_ptr_64_bind=b24b8b19b12b1}){Kernel64=b30b2b16b1b2b12b1}(Cache64e={dyld_chained_ptr_arm64e_shared_cache_rebase=b34b8b10b11b1}{dyld_chained_ptr_arm64e_shared_cache_auth_rebase=b34b16b1b1b11b1})I(Generic32={dyld_chained_ptr_32_rebase=b26b5b1}{dyld_chained_ptr_32_bind=b20b6b5b1}){dyld_chained_ptr_32_cache_rebase=b30b2}{Firm32=b26b6})8^B16
-v24@?0^v8^B16
+v24@?0^v8^v16
 v24@?0r*8^B16
 v24@?0r*8r*16
 v24@?0r^(BindTargetRef={LoaderAndOffset=b16b8b38b2}{LoaderAndFunctionVariant=b16b10b36b2}{Absolute=b8b54b2}Q)8r^v16
 v24@?0r^v8^B16
-v24@?0r^v8r^v16
-v24@?0r^v8r^{Fixup=^v^{MappedSegment}{PointerMetaData=b16b8b1b2b1b4}BBB(?={?=Ii}{?=Q})}16
 v24@?0r^v8r^{ObjCSelectorLocation={BindTarget=^{Loader}Q}}16
 v24@?0r^{BindTargetInfo=Ii*QBB}8^B16
-v24@?0r^{DyldSharedCache={dyld_cache_header=[16c]IIIIQQQQQQQ[16C]QIIQQQQQQQQQQQQIb8b1b1b1b1b1b19QQQQQQQQQQQIIQQQQQIIIIQQII[16C]QQQQIIIQQQQQQIIQQQQIIQ}}8^B16
-v24@?0r^{Fixup=^v^{MappedSegment}{PointerMetaData=b16b8b1b2b1b4}BBB(?={?=Ii}{?=Q})}8^B16
+v24@?0r^{DyldSharedCache={dyld_cache_header=[16c]IIIIQQQQQQQ[16C]QIIQQQQQQQQQQQQIb8b1b1b1b1b1b19QQQQQQQQQQQIIQQQQQIIIIQQII[16C]QQQQIIIQQQQQQIIQQQQ}}8^B16
+v24@?0r^{Fixup=^v^{MappedSegment}B{?=b2b1S}BB(?={?=Ii}{?=Q})}8^B16
 v24@?0r^{ObjCStringKeyOnDisk=(BindTargetRef={LoaderAndOffset=b16b8b38b2}{LoaderAndFunctionVariant=b16b10b36b2}{Absolute=b8b54b2}Q)}8r^v16
 v24@?0r^{ResolvedSymbol=^{Loader}*QQiBBBBBS}8^B16
 v24@?0r^{load_command=II}8^B16
-v24@?0{CString=*Q}8
-v24@?0{span<const dyld4::Loader::Region, 18446744073709551615UL>=^{Region}Q}8
 v24@?0{span<const mach_o::MappedSegment, 18446744073709551615UL>=^{MappedSegment}Q}8
-v24@?0{span<const unsigned char, 18446744073709551615UL>=*Q}8
 v28@?0I8r*12r^v20
 v28@?0I8{PointerMetaData=b16b8b1b2b1b4}12Q16B24
+v28@?0Q8B16^B20
+v28@?0Q8I16^B20
 v28@?0Q8S16^B20
 v28@?0^v8B16^B20
 v28@?0r*8i16^B20
-v28@?0r^v8B16^B20
-v28@?0r^v8I16^B20
-v28@?0r^v8r*16B24
 v32@?0Q8Q16r*24
+v32@?0Q8Q16r^{ObjCClassInfo=QQQQIBB{VMAddrConverter=QqSB}}24
 v32@?0Q8r^{BindTargetInfo=Ii*QBB}16^B24
+v32@?0Q8r^{ObjCCategory=QQQQQQ}16^B24
+v32@?0Q8r^{ObjCProtocol=QQQQQQQ}16^B24
 v32@?0Q8{PointerMetaData=b16b8b1b2b1b4}16Q20B28
 v32@?0^(ChainedFixupPointerOnDisk=Q(Arm64e={dyld_chained_ptr_arm64e_auth_rebase=b32b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_auth_bind=b16b16b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_rebase=b43b8b11b1b1}{dyld_chained_ptr_arm64e_bind=b16b16b19b11b1b1}{dyld_chained_ptr_arm64e_bind24=b24b8b19b11b1b1}{dyld_chained_ptr_arm64e_auth_bind24=b24b8b16b1b2b11b1b1}{dyld_chained_ptr_arm64e_segmented_rebase=b28b4b19b12b1}{dyld_chained_ptr_arm64e_auth_segmented_rebase=b28b4b16b1b2b12b1})(Generic64={dyld_chained_ptr_64_rebase=b36b8b7b12b1}{dyld_chained_ptr_64_bind=b24b8b19b12b1}){Kernel64=b30b2b16b1b2b12b1}(Cache64e={dyld_chained_ptr_arm64e_shared_cache_rebase=b34b8b10b11b1}{dyld_chained_ptr_arm64e_shared_cache_auth_rebase=b34b16b1b1b11b1})I(Generic32={dyld_chained_ptr_32_rebase=b26b5b1}{dyld_chained_ptr_32_bind=b20b6b5b1}){dyld_chained_ptr_32_cache_rebase=b30b2}{Firm32=b26b6})8r^{dyld_chained_starts_in_segment=ISSQIS[1S]}16^B24
 v32@?0r*8^Q16^I24
 v32@?0r^v8Q16Q24
 v32@?0r^v8^B16^B24
 v32@?0r^v8r^v16^B24
-v32@?0{CString=*Q}8^B24
 v32@?0{Platform=^{PlatformInfo}I}8{Version32=I}24{Version32=I}28
-v32@?0{basic_string_view<char, std::char_traits<char>>=*Q}8^B24
-v32@?0{span<const unsigned char, 18446744073709551615UL>=*Q}8^B24
-v36@?0Q8{PointerMetaData=b16b8b1b2b1b4}16Q20B28I32
-v36@?0{basic_string_view<char, std::char_traits<char>>=*Q}8i24^B28
+v36@?0Q8I16r^{BindTargetInfo=Ii*QBB}20^B28
+v36@?0^I8{CString=*Q}16B32
 v37@?0r*8{LinkedDylibAttributes=(?={?=b1b1b1b1b4}C)}16{Version32=I}17{Version32=I}21B25^B29
 v38@?0{CString=*Q}8^v24{PACInfo=BBb2S}32
-v40@?0Q8{PointerMetaData=b16b8b1b2b1b4}16Q20B28B32I36
-v40@?0^I8{CString=*Q}16B32B36
+v40@?0I8I12r^v16Q24^B32
 v40@?0i8r*12Q20B28^B32
-v40@?0{CString=*Q}8{CString=*Q}24
-v40@?0{MethodList={optional<metadata_visitor::ResolvedValue>=(?=c{ResolvedValue=^v{VMAddress={optional<unsigned long long>=(?=cQ)B}}})B}}8
 v40@?0{PlatformAndVersions={Platform=^{PlatformInfo}I}{Version32=I}{Version32=I}{Version32=I}{Version32=I}}8
 v44@?0I8I12B16{span<const unsigned char, 18446744073709551615UL>=*Q}20^B36
 v44@?0r*8B16B20B24I28I32^B36
+v44@?0r*8Q16C24C28S32^B36
 v44@?0r^v8I16I20I24r^{PointerFormat=^^?}28^B36
-v44@?0r^v8Q16r^{FileID=QQQB}24r*32i40
 v44@?0{Architecture=ii}8Q16Q24C32^B36
 v48@?0Q8Q16[16C]24r*32^B40
 v48@?0Q8Q16r*24r*32^B40
+v48@?0r^v8Q16B24r^{FileID=QQQB}28r*36i44
 v48@?0r^v8{PointerMetaData=b16b8b1b2b1b4}16r^v20r^{UnsafeHeader={mach_header=IiiIIII}}28i36^B40
 v48@?0{VMAddress={optional<unsigned long long>=(?=cQ)B}}8{VMAddress={optional<unsigned long long>=(?=cQ)B}}24r*40
-v48@?0{basic_string_view<char, std::char_traits<char>>=*Q}8{CString=*Q}24^B40
-v48@?0{span<const unsigned char, 18446744073709551615UL>=*Q}8r^{FileID=QQQB}24{CString=*Q}32
+v52@?0B8I12i16C20r*24Q32B40^B44
+v52@?0Q8Q16Q24r^{ObjCClassInfo=QQQQIBB{VMAddrConverter=QqSB}}32B40^B44
 v52@?0r^{LinkEditInfo=^{dyld_info_command}^{linkedit_data_command}^{linkedit_data_command}^{symtab_command}^{dysymtab_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}{LayoutInfo=QQQIIII}}8r^v16C24B28Q32S40^B44
 v52@?0r^{UnsafeHeader={mach_header=IiiIIII}}8r*16I24Q28Q36^B44
-v52@?0{CString=*Q}8i24B28C32Q36^B44
-v56@?0r*8r*16Q24C32C36S40I44^B48
+v56@?0Q8i16C20r*24B32B36Q40^B48
 v56@?0{Slice={Architecture=ii}{span<const unsigned char, 18446744073709551615UL>=*Q}QC}8^B48
 v60@?0r*8Q16Q24I32Q36I44I48^B52
+v64@?0r*8r^{LinkEditInfo=^{dyld_info_command}^{linkedit_data_command}^{linkedit_data_command}^{symtab_command}^{dysymtab_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}{LayoutInfo=QQQIIII}}16r^v24B32I36C40Q44i52^B56
 v64@?0r^v8Q16Q24I32I36Q40Q48^B56
 v68@?0r^{LinkEditInfo=^{dyld_info_command}^{linkedit_data_command}^{linkedit_data_command}^{symtab_command}^{dysymtab_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}^{linkedit_data_command}{LayoutInfo=QQQIIII}}8r^v16B24I28i32C36r*40Q48B56^B60
-v92@?0{CString=*Q}8i24B28C32Q36B44i48{CString=*Q}52B68q72B80^B84
-value <= std::numeric_limits<uint32_t>::max() && "64-bit value does not fit in 32 bits"
+v88@?0r*8B16B20I24i28I32I36Q40C48r*52B60B64Q68B76^B80
 value not representable as size_t
 value not representable as uint32_t
 version          
@@ -2137,7 +1911,6 @@ vm.footprint_suspend
 vm.footprint_suspend => %d, errno=%d
 vmAddress (0x%0llX) cannot fit in fixup at %.*s+0x%0lX
 vmOffset (0x%0llX) cannot fit in fixup at %.*s+0x%0lX
-vmOffset too large for %s
 vm_allocate(size=0x%0llX) failed with result=%d
 vm_allocate_bytes
 vm_force_4k_pages
@@ -2148,8 +1921,8 @@ watchOS-exclaveCore
 watchOS-exclaveKit
 watchOS-kernelKit
 watchOS-simulator
-weak bind opcodes
 withChainStarts_block_invoke
+withLayout
 withNestedProtectedStack
 withNestedRegularStack
 withProtectedStack
@@ -2158,12 +1931,10 @@ write() failed, errno=%d
 wrong platform to load into process
 wrote PrebuiltLoaderSet to file '%s'
 x86_64
-x86_64 shared cache slide v2, 4-byte stride, target is vm offset
 x86_64h
 x86legacyap
 xART volume
 xattr_len
-xaxCx!x!
 xrOS-exclaveCore
 xrOS-exclaveKit
 xrOS-kernelKit
@@ -2174,9 +1945,9 @@ ysscscrt
 zeroFill
 zhuanzhuan
 zippered(macOS/Catalyst)
-{Error={CStringBuilderBufferOverflowSafe<128>={span<char, 18446744073709551615UL>=*Q}QiC[128]}C}40@?0{CString=*Q}8{span<const unsigned char, 18446744073709551615UL>=*Q}24
 {ObjCObjectOnDiskLocation=(BindTargetRef={LoaderAndOffset=b16b8b38b2}{LoaderAndFunctionVariant=b16b10b36b2}{Absolute=b8b54b2}Q)}24@?0r^v8r^{ObjCObjectLocation={BindTarget=^{Loader}Q}{BindTarget=^{Loader}Q}}16
 {ObjCStringKeyOnDisk=(BindTargetRef={LoaderAndOffset=b16b8b38b2}{LoaderAndFunctionVariant=b16b10b36b2}{Absolute=b8b54b2}Q)}24@?0r^v8r^{ObjCObjectLocation={BindTarget=^{Loader}Q}{BindTarget=^{Loader}Q}}16
 {ObjCStringKeyOnDisk=(BindTargetRef={LoaderAndOffset=b16b8b38b2}{LoaderAndFunctionVariant=b16b10b36b2}{Absolute=b8b54b2}Q)}24@?0r^v8r^{ObjCSelectorLocation={BindTarget=^{Loader}Q}}16
-{ProtectedStackReturnType=(?=QiB^v**^?{PseudoDylibSymbolLookup=QQ})}8@?0
+{ProtectedStackReturnType=(?=QiB^v**^?)}8@?0
 {optional<dyld4::Loader::BindTarget>=(?=c{BindTarget=^{Loader}Q})B}16@?0r^v8
+~Mapper

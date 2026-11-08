@@ -2,879 +2,895 @@ Header
 ======
 Magic          = "dyld_v1  arm64e"
 Platform       = iOS
-OS Version     = 27.2
-Cache CPU      = AARCH64, ARM64e caps: USR00 (type: 0x0100000c, subtype: 0x80000002, reserved: 0x0)
+OS Version     = 26.6
 Format         = 0 (NewFormatTLVs)
 Max Slide      = 0x20000000 (ASLR entropy: 15-bits, 512MB)
-Num Images     = 4770
-Num SubCaches  = 81
+Num Images     = 4315
+Num SubCaches  = 83
 
-Shared Region:                 6GB, address: 0x180000000 -> 0x310230000
-Local Symbols (nlist array): 253MB, offset:  0x000016A40 -> 0x00FD519A0
-Local Symbols (string pool): 938MB, offset:  0x00FD519A0 -> 0x04A77C387
-ImagesText Info:             149KB, offset:  0x00002D3E8 -> 0x000052828
-Patch Info:                  111MB, address: 0x2E697D948 -> 0x2ED8FA02C
-Prebuilt Loader Set:           3MB, address: 0x2ED8FC030 -> 0x0003BDC70
-Prebuilt Loader Pool:         70MB, address: 0x2EDCB9CA0 -> 0x2F22DCCA0
-Dynamic Config:               16kB, address: 0x31022C000 -> 0x310230000
-ObjC Opts:                    136B, offset:  0x0753CCBF0 -> 0x0753CCC78
-Swift Opts:                    0kB, offset:  0x071B54000 -> 0x071B54068
+Shared Region:                 5GB, address: 0x180000000 -> 0x2C2CF8000
+Local Symbols (nlist array): 217MB, offset:  0x000014DD0 -> 0x00D96FD80
+Local Symbols (string pool): 788MB, offset:  0x00D96FD80 -> 0x03EE2D918
+ImagesText Info:             134KB, offset:  0x000021DF8 -> 0x000043958
+Patch Info:                   92MB, address: 0x2B54883C0 -> 0x2BB0D9C8C
+Prebuilt Loader Set:           3MB, address: 0x2BB0DBC90 -> 0x0003600B0
+Prebuilt Loader Pool:         64MB, address: 0x2BB43BD40 -> 0x2BF502540
+Dynamic Config:               16kB, address: 0x2C2CF4000 -> 0x2C2CF8000
+ObjC Opts:                     72B, offset:  0x07A261610 -> 0x07A261658
+Swift Opts:                    0kB, offset:  0x077668000 -> 0x077668068
 
-dyld MachO:    address: 0x180483000
-_dyld_start:   address: 0x1804889F0
+dyld MachO:    address: 0x18011D000
+_dyld_start:   address: 0x1801200F0
 
-> Cache UUID: A7E40656-FF25-3001-B8C9-E65C9DC92648
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x000c0000 (786 kB) | 0x180000000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x0000C0000 -> 0x0000C4000
-
-> Cache (.01) UUID: A78F816E-FAE5-3AAF-A753-766346190A44
+> Cache UUID: 218858D5-1939-317B-B448-E655754BC098
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d34000 (131 MB) | 0x180400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D34000 -> 0x007D74000
+ __TEXT | r-x      | r-x     | 0x00094000 (606 kB) | 0x180000000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x000094000 -> 0x000098000
 
-> Cache (.02) UUID: A5290BF9-53D0-370E-8D61-6AE66FCF0677
+> Cache (.01) UUID: 745CE61C-6C3C-3D11-A1C8-BB5A85E453EE
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06b30000 (112 MB) | 0x180094000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006B30000 -> 0x006B68000
+
+> Cache (.02) UUID: 5FDDDE38-499A-382C-8456-1C38B3299017
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
 --------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00034000 (213 kB) | 0x188134000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000034000 -> 0x000038000
-
-> Cache (.03) UUID: 1A1939C0-A2AB-3D82-A43C-9E61AD237972
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cc0000 (131 MB) | 0x188400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CC0000 -> 0x007D00000
-
-> Cache (.04) UUID: B95A21B7-87D8-3A5B-ACF6-43215F67681A
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x1900c0000 | 0x00000000  |                        | TEXT_STUBS 
+ __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x186bc4000 | 0x00000000  |                        | TEXT_STUBS 
 Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
 
-> Cache (.05) UUID: 22F8FAC9-B323-3A0E-8D58-388A8950AE15
+> Cache (.03) UUID: 0B882B39-BD5D-31FA-9940-5C9FD9BCCE90
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cf4000 (131 MB) | 0x190400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CF4000 -> 0x007D34000
+ __TEXT | r-x      | r-x     | 0x06bf8000 (113 MB) | 0x186c08000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006BF8000 -> 0x006C30000
 
-> Cache (.06) UUID: F6D9FA41-3A48-3210-8AEC-27BA77FC0AA8
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00030000 (197 kB) | 0x1980f4000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000030000 -> 0x000034000
-
-> Cache (.07) UUID: D073C60C-471A-3A5A-ABA0-429451768C5B
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cf0000 (131 MB) | 0x198400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CF0000 -> 0x007D30000
-
-> Cache (.08) UUID: 326EE213-87E5-3E66-8820-C9CF7CCD672C
+> Cache (.04) UUID: 31B8A6DD-CC28-30F3-A983-E6640AB5E1F0
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
 --------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0003c000 (246 kB) | 0x1a00f0000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00003C000 -> 0x000040000
-
-> Cache (.09) UUID: D22807AC-53C5-3B2C-BE4D-A0CF7C6F9736
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cc8000 (131 MB) | 0x1a0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CC8000 -> 0x007D08000
-
-> Cache (.10) UUID: 690EF120-41AD-35F3-A0F7-0CA896D243C6
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0002c000 (180 kB) | 0x1a80c8000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00002C000 -> 0x000030000
-
-> Cache (.11) UUID: C9EE7219-35AB-3CF7-BD37-5E5E8D6EA29C
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d24000 (131 MB) | 0x1a8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D24000 -> 0x007D64000
-
-> Cache (.12) UUID: 894902D7-D137-3CE6-BAB9-BD3B46BD0222
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00040000 (262 kB) | 0x1b0124000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000040000 -> 0x000044000
-
-> Cache (.13) UUID: A6F2C4E3-D19A-3A44-858D-60564208A594
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d20000 (131 MB) | 0x1b0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D20000 -> 0x007D60000
-
-> Cache (.14) UUID: D6B298FC-B7AE-32C9-9712-D887C9C65F3B
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00034000 (213 kB) | 0x1b8120000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000034000 -> 0x000038000
-
-> Cache (.15) UUID: DF358CB2-87BF-3876-B42C-DC6D9FF77925
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d0c000 (131 MB) | 0x1b8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D0C000 -> 0x007D4C000
-
-> Cache (.16) UUID: 9825FFA5-FED5-3FE5-AA60-38EE9B1F528B
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00038000 (229 kB) | 0x1c010c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000038000 -> 0x00003C000
-
-> Cache (.17) UUID: E32CCC48-6A2D-3B60-A882-9276F63BD01A
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d14000 (131 MB) | 0x1c0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D14000 -> 0x007D54000
-
-> Cache (.18) UUID: 179538E4-3EF3-3375-8BE5-7D44754580CA
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x1c8114000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
-
-> Cache (.19) UUID: 99A5093B-4E72-364B-9693-822D5CEF9B7E
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d1c000 (131 MB) | 0x1c8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D1C000 -> 0x007D5C000
-
-> Cache (.20) UUID: 9F566759-BD35-36AF-9735-3300F9ECF036
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00054000 (344 kB) | 0x1d011c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000054000 -> 0x000058000
-
-> Cache (.21) UUID: 29B11547-1833-34AE-BD9F-7FAFEB417B61
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07ca4000 (131 MB) | 0x1d0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CA4000 -> 0x007CE4000
-
-> Cache (.22) UUID: 7F3EC8B2-3B12-3B61-AAB7-22A61F8048DF
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00040000 (262 kB) | 0x1d80a4000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000040000 -> 0x000044000
-
-> Cache (.23) UUID: 5C9D4DF6-54E3-3A2E-8525-E52FE0B27BA5
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07ca8000 (131 MB) | 0x1d8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CA8000 -> 0x007CE8000
-
-> Cache (.24) UUID: 83E8A98A-F483-383A-9177-4D7A6ED1C6A8
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0004c000 (311 kB) | 0x1e00a8000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00004C000 -> 0x000050000
-
-> Cache (.25.dylddata) UUID: 6D1961BD-6159-3848-9BD8-E6545D186B15
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset   | Flags                        
---------------+----------+---------+---------------------+-------------+-------------+--------------------------+------------------------------
- __TEXT       | r-x      | r-x     | 0x00004000 (16 kB)  | 0x1e00f4000 | 0x00000000  |                          |                              
- __DATA_CONST | r--      | rw-     | 0x01e70000 (32 MB)  | 0x1e00f8000 | 0x00004000  | 0x0da5557c -> 0x0da564cc | CONST_DATA                   
- __AUTH_CONST | r--      | rw-     | 0x06f70000 (117 MB) | 0x1e1f68000 | 0x01e74000  | 0x0da57572 -> 0x0da5ad42 | AUTH_DATA | CONST_DATA       
- __AUTH_CONST | r--      | rw-     | 0x000bc000 (770 kB) | 0x1e8ed8000 | 0x08de4000  | 0x0da5ad42 -> 0x0da5adb8 | AUTH_DATA | CONST_DATA       
- __DATA       | rw-      | rw-     | 0x02ac8000 (45 MB)  | 0x1eaf94000 | 0x08ea0000  | 0x0da54000 -> 0x0da5557c |                              
- __TPRO_CONST | r--      | rw-     | 0x00024000 (147 kB) | 0x1eda5c000 | 0x0b968000  | 0x0da564cc -> 0x0da564f6 | CONST_TPRO_DATA | CONST_DATA 
- __AUTH       | rw-      | rw-     | 0x020c8000 (34 MB)  | 0x1eda80000 | 0x0b98c000  | 0x0da564f6 -> 0x0da57572 | AUTH_DATA                    
- __LINKEDIT   | r--      | r--     | 0x00008000 (33 kB)  | 0x1f1b48000 | 0x0da54000  |                          |                              
-Code Signature:   0MB, offset:  0x00DA5C000 -> 0x00DACC000
-
-> Cache (.26.dyldreadonly) UUID: 2C4B19D4-F0D0-38CA-9A83-4EAEB581F15B
-
-Mappings
---------
-
- Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags          
-------------+----------+---------+---------------------+-------------+-------------+------------------------+----------------
- __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x1f1b50000 | 0x00000000  |                        |                
- __LINKEDIT | r--      | r--     | 0x0bbd4000 (197 MB) | 0x1f1b54000 | 0x00004000  |                        | READ_ONLY_DATA 
-Code Signature:   0MB, offset:  0x00BBD8000 -> 0x00BC38000
-
-> Cache (.27) UUID: F068A51E-9BEB-3BE1-87A0-8E550FE81189
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+--------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x00004000 (16 kB) | 0x1fd728000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x000004000 -> 0x000008000
-
-> Cache (.28) UUID: 4F706BBC-797D-3486-B1BF-1DBC96307372
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cbc000 (131 MB) | 0x200400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CBC000 -> 0x007CFC000
-
-> Cache (.29) UUID: D4E6B2D4-B7C2-3679-B6FB-8BEE30D2E410
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0004c000 (311 kB) | 0x2080bc000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00004C000 -> 0x000050000
-
-> Cache (.30) UUID: 2C3D34C4-E846-3AA6-8908-B61AB41C1745
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c90000 (131 MB) | 0x208400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C90000 -> 0x007CD0000
-
-> Cache (.31) UUID: F78272BF-85E2-3B18-99E3-EB533A5B9B8B
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0005c000 (377 kB) | 0x210090000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00005C000 -> 0x000060000
-
-> Cache (.32) UUID: 7A6C4B22-94EE-3D92-9BBF-D66BA632AD57
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c8c000 (131 MB) | 0x210400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C8C000 -> 0x007CCC000
-
-> Cache (.33) UUID: 2BA7B914-D589-3185-A99B-EBD5AE8C66AF
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00060000 (393 kB) | 0x21808c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000060000 -> 0x000064000
-
-> Cache (.34) UUID: B98D3CA8-7AA6-3257-B4B5-99190485E690
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c30000 (130 MB) | 0x218400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C30000 -> 0x007C70000
-
-> Cache (.35) UUID: 0E9FDD0A-4D47-3694-93B2-E3BDC4F4B9F1
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00020000 (131 kB) | 0x220030000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000020000 -> 0x000024000
-
-> Cache (.36) UUID: CB1E246E-DCAD-359E-931B-831E4D1CBD1B
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07d34000 (131 MB) | 0x220400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007D34000 -> 0x007D74000
-
-> Cache (.37) UUID: 52806D27-20DF-3031-A71A-2ECA7F6D01A3
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00060000 (393 kB) | 0x228134000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000060000 -> 0x000064000
-
-> Cache (.38) UUID: 7F5777FC-2611-35B5-89AF-369DB5A0538D
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cc0000 (131 MB) | 0x228400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CC0000 -> 0x007D00000
-
-> Cache (.39) UUID: E2757669-9891-3ADF-9894-A5FC10B8E258
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0006c000 (442 kB) | 0x2300c0000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00006C000 -> 0x000070000
-
-> Cache (.40) UUID: 2B416DA8-4D74-328A-A1FE-22B4F4C619A0
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cd4000 (131 MB) | 0x230400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CD4000 -> 0x007D14000
-
-> Cache (.41) UUID: A22BA4B4-8A04-3324-86D1-92258B5D2428
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0005c000 (377 kB) | 0x2380d4000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00005C000 -> 0x000060000
-
-> Cache (.42) UUID: 2DB84B18-CEF3-3AC4-ACF0-6C26B921FEBB
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cd8000 (131 MB) | 0x238400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CD8000 -> 0x007D18000
-
-> Cache (.43) UUID: 031D9F45-5549-35F4-9A0B-FE4C4F68DAF6
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00084000 (541 kB) | 0x2400d8000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000084000 -> 0x000088000
-
-> Cache (.44) UUID: 4EE6966B-C394-30B8-BEFB-C54E3E98F467
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cbc000 (131 MB) | 0x240400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CBC000 -> 0x007CFC000
-
-> Cache (.45) UUID: 6C3DC626-E3EB-36D6-A250-26175C4C1B11
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00038000 (229 kB) | 0x2480bc000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000038000 -> 0x00003C000
-
-> Cache (.46) UUID: D39F0A86-603C-32EE-B570-0920BC36E174
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c7c000 (131 MB) | 0x248400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C7C000 -> 0x007CBC000
-
-> Cache (.47) UUID: 8E5FF2DD-5B70-3C61-9764-69CFE0A7DE71
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x25007c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
-
-> Cache (.48) UUID: 2B0ABE0C-1C3C-398F-90FF-B0BEED9BE26A
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c7c000 (131 MB) | 0x250400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C7C000 -> 0x007CBC000
-
-> Cache (.49) UUID: 8225E334-8D60-3069-85EC-032C2AC0F57D
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00060000 (393 kB) | 0x25807c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000060000 -> 0x000064000
-
-> Cache (.50) UUID: 0D41971B-64A4-335F-9DD5-54EB2011ECE8
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cec000 (131 MB) | 0x258400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CEC000 -> 0x007D2C000
-
-> Cache (.51) UUID: FFA9DF06-2BA6-350A-BF63-2607D3D16BF9
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00048000 (295 kB) | 0x2600ec000 | 0x00000000  |                        | TEXT_STUBS 
+ __TEXT_STUBS | r-x      | r-x     | 0x00048000 (295 kB) | 0x18d800000 | 0x00000000  |                        | TEXT_STUBS 
 Code Signature:   0MB, offset:  0x000048000 -> 0x00004C000
 
-> Cache (.52) UUID: 7DB4027D-9646-3A3B-8E8A-9E0B96C5D0A2
+> Cache (.05) UUID: 946C315C-F3EB-33AA-85CF-5DA2D1B1D446
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07ccc000 (131 MB) | 0x260400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CCC000 -> 0x007D0C000
+ __TEXT | r-x      | r-x     | 0x06758000 (108 MB) | 0x18d848000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006758000 -> 0x00678C000
 
-> Cache (.53) UUID: 1FFBFB24-3A61-3FAE-8EDF-D4C57F39DAE3
+> Cache (.06) UUID: 70FCE0B1-4AB7-31FF-B1A8-48CC4733993A
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
 --------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00054000 (344 kB) | 0x2680cc000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000054000 -> 0x000058000
+ __TEXT_STUBS | r-x      | r-x     | 0x00064000 (410 kB) | 0x193fa0000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000064000 -> 0x000068000
 
-> Cache (.54.dylddata) UUID: BA2F6755-BD22-3DAF-A8AC-242107960C20
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset   | Flags                        
---------------+----------+---------+---------------------+-------------+-------------+--------------------------+------------------------------
- __TEXT       | r-x      | r-x     | 0x00004000 (16 kB)  | 0x268120000 | 0x00000000  |                          |                              
- __DATA_CONST | r--      | rw-     | 0x017c4000 (25 MB)  | 0x268124000 | 0x00004000  | 0x0d14e13a -> 0x0d14ed34 | CONST_DATA                   
- __AUTH_CONST | r--      | rw-     | 0x05a08000 (94 MB)  | 0x2698e8000 | 0x017c8000  | 0x0d14fb56 -> 0x0d152872 | AUTH_DATA | CONST_DATA       
- __AUTH_CONST | r--      | rw-     | 0x00154000 (1.4 MB) | 0x26f2f0000 | 0x071d0000  | 0x0d152872 -> 0x0d152934 | AUTH_DATA | CONST_DATA       
- __DATA       | rw-      | rw-     | 0x04244000 (69 MB)  | 0x271444000 | 0x07324000  | 0x0d14c000 -> 0x0d14e13a |                              
- __TPRO_CONST | r--      | rw-     | 0x00004000 (16 kB)  | 0x275688000 | 0x0b568000  | 0x0d14ed34 -> 0x0d14ed4e | CONST_TPRO_DATA | CONST_DATA 
- __AUTH       | rw-      | rw-     | 0x01be0000 (29 MB)  | 0x27568c000 | 0x0b56c000  | 0x0d14ed4e -> 0x0d14fb56 | AUTH_DATA                    
- __LINKEDIT   | r--      | r--     | 0x00008000 (33 kB)  | 0x27926c000 | 0x0d14c000  |                          |                              
-Code Signature:   0MB, offset:  0x00D154000 -> 0x00D1C0000
-
-> Cache (.55.dyldreadonly) UUID: D027E4C0-4D2C-32F0-B6B7-DC0C02332E4E
+> Cache (.07) UUID: 9E0B5751-C7D7-3D7D-ADAA-F58D9E556A7B
 
 Mappings
 --------
 
- Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags          
-------------+----------+---------+---------------------+-------------+-------------+------------------------+----------------
- __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x279274000 | 0x00000000  |                        |                
- __LINKEDIT | r--      | r--     | 0x0037c000 (3.7 MB) | 0x279278000 | 0x00004000  |                        | READ_ONLY_DATA 
-Code Signature:   0MB, offset:  0x000380000 -> 0x000384000
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06c04000 (113 MB) | 0x194004000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006C04000 -> 0x006C3C000
 
-> Cache (.56) UUID: 2DDFB774-793E-346B-86EF-DF2FD0EDE187
+> Cache (.08) UUID: F0E3CBB8-EC71-342D-9F5D-CC07922C862E
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00058000 (360 kB) | 0x19ac08000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000058000 -> 0x00005C000
+
+> Cache (.09) UUID: 54E6F9DB-EA1C-3CBB-8E15-91285C0425F3
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+--------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x00004000 (16 kB) | 0x2795f4000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x000004000 -> 0x000008000
+ __TEXT | r-x      | r-x     | 0x05318000 (87 MB) | 0x19ac60000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x005318000 -> 0x005344000
 
-> Cache (.57) UUID: EB32E380-87D6-33D6-A8F0-3D64B22912D2
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c38000 (130 MB) | 0x280400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C38000 -> 0x007C78000
-
-> Cache (.58) UUID: 3C6265E1-9B94-33A7-8E59-269C835978DC
+> Cache (.10) UUID: B4AC3EBE-A475-30DE-84B9-1159CB8C75E4
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
 --------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x288038000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
-
-> Cache (.59) UUID: 05337ACD-7D55-3C07-ACCF-B6AFA619DD88
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07ccc000 (131 MB) | 0x288400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CCC000 -> 0x007D0C000
-
-> Cache (.60) UUID: D2E29BFF-4CE7-3AF3-BB82-865A55551061
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00050000 (328 kB) | 0x2900cc000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000050000 -> 0x000054000
-
-> Cache (.61) UUID: 0F33E6FB-463F-3F0D-AB41-381461342B96
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c64000 (130 MB) | 0x290400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C64000 -> 0x007CA4000
-
-> Cache (.62) UUID: 36CF5B2B-26B8-3ECD-95CD-E63334707C37
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0002c000 (180 kB) | 0x298064000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00002C000 -> 0x000030000
-
-> Cache (.63) UUID: 3ABB7402-876F-30E5-89DA-B97C29EC22EA
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cd0000 (131 MB) | 0x298400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CD0000 -> 0x007D10000
-
-> Cache (.64) UUID: 96E5F94C-1D50-3E9F-8A74-45F5C4CFD04F
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x2a00d0000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
-
-> Cache (.65) UUID: 939F9057-657A-35D5-A52F-603C43D5661C
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c78000 (131 MB) | 0x2a0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C78000 -> 0x007CB8000
-
-> Cache (.66) UUID: E1D5BF3D-07B5-340A-B4A4-985D88A3FE3D
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00030000 (197 kB) | 0x2a8078000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000030000 -> 0x000034000
-
-> Cache (.67) UUID: 962A23BE-97FE-3AC2-9B46-302F1F170B4D
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c8c000 (131 MB) | 0x2a8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C8C000 -> 0x007CCC000
-
-> Cache (.68) UUID: 8E061EC9-E584-3402-AC20-6457B8A30869
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x2b008c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
-
-> Cache (.69) UUID: B956340B-DD3D-3EA7-98BA-894114423A36
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07cc4000 (131 MB) | 0x2b0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CC4000 -> 0x007D04000
-
-> Cache (.70) UUID: 9353319B-AF77-3E23-ABDB-3AF71D3E21F1
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0004c000 (311 kB) | 0x2b80c4000 | 0x00000000  |                        | TEXT_STUBS 
+ __TEXT_STUBS | r-x      | r-x     | 0x0004c000 (311 kB) | 0x19ff78000 | 0x00000000  |                        | TEXT_STUBS 
 Code Signature:   0MB, offset:  0x00004C000 -> 0x000050000
 
-> Cache (.71) UUID: 03EDD93C-CF6C-3C24-9AAC-CE84646B7825
+> Cache (.11) UUID: E05A0AAA-67C1-3AE2-98C0-C8E797781E88
 
 Mappings
 --------
 
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c8c000 (131 MB) | 0x2b8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C8C000 -> 0x007CCC000
+ Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+--------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x0566c000 (91 MB) | 0x19ffc4000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x00566C000 -> 0x005698000
 
-> Cache (.72) UUID: 1B0EA334-E8C4-3703-B817-DCBD356D7EB1
-
-Mappings
---------
-
- Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0003c000 (246 kB) | 0x2c008c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00003C000 -> 0x000040000
-
-> Cache (.73) UUID: C738E2D7-99B6-37DE-915D-843C2A1C80AB
-
-Mappings
---------
-
- Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
---------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07ce0000 (131 MB) | 0x2c0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007CE0000 -> 0x007D20000
-
-> Cache (.74) UUID: 925ACB27-253B-3081-A6B1-B3827227B7E3
+> Cache (.12) UUID: 1218F910-C090-3CD4-A5E0-12C6723B70DE
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
 --------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x0003c000 (246 kB) | 0x2c80e0000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x00003C000 -> 0x000040000
+ __TEXT_STUBS | r-x      | r-x     | 0x00034000 (213 kB) | 0x1a5630000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000034000 -> 0x000038000
 
-> Cache (.75) UUID: 991E6A5D-4B1B-365B-8413-4FFD650CFFCF
+> Cache (.13) UUID: 73BA22B3-4449-3318-9605-BBB3C503EEF9
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c18000 (130 MB) | 0x2c8400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C18000 -> 0x007C58000
+ __TEXT | r-x      | r-x     | 0x06438000 (105 MB) | 0x1a5664000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006438000 -> 0x00646C000
 
-> Cache (.76) UUID: 93C48763-8FA2-3800-9578-38FC7EF17164
+> Cache (.14) UUID: 50E1C959-6A61-378E-AE90-9F5ED64B68CD
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
 --------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00044000 (279 kB) | 0x2d0018000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000044000 -> 0x000048000
+ __TEXT_STUBS | r-x      | r-x     | 0x0005c000 (377 kB) | 0x1aba9c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x00005C000 -> 0x000060000
 
-> Cache (.77) UUID: 6F262476-D92C-3F46-B982-89743FB7E8F6
+> Cache (.15) UUID: 95C85B7D-6EA6-390F-B3C6-45D707259765
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x07c0c000 (130 MB) | 0x2d0400000 | 0x00000000  |                        |       
-Code Signature:   0MB, offset:  0x007C0C000 -> 0x007C4C000
+ __TEXT | r-x      | r-x     | 0x06a48000 (111 MB) | 0x1abaf8000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006A48000 -> 0x006A80000
 
-> Cache (.78) UUID: DBA4983D-716A-38C4-A80D-3649ECD79B93
+> Cache (.16) UUID: 7C741485-913D-3FCC-A33A-C363D1D5AF7F
 
 Mappings
 --------
 
- Seg          | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags      
---------------+----------+---------+--------------------+-------------+-------------+------------------------+------------
- __TEXT_STUBS | r-x      | r-x     | 0x00014000 (82 kB) | 0x2d800c000 | 0x00000000  |                        | TEXT_STUBS 
-Code Signature:   0MB, offset:  0x000014000 -> 0x000018000
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00068000 (426 kB) | 0x1b2540000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000068000 -> 0x00006C000
 
-> Cache (.79.dylddata) UUID: 79E80193-708A-3E90-8A7F-3FAEBD100AF0
+> Cache (.17) UUID: C14DEDCB-B3F9-3386-8240-5C82EA487B8C
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06da4000 (115 MB) | 0x1b25a8000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006DA4000 -> 0x006DDC000
+
+> Cache (.18) UUID: 507651AA-A0BE-35F0-84F5-639BD6637B35
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00070000 (459 kB) | 0x1b934c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000070000 -> 0x000074000
+
+> Cache (.19) UUID: 8753DC75-EB0A-3CBD-9DC3-0E8F5E09F240
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x067f8000 (109 MB) | 0x1b93bc000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x0067F8000 -> 0x006830000
+
+> Cache (.20) UUID: 1A51BCB2-CB68-3AFF-93B6-13C700BC2731
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00094000 (606 kB) | 0x1bfbb4000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000094000 -> 0x000098000
+
+> Cache (.21) UUID: 738759F9-FF89-344D-AEB0-FF5A79ECE5B2
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06c74000 (114 MB) | 0x1bfc48000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006C74000 -> 0x006CAC000
+
+> Cache (.22) UUID: 4B8EFB62-1A30-33AB-92A6-73CDBCA0DD94
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00094000 (606 kB) | 0x1c68bc000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000094000 -> 0x000098000
+
+> Cache (.23) UUID: 8AFD9180-F7AD-3184-B481-B544BB8DD263
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x0682c000 (109 MB) | 0x1c6950000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x00682C000 -> 0x006864000
+
+> Cache (.24) UUID: 0FF94D99-48FA-3251-B9B4-5A9C1D592DCE
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00084000 (541 kB) | 0x1cd17c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000084000 -> 0x000088000
+
+> Cache (.25) UUID: F17FB4F3-0CDC-3443-B561-6BB50E507C1A
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06d7c000 (115 MB) | 0x1cd200000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006D7C000 -> 0x006DB4000
+
+> Cache (.26) UUID: 4DAE0AA5-F4FA-374D-A124-50A03E26D9DF
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00038000 (229 kB) | 0x1d3f7c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000038000 -> 0x00003C000
+
+> Cache (.27) UUID: FEF3ACE1-D85A-3E07-ABED-8B15E11CFE44
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06d28000 (114 MB) | 0x1d3fb4000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006D28000 -> 0x006D60000
+
+> Cache (.28) UUID: AAE2A0E9-36FD-3450-BB8E-8B8232E562DA
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00080000 (524 kB) | 0x1dacdc000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000080000 -> 0x000084000
+
+> Cache (.29) UUID: AE8C32E7-CB87-3BAE-8DB5-C8A82FEAC16A
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06a90000 (112 MB) | 0x1dad5c000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006A90000 -> 0x006AC8000
+
+> Cache (.30) UUID: 7C75B2AE-33C2-3066-80E9-FA2946F58DC4
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000a4000 (672 kB) | 0x1e17ec000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000A4000 -> 0x0000A8000
+
+> Cache (.31) UUID: 76EFE198-DD43-3366-AC02-C6F6146AE473
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+--------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x04430000 (71 MB) | 0x1e1890000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x004430000 -> 0x004454000
+
+> Cache (.32) UUID: 91E3862A-FEDE-3E71-88DF-5714D65F369D
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x0004c000 (311 kB) | 0x1e5cc0000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x00004C000 -> 0x000050000
+
+> Cache (.33.dylddata) UUID: 914C2D6E-0549-3985-9622-26FE0D914CFD
 
 Mappings
 --------
 
  Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset   | Flags                        
 --------------+----------+---------+---------------------+-------------+-------------+--------------------------+------------------------------
- __TEXT       | r-x      | r-x     | 0x00004000 (16 kB)  | 0x2d8020000 | 0x00000000  |                          |                              
- __DATA_CONST | r--      | rw-     | 0x026b0000 (41 MB)  | 0x2d8024000 | 0x00004000  | 0x0a9096d4 -> 0x0a90aa44 | CONST_DATA                   
- __AUTH_CONST | r--      | rw-     | 0x03f38000 (66 MB)  | 0x2da6d4000 | 0x026b4000  | 0x0a90b4f2 -> 0x0a90d4a6 | AUTH_DATA | CONST_DATA       
- __AUTH_CONST | r--      | rw-     | 0x000a8000 (688 kB) | 0x2de60c000 | 0x065ec000  | 0x0a90d4a6 -> 0x0a90d512 | AUTH_DATA | CONST_DATA       
- __DATA       | rw-      | rw-     | 0x02d78000 (48 MB)  | 0x2e06b4000 | 0x06694000  | 0x0a908000 -> 0x0a9096d4 |                              
- __TPRO_CONST | r--      | rw-     | 0x00004000 (16 kB)  | 0x2e342c000 | 0x0940c000  | 0x0a90aa44 -> 0x0a90aa5e | CONST_TPRO_DATA | CONST_DATA 
- __AUTH       | rw-      | rw-     | 0x014f8000 (22 MB)  | 0x2e3430000 | 0x09410000  | 0x0a90aa5e -> 0x0a90b4f2 | AUTH_DATA                    
- __LINKEDIT   | r--      | r--     | 0x00008000 (33 kB)  | 0x2e6928000 | 0x0a908000  |                          |                              
-Code Signature:   0MB, offset:  0x00A910000 -> 0x00A968000
+ __TEXT       | r-x      | r-x     | 0x00004000 (16 kB)  | 0x1e5d0c000 | 0x00000000  |                          |                              
+ __DATA_CONST | r--      | rw-     | 0x01f04000 (33 MB)  | 0x1e5d10000 | 0x00004000  | 0x0d9516b8 -> 0x0d952652 | CONST_DATA                   
+ __DATA       | rw-      | rw-     | 0x02d40000 (47 MB)  | 0x1e9c14000 | 0x01f08000  | 0x0d950000 -> 0x0d9516b8 |                              
+ __TPRO_CONST | r--      | rw-     | 0x00024000 (147 kB) | 0x1ec954000 | 0x04c48000  | 0x0d952652 -> 0x0d95267c | CONST_TPRO_DATA | CONST_DATA 
+ __AUTH       | rw-      | rw-     | 0x01bd8000 (29 MB)  | 0x1ec978000 | 0x04c6c000  | 0x0d95267c -> 0x0d953480 | AUTH_DATA                    
+ __AUTH_CONST | r--      | rw-     | 0x0710c000 (119 MB) | 0x1ee550000 | 0x06844000  | 0x0d953480 -> 0x0d956d1e | AUTH_DATA | CONST_DATA       
+ __LINKEDIT   | r--      | r--     | 0x00008000 (33 kB)  | 0x1f765c000 | 0x0d950000  |                          |                              
+Code Signature:   0MB, offset:  0x00D958000 -> 0x00D9C8000
 
-> Cache (.80.dyldreadonly) UUID: 135C251E-C9D4-3BBA-BF8E-5494A3D67583
+> Cache (.34.dyldreadonly) UUID: 8D861459-61E4-3EE4-A54B-F3125DF6A4E5
 
 Mappings
 --------
 
- Seg        | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags          
-------------+----------+---------+--------------------+-------------+-------------+------------------------+----------------
- __TEXT     | r-x      | r-x     | 0x00004000 (16 kB) | 0x2e6930000 | 0x00000000  |                        |                
- __LINKEDIT | r--      | r--     | 0x00008000 (33 kB) | 0x2e6934000 | 0x00004000  |                        | READ_ONLY_DATA 
-Code Signature:   0MB, offset:  0x00000C000 -> 0x000010000
+ Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags          
+------------+----------+---------+---------------------+-------------+-------------+------------------------+----------------
+ __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x1f7664000 | 0x00000000  |                        |                
+ __LINKEDIT | r--      | r--     | 0x08124000 (135 MB) | 0x1f7668000 | 0x00004000  |                        | READ_ONLY_DATA 
+Code Signature:   0MB, offset:  0x008128000 -> 0x00816C000
 
-> Cache (.81.dyldlinkedit) UUID: 1C5BC2C2-2517-39F8-9F65-AF440907E1A9
+> Cache (.35.dyldlinkedit) UUID: FFE924FE-025A-333A-BF5C-ED5AB9F63E52
 
 Mappings
 --------
 
  Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
 ------------+----------+---------+---------------------+-------------+-------------+------------------------+-------
- __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x2e693c000 | 0x00000000  |                        |       
- __LINKEDIT | r--      | r--     | 0x298ec000 (697 MB) | 0x2e6940000 | 0x00004000  |                        |       
-Code Signature:   1MB, offset:  0x0298F0000 -> 0x029A40000
+ __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x1ff78c000 | 0x00000000  |                        |       
+ __LINKEDIT | r--      | r--     | 0x0b318000 (188 MB) | 0x1ff790000 | 0x00004000  |                        |       
+Code Signature:   0MB, offset:  0x00B31C000 -> 0x00B378000
 
-> Cache (.symbols) UUID: 39346401-F076-3533-876A-0211C208B435
+> Cache (.36) UUID: 804E6E40-5E35-3112-9CEC-BB6139A97946
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06d38000 (115 MB) | 0x20aaa8000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006D38000 -> 0x006D70000
+
+> Cache (.37) UUID: FA0B3431-DD1F-3A74-9732-BE36ABCA2AF4
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x0008c000 (573 kB) | 0x2117e0000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x00008C000 -> 0x000090000
+
+> Cache (.38) UUID: B2898563-BAFE-371A-A68B-47610A91AA00
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06db0000 (115 MB) | 0x21186c000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006DB0000 -> 0x006DE8000
+
+> Cache (.39) UUID: 2B8FE00D-4367-377F-B897-C79F2F9636B5
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00028000 (164 kB) | 0x21861c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000028000 -> 0x00002C000
+
+> Cache (.40) UUID: A9F565F1-777F-3BC5-B76C-14E39882BBDD
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06dc8000 (115 MB) | 0x218644000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006DC8000 -> 0x006E00000
+
+> Cache (.41) UUID: 5C75493A-D09C-3988-AE34-9B1822261FBE
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00084000 (541 kB) | 0x21f40c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000084000 -> 0x000088000
+
+> Cache (.42) UUID: 44A72F2F-DF15-3684-8635-6A87FE5F1E54
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06e0c000 (115 MB) | 0x21f490000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006E0C000 -> 0x006E44000
+
+> Cache (.43) UUID: 538925F0-8197-3805-AD53-E608189BB45C
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000a8000 (688 kB) | 0x22629c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000A8000 -> 0x0000AC000
+
+> Cache (.44) UUID: D444CE3D-E4F2-36AD-8780-9C1518DFAFC6
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x064b0000 (106 MB) | 0x226344000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x0064B0000 -> 0x0064E4000
+
+> Cache (.45) UUID: DD131FBF-F875-366C-8BB6-B5C9A1D57CC1
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000b4000 (737 kB) | 0x22c7f4000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000B4000 -> 0x0000B8000
+
+> Cache (.46) UUID: 7697324B-3271-3F48-B215-FAB56E974075
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06b98000 (113 MB) | 0x22c8a8000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006B98000 -> 0x006BD0000
+
+> Cache (.47) UUID: A3B96416-5624-3C59-9D84-E41336B29804
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00098000 (623 kB) | 0x233440000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000098000 -> 0x00009C000
+
+> Cache (.48) UUID: 4B12C969-8929-32DF-89EC-6559DABA3F81
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06c6c000 (114 MB) | 0x2334d8000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006C6C000 -> 0x006CA4000
+
+> Cache (.49) UUID: 38D3ADFA-5DA4-33B1-BF59-90C70B8F870E
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000b0000 (721 kB) | 0x23a144000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000B0000 -> 0x0000B4000
+
+> Cache (.50) UUID: 9FEE853F-0568-31D5-8BA2-63A6C981A7DF
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06c08000 (113 MB) | 0x23a1f4000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006C08000 -> 0x006C40000
+
+> Cache (.51) UUID: 0551CA28-472B-32C4-A41C-6E303740043C
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00078000 (492 kB) | 0x240dfc000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000078000 -> 0x00007C000
+
+> Cache (.52) UUID: 03B43BDF-D695-3AE4-B55F-844E7E463AE6
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06e6c000 (116 MB) | 0x240e74000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006E6C000 -> 0x006EA4000
+
+> Cache (.53) UUID: 7CE50BA0-75FE-3CF2-A45F-9ED712589C66
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000d8000 (885 kB) | 0x247ce0000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000D8000 -> 0x0000DC000
+
+> Cache (.54) UUID: 7B257BEA-0F6F-32C7-98A8-D2ED07E619BB
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x0652c000 (106 MB) | 0x247db8000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x00652C000 -> 0x006560000
+
+> Cache (.55) UUID: 262A2534-31D5-3CE6-A36A-6DA5DB652715
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000bc000 (770 kB) | 0x24e2e4000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000BC000 -> 0x0000C0000
+
+> Cache (.56) UUID: E03E8920-5534-3AF2-B3F5-B065873DE1E8
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x062fc000 (104 MB) | 0x24e3a0000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x0062FC000 -> 0x006330000
+
+> Cache (.57) UUID: DAA4E158-998A-3055-BAF7-F0B2E67A04E5
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000c0000 (786 kB) | 0x25469c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000C0000 -> 0x0000C4000
+
+> Cache (.58) UUID: 45A489B3-79DD-3C40-AA81-4FA738673B5E
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06a88000 (112 MB) | 0x25475c000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006A88000 -> 0x006AC0000
+
+> Cache (.59) UUID: A37C01EB-059C-356A-82FB-3F0639CB11EF
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00088000 (557 kB) | 0x25b1e4000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000088000 -> 0x00008C000
+
+> Cache (.60) UUID: E9AD1C14-7A42-38B6-B977-BB3BC1C87D51
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06e54000 (116 MB) | 0x25b26c000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006E54000 -> 0x006E8C000
+
+> Cache (.61) UUID: 23F1480F-2898-3A74-A9AB-AAC98C25C6FB
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00088000 (557 kB) | 0x2620c0000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000088000 -> 0x00008C000
+
+> Cache (.62) UUID: FE5BD00B-1468-3DEA-AF89-FB31038DEBD4
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06e44000 (116 MB) | 0x262148000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006E44000 -> 0x006E7C000
+
+> Cache (.63) UUID: 2A538880-9B7A-38EC-BDEC-A8817899B3CC
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000c8000 (819 kB) | 0x268f8c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000C8000 -> 0x0000CC000
+
+> Cache (.64) UUID: 764970FA-15DB-3971-BDA4-EFD2473D63D4
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06a84000 (112 MB) | 0x269054000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006A84000 -> 0x006ABC000
+
+> Cache (.65) UUID: ADD96BC9-2C42-34E5-AADA-8F0FE7EC2879
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x0009c000 (639 kB) | 0x26fad8000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x00009C000 -> 0x0000A0000
+
+> Cache (.66) UUID: 26BA6493-8AEB-3D59-BEA3-FBA3B5C373CC
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06dfc000 (115 MB) | 0x26fb74000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006DFC000 -> 0x006E34000
+
+> Cache (.67) UUID: 7BAD9510-8205-3561-B3B7-D0E543CA2825
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000ec000 (967 kB) | 0x276970000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000EC000 -> 0x0000F0000
+
+> Cache (.68) UUID: 9E9E885B-B66E-3ACA-B074-903F8F22D029
 
 Mappings
 --------
 
  Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
 --------+----------+---------+--------------------+-------------+-------------+------------------------+-------
- __TEXT | r-x      | r-x     | 0x00004000 (16 kB) | 0x310230000 | 0x00000000  |                        |       
-Code Signature:   2MB, offset:  0x04A780000 -> 0x04A9D4000
+ __TEXT | r-x      | r-x     | 0x018e4000 (26 MB) | 0x276a5c000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x0018E4000 -> 0x0018F4000
+
+> Cache (.69) UUID: 8461B176-6BA2-3A37-ACF3-3BBBDF9412B5
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00038000 (229 kB) | 0x278340000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000038000 -> 0x00003C000
+
+> Cache (.70.dylddata) UUID: 11518205-4D3F-39D2-B83F-0DADC209BBD3
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset   | Flags                  
+--------------+----------+---------+---------------------+-------------+-------------+--------------------------+------------------------
+ __TEXT       | r-x      | r-x     | 0x00004000 (16 kB)  | 0x278378000 | 0x00000000  |                          |                        
+ __DATA_CONST | r--      | rw-     | 0x0224c000 (36 MB)  | 0x27837c000 | 0x00004000  | 0x0dff2188 -> 0x0dff32c6 | CONST_DATA             
+ __DATA       | rw-      | rw-     | 0x042e0000 (70 MB)  | 0x27c5c8000 | 0x02250000  | 0x0dff0000 -> 0x0dff2188 |                        
+ __AUTH       | rw-      | rw-     | 0x0173c000 (24 MB)  | 0x2808a8000 | 0x06530000  | 0x0dff32c6 -> 0x0dff3e7c | AUTH_DATA              
+ __AUTH_CONST | r--      | rw-     | 0x06384000 (104 MB) | 0x281fe4000 | 0x07c6c000  | 0x0dff3e7c -> 0x0dff7056 | AUTH_DATA | CONST_DATA 
+ __LINKEDIT   | r--      | r--     | 0x00008000 (33 kB)  | 0x28a368000 | 0x0dff0000  |                          |                        
+Code Signature:   0MB, offset:  0x00DFF8000 -> 0x00E06C000
+
+> Cache (.71.dyldreadonly) UUID: E24FDA03-ECCC-38C2-8489-4FC7CE9678A3
+
+Mappings
+--------
+
+ Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags          
+------------+----------+---------+---------------------+-------------+-------------+------------------------+----------------
+ __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x28a370000 | 0x00000000  |                        |                
+ __LINKEDIT | r--      | r--     | 0x0054c000 (5.6 MB) | 0x28a374000 | 0x00004000  |                        | READ_ONLY_DATA 
+Code Signature:   0MB, offset:  0x000550000 -> 0x000554000
+
+> Cache (.72.dyldlinkedit) UUID: 6BD9AB25-5044-37EC-9BA9-4866EEFB1D2A
+
+Mappings
+--------
+
+ Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+------------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x28a8c0000 | 0x00000000  |                        |       
+ __LINKEDIT | r--      | r--     | 0x0ae9c000 (183 MB) | 0x28a8c4000 | 0x00004000  |                        |       
+Code Signature:   0MB, offset:  0x00AEA0000 -> 0x00AEF8000
+
+> Cache (.73) UUID: DAD8CE67-8A1A-373B-99DD-1C0E96393E48
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06534000 (106 MB) | 0x295760000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006534000 -> 0x006568000
+
+> Cache (.74) UUID: A744809B-6432-3F7C-A766-8A2F603CA0A9
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x0007c000 (508 kB) | 0x29bc94000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x00007C000 -> 0x000080000
+
+> Cache (.75) UUID: 5196EA5C-2DB8-3975-AC93-6C1C19DF9960
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06cd8000 (114 MB) | 0x29bd10000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006CD8000 -> 0x006D10000
+
+> Cache (.76) UUID: 41645A7D-4F1A-3AB3-880B-920BDD07DB15
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00098000 (623 kB) | 0x2a29e8000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000098000 -> 0x00009C000
+
+> Cache (.77) UUID: 96A7CF5C-34F8-3B55-9A8B-548BB3DCF580
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x06f0c000 (116 MB) | 0x2a2a80000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x006F0C000 -> 0x006F44000
+
+> Cache (.78) UUID: BA008EBC-9375-386E-B4DF-2E22D7D509B1
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x000d4000 (868 kB) | 0x2a998c000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x0000D4000 -> 0x0000D8000
+
+> Cache (.79) UUID: ADE0560D-9B68-3A7B-9DC2-ED93F698A079
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+--------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x04118000 (68 MB) | 0x2a9a60000 | 0x00000000  |                        |       
+Code Signature:   0MB, offset:  0x004118000 -> 0x00413C000
+
+> Cache (.80) UUID: 5D3FB81E-FD3B-35AA-A96D-DBEBFA46D553
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags      
+--------------+----------+---------+---------------------+-------------+-------------+------------------------+------------
+ __TEXT_STUBS | r-x      | r-x     | 0x00098000 (623 kB) | 0x2adb78000 | 0x00000000  |                        | TEXT_STUBS 
+Code Signature:   0MB, offset:  0x000098000 -> 0x00009C000
+
+> Cache (.81.dylddata) UUID: 731F2E94-F142-33AB-8C2D-55D33F50F4C2
+
+Mappings
+--------
+
+ Seg          | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset   | Flags                  
+--------------+----------+---------+---------------------+-------------+-------------+--------------------------+------------------------
+ __TEXT       | r-x      | r-x     | 0x00004000 (16 kB)  | 0x2adc10000 | 0x00000000  |                          |                        
+ __DATA_CONST | r--      | rw-     | 0x010ac000 (17 MB)  | 0x2adc14000 | 0x00004000  | 0x038346be -> 0x03834f2c | CONST_DATA             
+ __DATA       | rw-      | rw-     | 0x00d4c000 (14 MB)  | 0x2b0cc0000 | 0x010b0000  | 0x03834000 -> 0x038346be |                        
+ __AUTH       | rw-      | rw-     | 0x00628000 (6.5 MB) | 0x2b1a0c000 | 0x01dfc000  | 0x03834f2c -> 0x03835258 | AUTH_DATA              
+ __AUTH_CONST | r--      | rw-     | 0x01410000 (21 MB)  | 0x2b2034000 | 0x02424000  | 0x03835258 -> 0x03835c78 | AUTH_DATA | CONST_DATA 
+ __LINKEDIT   | r--      | r--     | 0x00004000 (16 kB)  | 0x2b5444000 | 0x03834000  |                          |                        
+Code Signature:   0MB, offset:  0x003838000 -> 0x003858000
+
+> Cache (.82.dyldreadonly) UUID: E25A4B64-9C6B-3706-A199-6D3143B96385
+
+Mappings
+--------
+
+ Seg        | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags          
+------------+----------+---------+--------------------+-------------+-------------+------------------------+----------------
+ __TEXT     | r-x      | r-x     | 0x00004000 (16 kB) | 0x2b5448000 | 0x00000000  |                        |                
+ __LINKEDIT | r--      | r--     | 0x00008000 (33 kB) | 0x2b544c000 | 0x00004000  |                        | READ_ONLY_DATA 
+Code Signature:   0MB, offset:  0x00000C000 -> 0x000010000
+
+> Cache (.83.dyldlinkedit) UUID: 3A81969C-B809-3AFD-BFC2-CE1D1EAE6F3B
+
+Mappings
+--------
+
+ Seg        | InitProt | MaxProt | Size                | Address     | File Offset | Slide Info (v5) Offset | Flags 
+------------+----------+---------+---------------------+-------------+-------------+------------------------+-------
+ __TEXT     | r-x      | r-x     | 0x00004000 (16 kB)  | 0x2b5454000 | 0x00000000  |                        |       
+ __LINKEDIT | r--      | r--     | 0x0d89c000 (227 MB) | 0x2b5458000 | 0x00004000  |                        |       
+Code Signature:   0MB, offset:  0x00D8A0000 -> 0x00D910000
+
+> Cache (.symbols) UUID: DCA45BD5-4C0D-34D7-A76D-97A8E964F461
+
+Mappings
+--------
+
+ Seg    | InitProt | MaxProt | Size               | Address     | File Offset | Slide Info (v5) Offset | Flags 
+--------+----------+---------+--------------------+-------------+-------------+------------------------+-------
+ __TEXT | r-x      | r-x     | 0x00004000 (16 kB) | 0x2c2cf8000 | 0x00000000  |                        |       
+Code Signature:   1MB, offset:  0x03EE30000 -> 0x03F028000
 

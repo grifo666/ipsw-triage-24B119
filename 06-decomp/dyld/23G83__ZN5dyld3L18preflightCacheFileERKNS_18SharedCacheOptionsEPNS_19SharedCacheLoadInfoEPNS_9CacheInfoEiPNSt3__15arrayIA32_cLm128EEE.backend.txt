@@ -1,0 +1,4 @@
+backend: ghidra-headless
+build: 23G83 (26.6.1)
+bin: /Volumes/WABACKUP/_triage-tmp/23G83/bin/dyld
+sha256 bin: 3f7249474ee72dff86a1773201898c1e5a44b1b9a441ac57c48985d1ede667e6
