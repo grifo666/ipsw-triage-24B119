@@ -90,28 +90,17 @@ Defeitos já corrigidos, todos verificados por run verde:
 - Prova no aparelho pendente: header de cache forjado com mappingOffset grande (ou mappingWithSlideOffset) e count 1..8; caso count==1 com fileOffset!=0 + slide para o throw.
 - Harness no ar: proxy em 127.0.0.1:3456, crush com provider venice-local, modelo deepseek-v4-1-flash-uncensored.
 
-## Pendencia imediata (2026-11-08)
 
-A decompilacao de preflightCacheFile no 23G83 falhou: binario correto extraido do cache 23G83, mas nenhum backend produziu o .c. Antes de concluir qualquer coisa, ler o ghidra.log em /Volumes/WABACKUP/_triage-tmp/23G83 e verificar se o simbolo existe no dyld do 26.6.1 (`ipsw dyld symaddr` ou nm). Se o mangled mudou, localizar o equivalentecd ~/triage && cat > docs/DIARIO.md <<'EOF'
-# Diario de sessao
+## 2026-11-08 (base decompilada)
 
-Append-only. Uma entrada por passo, com hora. O que foi tentado, o que funcionou, o que foi descartado e por que. Commitar a cada entrada: e isto que faz a memoria sobreviver.
+- Base 23G83 decompilada com o mangled de 5 parametros: o `PKS3_` do 6o argumento so existe no 27.2. Os dois arquivos convivem em `06-decomp/dyld/` (`23G83__...EEE.c` e `__ZN...EEEPKS3_.c`).
+- Diff de 546 linhas e analise de 208 linhas gravados em `docs/findings/`.
+- Veredito: os tres achados (offset sem faixa, segundo array sem faixa, throw alcancavel) sao **antigos**, presentes na base e nao corrigidos no 27.2. Nao e regressao introduzida agora.
+- Regressao de robustez que existe de fato: tres gates de tamanho removidos no 27.2 (checagem de plataforma condicionada a offset>0xdf, leitura de subcache condicionada a offset>0x1c8). Ampliam a superficie, mas nao protegiam o offset.
+- Comportamento novo: filtro de auth GOT pode zerar o `CacheInfo` com retorno de sucesso; o 6o parametro herda o flag do chamador em vez de recalcular.
+- Como o codigo e identico nas duas builds, o mesmo header forjado deve derrubar as duas: serve de controle experimental.
 
-## 2026-11-07
-- Push por simbolo quebrado: o push estava dentro do else de "nada a commitar". Movido para dentro do laco. 40a76e3.
-- Workflow rejeitado por chave YAML duplicada (permissions). Bloco velho removido.
-- Batch de 15 simbolos redisparado; os 15 chegaram em origin.
-- Triagem dos 16 .c concluida, 19 findings escritos.
-- Premissa corrigida: mappingCount aceita 1..8, rejeita 0 e >=9. CacheInfo 0x1c0, array de 8 slots, sem transbordo.
-- Premissa corrigida: o throw exige fileOffset==0, nao !=0; o laco esta sob o teste de string de erro.
-- Achados reais: offset sem validacao, throw alcancavel, vazamento de fd nos dois mappers.
-- Regras novas: linguagem simples, passos numerados, execucao ao vivo sem tail.
+## Pendencia imediata
 
-## 2026-11-08
-- Decompilacao do 26.6.1 saiu identica ao 27.2: o script preferiu o cache do 27.2 e reaproveitou o binario.
-- Repetida com DSC_LOCAL do 23G83 e RUN_TMP proprio: binario correto criado, mas o Ghidra nao produziu o .c. Causa desconhecida, suspeita de nome mangled diferente no 26.6.1 (assinatura mudou) ou simbolo ausente.
-- Criado atalho ~/Desktop/Crush Triage.command que sobe o proxy e abre o crush no repo.
-
-## Pendencia imediata (2026-11-08)
-
-A decompilacao de preflightCacheFile no 23G83 falhou: binario correto extraido do cache 23G83, mas nenhum backend produziu o .c. Antes de concluir qualquer coisa, ler o ghidra.log em /Volumes/WABACKUP/_triage-tmp/23G83 e verificar se o simbolo existe no dyld do 26.6.1 (`ipsw dyld symaddr` ou nm). Se o mangled mudou, localizar o equivalente
+- Prova no aparelho do header forjado: `mappingOffset` grande (ou `mappingWithSlideOffset` grande) com count 1..8; e um caso count==1 com fileOffset==0, assinatura e permissoes coerentes, linkedit[0]!=0 e mapping sem bit 7, para exercitar o throw. Rodar em 26.6.1 e em 27.2.
+- Opcional: `handleDyldInCache` para a cadeia completa de lockdown.

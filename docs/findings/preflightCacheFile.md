@@ -94,11 +94,61 @@ Falta ainda um sexto cuidado, e a condicao e mais estreita do que parece: o mapp
 
 Atendidas todas, o laco roda uma vez e o throw dispara logo depois de copiar o mapping para o `CacheInfo` (linha 215). Ou seja: **um cache de 1 mapping com fileOffset 0, assinatura e permissoes coerentes e linkedit nao-vazio derruba o processo com excecao**, sem nenhuma string de erro setada. O throw **nao** e inalcancavel. A premissa de que o piso de 9 (na verdade teto) tornaria o throw morto esta errada porque o throw depende de count<2, nao de count<9.
 
+## Ponto 5 - comparacao com a base 26.6.1 (23G83): o buraco e ANTIGO
+
+Decompilado o mesmo simbolo na base. O mangled muda: a base tem 5 parametros e o alvo
+tem 6 (o 6o e `SharedCacheLoadInfo const*`), entao a base e
+`06-decomp/dyld/23G83__ZN...EEE.c` (310 linhas) e o alvo `__ZN...EEEPKS3_.c` (262
+linhas). Diff bruto em `preflightCacheFile.diff-23G83-24B119.txt`, analise item a item
+em `preflightCacheFile.analise-23G83-24B119.md`.
+
+A pergunta objetiva era: a checagem de `mappingOffset` e de `mappingWithSlideOffset`
+existe no build antigo? **Nao existe em nenhum dos dois builds.** O indice do buffer e
+o mesmo, linha por linha:
+
+```
+base 105:    plVar1 = (long *)((long)local_4070 + (ulong)(local_405c - 1) * 0x20 + lVar9 + 0x4070);
+alvo 104:    plVar1 = (long *)((long)local_4070 + (ulong)(local_405c - 1) * 0x20 + lVar9 + 0x4070);
+```
+
+O segundo array tambem e indexado sem faixa na base:
+
+```
+base 165:    lVar13 = (ulong)local_3f38 + lVar16 + -0x4070;
+alvo 192:    lVar7 = uVar26 * 0x38 + ((ulong)local_3f38 - 0x4070);
+```
+
+E o throw existe na base com a mesma condicao (count < 2 deixa a flag false):
+
+```
+base 198:    std::__throw_bad_optional_access_abi_nqn210106_();
+alvo 226:    std::__throw_bad_optional_access_abi_nqn220106_();
+```
+
+Ou seja: **nada disso e novo no 27.2.** Os Pontos 1, 3 e 4 sao herdados da base e
+seguem sem correcao no alvo. O achado nao e uma regressao introduzida agora; e um
+defeito de robustez que atravessou a janela 26.6.1 -> 27.2 intacto.
+
+O que muda de fato entre as builds, e so na direcao de menos barreira:
+
+- A base so olhava plataforma com `mappingOffset > 0xdf` (base 80); o alvo olha sempre.
+- A base so lia as entradas de subcache com `mappingOffset > 0x1c8` (base 219); o alvo
+  le sempre que `subcacheCount != 0`.
+- `validMagic` deixa de ser inline e passa a aceitar as variantes reconhecidas.
+- O alvo ganha o filtro de auth GOT, que pode zerar o `CacheInfo` com retorno de
+  sucesso.
+
+Os gates removidos nao protegiam o `mappingOffset`; o indice do buffer ja era usado
+antes deles. Entao a remocao aumenta a exposicao do `pread` de subcache guiado por
+header forjado, mas o vetor de leitura fora do buffer de 0x4000 continua sendo o mesmo
+das duas builds.
+
 ## Classificacao final
 
-- Ponto 1 (mappingOffset sem faixa): bug real de robustez, leitura fora do buffer.
-- Ponto 2 (count): **corrigido** — ha teto 8, slots nao transbordam.
-- Ponto 3 (mappingWithSlideOffset/Count): bug real, mesmo vetor do Ponto 1 e sem teto.
-- Ponto 4 (throw): **corrigido** — alcancavel com count==1, fileOffset==0, assinatura e permissoes coerentes, linkedit[0] != 0 e mapping fora de auth GOT; crash por excecao nao tratada.
+- Ponto 1 (mappingOffset sem faixa): bug real de robustez, leitura fora do buffer. **Antigo, presente na base, nao corrigido.**
+- Ponto 2 (count): **corrigido** — ha teto 8, slots nao transbordam. Igual nas duas builds.
+- Ponto 3 (mappingWithSlideOffset/Count): bug real, mesmo vetor do Ponto 1 e sem teto. **Antigo, presente na base, nao corrigido.**
+- Ponto 4 (throw): **corrigido** — alcancavel com count==1, fileOffset==0, assinatura e permissoes coerentes, linkedit[0] != 0 e mapping fora de auth GOT; crash por excecao nao tratada. **Antigo, presente na base, nao corrigido.**
+- Ponto 5 (comparacao entre builds): nenhuma validacao de offset foi acrescentada no 27.2; tres gates de tamanho foram removidos, o que amplia a superficie sem fechar o buraco.
 
-Candidato a validacao no aparelho: forjar um header de cache com `mappingOffset` grande (ou `mappingWithSlideOffset` grande) mantendo `mappingCount` em 1..8, e um caso count==1 com fileOffset 0, assinatura e permissoes coerentes e linkedit preenchido, para exercitar o throw.
+Candidato a validacao no aparelho: forjar um header de cache com `mappingOffset` grande (ou `mappingWithSlideOffset` grande) mantendo `mappingCount` em 1..8, e um caso count==1 com fileOffset 0, assinatura e permissoes coerentes e linkedit preenchido, para exercitar o throw. Como o codigo e o mesmo nas duas builds, o mesmo header forjado deve derrubar 26.6.1 e 27.2 — o que serve de controle experimental.
