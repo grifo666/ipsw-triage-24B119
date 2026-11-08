@@ -1,1 +1,1 @@
-decompilacao nao gerada para __ZN6mach_o6Header22validSemanticsSegmentsERKNS_6PolicyEy: ver Limitacoes
+decompilacao nao gerada para __ZN6mach_o6Header26validStructureLoadCommandsEy: ver Limitacoes
