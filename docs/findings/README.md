@@ -10,7 +10,7 @@ Tres defeitos com sustentacao no decompilado.
 
 [preflightCacheFile](preflightCacheFile.md). O buffer do header e um `pread` fixo de 0x4000 no offset 0. `mappingOffset` (header+0x10) e `mappingWithSlideOffset` (header+0x138) entram como base crua de arrays, sem checagem de faixa, alinhamento ou minimo. Um valor grande le o array acima do buffer, em stack nao inicializada.
 
-O `throw std::bad_optional_access` em `:228` e alcancavel: com `mappingCount == 1`, `bVar8` fica false em `:119`, e se o primeiro `fileOffset != 0` e o slide em `:225` e nao nulo, o throw mata o processo mesmo com a string de erro ja preenchida. E o candidato mais forte a validacao no aparelho.
+O `throw std::bad_optional_access` em `:228` e alcancavel, mas so quando nenhuma string de erro foi gravada, porque o laco inteiro esta sob `if (*(long *)(lVar17 + 0x10) == 0)`. Com `mappingCount == 1` isso exige o primeiro `fileOffset == 0`, assinatura coerente com o tamanho do arquivo e permissoes 5; atendido isso, `bVar8` fica false em `:119` e um slide nao nulo em `:225` mata o processo. E o candidato mais forte a validacao no aparelho.
 
 ### 2. mapSplitCacheSystemWide: vazamento de file descriptors
 
@@ -44,7 +44,7 @@ O `throw std::bad_optional_access` em `:228` e alcancavel: com `mappingCount == 
 
 ## Candidato a validacao no aparelho
 
-`preflightCacheFile`, com um header de cache forjado: `mappingOffset` ou `mappingWithSlideOffset` grande o bastante para sair do buffer de 0x4000, com `mappingCount` entre 1 e 8. Repetir com `mappingCount == 1`, primeiro `fileOffset != 0` e slide nao nulo para acionar o `bad_optional_access`. Observar panic ou leitura de lixo.
+`preflightCacheFile`, com um header de cache forjado: `mappingOffset` ou `mappingWithSlideOffset` grande o bastante para sair do buffer de 0x4000, com `mappingCount` entre 1 e 8. Repetir com `mappingCount == 1`, primeiro `fileOffset == 0`, assinatura coerente e slide nao nulo para acionar o `bad_optional_access`. Observar panic ou leitura de lixo.
 
 ## Metodo
 
