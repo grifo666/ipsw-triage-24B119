@@ -42,7 +42,7 @@ ACHADOS TÉCNICOS JÁ ESTABELECIDOS (ponto de partida, não redescobrir)
 - preflightCacheFile: mappingOffset não é validado contra o buffer de 0x4000; a flag em options+0x19 é herdada do pai; o caminho com mappingCount == 1 chega em std::bad_optional_access. É o candidato mais forte.
 - preflightSubCacheFile: quinto argumento NULL para subcache, sexto argumento passthrough puro.
 - preflightMainCacheFile: sexto argumento NULL e lógica de seleção .development.
-- mapSplitCacheSystemWide: o laço passa loadInfo no sexto argumento, incompatível com SharedCacheOptions*, e vaza fds quando o subcache falha.
+- mapSplitCacheSystemWide: o laço passa loadInfo no sexto argumento, que é o tipo certo (SharedCacheLoadInfo const*), com o mesmo ponteiro que o preflight principal já marcou em +0x19; vaza fds quando o subcache falha.
 - Base para comparação: validMagic, buildRootsBitmaps, DynamicRegion, hash_rank, mapSplitCachePrivate, loadDyldCache, openat, isSubCachePath, forEachCodeDirectoryBlob, forEachCDHashOfCodeSignature.
 
 WORKFLOW DO CI
@@ -74,8 +74,9 @@ __ZN5dyld4L21lockdownDyldDataConstEPKN6mach_o12UnsafeHeaderE
 __ZN5dyld422restartWithDyldInCacheEPKNS_10KernelArgsEPKN6mach_o12UnsafeHeaderEPK15DyldSharedCacheyPv
 
 PENDÊNCIAS
-- Ler os .c produzidos e classificar: bug real, diferença benigna ou nada.
-- Repetir a decompilação de validSemanticsSegments, validStructureLoadCommands e lockdownDyldDataConst.
+- Provar no aparelho o header forjado de preflightCacheFile: mappingOffset grande (ou mappingWithSlideOffset grande) com mappingCount em 1..8; e um caso count==1 com fileOffset 0, assinatura e permissões coerentes, linkedit[0] != 0, para exercitar o throw. Também vale o caso novo: todos os mappings com bit 7 ligado e flag de auth GOT desligado, que devolve count == 0 com CacheInfo intocado.
+- Comparação 23G83 vs 24B119 concluída para preflightCacheFile: itens 4 e 7 herdados e não corrigidos, item 3 regressão de robustez, itens 1 e 6 comportamento novo, itens 2 e 5 neutros. Diff e veredito em docs/findings/preflightCacheFile.diff-23G83-24B119.txt e .analise-23G83-24B119.md.
+- Decompilar handleDyldInCache para a lógica completa de lockdown, se ainda for preciso.
 - Template em docs/findings/, fila SYMBOLS no params.env, diff de decomp entre builds, script Ghidra enumerando funções dyld3.
 - Achar o GIST do produto.
 - Opcional: criar o volume TRIAGE com quota e rodar o diff completo lá.
