@@ -1,0 +1,20 @@
+
+__ZN15DyldSharedCache14isSubCachePathEPKc:
+0x1804dd6a4:  7f 23 03 d5   pacibsp
+0x1804dd6a8:  fd 7b bf a9   stp	fp, lr, [sp, #-0x10]!
+0x1804dd6ac:  fd 03 00 91   mov	fp, sp
+0x1804dd6b0:  c1 05 80 52   mov	w1, #0x2e
+0x1804dd6b4:  8b 19 ff 97   bl	_strchr
+0x1804dd6b8:  e0 00 00 b4   cbz	x0, loc_1804dd6d4 ; ⤵ 0x1c
+0x1804dd6bc:  21 02 00 f0   adrp	x1, 0x180524000
+0x1804dd6c0:  21 48 33 91   add	x1, x1, #0xcd2 ; ".development"
+0x1804dd6c4:  9b 9d fe 97   bl	_strcmp
+0x1804dd6c8:  60 00 00 34   cbz	w0, loc_1804dd6d4 ; ⤵ 0xc
+0x1804dd6cc:  20 00 80 52   mov	w0, #0x1
+0x1804dd6d0:  02 00 00 14   b	loc_1804dd6d8 ; ⤵ 0x8
+0x1804dd6d4:  ; loc_1804dd6d4
+0x1804dd6d4:  00 00 80 52   mov	w0, #0
+0x1804dd6d8:  ; loc_1804dd6d8
+0x1804dd6d8:  fd 7b c1 a8   ldp	fp, lr, [sp], #0x10
+0x1804dd6dc:  ff 0f 5f d6   retab
+
