@@ -316,17 +316,23 @@ else
 fi
 
 # secoes que nao podem ficar vazias
+# o tombstone acumula simbolos que falharam: cada execucao so mexe na propria
+# linha do seu TARGET_SYMBOL, para nao apagar o registro de simbolos anteriores
 DECOMP_DIR="06-decomp/$(basename "$BIN")"
+TOMBSTONE="$DECOMP_DIR/nao-gerado.txt"
 if [ -n "${TARGET_SYMBOL:-}" ] && [ "$TARGET_SYMBOL" != "indefinido" ]; then
-  if [ -f "$DECOMP_DIR/$TARGET_SYMBOL.c" ]; then
-    rm -f "$DECOMP_DIR/nao-gerado.txt"
-  else
-    echo "decompilacao nao gerada para $TARGET_SYMBOL: ver Limitacoes" > "$DECOMP_DIR/nao-gerado.txt"
+  touch "$TOMBSTONE"
+  grep -vF "decompilacao nao gerada para $TARGET_SYMBOL:" "$TOMBSTONE" \
+    > "$TOMBSTONE.tmp" || true
+  if [ ! -f "$DECOMP_DIR/$TARGET_SYMBOL.c" ]; then
+    echo "decompilacao nao gerada para $TARGET_SYMBOL: ver Limitacoes" >> "$TOMBSTONE.tmp"
   fi
+  mv "$TOMBSTONE.tmp" "$TOMBSTONE"
+  [ -s "$TOMBSTONE" ] || rm -f "$TOMBSTONE"
 elif compgen -G "$DECOMP_DIR/*.c" >/dev/null; then
-  rm -f "$DECOMP_DIR/nao-gerado.txt"
+  rm -f "$TOMBSTONE"
 else
-  echo "decompilacao nao gerada: ver Limitacoes" > "$DECOMP_DIR/nao-gerado.txt"
+  echo "decompilacao nao gerada: ver Limitacoes" > "$TOMBSTONE"
 fi
 [ -s 08-kernel/kexts.txt ] || echo "componente $COMPONENTE nao usa kernel" \
   > 08-kernel/kexts.txt

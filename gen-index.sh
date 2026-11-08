@@ -59,7 +59,7 @@ proposito_de() {
 listar_ordenado() {
   find . -type f \
     -not -path './_tmp/*' \
-    -not -path './.git/*' -not -path './docs/*' \
+    -not -path './.git/*' -not -path './docs/*' -not -path './.crush/*' \
     -not -name 'INDEX.json' -not -name '*.sh' \
     -not -name 'README.md' -not -name 'params.env' \
     -not -name '.gitignore' -not -name '.gitattributes' \
